@@ -2,12 +2,8 @@ import React from 'react';
 
 export const TrustBar: React.FC = () => {
   return (
-    <div className="brands py-6 sm:py-7">
-      <div className="brands-inner flex items-center gap-10 sm:gap-14 overflow-x-auto">
-        <span className="brands-label font-bold text-xs uppercase tracking-wider text-[#6b6a63] shrink-0">
-          Marcas analizadas:
-        </span>
-
+    <div className="brands py-5 sm:py-6">
+      <div className="brands-inner flex items-center justify-between gap-10 sm:gap-14 overflow-x-auto">
         {/* Sage */}
         <div className="flex items-center opacity-85 hover:opacity-100 transition-opacity cursor-default shrink-0">
           <svg className="h-7 sm:h-8 w-auto" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">

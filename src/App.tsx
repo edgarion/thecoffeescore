@@ -5,6 +5,7 @@ import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { ToastContainer } from './components/ui/ToastContainer';
 import { ComparisonDrawer } from './components/comparator/ComparisonDrawer';
+import { CookieConsentBanner } from './components/legal/CookieConsentBanner';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -71,6 +72,7 @@ export const App: React.FC = () => {
           <Footer />
           <ComparisonDrawer />
           <ToastContainer />
+          <CookieConsentBanner />
         </div>
       </BrowserRouter>
     </ComparatorProvider>

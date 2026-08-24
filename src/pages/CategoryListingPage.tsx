@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/product/ProductCard';
 import { useProductFilter } from '../hooks/useProductFilter';
-import { BRANDS } from '../data/catalog';
+import { PRODUCTS } from '../data/catalog';
 
 interface CategoryListingPageProps {
   category: 'maquinas' | 'molinos' | 'accesorios';
@@ -18,9 +18,17 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
   chips,
 }) => {
   const [activeChip, setActiveChip] = useState('Todas');
-  const [maxPrice, setMaxPrice] = useState(1500);
+  const [maxPrice, setMaxPrice] = useState(5000);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name'>('score');
+
+  // Reset filters when changing category route
+  useEffect(() => {
+    setActiveChip('Todas');
+    setMaxPrice(5000);
+    setSelectedBrands([]);
+    setSortBy('score');
+  }, [category]);
 
   const { filteredProducts, totalCount } = useProductFilter({
     category,
@@ -30,6 +38,15 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
     sortBy,
   });
 
+  // Extract unique brands for the current category
+  const categoryBrands = useMemo(() => {
+    const brands = new Set<string>();
+    PRODUCTS.filter(p => p.category === category).forEach(p => {
+      if (p.brand) brands.add(p.brand);
+    });
+    return Array.from(brands).sort();
+  }, [category]);
+
   const handleBrandToggle = (brand: string) => {
     setSelectedBrands(prev =>
       prev.includes(brand) ? prev.filter(b => b !== brand) : [...prev, brand]
@@ -38,7 +55,7 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
 
   const resetAllFilters = () => {
     setActiveChip('Todas');
-    setMaxPrice(1500);
+    setMaxPrice(5000);
     setSelectedBrands([]);
     setSortBy('score');
   };
@@ -109,24 +126,24 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
               </div>
               <input
                 type="range"
-                min={50}
-                max={1500}
+                min={20}
+                max={5000}
                 step={25}
                 value={maxPrice}
                 onChange={(e) => setMaxPrice(Number(e.target.value))}
                 className="w-full accent-ink cursor-pointer"
               />
               <div className="range-row">
-                <span>50 €</span>
-                <span>1.500 €</span>
+                <span>20 €</span>
+                <span>5.000 €</span>
               </div>
             </div>
           </div>
 
           <div className="filter-group">
-            <div className="filter-group-title">Marcas</div>
-            <div className="space-y-1 max-h-56 overflow-y-auto pr-1">
-              {BRANDS.slice(0, 10).map(brand => {
+            <div className="filter-group-title">Marcas ({categoryBrands.length})</div>
+            <div className="space-y-1 max-h-64 overflow-y-auto pr-1">
+              {categoryBrands.map(brand => {
                 const checked = selectedBrands.includes(brand);
                 return (
                   <label key={brand} className="filter-option">
@@ -151,7 +168,7 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
           {filteredProducts.length === 0 ? (
             <div className="text-center py-16 px-4 bg-white border border-[#e6e3da] rounded-xl">
               <h4 className="font-serif font-bold text-xl text-ink mb-1">No se encontraron productos</h4>
-              <p className="text-xs text-[#6b6a63]">Prueba ampliando los filtros de presupuesto.</p>
+              <p className="text-xs text-[#6b6a63]">Prueba ampliando los filtros de presupuesto o marcas.</p>
             </div>
           ) : (
             <div className="listing-grid">
