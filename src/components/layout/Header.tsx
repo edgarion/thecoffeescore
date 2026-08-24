@@ -33,8 +33,8 @@ export const Header: React.FC = () => {
           <img src="/assets/logo-tagline.png" alt="thecoffeescore - Better coffee. Better choices." />
         </Link>
 
-        {/* Desktop Navigation (visible on xl / >1080px) */}
-        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 text-[0.92rem]">
+        {/* Desktop Navigation (visible on >= 1024px) */}
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-8 text-[0.92rem]">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.path;
             return (
@@ -66,26 +66,26 @@ export const Header: React.FC = () => {
         <div className="header-right">
           {/* Search box desktop */}
           <div
-            className="search-box hidden sm:flex"
+            className="search-box hidden md:flex"
             onClick={() => setIsSearchOpen(true)}
           >
             <span>🔍</span>
             <span className="truncate">Buscar productos, marcas…</span>
           </div>
 
-          {/* Search button mobile */}
+          {/* Search button mobile & tablet */}
           <button
             onClick={() => setIsSearchOpen(true)}
-            className="icon-btn sm:hidden"
+            className="icon-btn md:hidden"
             title="Buscar"
           >
             <Search size={20} />
           </button>
 
-          {/* Comparador Icon next to Heart */}
+          {/* Comparador Icon next to Heart (ONLY ON DESKTOP - hidden on mobile/tablet) */}
           <Link
             to="/comparador"
-            className="icon-btn relative cursor-pointer"
+            className="icon-btn relative cursor-pointer hidden lg:flex items-center justify-center"
             title="Comparador de productos"
           >
             <GitCompare size={20} className={selectedIds.length > 0 ? 'text-editorial-blue' : ''} />
@@ -138,21 +138,21 @@ export const Header: React.FC = () => {
             )}
           </button>
 
-          {/* Mobile Menu Coffee Cup Button (visible on < xl) */}
+          {/* Mobile & Tablet Burger Menu (visible on < lg / <1024px) */}
           <button
-            className="xl:hidden cursor-pointer flex items-center justify-center rounded-full transition-all"
+            className="lg:hidden cursor-pointer flex items-center justify-center rounded-full transition-all touch-manipulation"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Abrir menú de café"
             title="Menú de navegación"
           >
             {isMobileMenuOpen ? (
-              <div className="flex items-center gap-1.5 bg-ink text-white px-2.5 py-1 rounded-full text-xs font-bold shadow-sm">
+              <div className="flex items-center gap-1.5 bg-ink text-white px-3 py-1.5 rounded-full text-xs font-bold shadow-sm">
                 <X size={16} />
                 <span>Cerrar</span>
               </div>
             ) : (
-              <div className="flex items-center gap-1.5 bg-cream border border-[#e6e3da] px-2.5 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/60 transition-colors">
-                <Coffee size={16} className="text-accent" />
+              <div className="flex items-center gap-1.5 bg-cream border border-[#e6e3da] px-3 py-1.5 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/60 transition-colors">
+                <Coffee size={17} className="text-accent shrink-0" />
                 <span>Menú</span>
               </div>
             )}
@@ -160,9 +160,9 @@ export const Header: React.FC = () => {
         </div>
       </header>
 
-      {/* Mobile Drawer Navigation (Slide-in) */}
+      {/* Mobile & Tablet Drawer Navigation (Slide-in) */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 xl:hidden">
+        <div className="fixed inset-0 z-50 lg:hidden">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-black/40 backdrop-blur-sm transition-opacity"

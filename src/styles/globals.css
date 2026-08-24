@@ -339,12 +339,12 @@ table.compare-table{ width:100%; border-collapse:collapse; min-width:700px; }
   .hero-section, .brands, .section, footer.site-footer, .breadcrumb, .page-head, .filter-bar, .listing-wrap, .product-hero{ padding-left:32px; padding-right:32px; }
 }
 
-/* 2. TABLETS & SMALL LAPTOPS (<= 1080px) */
-@media(max-width:1080px){
-  nav{ display:none; }
-  .logo img{ height:64px; }
-  header{ padding:10px 24px; }
-  .wrap, .hero-section, .brands, .section, footer.site-footer, .breadcrumb, .page-head, .filter-bar, .listing-wrap, .product-hero{ padding-left:24px; padding-right:24px; }
+/* 2. TABLETS & SMALL LAPTOPS (<= 1024px) */
+@media(max-width:1024px){
+  nav{ display:none !important; }
+  .logo img{ height:56px; }
+  header{ padding:10px 20px; }
+  .wrap, .hero-section, .brands, .section, footer.site-footer, .breadcrumb, .page-head, .filter-bar, .listing-wrap, .product-hero{ padding-left:20px; padding-right:20px; }
   .hero-grid{ grid-template-columns:1fr; gap:36px; }
   .product-grid{ grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); }
   .three-col{ grid-template-columns:1fr; }
