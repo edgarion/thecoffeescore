@@ -12,7 +12,8 @@ import { ComparatorPage } from './pages/ComparatorPage';
 import { CategoryListingPage } from './pages/CategoryListingPage';
 import { CoffeePage } from './pages/CoffeePage';
 import { DealsPage } from './pages/DealsPage';
-import { GuidesPage, BlogPage } from './pages/GuidesPage';
+import { GuidesPage } from './pages/GuidesPage';
+import { BlogPage } from './pages/BlogPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 
 export const App: React.FC = () => {

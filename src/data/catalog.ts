@@ -710,7 +710,227 @@ export const PRODUCTS: Product[] = [
       resortes: "15 lb, 25 lb, 30 lb incluidos"
     },
     stores: [
-      { name: "Amazon", price: 49, inStock: true, url: "#", isBest: true }
+      { name: "Amazon", price: 49, inStock: true, url: "https://amazon.es", isBest: true }
+    ]
+  },
+  {
+    id: "timemore-black-mirror",
+    slug: "timemore-black-mirror",
+    name: "Timemore Black Mirror Basic 2",
+    brand: "Timemore",
+    category: "accesorios",
+    subCategory: "Básculas y medición",
+    price: 55,
+    oldPrice: 65,
+    historicalAveragePrice: 59,
+    isOffer: true,
+    score: new CoffeeScore(9.3),
+    stars: 4.8,
+    badge: "Báscula con temporizador",
+    image: "/assets/products/coffee-grinders-compare.png",
+    gallery: ["/assets/products/coffee-grinders-compare.png"],
+    shortDesc: "Precisión de 0.1g, caudalímetro en tiempo real (flow-rate) y batería recargable USB-C.",
+    subscores: {
+      espresso: 9.2,
+      vapor: 9.0,
+      facilidad: 9.6,
+      construccion: 9.2,
+      precio: 9.5
+    },
+    pros: [
+      "Lectura de caudal de flujo de agua g/s en tiempo real",
+      "Respuesta ultrarrápida sin lag de pesaje",
+      "Almohadilla de silicona aislante incluida"
+    ],
+    cons: [
+      "Superficie algo grande para bandejas de espresso ultracompactas"
+    ],
+    specs: {
+      material: "Acrílico mate y silicona",
+      peso: "280 g",
+      capacidad: "Hasta 2 kg (precisión 0.1g)",
+      garantia: "1 año"
+    },
+    stores: [
+      { name: "Amazon", price: 55, inStock: true, url: "https://amazon.es", isBest: true }
+    ]
+  },
+  {
+    id: "moccamaster-kbgt-thermal",
+    slug: "moccamaster-kbgt-thermal",
+    name: "Moccamaster KBGT Batch Brew",
+    brand: "Moccamaster",
+    category: "accesorios",
+    subCategory: "Cafeteras de filtro",
+    price: 249,
+    oldPrice: 279,
+    historicalAveragePrice: 265,
+    isOffer: true,
+    score: new CoffeeScore(9.4),
+    stars: 4.9,
+    badge: "Rey del Batch Brew",
+    image: "/assets/pourover.png",
+    gallery: ["/assets/pourover.png"],
+    shortDesc: "Cafetera de filtro por lotes hecha a mano en Holanda con jarra térmica de acero y ducha de 9 orificios.",
+    subscores: {
+      espresso: 8.0,
+      vapor: 9.0,
+      facilidad: 9.9,
+      construccion: 9.8,
+      precio: 8.8
+    },
+    pros: [
+      "Temperatura de agua constante entre 92° y 96°C certificada por ECBC",
+      "Jarra térmica de doble pared que mantiene el café caliente sin recalentarlo",
+      "Garantía de 5 años de fabricante"
+    ],
+    cons: [
+      "Ocupa espacio vertical en cocina"
+    ],
+    specs: {
+      material: "Aluminio y acero inoxidable",
+      capacidad: "1.25 L (10 tazas)",
+      potencia: "1450 W",
+      peso: "2.9 kg",
+      garantia: "5 años"
+    },
+    stores: [
+      { name: "Amazon", price: 249, inStock: true, url: "https://amazon.es", isBest: true }
+    ]
+  },
+  {
+    id: "wdt-distribution-tool",
+    slug: "wdt-distribution-tool",
+    name: "Herramienta WDT Distribuidor con Agujas 0.35mm",
+    brand: "Normcore",
+    category: "accesorios",
+    subCategory: "Herramientas de barista",
+    price: 24,
+    oldPrice: 29,
+    historicalAveragePrice: 27,
+    isOffer: true,
+    score: new CoffeeScore(9.5),
+    stars: 4.9,
+    badge: "Anticanalización",
+    image: "/assets/tamping.png",
+    gallery: ["/assets/tamping.png"],
+    shortDesc: "Deshace los grumos de molienda y homogeneiza la densidad del café en el portafiltro.",
+    subscores: {
+      espresso: 9.9,
+      vapor: 9.0,
+      facilidad: 9.8,
+      construccion: 9.5,
+      precio: 9.7
+    },
+    pros: [
+      "Elimina drásticamente el channeling (canalización)",
+      "Agujas ultrafinas de acero quirúrgico que no arañan el filtro",
+      "Soporte de aluminio incluido"
+    ],
+    cons: [
+      "Requiere cuidado al manipular las agujas finas"
+    ],
+    specs: {
+      material: "Aluminio y acero inox",
+      peso: "120 g",
+      garantia: "1 año"
+    },
+    stores: [
+      { name: "Amazon", price: 24, inStock: true, url: "https://amazon.es", isBest: true }
+    ]
+  },
+  {
+    id: "flair-58-plus",
+    slug: "flair-58-plus",
+    name: "Flair 58 Plus Espresso de Palanca Manual",
+    brand: "Flair Espresso",
+    category: "maquinas",
+    subCategory: "Manuales",
+    price: 649,
+    oldPrice: null,
+    historicalAveragePrice: 649,
+    isOffer: false,
+    score: new CoffeeScore(9.6),
+    stars: 5.0,
+    badge: "Control total de presión",
+    image: "/assets/products/delonghi-specialista.png",
+    gallery: ["/assets/products/delonghi-specialista.png"],
+    shortDesc: "Grupo comercial estándar de 58 mm, precalentamiento eléctrico activo con 3 niveles y palanca de fuerza manual.",
+    subscores: {
+      espresso: 9.9,
+      vapor: 7.0,
+      facilidad: 8.2,
+      construccion: 9.8,
+      precio: 9.2
+    },
+    pros: [
+      "Perfilado de presión analógico directo con manómetro en tiempo real",
+      "Portafiltro estándar comercial de 58 mm",
+      "Calentamiento eléctrico del cilindro para estabilidad térmica absoluta"
+    ],
+    cons: [
+      "No incluye lanza de vapor (requiere espumador externo)",
+      "Flujo de trabajo completamente manual"
+    ],
+    specs: {
+      bomba: "Manual de palanca (hasta 12 bar)",
+      portafiltro: "58 mm comercial",
+      peso: "5.5 kg",
+      garantia: "2 años"
+    },
+    stores: [
+      { name: "Tienda Barista Especializada", price: 649, inStock: true, url: "https://tiendabarista.es", isBest: true }
+    ]
+  },
+  {
+    id: "lelit-bianca-v3",
+    slug: "lelit-bianca-v3",
+    name: "Lelit Bianca V3 Doble Caldera con Paddle E61",
+    brand: "Lelit",
+    category: "maquinas",
+    subCategory: "Doble caldera",
+    price: 2199,
+    oldPrice: 2399,
+    historicalAveragePrice: 2299,
+    isOffer: true,
+    score: new CoffeeScore(9.7),
+    stars: 5.0,
+    badge: "Referencia Prosumer",
+    image: "/assets/products/lelit-anna.png",
+    gallery: ["/assets/products/lelit-anna.png"],
+    shortDesc: "Doble caldera de acero inoxidable, bomba rotativa silenciosa y control de flujo manual por paleta de madera (paddle).",
+    subscores: {
+      espresso: 9.9,
+      vapor: 9.8,
+      facilidad: 8.8,
+      construccion: 9.9,
+      precio: 9.0
+    },
+    pros: [
+      "Paddle de control de flujo de agua en tiempo real sobre el grupo E61",
+      "Doble caldera independiente (café 800ml + vapor 1.5L)",
+      "Bomba rotativa silenciosa con opción de conexión a red hídrica",
+      "LCC digital con temporizador y perfiles avanzados de preinfusión"
+    ],
+    cons: [
+      "Tiempo de calentamiento de 15-20 minutos",
+      "Peso de 26.5 kg"
+    ],
+    specs: {
+      bomba: "Rotativa profesional",
+      potencia: "2800 W",
+      calentamiento: "15 min",
+      pid: "Sí (LCC dual)",
+      deposito: "2.5 L reubicable",
+      vaporizador: "Multidireccional antiquemaduras",
+      portafiltro: "58 mm latón cromado con mangos de nogal",
+      peso: "26.5 kg",
+      dimensiones: "29 × 48.5 × 40 cm",
+      garantia: "2 años"
+    },
+    stores: [
+      { name: "Tienda Barista Oficial", price: 2199, inStock: true, url: "https://tiendabarista.es", isBest: true },
+      { name: "Amazon", price: 2250, inStock: true, url: "https://amazon.es" }
     ]
   },
 
