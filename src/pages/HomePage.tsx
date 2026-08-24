@@ -63,19 +63,48 @@ export const HomePage: React.FC = () => {
             </div>
           </div>
 
-          <div className="hero-illustration">
-            <img src="/assets/hero.png" alt="Chico tomando café con la Sagrada Familia de fondo" />
-            <div className="featured-card">
-              <div className="featured-label">Producto destacado</div>
-              <div className="badge-best">● MEJOR COMPRA</div>
-              <div className="featured-photo">
-                <img src="/assets/products/sage-bambino.png" alt="Sage Bambino Plus" />
+          <div className="hero-illustration flex flex-col md:flex-row items-center justify-center gap-6 lg:gap-8 !bg-transparent">
+            {/* Left: Barista Illustration without background */}
+            <div className="w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[340px] flex items-center justify-center shrink-0">
+              <img
+                src="/assets/hero.png"
+                alt="Barista preparando café"
+                className="w-full h-auto max-h-[460px] object-contain drop-shadow-lg"
+              />
+            </div>
+
+            {/* Right: Featured Product Card */}
+            <div className="featured-card-static bg-white border border-[#e6e3da] rounded-2xl p-5 shadow-xl w-full max-w-[250px] shrink-0">
+              <div className="text-[11px] font-bold text-[#6b6a63] uppercase tracking-wider mb-1.5">
+                Producto destacado
               </div>
-              <div className="featured-name">Sage Bambino Plus</div>
-              <div style={{ fontSize: '0.78rem', color: 'var(--muted)', marginBottom: 8 }}>Compacta, rápida y sorprendentemente capaz.</div>
-              <span className="score-pill">8.4/10</span>
-              <div className="featured-price">449 €</div>
-              <Link className="btn-mini" to="/producto/sage-bambino-plus">Ver análisis →</Link>
+              <div className="inline-flex items-center gap-1.5 bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full mb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#e94e2b]"></span>
+                <span>MEJOR COMPRA</span>
+              </div>
+              <div className="w-full h-24 bg-[#f4f2ec] rounded-xl mb-3 flex items-center justify-center p-2">
+                <img
+                  src="/assets/products/sage-bambino.png"
+                  alt="Sage Bambino Plus"
+                  className="max-h-full object-contain"
+                />
+              </div>
+              <h4 className="font-bold text-sm text-ink mb-1">Sage Bambino Plus</h4>
+              <p className="text-xs text-[#6b6a63] mb-3 line-clamp-2">
+                Compacta, rápida y sorprendentemente capaz.
+              </p>
+              <div className="flex items-center justify-between gap-2 mb-3">
+                <span className="bg-[#2f6fed] text-white font-bold text-xs px-2.5 py-0.5 rounded-full">
+                  8.4/10
+                </span>
+                <span className="font-extrabold text-base text-ink">449 €</span>
+              </div>
+              <Link
+                to="/producto/sage-bambino-plus"
+                className="btn btn-solid w-full justify-center !py-2.5 !text-xs !rounded-xl"
+              >
+                <span>Ver análisis →</span>
+              </Link>
             </div>
           </div>
         </div>

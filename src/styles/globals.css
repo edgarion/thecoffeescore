@@ -94,9 +94,9 @@ nav a.active{ font-weight:700; color:var(--ink); }
 .check{ color:var(--muted); font-weight:800; }
 
 .hero-illustration{
-  position:relative; background:#f6f4ee;
-  border-radius:16px; overflow:hidden; min-height:480px;
-  display:flex; align-items:center; justify-content:center; padding:20px;
+  position:relative; background:transparent;
+  border-radius:0; overflow:visible; min-height:auto;
+  display:flex; align-items:center; justify-content:center;
 }
 .hero-illustration img{
   width:auto; height:100%; max-height:520px;
