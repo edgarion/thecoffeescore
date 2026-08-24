@@ -34,112 +34,94 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
   };
 
   return (
-    <div className={`product-card ${className}`}>
+    <div className={`product-card bg-white border border-[#e6e3da] rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:shadow-lg transition-all ${className}`}>
       <div>
+        {/* Top Badge */}
+        <div className="flex items-center justify-between gap-2 mb-2">
+          {product.badge ? (
+            <div className="inline-flex items-center gap-1.5 bg-[#eef4ff] text-[#2f6fed] text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#2f6fed]"></span>
+              <span>{product.badge}</span>
+            </div>
+          ) : (
+            <div className="inline-flex items-center gap-1.5 bg-stone-100 text-stone-600 text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+              <span>{product.brand}</span>
+            </div>
+          )}
+
+          {/* Quick Actions */}
+          <div className="flex items-center gap-1">
+            <button
+              onClick={handleCompareClick}
+              className={`p-1 rounded-full text-xs transition-colors ${
+                inComp ? 'text-[#2f6fed] bg-blue-50' : 'text-[#6b6a63] hover:text-ink'
+              }`}
+              title={inComp ? "Quitar de comparar" : "Comparar"}
+            >
+              <GitCompare size={15} />
+            </button>
+            <button
+              onClick={handleFavoriteClick}
+              className={`p-1 rounded-full text-xs transition-colors ${
+                isFav ? 'text-[#e94e2b]' : 'text-[#6b6a63] hover:text-[#e94e2b]'
+              }`}
+              title={isFav ? "Quitar de favoritos" : "Guardar en favoritos"}
+            >
+              <Heart size={15} className={isFav ? 'fill-[#e94e2b]' : ''} />
+            </button>
+          </div>
+        </div>
+
         {/* Product Photo */}
-        <Link to={`/producto/${product.slug}`} className="product-photo">
-          <img src={product.image} alt={product.name} loading="lazy" />
+        <Link to={`/producto/${product.slug}`} className="w-full h-36 sm:h-40 bg-white rounded-xl flex items-center justify-center p-2 mb-3 overflow-hidden group">
+          <img
+            src={product.image}
+            alt={product.name}
+            loading="lazy"
+            className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+          />
         </Link>
 
-        {/* Tag / Badge */}
-        {product.badge ? (
-          <div className="product-tag">
-            {product.badge.toUpperCase()}
-          </div>
-        ) : (
-          <div className="product-tag">
-            {product.brand.toUpperCase()}
-          </div>
-        )}
-
         {/* Product Top */}
-        <div className="product-top">
-          <Link to={`/producto/${product.slug}`} className="product-name hover:text-editorial-blue transition-colors">
+        <div className="flex items-start justify-between gap-2 mb-1">
+          <Link
+            to={`/producto/${product.slug}`}
+            className="font-bold text-sm sm:text-base text-ink hover:text-[#2f6fed] transition-colors line-clamp-1"
+          >
             {product.name}
           </Link>
-          <span className="score-badge" title={`The Coffee Score: ${product.score.getFormatted()}/10`}>
+          <span
+            className="bg-[#2f6fed] text-white font-bold text-xs px-2 py-0.5 rounded-lg shrink-0"
+            title={`The Coffee Score: ${product.score.getFormatted()}/10`}
+          >
             {product.score.getFormatted()}
           </span>
         </div>
 
         {/* Stars */}
-        <div className="stars">
-          ★★★★★
+        <div className="text-[#f5b642] text-xs mb-3 tracking-wider">
+          {'★'.repeat(Math.floor(product.stars || 4.5))}
+          {'☆'.repeat(5 - Math.floor(product.stars || 4.5))}
         </div>
-
-        <p className="text-xs text-[#6b6a63] line-clamp-2 leading-relaxed mb-2">
-          {product.shortDesc}
-        </p>
       </div>
 
       {/* Product Bottom */}
-      <div>
-        <div className="product-bottom">
-          <div>
-            <span className="price">{product.price} €</span>
-            {product.oldPrice && (
-              <span className="text-xs text-[#6b6a63] line-through ml-2 font-mono">
-                {product.oldPrice} €
-              </span>
-            )}
-          </div>
-          <Link to={`/producto/${product.slug}`} className="btn-outline-sm">
-            Ver análisis
-          </Link>
+      <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between mt-auto">
+        <div className="flex items-baseline gap-1.5">
+          <span className="font-extrabold text-base sm:text-lg text-ink">{product.price} €</span>
+          {product.oldPrice && (
+            <span className="text-xs text-[#6b6a63] line-through">
+              {product.oldPrice} €
+            </span>
+          )}
         </div>
-
-        {/* Quick action icons */}
-        <div className="flex items-center gap-2 mt-3 pt-2 border-t border-[#e6e3da]">
-          <button
-            onClick={handleCompareClick}
-            className={`flex-1 text-xs font-semibold py-1.5 px-2.5 rounded-md border flex items-center justify-center gap-1.5 transition-all ${
-              inComp
-                ? 'bg-editorial-blue/10 text-editorial-blue border-editorial-blue/40 font-bold'
-                : 'bg-cream hover:bg-stone-200 text-[#6b6a63] hover:text-ink border-[#e6e3da]'
-            }`}
-          >
-            <GitCompare size={13} />
-            <span>{inComp ? 'En comparador' : '+ Comparar'}</span>
-          </button>
-
-          <button
-            onClick={handleFavoriteClick}
-            className={`w-8 h-8 rounded-md border flex items-center justify-center transition-all ${
-              isFav
-                ? 'bg-[#fdece7] border-accent/40 text-accent'
-                : 'bg-white hover:bg-cream border-[#e6e3da] text-stone-400 hover:text-accent'
-            }`}
-            title={isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}
-            aria-label="Favorito"
-          >
-            <Heart size={14} className={isFav ? 'fill-accent' : ''} />
-          </button>
-        </div>
+        <Link
+          to={`/producto/${product.slug}`}
+          className="border border-ink hover:bg-[#f4f2ec] text-ink text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors"
+        >
+          Ver detalles
+        </Link>
       </div>
-    </div>
-  );
-};
-
-export const ProductGrid: React.FC<{ products: Product[]; className?: string }> = ({
-  products,
-  className = '',
-}) => {
-  if (products.length === 0) {
-    return (
-      <div className="text-center py-16 px-4 bg-white border border-[#e6e3da] rounded-xl">
-        <h4 className="font-serif font-bold text-xl text-ink mb-1">No se encontraron productos</h4>
-        <p className="text-xs text-[#6b6a63] max-w-sm mx-auto">
-          Prueba ampliando los filtros de precio o desmarcando marcas para ver más opciones disponibles.
-        </p>
-      </div>
-    );
-  }
-
-  return (
-    <div className={`product-grid ${className}`}>
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))}
     </div>
   );
 };

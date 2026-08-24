@@ -24,9 +24,9 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.4),
     stars: 4.5,
     badge: "Mejor para empezar",
-    image: "/assets/pourover.png",
+    image: "/assets/sage-bambino-real.png",
     gallery: [
-      "/assets/pourover.png",
+      "/assets/sage-bambino-real.png",
       "/assets/pouring.png",
       "/assets/tamping.png",
       "/assets/latte-hand.png"
@@ -87,9 +87,9 @@ export const PRODUCTS: Product[] = [
     isOffer: false,
     score: new CoffeeScore(8.2),
     stars: 4.2,
-    badge: "Mejor entrada",
-    image: "/assets/tamping.png",
-    gallery: ["/assets/tamping.png", "/assets/pouring.png"],
+    badge: "Mejor para empezar",
+    image: "/assets/sage-bambino-real.png",
+    gallery: ["/assets/sage-bambino-real.png", "/assets/pouring.png"],
     shortDesc: "La versión esencial de la Bambino con vaporizador manual tradicional y el mismo motor térmico rápido.",
     subscores: {
       espresso: 8.7,
@@ -140,8 +140,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.7),
     stars: 4.6,
     badge: "Mejor control",
-    image: "/assets/pouring.png",
-    gallery: ["/assets/pouring.png", "/assets/tamping.png"],
+    image: "/assets/lelit-anna-real.png",
+    gallery: ["/assets/lelit-anna-real.png", "/assets/tamping.png"],
     shortDesc: "Caldera de latón, manómetro analógico y construcción íntegra en acero inoxidable italiano.",
     subscores: {
       espresso: 9.1,
@@ -177,6 +177,58 @@ export const PRODUCTS: Product[] = [
     stores: [
       { name: "Tienda Barista Oficial", price: 699, inStock: true, url: "#", isBest: true },
       { name: "Amazon", price: 720, inStock: false, url: "#" }
+    ]
+  },
+  {
+    id: "delonghi-la-specialista",
+    slug: "delonghi-la-specialista",
+    name: "De'Longhi La Specialista",
+    brand: "De'Longhi",
+    category: "maquinas",
+    subCategory: "Con molinillo",
+    price: 699,
+    oldPrice: 799,
+    historicalAveragePrice: 749,
+    isOffer: true,
+    score: new CoffeeScore(8.5),
+    stars: 4.4,
+    badge: "Mejor premium",
+    image: "/assets/delonghi-specialista-real.png",
+    gallery: ["/assets/delonghi-specialista-real.png"],
+    shortDesc: "Molinillo integrado con tecnología de prensado asistido Smart Tamping y doble sistema de calentamiento.",
+    subscores: {
+      espresso: 8.6,
+      vapor: 8.4,
+      facilidad: 9.0,
+      construccion: 8.5,
+      precio: 8.2
+    },
+    pros: [
+      "Sistema de prensado integrado Smart Tamping Station",
+      "Doble sistema térmico (extracción de café y vapor independientes)",
+      "Manómetro central y 3 perfiles de temperatura de infusión",
+      "Lanza de vapor profesional My LatteArt"
+    ],
+    cons: [
+      "Ocupa bastante espacio en encimera (38 × 37 cm)",
+      "Molinillo integrado de pasos (menor rango para café especialidad exigente)"
+    ],
+    specs: {
+      bomba: "19 bar",
+      potencia: "1450 W",
+      calentamiento: "30 seg",
+      pid: "Sí (3 temperaturas)",
+      deposito: "2.0 L",
+      vaporizador: "Manual profesional",
+      molinillo: "Sí (Muelas cónicas integradas)",
+      portafiltro: "51 mm presurizado / no presurizado",
+      peso: "13.0 kg",
+      dimensiones: "38 × 37 × 44 cm",
+      garantia: "2 años"
+    },
+    stores: [
+      { name: "Amazon", price: 699, inStock: true, url: "#", isBest: true },
+      { name: "El Corte Inglés", price: 749, inStock: true, url: "#" }
     ]
   },
   {
@@ -347,8 +399,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.8),
     stars: 4.8,
     badge: "Mejor molino eléctrico",
-    image: "/assets/bag.png",
-    gallery: ["/assets/bag.png", "/assets/tamping.png"],
+    image: "/assets/eureka-specialita-real.png",
+    gallery: ["/assets/eureka-specialita-real.png", "/assets/tamping.png"],
     shortDesc: "Muelas planas de 55 mm, tecnología silenciosa y ajuste micrométrico continuo sin pasos.",
     subscores: {
       espresso: 9.5,
