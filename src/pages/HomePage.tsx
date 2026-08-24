@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PRODUCTS } from '../data/catalog';
 import { ProductCard } from '../components/product/ProductCard';
+import { TrustBar } from '../components/layout/TrustBar';
 import { showToast } from '../hooks/useToast';
 
 export const HomePage: React.FC = () => {
@@ -22,15 +23,18 @@ export const HomePage: React.FC = () => {
 
   return (
     <div>
-      {/* HERO */}
+      {/* HERO SECTION */}
       <section className="hero-section">
         <div className="hero-grid">
           <div>
-            <div className="eyebrow"><span className="eyebrow-dot"></span>COMPARA · ELIGE · DISFRUTA</div>
+            <div className="eyebrow">
+              <span className="eyebrow-dot"></span>
+              <span>COMPARA · ELIGE · DISFRUTA</span>
+            </div>
             <h1 className="hero-title">
-              Máquinas, <span className="thin">molinos</span><br />
-              y accesorios de café.<br />
-              <span className="thin">Comparados de verdad.</span>
+              Máquinas, <span className="thin">molinos</span><br className="hidden sm:inline" />
+              {' '}y accesorios de café.<br className="hidden sm:inline" />
+              {' '}<span className="thin">Comparados de verdad.</span>
             </h1>
             <p className="hero-sub">
               Analizamos, comparamos y recomendamos productos con datos reales, pruebas de uso y criterio independiente. Para que hagas un mejor café en casa, en la oficina o en tu negocio.
@@ -45,6 +49,7 @@ export const HomePage: React.FC = () => {
               <span><span className="check">✓</span> Opinión experta</span>
             </div>
           </div>
+
           <div className="hero-illustration">
             <img src="/assets/hero.png" alt="Chico tomando café con la Sagrada Familia de fondo" />
             <div className="featured-card">
@@ -52,7 +57,7 @@ export const HomePage: React.FC = () => {
               <div className="badge-best">● MEJOR COMPRA</div>
               <div className="featured-photo"><img src="/assets/pourover.png" alt="Cafetera" /></div>
               <div className="featured-name">Sage Bambino Plus</div>
-              <div style={{ fontSize: '0.78rem', color: 'var(--muted)', marginBottom: 10 }}>Compacta, rápida y sorprendentemente capaz.</div>
+              <div style={{ fontSize: '0.78rem', color: 'var(--muted)', marginBottom: 8 }}>Compacta, rápida y sorprendentemente capaz.</div>
               <span className="score-pill">8.4/10</span>
               <div className="featured-price">449 €</div>
               <Link className="btn-mini" to="/producto/sage-bambino-plus">Ver análisis →</Link>
@@ -61,50 +66,41 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* BRANDS */}
-      <div className="brands">
-        <div className="brands-inner">
-          <span className="brands-label">Marcas que analizamos</span>
-          <span className="brand-logo">Sage</span>
-          <span className="brand-logo">⚙ LELIT</span>
-          <span className="brand-logo">(DeLonghi)</span>
-          <span className="brand-logo">Breville</span>
-          <span className="brand-logo">MAZZER</span>
-          <span className="brand-logo">eureka</span>
-          <span className="brand-logo">FELLOW</span>
-          <span className="brand-logo">≡COMANDANTE≡</span>
-          <span className="brand-logo">AEROPRESS</span>
-        </div>
-      </div>
+      {/* BRAND LOGOS */}
+      <TrustBar />
 
       {/* SECTION DISCOVERY */}
       <section className="section">
         <h2 className="section-title">Encuentra tu próxima compra</h2>
         <div className="tabs">
-          <div
+          <button
+            type="button"
             onClick={() => setActiveTab('maquinas')}
             className={`tab ${activeTab === 'maquinas' ? 'active' : ''}`}
           >
             Máquinas
-          </div>
-          <div
+          </button>
+          <button
+            type="button"
             onClick={() => setActiveTab('molinos')}
             className={`tab ${activeTab === 'molinos' ? 'active' : ''}`}
           >
             Molinos
-          </div>
-          <div
+          </button>
+          <button
+            type="button"
             onClick={() => setActiveTab('accesorios')}
             className={`tab ${activeTab === 'accesorios' ? 'active' : ''}`}
           >
             Accesorios
-          </div>
-          <div
+          </button>
+          <button
+            type="button"
             onClick={() => setActiveTab('cafe')}
             className={`tab ${activeTab === 'cafe' ? 'active' : ''}`}
           >
             Café
-          </div>
+          </button>
         </div>
         <div className="product-grid">
           {tabProducts.map(product => (
@@ -118,8 +114,8 @@ export const HomePage: React.FC = () => {
         <div className="three-col">
           <div className="compare-box">
             <div>
-              <h3 style={{ fontSize: '1.4rem' }}>Compara hasta<br />4 productos</h3>
-              <p style={{ color: 'var(--muted)', fontSize: '0.88rem', marginTop: 10 }}>Ve las diferencias clave lado a lado.</p>
+              <h3 style={{ fontSize: '1.4rem' }}>Compara hasta<br className="hidden sm:inline" /> 4 productos</h3>
+              <p style={{ color: 'var(--muted)', fontSize: '0.88rem', marginTop: 8 }}>Ve las diferencias clave lado a lado.</p>
               <ul className="compare-features">
                 <li>Especificaciones técnicas</li>
                 <li>Puntuaciones por categoría</li>
@@ -129,9 +125,10 @@ export const HomePage: React.FC = () => {
             </div>
             <div className="compare-illust"><img src="/assets/tamping.png" alt="Comparador de molinos" /></div>
           </div>
+
           <div className="offer-box">
             <div className="offer-title">Ofertas destacadas</div>
-            <p style={{ color: 'var(--muted)', fontSize: '0.82rem', marginBottom: 16 }}>Las mejores oportunidades en máquinas y accesorios.</p>
+            <p style={{ color: 'var(--muted)', fontSize: '0.82rem', marginBottom: 14 }}>Las mejores oportunidades en máquinas y accesorios.</p>
             <div className="offer-card">
               <span className="discount-badge">-18%</span>
               <div className="offer-photo"><img src="/assets/bag.png" alt="Eureka Mignon Specialita" /></div>
@@ -156,7 +153,7 @@ export const HomePage: React.FC = () => {
             <Link className="link-arrow" to="/producto/sage-bambino-plus">Leer análisis →</Link>
           </div>
           <div className="content-card">
-            <h3 className="content-heading" style={{ fontSize: '1.1rem' }}>Índice global del café</h3>
+            <h3 className="content-heading" style={{ fontSize: '1.15rem' }}>Índice global del café</h3>
             <p className="content-sub" style={{ marginBottom: 8 }}>Precio medio por origen (USD/kg)</p>
             <div className="mini-chart"></div>
             <div className="index-row"><span>Panamá Geisha</span><span>102.50 <span className="index-change">+2.1%</span></span></div>
@@ -166,7 +163,7 @@ export const HomePage: React.FC = () => {
             <Link className="link-arrow" to="/cafe" style={{ display: 'block', marginTop: 12 }}>Ver índice completo →</Link>
           </div>
           <div className="content-card">
-            <h3 className="content-heading" style={{ fontSize: '1.1rem' }}>Barcelona Roasters Index</h3>
+            <h3 className="content-heading" style={{ fontSize: '1.15rem' }}>Barcelona Roasters Index</h3>
             <div className="roast-row"><span>Nomad Coffee</span><span className="roast-price">28,00 €/kg</span></div>
             <div className="roast-row"><span>Right Side Coffee</span><span className="roast-price">27,00 €/kg</span></div>
             <div className="roast-row"><span>Satan's Coffee Corner</span><span className="roast-price">26,50 €/kg</span></div>
@@ -194,7 +191,7 @@ export const HomePage: React.FC = () => {
             </form>
           </div>
           <div className="fb">
-            <h3 className="fb-title" style={{ marginBottom: 16 }}>Últimas guías</h3>
+            <h3 className="fb-title" style={{ marginBottom: 14 }}>Últimas guías</h3>
             <div className="guide-list">
               <div className="guide-card">
                 <div className="guide-photo"><img src="/assets/cherries.png" alt="Guía molino" /></div>

@@ -14,93 +14,47 @@ export const ComparisonDrawer: React.FC = () => {
 
   return (
     <div
-      style={{
-        position: 'fixed',
-        bottom: 24,
-        left: '50%',
-        transform: 'translateX(-50%)',
-        zIndex: 50,
-        background: '#ffffff',
-        border: '1.5px solid var(--ink)',
-        borderRadius: 40,
-        boxShadow: '0 16px 40px rgba(0,0,0,0.18)',
-        padding: '10px 22px',
-        display: 'flex',
-        alignItems: 'center',
-        gap: 16,
-        maxWidth: '92vw',
-      }}
-      className="animate-slideUp"
+      className="fixed bottom-4 sm:bottom-6 left-3 right-3 sm:left-1/2 sm:-translate-x-1/2 z-40 bg-white border border-[#111111] rounded-full shadow-2xl px-4 sm:px-5 py-2.5 flex items-center justify-between gap-3 sm:gap-4 max-w-lg mx-auto animate-slideUp"
     >
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, whiteSpace: 'nowrap' }}>
-        <GitCompare size={18} style={{ color: 'var(--blue)' }} />
-        <span style={{ fontWeight: 700, fontSize: '0.85rem' }}>
-          Comparando ({selectedProducts.length}/4):
+      <div className="flex items-center gap-2 shrink-0">
+        <GitCompare size={17} className="text-editorial-blue" />
+        <span className="font-bold text-xs sm:text-sm text-ink whitespace-nowrap">
+          Comparando ({selectedProducts.length}/4)
         </span>
       </div>
 
-      <div className="hidden sm:flex items-center gap-2 overflow-x-auto">
+      <div className="hidden md:flex items-center gap-1.5 overflow-x-auto">
         {selectedProducts.map(p => (
           <div
             key={p.id}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 6,
-              background: 'var(--cream)',
-              borderRadius: 20,
-              padding: '4px 12px',
-              fontSize: '0.78rem',
-              fontWeight: 600,
-              border: '1px solid var(--line)',
-            }}
+            className="flex items-center gap-1 bg-[#f4f2ec] rounded-full px-2.5 py-1 text-xs font-semibold border border-[#e6e3da]"
           >
-            <span style={{ maxWidth: 110, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-              {p.name}
-            </span>
+            <span className="max-w-[80px] truncate">{p.name}</span>
             <button
               onClick={() => removeProduct(p.id)}
-              style={{
-                border: 'none',
-                background: 'transparent',
-                cursor: 'pointer',
-                color: 'var(--muted)',
-                display: 'flex',
-                alignItems: 'center',
-              }}
+              className="text-[#6b6a63] hover:text-[#e94e2b] p-0.5"
               title="Quitar"
             >
-              <X size={13} />
+              <X size={11} />
             </button>
           </div>
         ))}
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginLeft: 'auto', flexShrink: 0 }}>
+      <div className="flex items-center gap-2 shrink-0 ml-auto">
         <Link
           to="/comparador"
-          className="btn btn-solid"
-          style={{
-            padding: '7px 16px',
-            fontSize: '0.8rem',
-            borderRadius: 20,
-          }}
+          className="btn btn-solid !py-1.5 !px-3.5 !text-xs !rounded-full whitespace-nowrap"
         >
           <span>Ver tabla</span>
           <ArrowRight size={13} />
         </Link>
         <button
           onClick={clear}
-          style={{
-            border: 'none',
-            background: 'transparent',
-            cursor: 'pointer',
-            color: 'var(--muted)',
-            padding: 4,
-          }}
+          className="text-[#6b6a63] hover:text-ink p-1"
           title="Vaciar comparador"
         >
-          <X size={16} />
+          <X size={15} />
         </button>
       </div>
     </div>
