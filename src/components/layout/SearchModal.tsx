@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, X, ArrowRight, BookOpen, Coffee } from 'lucide-react';
+import { X, ArrowRight, BookOpen, Coffee } from 'lucide-react';
 import { useSearch } from '../../hooks/useSearch';
 import { Link } from 'react-router-dom';
 import { ScoreBadge } from '../ui/ScoreBadge';
@@ -19,19 +19,19 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
       <div className="fixed inset-0 bg-ink/50 backdrop-blur-sm" onClick={onClose} />
 
       <div className="relative w-full max-w-2xl bg-white rounded-editorial border border-stone-200 shadow-2xl p-6 z-10 max-h-[80vh] flex flex-col">
-        <div className="flex items-center gap-3 border-b border-stone-200 pb-4 mb-4">
-          <Search size={20} className="text-ink-muted shrink-0" />
+        <div className="flex items-center gap-3 border-b border-stone-200 pb-3.5 mb-4">
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar por producto, marca (Sage, Eureka, Anna) o categoría..."
+            placeholder="Escribe el nombre de la máquina, molino, marca (Sage, Eureka, Anna) o categoría..."
             className="w-full text-base font-sans outline-none bg-transparent placeholder:text-ink-muted/60"
             autoFocus
           />
           <button
             onClick={onClose}
             className="w-7 h-7 rounded-full bg-paper-secondary flex items-center justify-center text-ink-muted hover:text-ink"
+            aria-label="Cerrar búsqueda"
           >
             <X size={14} />
           </button>
