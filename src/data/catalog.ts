@@ -5,7 +5,8 @@ import { BarcelonaRoaster, BuyingGuide } from '../core/domain/Roaster';
 export const BRANDS: string[] = [
   "Sage", "Lelit", "De'Longhi", "Breville", "Gaggia", "Eureka", 
   "Fellow", "Comandante", "Mazzer", "DF64", "Baratza", "AeroPress", 
-  "Timemore", "Normcore", "Hario", "Chemex"
+  "Timemore", "Normcore", "Hario", "Chemex",
+  "Nomad Coffee", "Syra Coffee", "Right Side", "Three Marks", "Satan's Coffee", "Hidden Coffee"
 ];
 
 export const PRODUCTS: Product[] = [
@@ -24,9 +25,9 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.4),
     stars: 4.5,
     badge: "Mejor para empezar",
-    image: "/assets/sage-bambino-real.png",
+    image: "/assets/products/sage-bambino.png",
     gallery: [
-      "/assets/sage-bambino-real.png",
+      "/assets/products/sage-bambino.png",
       "/assets/pouring.png",
       "/assets/tamping.png",
       "/assets/latte-hand.png"
@@ -88,8 +89,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.2),
     stars: 4.2,
     badge: "Mejor para empezar",
-    image: "/assets/sage-bambino-real.png",
-    gallery: ["/assets/sage-bambino-real.png", "/assets/pouring.png"],
+    image: "/assets/products/sage-bambino.png",
+    gallery: ["/assets/products/sage-bambino.png", "/assets/pouring.png"],
     shortDesc: "La versión esencial de la Bambino con vaporizador manual tradicional y el mismo motor térmico rápido.",
     subscores: {
       espresso: 8.7,
@@ -140,8 +141,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.7),
     stars: 4.6,
     badge: "Mejor control",
-    image: "/assets/lelit-anna-real.png",
-    gallery: ["/assets/lelit-anna-real.png", "/assets/tamping.png"],
+    image: "/assets/products/lelit-anna.png",
+    gallery: ["/assets/products/lelit-anna.png", "/assets/tamping.png"],
     shortDesc: "Caldera de latón, manómetro analógico y construcción íntegra en acero inoxidable italiano.",
     subscores: {
       espresso: 9.1,
@@ -193,8 +194,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.5),
     stars: 4.4,
     badge: "Mejor premium",
-    image: "/assets/delonghi-specialista-real.png",
-    gallery: ["/assets/delonghi-specialista-real.png"],
+    image: "/assets/products/delonghi-specialista.png",
+    gallery: ["/assets/products/delonghi-specialista.png"],
     shortDesc: "Molinillo integrado con tecnología de prensado asistido Smart Tamping y doble sistema de calentamiento.",
     subscores: {
       espresso: 8.6,
@@ -399,8 +400,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(8.8),
     stars: 4.8,
     badge: "Mejor molino eléctrico",
-    image: "/assets/eureka-specialita-real.png",
-    gallery: ["/assets/eureka-specialita-real.png", "/assets/tamping.png"],
+    image: "/assets/products/eureka-specialita.png",
+    gallery: ["/assets/products/eureka-specialita.png", "/assets/tamping.png"],
     shortDesc: "Muelas planas de 55 mm, tecnología silenciosa y ajuste micrométrico continuo sin pasos.",
     subscores: {
       espresso: 9.5,
@@ -449,8 +450,8 @@ export const PRODUCTS: Product[] = [
     score: new CoffeeScore(9.4),
     stars: 4.9,
     badge: "Referencia mundial",
-    image: "/assets/cherries.png",
-    gallery: ["/assets/cherries.png", "/assets/pourover.png"],
+    image: "/assets/products/comandante-c40.png",
+    gallery: ["/assets/products/comandante-c40.png", "/assets/pourover.png"],
     shortDesc: "Muelas cónicas de acero Nitro Blade martensítico de alta aleación. La cúspide de la molienda manual.",
     subscores: {
       espresso: 9.2,
@@ -717,68 +718,210 @@ export const PRODUCTS: Product[] = [
   {
     id: "nomad-challenger-blend",
     slug: "nomad-challenger-blend",
-    name: "Nomad Coffee — Challenger Espresso Blend",
+    name: "Nomad Coffee — Samuel Washed Espresso",
     brand: "Nomad Coffee",
     category: "cafe",
     subCategory: "Espresso",
-    price: 13.50,
+    price: 17.50,
     oldPrice: null,
-    historicalAveragePrice: 13.50,
+    historicalAveragePrice: 17.50,
     isOffer: false,
-    score: new CoffeeScore(9.3),
+    score: new CoffeeScore(9.4),
     stars: 4.9,
-    badge: "Favorito Barcelona",
-    image: "/assets/cherries.png",
-    gallery: ["/assets/cherries.png", "/assets/latte-hand.png"],
-    shortDesc: "Notas a chocolate con leche, avellana tostada y caramelo cremoso. Perfecto para espresso y flat whites.",
+    badge: "Top Espresso BCN",
+    image: "/assets/products/nomad-samuel.png",
+    gallery: ["/assets/products/nomad-samuel.png"],
+    shortDesc: "Notas a chocolate con leche, avellana tostada y caramelo cremoso. Perfecto para espresso y bebidas con leche.",
     subscores: {
       espresso: 9.6,
       vapor: 9.2,
-      facilidad: 9.4,
-      construccion: 9.0,
-      precio: 9.1
+      facilidad: 9.5,
+      construccion: 9.4,
+      precio: 9.2
     },
     pros: [
-      "Perfil balanceado, dulce y con acidez muy amable",
-      "Extremadamente consistente y fácil de calibrar en molino",
-      "Tostado semanalmente en Poblenou, Barcelona"
+      "Perfil dulce, achocolatado y con acidez muy balanceada",
+      "Fácil de calibrar en cualquier molino de espresso",
+      "Tostado semanal en Poblenou, Barcelona"
     ],
     cons: [
-      "Bolsa estándar de 250 g se termina rápido"
+      "Bolsa estándar de 250 g"
     ],
     specs: {
-      origen: "Brasil & Colombia",
-      proceso: "Lavado / Natural",
+      origen: "Etiopía (Samuel Tunisisa)",
+      proceso: "Lavado",
       tueste: "Medio espresso",
-      notas: "Chocolate negro, caramelo, frutos secos"
+      notas: "Chocolate negro, caramelo, avellana",
+      scaScore: "87.5 pts",
+      peso: "250 g",
+      variedad: "Heirloom",
+      altitud: "1.900 - 2.100 m"
     },
     stores: [
-      { name: "Nomad Web Oficial", price: 13.50, inStock: true, url: "#", isBest: true }
+      { name: "Nomad Web Oficial", price: 17.50, inStock: true, url: "https://nomadcoffee.es/products/samuel-tunisisa", isBest: true }
+    ]
+  },
+  {
+    id: "nomad-ethiopia-yirgacheffe",
+    slug: "nomad-ethiopia-yirgacheffe",
+    name: "Nomad Coffee — Shakiso Hadeso Natural",
+    brand: "Nomad Coffee",
+    category: "cafe",
+    subCategory: "Filtro",
+    price: 23.00,
+    oldPrice: null,
+    historicalAveragePrice: 23.00,
+    isOffer: false,
+    score: new CoffeeScore(9.6),
+    stars: 5.0,
+    badge: "Top Origen Único",
+    image: "/assets/products/nomad-shakiso.png",
+    gallery: ["/assets/products/nomad-shakiso.png"],
+    shortDesc: "Perfil floral y afrutado con notas a bergamota, melocotón blanco y jazmín. Especial para filtro V60 y Chemex.",
+    subscores: {
+      espresso: 8.9,
+      vapor: 9.0,
+      facilidad: 9.4,
+      construccion: 9.7,
+      precio: 9.0
+    },
+    pros: [
+      "Increíble claridad aromática y notas cítricas refinadas",
+      "Puntuación SCA 88.5 puntos",
+      "Tueste ligero omni-roast de máxima fidelidad al terroir"
+    ],
+    cons: [
+      "Edición limitada por temporada de cosecha"
+    ],
+    specs: {
+      origen: "Guji Shakiso, Etiopía",
+      proceso: "Natural",
+      tueste: "Ligero / Filtro",
+      notas: "Bergamota, jazmín, melocotón",
+      scaScore: "88.5 pts",
+      peso: "250 g",
+      variedad: "Heirloom etíope",
+      altitud: "2.000 - 2.200 m"
+    },
+    stores: [
+      { name: "Nomad Web Oficial", price: 23.00, inStock: true, url: "https://nomadcoffee.es/products/shakiso-hadeso", isBest: true }
+    ]
+  },
+  {
+    id: "syra-house-espresso",
+    slug: "syra-house-espresso",
+    name: "Syra Coffee — Atitlán Guatemala",
+    brand: "Syra Coffee",
+    category: "cafe",
+    subCategory: "Espresso",
+    price: 13.50,
+    oldPrice: 15.00,
+    historicalAveragePrice: 14.50,
+    isOffer: true,
+    score: new CoffeeScore(9.2),
+    stars: 4.8,
+    badge: "Mejor Calidad/Precio",
+    image: "/assets/products/syra-atitlan.png",
+    gallery: ["/assets/products/syra-atitlan.png"],
+    shortDesc: "Café de comercio directo con notas a toffee, chocolate con leche y cuerpo sedoso aterciopelado.",
+    subscores: {
+      espresso: 9.3,
+      vapor: 9.0,
+      facilidad: 9.5,
+      construccion: 9.1,
+      precio: 9.6
+    },
+    pros: [
+      "Excelente relación calidad/precio para café diario",
+      "Tueste fresco garantizado",
+      "Trazabilidad 100% de pequeños productores"
+    ],
+    cons: [
+      "Cuerpo medio-ligero en espresso muy concentrado"
+    ],
+    specs: {
+      origen: "Lago Atitlán, Guatemala",
+      proceso: "Lavado",
+      tueste: "Medio",
+      notas: "Toffee, chocolate con leche, caña de azúcar",
+      scaScore: "86.0 pts",
+      peso: "250 g",
+      variedad: "Bourbon, Caturra",
+      altitud: "1.600 - 1.800 m"
+    },
+    stores: [
+      { name: "Syra Coffee Oficial", price: 13.50, inStock: true, url: "https://syra.coffee/products/atitlan", isBest: true }
+    ]
+  },
+  {
+    id: "syra-ethiopia-filter",
+    slug: "syra-ethiopia-filter",
+    name: "Syra Coffee — Bahire Specialty Coffee",
+    brand: "Syra Coffee",
+    category: "cafe",
+    subCategory: "Filtro",
+    price: 16.00,
+    oldPrice: null,
+    historicalAveragePrice: 16.00,
+    isOffer: false,
+    score: new CoffeeScore(9.3),
+    stars: 4.9,
+    badge: "Filtro Aromático",
+    image: "/assets/products/syra-bahire.png",
+    gallery: ["/assets/products/syra-bahire.png"],
+    shortDesc: "Notas a albaricoque maduro, té negro y miel de azahar. Muy limpio en taza.",
+    subscores: {
+      espresso: 8.7,
+      vapor: 8.8,
+      facilidad: 9.3,
+      construccion: 9.4,
+      precio: 9.3
+    },
+    pros: [
+      "Taza extremadamente limpia y vibrante",
+      "Cosecha seleccionada a mano",
+      "Envase 100% compostable"
+    ],
+    cons: [
+      "Perfil muy floral para amantes del tueste oscuro"
+    ],
+    specs: {
+      origen: "Bahire, Etiopía",
+      proceso: "Lavado",
+      tueste: "Ligero",
+      notas: "Albaricoque, miel, té earl grey",
+      scaScore: "87.5 pts",
+      peso: "250 g",
+      variedad: "Heirloom",
+      altitud: "2.050 m"
+    },
+    stores: [
+      { name: "Syra Coffee Oficial", price: 16.00, inStock: true, url: "https://syra.coffee/products/bahire", isBest: true }
     ]
   },
   {
     id: "rightside-ethiopia-kercha",
     slug: "rightside-ethiopia-kercha",
-    name: "Right Side Coffee — Ethiopia Guji Kercha",
+    name: "Right Side Coffee — Abasambi Natural",
     brand: "Right Side",
     category: "cafe",
-    subCategory: "Filtro",
-    price: 15.00,
+    subCategory: "Espresso",
+    price: 11.25,
     oldPrice: null,
-    historicalAveragePrice: 15.00,
+    historicalAveragePrice: 11.25,
     isOffer: false,
     score: new CoffeeScore(9.5),
     stars: 5.0,
     badge: "Top Origen Único",
-    image: "/assets/bag.png",
-    gallery: ["/assets/bag.png", "/assets/pourover.png"],
-    shortDesc: "Explosión floral con notas a jazmín, melocotón blanco y bergamota. Tueste para filtro y pour-over.",
+    image: "/assets/products/rightside-abasambi.png",
+    gallery: ["/assets/products/rightside-abasambi.png"],
+    shortDesc: "Explosión floral y dulce con notas a jazmín, melocotón blanco y bergamota.",
     subscores: {
-      espresso: 8.8,
+      espresso: 9.5,
       vapor: 9.0,
       facilidad: 9.2,
       construccion: 9.6,
-      precio: 8.9
+      precio: 9.4
     },
     pros: [
       "Increíble complejidad aromática y floral",
@@ -789,13 +932,109 @@ export const PRODUCTS: Product[] = [
       "Requiere agua de mineralización débil para brillar"
     ],
     specs: {
-      origen: "Guji, Etiopía (2.100 m)",
-      proceso: "Lavado tradicional",
-      tueste: "Ligero / Filtro",
-      notas: "Jazmín, melocotón, té negro earl grey"
+      origen: "Abasambi, Ruanda",
+      proceso: "Natural",
+      tueste: "Espresso",
+      notas: "Jazmín, melocotón, ciruela roja",
+      scaScore: "88.0 pts",
+      peso: "250 g",
+      variedad: "Red Bourbon",
+      altitud: "1.900 m"
     },
     stores: [
-      { name: "Right Side Web", price: 15.00, inStock: true, url: "#", isBest: true }
+      { name: "Right Side Web", price: 11.25, inStock: true, url: "https://rightsidecoffee.com/products/abasambi-natural-espresso", isBest: true }
+    ]
+  },
+  {
+    id: "rightside-colombia-anaerobic",
+    slug: "rightside-colombia-anaerobic",
+    name: "Right Side Coffee — Ancizar Narváez",
+    brand: "Right Side",
+    category: "cafe",
+    subCategory: "Filtro",
+    price: 15.75,
+    oldPrice: null,
+    historicalAveragePrice: 15.75,
+    isOffer: false,
+    score: new CoffeeScore(9.6),
+    stars: 5.0,
+    badge: "Microlote Exclusivo",
+    image: "/assets/products/rightside-ancizar.png",
+    gallery: ["/assets/products/rightside-ancizar.png"],
+    shortDesc: "Proceso lavado de alta precisión. Notas intensas a frutas de hueso, panela y mandarina.",
+    subscores: {
+      espresso: 9.2,
+      vapor: 9.1,
+      facilidad: 9.4,
+      construccion: 9.8,
+      precio: 8.9
+    },
+    pros: [
+      "Complejidad sensorial fuera de serie",
+      "Puntuación SCA 89 puntos",
+      "Finca La Esperanza, Colombia"
+    ],
+    cons: [
+      "Producción muy limitada"
+    ],
+    specs: {
+      origen: "Huila, Colombia",
+      proceso: "Lavado",
+      tueste: "Ligero",
+      notas: "Mandarina, panela, manzana verde",
+      scaScore: "89.0 pts",
+      peso: "250 g",
+      variedad: "Pink Bourbon",
+      altitud: "1.850 m"
+    },
+    stores: [
+      { name: "Right Side Web", price: 15.75, inStock: true, url: "https://rightsidecoffee.com/products/anzidar-narvaez-filtro", isBest: true }
+    ]
+  },
+  {
+    id: "threemarks-rwanda-gitesi",
+    slug: "threemarks-rwanda-gitesi",
+    name: "Three Marks Coffee — Seasonal Espresso",
+    brand: "Three Marks",
+    category: "cafe",
+    subCategory: "Espresso",
+    price: 19.90,
+    oldPrice: null,
+    historicalAveragePrice: 19.90,
+    isOffer: false,
+    score: new CoffeeScore(9.3),
+    stars: 4.8,
+    badge: "Favorito Tostador",
+    image: "/assets/products/threemarks-espresso.png",
+    gallery: ["/assets/products/threemarks-espresso.png"],
+    shortDesc: "Pack 2x250g Seasonal Espresso Blend con notas a chocolate, caramelo tostado y acidez limpia.",
+    subscores: {
+      espresso: 9.5,
+      vapor: 9.0,
+      facilidad: 9.3,
+      construccion: 9.2,
+      precio: 9.1
+    },
+    pros: [
+      "Formato 2x250g para mantener frescura",
+      "Tostado por Three Marks en Fort Pienc, Barcelona",
+      "Gran versatilidad en espresso y flat white"
+    ],
+    cons: [
+      "Viene en pack dúo"
+    ],
+    specs: {
+      origen: "Colombia & Brasil",
+      proceso: "Lavado / Natural",
+      tueste: "Medio espresso",
+      notas: "Chocolate con leche, caramelo, avellana",
+      scaScore: "86.5 pts",
+      peso: "2 × 250 g",
+      variedad: "Bourbon & Castillo",
+      altitud: "1.600 m"
+    },
+    stores: [
+      { name: "Three Marks Oficial", price: 19.90, inStock: true, url: "https://threemarkscoffee.com/products/2x250gr-espresso-blend", isBest: true }
     ]
   }
 ];

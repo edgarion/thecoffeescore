@@ -69,7 +69,7 @@ export const HomePage: React.FC = () => {
               <div className="featured-label">Producto destacado</div>
               <div className="badge-best">● MEJOR COMPRA</div>
               <div className="featured-photo">
-                <img src="/assets/sage-bambino-real.png" alt="Sage Bambino Plus" />
+                <img src="/assets/products/sage-bambino.png" alt="Sage Bambino Plus" />
               </div>
               <div className="featured-name">Sage Bambino Plus</div>
               <div style={{ fontSize: '0.78rem', color: 'var(--muted)', marginBottom: 8 }}>Compacta, rápida y sorprendentemente capaz.</div>
@@ -211,7 +211,7 @@ export const HomePage: React.FC = () => {
                 </span>
                 <div className="w-full h-28 flex items-center justify-center p-1 mb-2">
                   <img
-                    src="/assets/eureka-specialita-real.png"
+                    src="/assets/products/eureka-specialita.png"
                     alt="Eureka Mignon Specialita"
                     className="max-h-full object-contain"
                   />

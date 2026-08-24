@@ -23,6 +23,9 @@ export interface TechnicalSpecs {
   proceso?: string;
   tueste?: string;
   notas?: string;
+  scaScore?: string;
+  variedad?: string;
+  altitud?: string;
   material?: string;
   capacidad?: string;
   resortes?: string;
