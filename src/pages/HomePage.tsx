@@ -64,8 +64,8 @@ export const HomePage: React.FC = () => {
           </div>
 
           <div className="hero-illustration flex flex-col md:flex-row items-center justify-center gap-6 lg:gap-8 !bg-transparent">
-            {/* Left: Barista Illustration without background */}
-            <div className="w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[340px] flex items-center justify-center shrink-0">
+            {/* Left: Barista Illustration (Hidden on Mobile) */}
+            <div className="hidden md:flex w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[340px] items-center justify-center shrink-0">
               <img
                 src="/assets/hero.png"
                 alt="Barista preparando café"
