@@ -15,6 +15,7 @@ import { CoffeePage } from './pages/CoffeePage';
 import { DealsPage } from './pages/DealsPage';
 import { GuidesPage } from './pages/GuidesPage';
 import { BlogPage } from './pages/BlogPage';
+import { GlobalCoffeeIndexPage } from './pages/GlobalCoffeeIndexPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 
 export const App: React.FC = () => {
@@ -65,6 +66,8 @@ export const App: React.FC = () => {
               <Route path="/ofertas" element={<DealsPage />} />
               <Route path="/guias" element={<GuidesPage />} />
               <Route path="/blog" element={<BlogPage />} />
+              <Route path="/indice-global" element={<GlobalCoffeeIndexPage />} />
+              <Route path="/cafeterias" element={<GlobalCoffeeIndexPage />} />
               <Route path="/producto/:slug" element={<ProductDetailPage />} />
             </Routes>
           </main>

@@ -53,6 +53,7 @@ export const Header: React.FC = () => {
     { name: 'Ofertas', path: '/ofertas' },
     { name: 'Guías', path: '/guias' },
     { name: 'Blog', path: '/blog' },
+    { name: 'Índice Global', path: '/indice-global' },
   ];
 
   return (

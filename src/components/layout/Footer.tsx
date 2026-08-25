@@ -28,6 +28,7 @@ export const Footer: React.FC = () => {
           <Link to="/ofertas" className="hover:underline">Ofertas</Link>
           <Link to="/guias" className="hover:underline">Guías de Compra</Link>
           <Link to="/blog" className="hover:underline">Blog</Link>
+          <Link to="/indice-global" className="hover:underline">Índice Global</Link>
           <Link to="/comparador" className="hover:underline">Comparador</Link>
         </div>
 
