@@ -416,8 +416,10 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
   const activeHub = hubs.find(h => h.id === activeHubId) || hubs[0];
 
-  const JAWG_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhIjoiYWNfOHk0bmc2YngiLCJqdGkiOiJlZTJmMGU5MiJ9.3st0oT1vhQW-IPx5KhmE4x4cak5NLVJUVR0-Eo2CL_s';
+  const JAWG_ACCESS_TOKEN = 'PcIYgRHwBbWp9dRpkfXXRIMF1nc0ssq7kol810szwkxT1C9BKmLtGZpVi10M8tFW';
   const [mapTheme, setMapTheme] = useState<'jawg-light' | 'jawg-sunny' | 'jawg-dark' | 'jawg-streets'>('jawg-light');
+
+
   const tileLayerRef = useRef<L.TileLayer | null>(null);
 
   // Initialize Minimalist Leaflet Map with Jawg Maps API
