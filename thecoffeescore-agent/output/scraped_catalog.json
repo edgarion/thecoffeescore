@@ -1,0 +1,78 @@
+{
+  "last_updated": "2026-08-27T18:08:56.203553",
+  "total_products": 3,
+  "products": [
+    {
+      "id": "syra-coffee-aeropress",
+      "product_url": "https://syra.coffee/products/aeropress",
+      "local_image_path": "thecoffeescore-agent/output/images/syra-coffee-aeropress.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "Syra Coffee — Aeropress",
+        "brand": "Syra Coffee",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 34.0,
+        "seo_description": "Café de especialidad tostado artesanalmente por Syra Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true
+    },
+    {
+      "id": "syra-coffee-aeropress-clear",
+      "product_url": "https://syra.coffee/products/aeropress-clear",
+      "local_image_path": "thecoffeescore-agent/output/images/syra-coffee-aeropress-clear.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "Syra Coffee — Aeropress Clear",
+        "brand": "Syra Coffee",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 49.0,
+        "seo_description": "Café de especialidad tostado artesanalmente por Syra Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true
+    },
+    {
+      "id": "syra-coffee-aeropress-go",
+      "product_url": "https://syra.coffee/products/aeropress-go",
+      "local_image_path": "thecoffeescore-agent/output/images/syra-coffee-aeropress-go.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "Syra Coffee — Aeropress GO",
+        "brand": "Syra Coffee",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 41.0,
+        "seo_description": "Café de especialidad tostado artesanalmente por Syra Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true
+    }
+  ]
+}
