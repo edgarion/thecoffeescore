@@ -4,7 +4,9 @@ import { PRODUCTS } from '../data/catalog';
 import { ProductCard } from '../components/product/ProductCard';
 import { TrustBar } from '../components/layout/TrustBar';
 import { BarcelonaCoffeeSlider } from '../components/roasters/BarcelonaCoffeeSlider';
+import { CoffeeSuppliersSection } from '../components/roasters/CoffeeSuppliersSection';
 import { showToast } from '../hooks/useToast';
+
 
 import {
   Search,
@@ -565,6 +567,9 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* 6. COFFEE SUPPLIERS & PRICE INDEXES SECTION */}
+      <CoffeeSuppliersSection />
     </div>
   );
 };
