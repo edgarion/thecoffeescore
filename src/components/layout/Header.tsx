@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GitCompare, Heart, Coffee, X, ChevronRight, SlidersHorizontal } from 'lucide-react';
+import { GitCompare, Heart, Coffee, X, ChevronRight, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut } from 'lucide-react';
 import { useFavorites } from '../../hooks/useFavorites';
 import { useComparator } from '../../hooks/useComparator';
+import { useAuth } from '../../context/AuthContext';
+import { useCart } from '../../context/CartContext';
 import { SearchModal } from './SearchModal';
 import { FavoritesDrawer } from './FavoritesDrawer';
 
@@ -10,13 +12,31 @@ export const Header: React.FC = () => {
   const location = useLocation();
   const { count: favCount } = useFavorites();
   const { selectedIds } = useComparator();
+  const { user, isAuthenticated, openAuthModal, logout } = useAuth();
+  const { totalCount: cartCount, openCart } = useCart();
+
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isFavOpen, setIsFavOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+
+  const userMenuRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (userMenuRef.current && !userMenuRef.current.contains(event.target as Node)) {
+        setIsUserMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
+    setIsUserMenuOpen(false);
   }, [location.pathname]);
 
   // Lock body scroll when mobile menu is active
@@ -38,6 +58,7 @@ export const Header: React.FC = () => {
         setIsMobileMenuOpen(false);
         setIsSearchOpen(false);
         setIsFavOpen(false);
+        setIsUserMenuOpen(false);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
@@ -136,7 +157,7 @@ export const Header: React.FC = () => {
               Buscar
             </button>
 
-            {/* Comparador Icon next to Heart (ONLY ON DESKTOP - hidden on mobile/tablet) */}
+            {/* Comparador Icon (Desktop only) */}
             <Link
               to="/comparador"
               className="hidden lg:flex relative w-8 h-8 items-center justify-center rounded-full hover:bg-stone-200/50 text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
@@ -194,6 +215,119 @@ export const Header: React.FC = () => {
               )}
             </button>
 
+            {/* Cesta de Compra Icon */}
+            <button
+              className="relative w-8 h-8 flex items-center justify-center rounded-full hover:bg-stone-200/50 text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              onClick={openCart}
+              title="Cesta de compra"
+              aria-label={`Cesta (${cartCount})`}
+            >
+              <ShoppingBag size={18} className={cartCount > 0 ? 'text-[#e94e2b]' : ''} />
+              {cartCount > 0 && (
+                <span style={{
+                  position: 'absolute',
+                  top: -2,
+                  right: -2,
+                  background: '#e94e2b',
+                  color: '#fff',
+                  fontSize: '0.6rem',
+                  fontWeight: 700,
+                  width: 15,
+                  height: 15,
+                  borderRadius: '50%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}>
+                  {cartCount}
+                </span>
+              )}
+            </button>
+
+            {/* User Profile / Auth Button Desktop */}
+            <div className="relative hidden sm:block" ref={userMenuRef}>
+              {isAuthenticated && user ? (
+                <button
+                  onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
+                  className="flex items-center gap-1.5 border border-[#e6e3da] bg-white hover:border-stone-400 rounded-full pl-1 pr-2.5 py-1 text-xs text-ink transition-all shadow-sm"
+                  aria-label="Perfil de usuario"
+                >
+                  <img
+                    src={user.avatar || `https://api.dicebear.com/7.x/bottts/svg?seed=${user.email}`}
+                    alt={user.name}
+                    className="w-5 h-5 rounded-full object-cover bg-stone-100"
+                  />
+                  <span className="font-bold max-w-[80px] truncate">{user.name.split(' ')[0]}</span>
+                </button>
+              ) : (
+                <button
+                  onClick={() => openAuthModal('login')}
+                  className="flex items-center gap-1 bg-ink hover:bg-black text-white text-xs font-bold px-3 py-1.5 rounded-full transition-all shadow-sm"
+                >
+                  <UserIcon size={13} />
+                  <span>Entrar</span>
+                </button>
+              )}
+
+              {/* User Dropdown */}
+              {isUserMenuOpen && isAuthenticated && user && (
+                <div className="absolute right-0 top-full mt-2 w-56 bg-white border border-[#e6e3da] rounded-2xl shadow-xl p-2 z-50 animate-scaleUp">
+                  <div className="px-3 py-2 border-b border-[#f0eee6]">
+                    <p className="font-bold text-xs text-ink">{user.name}</p>
+                    <p className="text-[11px] text-stone-500 truncate">{user.email}</p>
+                  </div>
+                  <div className="py-1 space-y-0.5">
+                    <button
+                      onClick={() => {
+                        setIsUserMenuOpen(false);
+                        openCart();
+                      }}
+                      className="w-full flex items-center justify-between px-3 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
+                    >
+                      <span className="flex items-center gap-2">
+                        <ShoppingBag size={14} className="text-stone-400" />
+                        <span>Mi Cesta</span>
+                      </span>
+                      {cartCount > 0 && (
+                        <span className="bg-[#e94e2b] text-white text-[10px] font-bold px-1.5 py-0.2 rounded-full">
+                          {cartCount}
+                        </span>
+                      )}
+                    </button>
+                    <button
+                      onClick={() => {
+                        setIsUserMenuOpen(false);
+                        setIsFavOpen(true);
+                      }}
+                      className="w-full flex items-center justify-between px-3 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
+                    >
+                      <span className="flex items-center gap-2">
+                        <Heart size={14} className="text-stone-400" />
+                        <span>Mis Favoritos</span>
+                      </span>
+                      {favCount > 0 && (
+                        <span className="bg-stone-200 text-stone-700 text-[10px] font-bold px-1.5 py-0.2 rounded-full">
+                          {favCount}
+                        </span>
+                      )}
+                    </button>
+                  </div>
+                  <div className="pt-1 border-t border-[#f0eee6]">
+                    <button
+                      onClick={() => {
+                        setIsUserMenuOpen(false);
+                        logout();
+                      }}
+                      className="w-full flex items-center gap-2 px-3 py-1.5 text-xs text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium"
+                    >
+                      <LogOut size={13} />
+                      <span>Cerrar Sesión</span>
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Mobile & Tablet Burger Menu Button (< 1024px) */}
             <button
               className="lg:hidden flex items-center gap-1.5 bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
@@ -207,6 +341,7 @@ export const Header: React.FC = () => {
           </div>
         </div>
       </header>
+
 
       {/* Mobile & Tablet Drawer (< 1024px) */}
       {isMobileMenuOpen && (
@@ -289,6 +424,62 @@ export const Header: React.FC = () => {
                   </Link>
                 );
               })}
+            </div>
+
+            {/* User & Cart in Mobile Drawer */}
+            <div className="p-3.5 border-t border-[#e6e3da] bg-[#f4f2ec] space-y-2">
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  openCart();
+                }}
+                className="w-full flex items-center justify-between px-3.5 py-2.5 bg-white border border-[#e6e3da] rounded-xl text-xs font-bold text-ink shadow-sm"
+              >
+                <span className="flex items-center gap-2">
+                  <ShoppingBag size={15} className="text-[#e94e2b]" />
+                  <span>Mi Cesta de Compra</span>
+                </span>
+                <span className="bg-ink text-white text-[11px] font-bold px-2 py-0.5 rounded-full font-mono">
+                  {cartCount}
+                </span>
+              </button>
+
+              {isAuthenticated && user ? (
+                <div className="flex items-center justify-between bg-white border border-[#e6e3da] rounded-xl p-2.5 shadow-sm">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <img
+                      src={user.avatar || `https://api.dicebear.com/7.x/bottts/svg?seed=${user.email}`}
+                      alt={user.name}
+                      className="w-7 h-7 rounded-full object-cover shrink-0"
+                    />
+                    <div className="min-w-0">
+                      <p className="font-bold text-xs text-ink truncate">{user.name}</p>
+                      <p className="text-[10px] text-stone-500 truncate">{user.email}</p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => {
+                      setIsMobileMenuOpen(false);
+                      logout();
+                    }}
+                    className="p-1.5 text-stone-400 hover:text-red-600 transition-colors"
+                    title="Cerrar sesión"
+                  >
+                    <LogOut size={15} />
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    openAuthModal('login');
+                  }}
+                  className="w-full flex items-center justify-center gap-2 bg-ink hover:bg-black text-white font-bold text-xs py-2.5 rounded-xl shadow-sm transition-all"
+                >
+                  <UserIcon size={14} />
+                  <span>Iniciar Sesión / Registro</span>
+                </button>
+              )}
             </div>
 
             {/* Drawer Bottom CTA */}

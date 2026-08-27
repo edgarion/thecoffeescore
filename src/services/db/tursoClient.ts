@@ -64,4 +64,51 @@ export async function initTursoSchema(client?: Client): Promise<void> {
     CREATE INDEX IF NOT EXISTS idx_scraped_media_store 
     ON scraped_product_media(source_store);
   `);
+
+  // Create table for registered users
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS users (
+      id TEXT PRIMARY KEY,
+      email TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      name TEXT NOT NULL,
+      avatar TEXT,
+      preferences TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+
+  await db.execute(`
+    CREATE INDEX IF NOT EXISTS idx_users_email 
+    ON users(email);
+  `);
+
+  // Create table for cart items (supports both authenticated users and guest sessions)
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS cart_items (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      product_id TEXT NOT NULL,
+      product_name TEXT NOT NULL,
+      product_image TEXT,
+      selected_store TEXT,
+      store_url TEXT,
+      unit_price REAL NOT NULL,
+      quantity INTEGER NOT NULL DEFAULT 1,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+
+  await db.execute(`
+    CREATE INDEX IF NOT EXISTS idx_cart_user_id 
+    ON cart_items(user_id);
+  `);
+
+  await db.execute(`
+    CREATE INDEX IF NOT EXISTS idx_cart_user_product 
+    ON cart_items(user_id, product_id, selected_store);
+  `);
 }
+

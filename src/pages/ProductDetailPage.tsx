@@ -4,8 +4,9 @@ import { PRODUCTS } from '../data/catalog';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
 import { useComparator } from '../hooks/useComparator';
 import { useFavorites } from '../hooks/useFavorites';
+import { useCart } from '../context/CartContext';
 import { ProductCard } from '../components/product/ProductCard';
-import { GitCompare, Heart } from 'lucide-react';
+import { GitCompare, Heart, ShoppingBag } from 'lucide-react';
 import { CalculateScoreUseCase } from '../core/use-cases/CalculateScoreUseCase';
 
 export const ProductDetailPage: React.FC = () => {
@@ -15,6 +16,8 @@ export const ProductDetailPage: React.FC = () => {
 
   const { addProduct, removeProduct, isInCompare } = useComparator();
   const { toggleFavorite, isFavorite } = useFavorites();
+  const { addItem } = useCart();
+
 
   const inComp = isInCompare(product.id);
   const isFav = isFavorite(product.id);
@@ -114,7 +117,23 @@ export const ProductDetailPage: React.FC = () => {
           <div className="price-note">Precio actualizado y verificado hoy en tiendas oficiales</div>
 
           {/* CTAs */}
-          <div className="detail-cta-row">
+          <div className="detail-cta-row flex flex-wrap gap-2.5 items-center">
+            <button
+              onClick={() => addItem({
+                productId: product.id,
+                productName: `${product.brand} ${product.name}`,
+                productImage: product.image,
+                selectedStore: product.stores?.[0]?.name || product.brand,
+                storeUrl: product.stores?.[0]?.url,
+                unitPrice: product.price,
+                quantity: 1,
+              })}
+              className="btn btn-solid flex items-center gap-2 !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none"
+            >
+              <ShoppingBag size={16} />
+              <span>Añadir a la Cesta</span>
+            </button>
+
             <AffiliateButton
               stores={product.stores}
               productName={product.name}
