@@ -446,3 +446,19 @@ table.compare-table{ width:100%; border-collapse:collapse; min-width:700px; }
   .rating-circle{ width:24px; height:24px; }
   .rating-icon{ font-size:0.6rem; }
 }
+
+/* Leaflet Custom Minimalist Styling */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #f8f6f0;
+}
+.custom-b2b-marker {
+  background: transparent !important;
+  border: none !important;
+}
+.custom-b2b-marker .marker-pill:hover {
+  transform: translate(-50%, -50%) scale(1.08) !important;
+  border-color: #e94e2b !important;
+  box-shadow: 0 6px 16px rgba(233, 78, 43, 0.25) !important;
+}
+
