@@ -158,7 +158,11 @@ export const BARCELONA_SPECIALTY_COFFEES: BarcelonaCoffeeItem[] = [
   }
 ];
 
-export const BarcelonaCoffeeSlider: React.FC = () => {
+interface BarcelonaCoffeeSliderProps {
+  inline?: boolean;
+}
+
+export const BarcelonaCoffeeSlider: React.FC<BarcelonaCoffeeSliderProps> = ({ inline = false }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
 
@@ -178,9 +182,8 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
     }
   };
 
-  return (
-    <section className="wrap py-1">
-      <div className="bg-[#fcfbf9] border border-[#e6e3da] rounded-2xl p-4 sm:p-5 shadow-xs">
+  const inner = (
+    <div className="bg-[#fcfbf9] border border-[#e6e3da] rounded-2xl p-4 sm:p-5 shadow-xs h-full flex flex-col">
         {/* Header Row - Minimal & Compact */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 mb-3.5 pb-2.5 border-b border-[#ece8df]">
           <div>
@@ -245,7 +248,7 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
         {/* Slider Carousel Container - Narrower & Minimal */}
         <div
           ref={scrollRef}
-          className="flex gap-3 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none"
+          className="flex gap-3 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none flex-1"
           style={{ scrollSnapType: 'x mandatory' }}
         >
           {filteredCoffees.map((coffee) => (
@@ -299,7 +302,9 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
-    </section>
+    </div>
   );
+
+  if (inline) return inner;
+  return <section className="wrap py-1">{inner}</section>;
 };
