@@ -126,7 +126,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
                     ? 'bg-[#eef4ff] text-[#2f6fed] border-blue-200 font-bold hover:bg-blue-100'
                     : 'bg-[#f4f2ec] text-[#6b6a63] border-[#e6e3da] hover:bg-stone-200 hover:text-ink'
                 }`}
-                title={`Comprar en ${st.name} por ${st.price} €`}
+                title={`Ver en ${st.name} por ${st.price} €`}
               >
                 {st.name.split(' ')[0]}: {st.price}€
               </a>
@@ -137,39 +137,56 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
 
       {/* Product Bottom */}
       <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between gap-2 mt-auto">
-        <div className="flex flex-col">
-          <div className="flex items-baseline gap-1.5">
-            <span className="font-extrabold text-base sm:text-lg text-ink font-mono">{product.price} €</span>
-            {product.oldPrice && (
-              <span className="text-xs text-[#6b6a63] line-through font-mono">
-                {product.oldPrice} €
-              </span>
-            )}
-          </div>
-          <span className="text-[10px] text-[#2e7d32] font-semibold">
-            {product.stores?.[0]?.isBest ? 'Mejor precio online' : 'En stock'}
-          </span>
-        </div>
+        {(() => {
+          const isAvailable = product.stores?.some(s => s.inStock) && product.specs?.['Disponibilidad'] !== 'Agotado';
+          return (
+            <>
+              <div className="flex flex-col">
+                <div className="flex items-baseline gap-1.5">
+                  <span className="font-extrabold text-base sm:text-lg text-ink font-mono">{product.price} €</span>
+                  {product.oldPrice && (
+                    <span className="text-xs text-[#6b6a63] line-through font-mono">
+                      {product.oldPrice} €
+                    </span>
+                  )}
+                </div>
+                {isAvailable ? (
+                  <span className="text-[10px] text-[#2e7d32] font-semibold">
+                    {product.stores?.[0]?.isBest ? 'Mejor precio online' : 'En stock'}
+                  </span>
+                ) : (
+                  <span className="text-[10px] text-[#d97706] font-semibold">
+                    Agotado de temporada
+                  </span>
+                )}
+              </div>
 
-        <div className="flex items-center gap-1.5">
-          {product.stores && product.stores.length > 0 && (
-            <a
-              href={product.stores[0].url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#2f6fed] hover:bg-[#2055be] text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-all shadow-sm"
-              title={`Comprar directamente en ${product.stores[0].name}`}
-            >
-              Comprar →
-            </a>
-          )}
-          <Link
-            to={`/producto/${product.slug}`}
-            className="border border-[#e6e3da] hover:bg-[#f4f2ec] text-ink text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-colors"
-          >
-            Ficha
-          </Link>
-        </div>
+              <div className="flex items-center gap-1.5">
+                {product.stores && product.stores.length > 0 && (
+                  <a
+                    href={product.stores[0].url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition-all shadow-sm ${
+                      isAvailable
+                        ? 'bg-[#2f6fed] hover:bg-[#2055be] text-white'
+                        : 'bg-stone-800 hover:bg-black text-white'
+                    }`}
+                    title={`Ver en ${product.stores[0].name}`}
+                  >
+                    {isAvailable ? 'Comprar →' : 'Ver tienda ↗'}
+                  </a>
+                )}
+                <Link
+                  to={`/producto/${product.slug}`}
+                  className="border border-[#e6e3da] hover:bg-[#f4f2ec] text-ink text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-colors"
+                >
+                  Ficha
+                </Link>
+              </div>
+            </>
+          );
+        })()}
       </div>
     </div>
   );

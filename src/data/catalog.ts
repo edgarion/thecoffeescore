@@ -91,24 +91,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Portafiltro de 54mm en vez de 58mm","Bandeja de goteo pequeña"],
     specs: {"Caldera / Calentamiento":"ThermoJet (3 segundos)","Portafiltro":"54 mm acero inoxidable","Presión":"15 bar (OPV a 9 bar)","Vaporizador":"Automático con 3 temperaturas y texturas","Capacidad Agua":"1.9 L","Dimensiones":"19.5 x 32 x 31 cm","Peso":"4.95 kg"},
     stores: [
-          {
-                "name": "Amazon",
-                "price": 449,
+      {
+                "name": "Nomad Coffee (España)",
+                "price": 35,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus&tag=thecoffeescore-21",
+                "url": "https://nomadcoffee.es/products/acacia-hills-gesha",
                 "isBest": true
-          },
-          {
-                "name": "MaxiCoffee España",
-                "price": 467,
-                "inStock": true,
-                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Bambino%20Plus"
-          },
-          {
-                "name": "El Corte Inglés",
-                "price": 485,
-                "inStock": true,
-                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Bambino%20Plus"
           }
     ]
   },
@@ -2511,19 +2499,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 280,
+                "price": 32.5,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/acaia-balanza-lunar-para-espresso-negro",
+                "url": "https://nomadcoffee.es/products/aji-las-flores",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 294,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Acaia%20Balanza%20Lunar&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -2625,19 +2606,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 69.5,
+                "price": 23,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/apax-concentrados-minerales",
+                "url": "https://nomadcoffee.es/products/bombe-natural-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 72.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20APAX%20-%20Concentrados%20minerales%20nano%20box&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3005,19 +2979,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 365,
-                "inStock": false,
-                "url": "https://nomadcoffee.es/products/sca-brew-basico",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 383.25,
+                "price": 31,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Brew%20fundamentos&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://nomadcoffee.es/products/chiroso-las-flores",
+                "isBest": true
           }
     ]
   },
@@ -3613,19 +3580,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
                 "price": 14.5,
                 "inStock": true,
                 "url": "https://nomadcoffee.es/products/churupallana",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Churupallana&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3651,19 +3611,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 75,
+                "price": 15,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/consultorio",
+                "url": "https://nomadcoffee.es/products/cuchara-de-cata-x-nomad",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 78.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Consultorio&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3727,19 +3680,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
                 "price": 36,
                 "inStock": true,
                 "url": "https://nomadcoffee.es/products/cuchillo-pa-de-kilo-nomad",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 37.8,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Cuchillo%20Pa%20de%20Kilo%20%26%20Nomad&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3765,19 +3711,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
                 "price": 15,
                 "inStock": true,
                 "url": "https://nomadcoffee.es/products/chambaku-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Descafeinado%20-%20Chambak%C3%BA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3803,19 +3742,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 17,
+                "price": 13.5,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/detergente-cafeteras-cafetto-evo",
+                "url": "https://nomadcoffee.es/products/entre-rios",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Detergente%20cafeteras%20Cafetto%20EVO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3879,19 +3811,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
                 "price": 21,
                 "inStock": true,
                 "url": "https://nomadcoffee.es/products/esperanza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Esperanza&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -3917,19 +3842,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 150,
-                "inStock": true,
-                "url": "https://nomadcoffee.es/products/taller-espresso",
+                "price": 100,
+                "inStock": false,
+                "url": "https://nomadcoffee.es/products/eugenioides",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 157.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20ESPRESSO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -4031,19 +3949,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Nomad Coffee (España)",
-                "price": 100,
+                "price": 70,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/examen-certificado-sca-barista-basico",
+                "url": "https://nomadcoffee.es/products/fellow-stagg-x",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 105,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20EXAMEN%20%2B%20CERTIFICADO%20SCA%20BARISTA%20FUNDAMENTOS&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -4487,19 +4398,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Nomad Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://nomadcoffee.es","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Nomad Coffee (España)",
-                "price": 195,
+      {
+                "name": "Syra Coffee (España)",
+                "price": 13.5,
                 "inStock": true,
-                "url": "https://nomadcoffee.es/products/balanza-de-precision-fellow-tally-pro-studio-edition",
+                "url": "https://syra.coffee/products/atitlan",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 204.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Nomad%20Coffee%20Fellow%20-%20Tally%20Pro%20Studio%20Edition&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -4867,19 +4771,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 125,
+                "price": 16,
                 "inStock": true,
-                "url": "https://syra.coffee/products/specialty-coffee-business-subscription",
+                "url": "https://syra.coffee/products/bahire",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 131.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20B2B%20Monthly%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -4943,19 +4840,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 196,
+                "price": 17.5,
                 "inStock": true,
-                "url": "https://syra.coffee/products/bascula-acaia-pearl",
+                "url": "https://syra.coffee/products/bukonzo-ana",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 205.8,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20B%C3%A1scula%20Acaia%20Pearl&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5133,19 +5023,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://syra.coffee/products/caspulas-brasil",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20C%C3%A1spulas%20Brasil&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5171,19 +5054,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://syra.coffee/products/caspulas-colombia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20C%C3%A1spulas%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5209,19 +5085,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://syra.coffee/products/caspulas-etiopia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20C%C3%A1spulas%20Etiop%C3%ADa&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5247,19 +5116,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 55,
+                "price": 16,
                 "inStock": true,
-                "url": "https://syra.coffee/products/chemex-classic",
+                "url": "https://syra.coffee/products/daniso-horsa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 57.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Chemex%20Classic&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5437,19 +5299,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
                 "price": 45,
                 "inStock": false,
                 "url": "https://syra.coffee/products/decaf-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 47.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Decaf%20Pack&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5475,19 +5330,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
                 "price": 34,
                 "inStock": true,
                 "url": "https://syra.coffee/products/discovery-kit",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 35.7,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Discovery%20Kit&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5513,19 +5361,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 46,
-                "inStock": true,
-                "url": "https://syra.coffee/products/drip-kettle-buono-hario",
+                "price": 53.9,
+                "inStock": false,
+                "url": "https://syra.coffee/products/espresso-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 48.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Drip%20Kettle%20Buono%20-%20Hario&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5627,19 +5468,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 33,
+                "price": 16.5,
                 "inStock": true,
-                "url": "https://syra.coffee/products/bialetti-espumador-de-leche",
+                "url": "https://syra.coffee/products/guama-aa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 34.65,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Espumador%20de%20leche-%20Bialetti&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -5931,19 +5765,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 179,
+                "price": 15,
                 "inStock": true,
-                "url": "https://syra.coffee/products/artisan-electric-kettle-brewista",
+                "url": "https://syra.coffee/products/hewa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 187.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Hervidor%20El%C3%A9ctrico%20Artisan%20-%20Brewista&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -6007,19 +5834,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Syra Coffee (España)",
-                "price": 999,
+                "price": 15,
                 "inStock": true,
-                "url": "https://syra.coffee/products/jura-e6-piano-black",
+                "url": "https://syra.coffee/products/los-rodriguez",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 1048.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Jura%20E6%20Piano%20Black.*&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -6197,19 +6017,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Syra Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://syra.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Syra Coffee (España)",
-                "price": 25,
-                "inStock": true,
-                "url": "https://syra.coffee/products/coffea",
+      {
+                "name": "Right Side Coffee (España)",
+                "price": 11.25,
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/abasambi-natural-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Syra%20Coffee%20Maceta%20-%20Coffea&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -6881,19 +6694,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 11.25,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/abrar-keno-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Abrar%20Keno%20Natural%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -6919,19 +6725,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 35.5,
-                "inStock": true,
-                "url": "https://rightsidecoffee.com/products/aeropress",
+                "price": 30,
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/andres-torres-geisha-natural-filtro-copy",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 37.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20AeroPress&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7185,19 +6984,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 30,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/andres-torres-geisha-natural-filtro",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Andr%C3%A9s%20Torres%20Geisha%20Natural%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7223,19 +7015,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 13.5,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/arturo-aviles-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Arturo%20Avil%C3%A9s%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7261,19 +7046,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 13.5,
+                "price": 24,
                 "inStock": false,
-                "url": "https://rightsidecoffee.com/products/arturo-aviles-filtro",
+                "url": "https://rightsidecoffee.com/products/arturo-paz-geisha-natural-dr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Arturo%20Avil%C3%A9s%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7337,19 +7115,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 15.75,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/arturo-paz-maracaturra-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Arturo%20Paz%20Maracaturra%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7375,19 +7146,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 13.5,
-                "inStock": false,
-                "url": "https://rightsidecoffee.com/products/ausberto-oblitas-espresso-filtro",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
+                "price": 17.5,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Ausberto%20Oblitas%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://rightsidecoffee.com/products/bayetas-de-microfibra-sb",
+                "isBest": true
           }
     ]
   },
@@ -7565,19 +7329,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 13.5,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/benjamin-paz-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Benjam%C3%ADn%20Paz%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7603,19 +7360,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 15.75,
+                "price": 61,
                 "inStock": false,
-                "url": "https://rightsidecoffee.com/products/benjamin-paz",
+                "url": "https://rightsidecoffee.com/products/benjamin-paz-honey-filtro",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Benjam%C3%ADn%20Paz%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7679,19 +7429,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 11.25,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/bernardo-floriano",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Bernardo%20Floriano%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7717,19 +7460,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 13.5,
+                "price": 18,
                 "inStock": false,
-                "url": "https://rightsidecoffee.com/products/bernardo-floriano-filtro",
+                "url": "https://rightsidecoffee.com/products/santa-rosa-honey-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Bernardo%20Floriano%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7793,19 +7529,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 10.23,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/buena-vista-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.74,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Buena%20Vista%20Natural%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7831,19 +7560,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 25,
-                "inStock": true,
-                "url": "https://rightsidecoffee.com/products/limpiador-organico-de-lancetas-1l",
+                "price": 11.25,
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/candelaria-lopez-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Cafetto%20Limpiador%20Org%C3%A1nico%20de%20Lancetas%201L&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -7907,19 +7629,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 5.51,
-                "inStock": true,
-                "url": "https://rightsidecoffee.com/products/capitulo-1-mapa-de-cosechas",
+                "price": 11.25,
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/comunidad-queromarca",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 5.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Cap%C3%ADtulo%201%3A%20Mapa%20de%20cosechas&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8211,19 +7926,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 11.25,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/comunidad-santa-teresa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Comunidad%20Santa%20Teresa%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8249,19 +7957,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 15.75,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/darwin-honey-glory",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Darwin%20Honey%20Glory%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8287,19 +7988,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 15.75,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/darwin-honey-glory-f-2022",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Darwin%20Honey%20Glory%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8325,19 +8019,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 13.5,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/darwin-moreno-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Darwin%20Moreno%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8363,19 +8050,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 18,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/sl28-darwin-moreno-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Darwin%20Moreno%20SL28%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8401,19 +8081,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 18,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/darwin-sl28-filtro",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Darwin%20Moreno%20SL28%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8439,19 +8112,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 15.58,
+                "price": 11.25,
                 "inStock": true,
-                "url": "https://rightsidecoffee.com/products/detergente-cafeteras-cafetto-evo",
+                "url": "https://rightsidecoffee.com/products/el-pacaya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Detergente%20cafeteras%20Cafetto%20EVO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8515,19 +8181,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 30,
                 "inStock": true,
                 "url": "https://rightsidecoffee.com/products/elmer-perez-geisha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Elmer%20P%C3%A9rez%20Geisha%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8553,19 +8212,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 13.5,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/elver-novoa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Elver%20Novoa%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8591,19 +8243,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 13.5,
-                "inStock": true,
-                "url": "https://rightsidecoffee.com/products/elver-novoa-filtro",
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/la-esperanza-nat-mystic-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Elver%20Novoa%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8667,19 +8312,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 15.75,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/cafe-de-navidad-filtro",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Esperanza%20Natural%20Mystic%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8705,19 +8343,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
                 "price": 18,
                 "inStock": false,
                 "url": "https://rightsidecoffee.com/products/esperanza-sl34-natural-mystic",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Esperanza%20SL34%20Natural%20Mystic%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8743,19 +8374,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 99,
-                "inStock": true,
-                "url": "https://rightsidecoffee.com/products/espumador-de-leche-jura",
+                "price": 11.25,
+                "inStock": false,
+                "url": "https://rightsidecoffee.com/products/esther-sampertegui-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 103.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Espumador%20de%20leche%20Jura&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8819,19 +8443,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 11.25,
+                "price": 13.5,
                 "inStock": false,
-                "url": "https://rightsidecoffee.com/products/esther-sampertegui-filtro",
+                "url": "https://rightsidecoffee.com/products/euclides-sierra-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Esther%20Sampertegui%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8895,19 +8512,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Right Side Coffee (España)",
-                "price": 13.5,
+                "price": 11.25,
                 "inStock": false,
-                "url": "https://rightsidecoffee.com/products/euclides-sierra-filtro",
+                "url": "https://rightsidecoffee.com/products/fernando-ardila-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Euclides%20Sierra%20Filtro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -8971,19 +8581,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Right Side Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://rightsidecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
-                "name": "Right Side Coffee (España)",
-                "price": 39.93,
-                "inStock": false,
-                "url": "https://rightsidecoffee.com/products/filtro-jura-claris-pro-smart",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 41.93,
+      {
+                "name": "Three Marks Coffee (España)",
+                "price": 36.9,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Right%20Side%20Coffee%20Filtro%20Jura%20Claris%20Pro%20Smart&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://threemarkscoffee.com/products/1xkg-espresso-blend",
+                "isBest": true
           }
     ]
   },
@@ -9123,19 +8726,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 19.9,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/2x250gr-espresso-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%202x250gr%20Espresso%20Seasonal&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9161,19 +8757,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 26.5,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/2x250gr-espresso-roasters",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%202x250gr%20Espresso%20%E2%80%9CRoaster%E2%80%99s%20Pick%E2%80%9D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9199,19 +8788,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 26.5,
+                "price": 49,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/2x250gr-roasters-pick",
+                "url": "https://threemarkscoffee.com/products/2x2x250gr-espresso-roasters",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%202x250gr%20Filter%20%E2%80%9CRoaster%E2%80%99s%20Pick%E2%80%9D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9275,19 +8857,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 49,
+                "price": 95,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/2x2x250gr-roasters-pick",
+                "url": "https://threemarkscoffee.com/products/3xkg-office-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 51.45,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%202x2x250gr%20Filter%20%E2%80%9CRoaster%E2%80%99s%20Pick%E2%80%9D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9351,19 +8926,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 95,
+                "price": 18.15,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/3xkg-office-filter",
+                "url": "https://threemarkscoffee.com/products/aponte-colombia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 99.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%203Kg%20Office%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9503,19 +9071,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 28,
+                "price": 20.9,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/bialetti-moka-2-cups",
+                "url": "https://threemarkscoffee.com/products/bookkisa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Bialetti%20-%20Moka%202%20cups&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9579,19 +9140,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 22,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/drip-coffee-bags-10u",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Coraz%C3%B3n%20de%20Jes%C3%BAs%20Drip%20Bags%20(10u.)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9617,19 +9171,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 770,
+                "price": 62,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/curso-completo-barista",
+                "url": "https://threemarkscoffee.com/products/colombia-decaf-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 808.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Curso%20Completo%20Barista&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9693,19 +9240,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 9.5,
+                "price": 16,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/capsules-decaf",
+                "url": "https://threemarkscoffee.com/products/dripcoffee-decaf-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20DECAF%20Coffee%20Capsules%2C%20Chabela&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9769,19 +9309,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 30,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/pink-bourbon-diego-vergara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Diego%20Vergara%20Pink%20Bourbon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9807,19 +9340,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 30,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/ecuador-el-alisal",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20El%20Alisal&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9845,19 +9371,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 22,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/iria-ini-kiamwangi",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Iria%E2%80%91Ini%20Kiamwangi&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9883,19 +9402,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 17,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/kamavindi-kamathura",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Kamavindi%20Kamathura&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9921,19 +9433,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 19.5,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/mutana-hill",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.48,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Mutana%20Hill&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9959,19 +9464,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 28,
                 "inStock": false,
                 "url": "https://threemarkscoffee.com/products/drip-pepe-jijon-coffee-bags-10u",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Pepe%20Jijon%20Drip%20Bags%20(10u.)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -9997,19 +9495,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 16.5,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/petalo-solar",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.33,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20P%C3%A9talo%20Solar&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10035,19 +9526,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 13.5,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/santa-clara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Santa%20Clara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10073,19 +9557,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
-                "price": 7.5,
-                "inStock": true,
-                "url": "https://threemarkscoffee.com/products/coffee-capsules-seasonal",
+                "price": 21,
+                "inStock": false,
+                "url": "https://threemarkscoffee.com/products/dip-coffee-bags-3u",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Santa%20Clara%20Coffee%20Capsules&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10263,19 +9740,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Three Marks Coffee (España)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://threemarkscoffee.com/products/sibarist-immersion-dip-coffee-bags-la-pila",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20SIBARIST%20Immersion%20Dip%20Coffee%20Bags%2C%20La%20Pila&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10301,19 +9771,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Three Marks Coffee","País de Origen":"España","Región":"Europa","Tienda Oficial":"https://threemarkscoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Three Marks Coffee (España)",
-                "price": 17,
+      {
+                "name": "The Barn Berlin (Alemania)",
+                "price": 15,
                 "inStock": true,
-                "url": "https://threemarkscoffee.com/products/suscripcion-capsulas-decaf-2-packs",
+                "url": "https://thebarn.de/products/box-of-3-samples",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Three%20Marks%20Coffee%20Suscripcion%20Capsulas%20Decaf%20-%202%20packs&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10605,19 +10068,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 11.9,
                 "inStock": true,
                 "url": "https://thebarn.de/products/a-drop-of-science",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20A%20DROP%20OF%20SCIENCE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10643,19 +10099,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 280,
+                "price": 17.5,
                 "inStock": false,
-                "url": "https://thebarn.de/products/acaia-lunar-scale",
+                "url": "https://thebarn.de/products/andres-ramirez",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 294,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ACAIA%20LUNAR%20SCALE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -10985,19 +10434,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 16,
                 "inStock": false,
                 "url": "https://thebarn.de/products/los-pirineos-pacamara-anaerobic",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.8,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ANNIVERSARY%20COFFEE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11023,19 +10465,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 42,
                 "inStock": false,
                 "url": "https://thebarn.de/products/aroma-nativo-aji",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 44.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20AROMA%20NATIVO%20AJI&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11061,19 +10496,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 42,
                 "inStock": false,
                 "url": "https://thebarn.de/products/aroma-nativo-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 44.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20AROMA%20NATIVO%20GESHA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11099,19 +10527,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 19,
                 "inStock": false,
                 "url": "https://thebarn.de/products/arsosala",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ARSOSALA%20RESERVE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11137,19 +10558,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 16.4,
                 "inStock": true,
                 "url": "https://thebarn.de/products/asman-gayo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ASMAN%20GAYO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11175,19 +10589,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 27.8,
                 "inStock": true,
                 "url": "https://thebarn.de/products/atlas-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.19,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ATLAS%20COFFEE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11213,19 +10620,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 80,
-                "inStock": true,
-                "url": "https://thebarn.de/products/atmos-electric-coffee-canister",
+                "price": 18.5,
+                "inStock": false,
+                "url": "https://thebarn.de/products/banko-gotiti",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20ATMOS%20ELECTRIC%20VACUUM%20CANISTER&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11327,19 +10727,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 265,
-                "inStock": true,
-                "url": "https://thebarn.de/products/baratza-encore-esp-pro",
+                "price": 19.4,
+                "inStock": false,
+                "url": "https://thebarn.de/products/bishan-wate",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 278.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BARATZA%20ENCORE%20ESP%20PRO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11403,19 +10796,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 21.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/bombe-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.58,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BOMBE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11441,19 +10827,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 31.16,
                 "inStock": true,
                 "url": "https://thebarn.de/products/brazil-twin-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 32.72,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BRAZIL%20TWIN%20BOX&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11479,19 +10858,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 24.9,
                 "inStock": false,
                 "url": "https://thebarn.de/products/buena-vista-sidra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BUENA%20VISTA%20SIDRA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11517,19 +10889,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 19.4,
                 "inStock": false,
                 "url": "https://thebarn.de/products/bumba-hill",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.37,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BUMBA%20HILL&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11555,19 +10920,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 15.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/bumba-hill-lot-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BUMBA%20HILL%20LOT%201&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11593,19 +10951,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 19.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/bumba-hill-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.48,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20BUMBA%20HILL%20NATURAL&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11631,19 +10982,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 17.9,
                 "inStock": false,
                 "url": "https://thebarn.de/products/caballero",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CABALLERO&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11669,19 +11013,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 14.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/casa-negra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CASA%20NEGRA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11707,19 +11044,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://thebarn.de/products/cascara-coffee-cherry",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CASCARA%20COFFEE%20CHERRY&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11745,19 +11075,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 15.9,
                 "inStock": true,
                 "url": "https://thebarn.de/products/celso-minussi-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.7,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CELSO%20MINUSSI&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11783,19 +11106,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 37.5,
+                "price": 19.5,
                 "inStock": false,
-                "url": "https://thebarn.de/products/the-barn-ceremonial-matcha",
+                "url": "https://thebarn.de/products/chapadao",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 39.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CEREMONIAL%20MATCHA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11859,19 +11175,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 18.4,
                 "inStock": false,
                 "url": "https://thebarn.de/products/chelbesa-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CHELBESA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11897,19 +11206,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 47.5,
+                "price": 16,
                 "inStock": false,
-                "url": "https://thebarn.de/products/chemex",
+                "url": "https://thebarn.de/products/christmas-coffee-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CHEMEX&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -11973,19 +11275,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 25,
                 "inStock": true,
-                "url": "https://thebarn.de/products/beanie",
+                "url": "https://thebarn.de/products/coffee-discovery-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CLASSIC%20BEANIE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12087,19 +11382,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 240,
-                "inStock": true,
-                "url": "https://thebarn.de/products/comandante-c40-lab-series",
+                "price": 18.5,
+                "inStock": false,
+                "url": "https://thebarn.de/products/corazon-de-jesus-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 252,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20COMANDANTE%20C40%20LAB%20SERIES&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12239,19 +11527,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 42.2,
                 "inStock": true,
                 "url": "https://thebarn.de/products/core-collection",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 44.31,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20CORE%20COLLECTION&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12277,19 +11558,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 27.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/daterra-gesha-aerobic",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DATERRA%20GESHA%20AEROBIC&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12315,19 +11589,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 36.8,
                 "inStock": true,
                 "url": "https://thebarn.de/products/daterra-reserve",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 38.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DATERRA%20RESERVE%20LOW%20CAF&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12353,19 +11620,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 27.8,
                 "inStock": true,
                 "url": "https://thebarn.de/products/balanced-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.19,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DECAF%20BALANCED&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12391,19 +11651,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 32.8,
                 "inStock": true,
                 "url": "https://thebarn.de/products/funky-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 34.44,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DECAF%20FUNKY&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12429,19 +11682,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 30.3,
                 "inStock": true,
                 "url": "https://thebarn.de/products/decaf-coffee-bundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.82,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DECAF%20TWIN%20BOX&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12467,19 +11713,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 22,
                 "inStock": false,
                 "url": "https://thebarn.de/products/diego-horta",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DIEGO%20HORTA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12505,19 +11744,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
-                "price": 10,
-                "inStock": true,
-                "url": "https://thebarn.de/products/gift-card",
+                "price": 18.9,
+                "inStock": false,
+                "url": "https://thebarn.de/products/doi-saket",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DIGITAL%20GIFT%20CARD&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12581,19 +11813,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://thebarn.de/products/plant-a-tree",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DONATE%20A%20TREE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12619,19 +11844,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 17,
                 "inStock": true,
                 "url": "https://thebarn.de/products/drip-bags",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20DRIP%20BAGS&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12657,19 +11875,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 17.9,
                 "inStock": false,
                 "url": "https://thebarn.de/products/earth-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20EARTH%20COFFEE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12695,19 +11906,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 17.5,
                 "inStock": false,
                 "url": "https://thebarn.de/products/el-salitre",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20EL%20SALITRE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12733,19 +11937,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 25,
                 "inStock": false,
                 "url": "https://thebarn.de/products/el-turpial-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20EL%20TURPIAL%20GESHA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12771,19 +11968,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"The Barn Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://thebarn.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "The Barn Berlin (Alemania)",
                 "price": 15,
                 "inStock": false,
                 "url": "https://thebarn.de/products/el-vergel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=The%20Barn%20Berlin%20EL%20VERGEL&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12809,19 +11999,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 24.45,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/the-decaf-project-kaffee-kit-von-mit-james-hoffmann",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.67,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20%22The%20Decaf%20Project%22%20Kaffee%20Kit%20von%20%26%20mit%20James%20Hoffmann&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12847,19 +12030,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 31.93,
                 "inStock": true,
                 "url": "https://19grams.coffee/products/the-fermentation-project-kaffee-kit-von-mit-james-hoffmann",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.53,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20%22The%20Fermentation%20Project%22%20Kaffee%20Kit%20von%20%26%20mit%20James%20Hoffmann&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12885,19 +12061,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 17.04,
                 "inStock": true,
                 "url": "https://19grams.coffee/products/1-hz-decaf-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.89,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%201%20Hz%20Decaf%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12923,19 +12092,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/10-buena-onda-honduras-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2010.%20Buena%20Onda%20-%20Honduras%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12961,19 +12123,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/11-el-limoncillo-nicaragua-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2011.%20El%20Limoncillo%20-%20Nicaragua%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -12999,19 +12154,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 17.04,
                 "inStock": true,
                 "url": "https://19grams.coffee/products/120-hz-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.89,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20120%20Hz%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13037,19 +12185,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/13-barahona-dominikanische-republik-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2013.%20Barahona%20AA%20-%20Dominikanische%20Republik%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13075,19 +12216,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/13-hortigal-estate-panama-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2013.%20Hortigal%20Estate%20%E2%80%93%20Panama%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13113,19 +12247,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 106.77,
-                "inStock": false,
-                "url": "https://19grams.coffee/products/14-barahona-aa-dominikanische-republik-filter",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
+                "price": 15.96,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2014.%20Barahona%20AA%20-%20Dominikanische%20Republik%20Filter&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://19grams.coffee/products/144-hz-espresso",
+                "isBest": true
           }
     ]
   },
@@ -13189,19 +12316,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 39.4,
+                "price": 106.77,
                 "inStock": true,
-                "url": "https://19grams.coffee/products/19grams-logo-dad-cap-klassisch-cool-voller-kaffeepassion",
+                "url": "https://19grams.coffee/products/20-korongo-tansania-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 41.37,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2019grams%20Logo%20Dad%20Cap&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13531,19 +12651,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 18.1,
                 "inStock": true,
                 "url": "https://19grams.coffee/products/24-hz-espresso-winter-edition",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.01,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2024%20Hz%20Espresso%20Winter-Edition&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13569,19 +12682,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 12,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/the-decaf-project-2",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%203%20%7C%20The%20Decaf%20Project%20-%20La%20Virgen%20%E2%80%93%20Swiss%20Water%C2%AE%20Decaf%202&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13607,19 +12713,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 106.77,
-                "inStock": true,
-                "url": "https://19grams.coffee/products/3-kong-que-china-filter",
+                "price": 31.93,
+                "inStock": false,
+                "url": "https://19grams.coffee/products/4llamas-geisha-bolivien-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%203.%20Kong%20Que%20-%20China%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13683,19 +12782,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 12,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/5-lunji-estate-tansania-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%205.%20Lunji%20Estate%20%E2%80%93%20Tansania%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13721,19 +12813,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
-                "url": "https://19grams.coffee/products/6-muxbal-mexiko-filter",
+                "url": "https://19grams.coffee/products/8-huehuetenango-guatemala-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%206.%20Muxbal%20-%20Mexiko%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13835,19 +12920,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 17.09,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/8000watt-xmas-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.94,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%208000watt%20XMAS%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13873,19 +12951,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 106.77,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/9-finca-atzumpa-el-salvador-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 112.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%209.%20Finca%20Atzumpa%20-%20El%20Salvador%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13911,19 +12982,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 19.17,
-                "inStock": true,
-                "url": "https://19grams.coffee/products/90-hz-filter",
+                "price": 20.18,
+                "inStock": false,
+                "url": "https://19grams.coffee/products/a-la-chueng-myanmar-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.13,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%2090%20Hz%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -13987,19 +13051,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 20.18,
+                "price": 16.98,
                 "inStock": false,
-                "url": "https://19grams.coffee/products/a-la-chueng-myanmar-filter",
+                "url": "https://19grams.coffee/products/acidity-made-in-germany-limited-edition-zum-1-april",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.19,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20A%20Lel%20Chaung%20%E2%80%93%20Myanmar%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14139,19 +13196,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 49.01,
+                "price": 19.12,
                 "inStock": true,
-                "url": "https://19grams.coffee/products/aerobie-aeropress",
+                "url": "https://19grams.coffee/products/aponte-kolumbien-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 51.46,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Aerobie%20AeroPress&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14405,19 +13455,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 19.12,
+                "price": 16.98,
                 "inStock": false,
-                "url": "https://19grams.coffee/products/aponte-kolumbien-filter",
+                "url": "https://19grams.coffee/products/bella-vista-kolumbien-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Aponte%20-%20Kolumbien%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14633,19 +13676,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 16.98,
+                "price": 43.67,
                 "inStock": false,
-                "url": "https://19grams.coffee/products/bella-vista-kolumbien-filter",
+                "url": "https://19grams.coffee/products/bella-vista-geisha-kolumbien-rare-filter-jhonothan-gasca",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Bella%20Vista%20-%20Kolumbien%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14709,19 +13745,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 16.98,
                 "inStock": true,
                 "url": "https://19grams.coffee/products/berlin-summer-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Berlin%20Summer%203.0&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14747,19 +13776,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 16.98,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/best-moments-muttertagskaffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20BEST%20MOMents!%20-%20Muttertagskaffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14785,19 +13807,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
                 "price": 21.25,
                 "inStock": false,
                 "url": "https://19grams.coffee/products/kochere-athiopien-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.31,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Biloya%20-%20%C3%84thiopien%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14823,19 +13838,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "19grams Berlin (Alemania)",
-                "price": 21.25,
+                "price": 14.85,
                 "inStock": false,
-                "url": "https://19grams.coffee/products/kochere-athiopien-filter",
+                "url": "https://19grams.coffee/products/blind-guardian-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.31,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Biloya%20-%20%C3%84thiopien%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -14899,19 +13907,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"19grams Berlin","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://19grams.coffee","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "19grams Berlin (Alemania)",
-                "price": 11.64,
+      {
+                "name": "Bonanza Coffee (Alemania)",
+                "price": 17.9,
                 "inStock": true,
-                "url": "https://19grams.coffee/products/bloody-good-bag",
+                "url": "https://bonanzacoffee.de/products/almibar",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=19grams%20Berlin%20Bloody%20Good%20Bag&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15165,19 +14166,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 14.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/bonanza-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.65,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Bonanza%20Blend&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15203,19 +14197,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
-                "price": 47.5,
+                "price": 18.2,
                 "inStock": true,
-                "url": "https://bonanzacoffee.de/products/new-coffee-subscription-copy",
+                "url": "https://bonanzacoffee.de/products/canaris",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Bonanza%20Essentials%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15317,19 +14304,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 18.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/corazon-de-jesus-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Coraz%C3%B3n%20de%20Jesus&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15355,19 +14335,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 13.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/dark-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Dark%20Roast&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15393,19 +14366,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 17.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/das-almas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Das%20Almas&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15431,19 +14397,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 17.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/el-martillo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20El%20Martillo&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15469,19 +14428,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
-                "price": 39.5,
-                "inStock": false,
-                "url": "https://bonanzacoffee.de/products/v60-ceramic-dripper-copy",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 41.48,
+                "price": 19.9,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Gabi%20Master%20Dripper&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://bonanzacoffee.de/products/gichuna-aa",
+                "isBest": true
           }
     ]
   },
@@ -15545,19 +14497,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 17.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/gogogu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Gogogu&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15583,19 +14528,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 18.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/gogogu-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Gogogu%20Decaf&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15621,19 +14559,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 31.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/gogogu-re-use-refill-jar",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Gogogu%20RE-USE%20%26%20REFILL%20JAR&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15659,19 +14590,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
-                "price": 10.9,
+                "price": 18.9,
                 "inStock": true,
-                "url": "https://bonanzacoffee.de/products/kalita-wave-155-filter-papers",
+                "url": "https://bonanzacoffee.de/products/kelloo-siko",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.45,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Kalita%20Filter%20Papers&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15735,19 +14659,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
-                "price": 15,
+                "price": 18.5,
                 "inStock": true,
-                "url": "https://bonanzacoffee.de/products/cotton-bag-black",
+                "url": "https://bonanzacoffee.de/products/sergio-julcarima",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Not%20Your%20Typical%20Cotton%20Bag&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15811,19 +14728,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 24.9,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/shantawene",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20Shantawene&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15849,19 +14759,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 40.3,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/limited",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 42.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20The%20Exceptional%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15887,19 +14790,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Bonanza Coffee (Alemania)",
                 "price": 47,
                 "inStock": true,
                 "url": "https://bonanzacoffee.de/products/the-universal-set",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20The%20Universal%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -15925,19 +14821,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Bonanza Coffee","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://bonanzacoffee.de","Disponibilidad":"Agotado"},
     stores: [
-          {
-                "name": "Bonanza Coffee (Alemania)",
-                "price": 21.9,
-                "inStock": false,
-                "url": "https://bonanzacoffee.de/products/v60-ceramic-dripper-02",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23,
+      {
+                "name": "Five Elephant (Alemania)",
+                "price": 18.22,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Bonanza%20Coffee%20V60%20Ceramic%20Dripper&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.fiveelephant.com/products/brazil-faf-felipe-croce-filter",
+                "isBest": true
           }
     ]
   },
@@ -16647,19 +15536,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
-                "price": 34.37,
+                "price": 15.79,
                 "inStock": true,
-                "url": "https://www.fiveelephant.com/products/cold-brew",
+                "url": "https://www.fiveelephant.com/products/colombian-decaf-omni-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 36.09,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20Cold%20Brew%20-%20ETHIOPIA%20Queen%20Of%20Sheba&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16723,19 +15605,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 26.17,
                 "inStock": true,
                 "url": "https://www.fiveelephant.com/products/colombia-el-filo-geisha-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.48,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20COLOMBIA%20El%20Filo%09Geisha%20%E2%80%93%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16761,19 +15636,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 20.47,
                 "inStock": true,
                 "url": "https://www.fiveelephant.com/products/colombia-la-palma-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20COLOMBIA%20La%20Palma%20%E2%80%93%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16799,19 +15667,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 24.21,
                 "inStock": true,
                 "url": "https://www.fiveelephant.com/products/colombia-la-palma-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20COLOMBIA%20La%20Palma%20%E2%80%93%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16837,19 +15698,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 21.03,
                 "inStock": false,
                 "url": "https://www.fiveelephant.com/products/colombia-la-violeta-pacamara-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20COLOMBIA%20La%20Violeta%20Pacamara%20%E2%80%93%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16875,19 +15729,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 17.29,
                 "inStock": true,
                 "url": "https://www.fiveelephant.com/products/colombia-santa-fe-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20COLOMBIA%20Santa%20Fe%20%E2%80%93%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -16913,19 +15760,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
-                "price": 208.02,
-                "inStock": false,
-                "url": "https://www.fiveelephant.com/products/kopie-von-comandante-c40-mk4",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 218.42,
+                "price": 19.16,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20Comandante%20C40%20MK4&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.fiveelephant.com/products/ethiopia-kello-siko-filter",
+                "isBest": true
           }
     ]
   },
@@ -17065,19 +15905,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
                 "price": 17.29,
                 "inStock": true,
                 "url": "https://www.fiveelephant.com/products/ethiopia-queen-of-sheba-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20ETHIOPIA%20Queen%20Of%20Sheba%20%E2%80%93%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17103,19 +15936,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
-                "price": 493,
+                "price": 38.79,
                 "inStock": true,
-                "url": "https://www.fiveelephant.com/products/everpure-75e-cartridge-kit",
+                "url": "https://www.fiveelephant.com/products/everything-but-espresso-professional-coffee-brewing-techniques",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 517.65,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20Everpure%2075E%20cartridge%20kit&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17179,19 +16005,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Five Elephant (Alemania)",
-                "price": 348.74,
+                "price": 11.68,
                 "inStock": true,
-                "url": "https://www.fiveelephant.com/products/fellow-aiden-brewer",
+                "url": "https://www.fiveelephant.com/products/house-espresso-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 366.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20FELLOW%20Aiden%20Brewer&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17559,19 +16378,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Five Elephant","País de Origen":"Alemania","Región":"Europa","Tienda Oficial":"https://www.fiveelephant.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Five Elephant (Alemania)",
-                "price": 11.68,
+      {
+                "name": "La Cabra (Dinamarca)",
+                "price": 21.95,
                 "inStock": true,
-                "url": "https://www.fiveelephant.com/products/house-blend-filter",
+                "url": "https://lacabra.dk/products/alto-naranjal",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.26,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Five%20Elephant%20House%20%E2%80%93%20Filter%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17749,19 +16561,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 21.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/arbegona",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Arbegona&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17787,19 +16592,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 67.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/bloom-by-paw-gissel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 71.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Bloom%20by%20Paw%20Gissel&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17825,19 +16623,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
-                "price": 6.95,
-                "inStock": true,
-                "url": "https://lacabra.dk/products/cafec-abaca-filter-paper",
+                "price": 28.95,
+                "inStock": false,
+                "url": "https://lacabra.dk/products/equilibrium-bundle-single-serve",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Cafec%20ABACA%20Filter%20Paper&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -17939,19 +16730,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
-                "price": 407.95,
+                "price": 23.95,
                 "inStock": false,
-                "url": "https://lacabra.dk/products/fellow-aiden",
+                "url": "https://lacabra.dk/products/jorge-andrade",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 428.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Fellow%20Aiden%20Coffee%20Maker&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -18471,19 +17255,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
-                "price": 162.95,
+                "price": 21.95,
                 "inStock": true,
-                "url": "https://lacabra.dk/products/k-h-wurtz-aarhus-collection",
+                "url": "https://lacabra.dk/products/kiangoi",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 171.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20K.H.%20W%C3%BCrtz%20Aarhus%20Collection&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -18813,19 +17590,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 20.95,
                 "inStock": true,
-                "url": "https://lacabra.dk/products/kinto-coffee-server",
+                "url": "https://lacabra.dk/products/la-choza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Kinto%20Coffee%20Server&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19231,19 +18001,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 18.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/luna",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Luna&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19269,19 +18032,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 35.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/mineral-drops",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 37.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Mineral%20Drops&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19307,19 +18063,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 57.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/mixedbundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 60.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Mixed%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19345,19 +18094,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 31.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/oma-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.55,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Oma%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19383,19 +18125,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 31.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/oma-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.55,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Oma%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19421,19 +18156,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
-                "price": 48.95,
+                "price": 14.95,
                 "inStock": true,
-                "url": "https://lacabra.dk/products/profiles-subscription",
+                "url": "https://lacabra.dk/products/sagastume-washed-single-serve",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 51.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Profiles%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19611,19 +18339,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 79.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/seasonalbundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 83.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Seasonal%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19649,19 +18370,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
-                "price": 31.95,
+                "price": 15.95,
                 "inStock": true,
-                "url": "https://lacabra.dk/products/sepia-kinto-coffee-server",
+                "url": "https://lacabra.dk/products/shyira-anaerobic-48hr-single-serve",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.55,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Sepia%20Kinto%20Coffee%20Server&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19725,19 +18439,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 14.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/shyira-washed-single-serve",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.7,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Shyira%20Washed%20-%20Single%20Serve&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19763,19 +18470,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "La Cabra (Dinamarca)",
                 "price": 18.95,
                 "inStock": true,
                 "url": "https://lacabra.dk/products/terra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20Terra&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -19801,19 +18501,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"La Cabra","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://lacabra.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "La Cabra (Dinamarca)",
-                "price": 5.95,
+      {
+                "name": "April Coffee (Dinamarca)",
+                "price": 53.47,
                 "inStock": true,
-                "url": "https://lacabra.dk/products/hario-v60-dripper-plastic",
+                "url": "https://aprilcoffeeroasters.com/products/april-filter-sample-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 6.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Cabra%20V60%20Dripper%20-%20Plastic&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -20523,19 +19216,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 16.08,
+                "price": 147.27,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/coffee-subscription",
+                "url": "https://aprilcoffeeroasters.com/products/april-tasting-menu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20April%20Selection%20Coffee%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -20637,19 +19323,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 55.07,
+                "price": 38.19,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/april-thermos",
+                "url": "https://aprilcoffeeroasters.com/products/capsules-el-socorro-natural-maracaturra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 57.82,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20April%20Thermos&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -20903,19 +19582,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 80.27,
+                "price": 6.7,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/bundle-porcelain-pour-over",
+                "url": "https://aprilcoffeeroasters.com/products/el-morito-washed-pacamara-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 84.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Ceramic%20Brewer%20%2B%20Paper%20Filter%20%2B%20250g%20Filter%20Beans&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -20979,19 +19651,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 9.38,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/el-morito-washed-yellow-gesha-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20El%20Morito%20-%20Washed%20Yellow%20Geisha%20-%20Drip%20Pack&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21017,19 +19682,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 9.38,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/el-socorro-washed-geisha-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20El%20Socorro%20-%20Washed%20Geisha%20-%20Drip%20Pack&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21055,19 +19713,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 24.12,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/ethiopia-kayon-mountain-natural-heirloom-organic",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.33,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Ethiopia%20-%20Kayon%20Mountain%20-%20Natural%20Heirloom&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21093,19 +19744,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 6.7,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/fazenda-esperanca-natural-ruby-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.04,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Fazenda%20Esperanca%20-%20Natural%20Ruby%20-%20Drip%20Pack&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21131,19 +19775,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 50.25,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/gesha-village-ethiopia-natural-geisha-oma-142",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 52.76,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Gesha%20Village%20-%20Ethiopia%20-%20Natural%20Geisha%201931%20(Oma%20%23142)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21169,19 +19806,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 86.97,
+                "price": 9.38,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/glass-brewer-paper-filter-250g-filter-beans",
+                "url": "https://aprilcoffeeroasters.com/products/hacienda-la-esmeralda-washed-geisha-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 91.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Glass%20Brewer%20%2B%20Paper%20Filter%20%2B%20250g%20Filter%20Beans&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21245,19 +19875,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 26.8,
+                "price": 25.46,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/house-coffee-subscription",
+                "url": "https://aprilcoffeeroasters.com/products/kamavindi-kenya-washed-mixed-varietals-aa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.14,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20House%20Coffee%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21359,19 +19982,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 26.93,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/kamavindi-kenya-washed-sl34-ab",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Kamavindi%20-%20Kenya%20-%20Washed%20SL34%20(AB)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21397,19 +20013,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
-                "price": 75.04,
+                "price": 18.09,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/plastic-brewer-paper-filter-250g-filter-beans",
+                "url": "https://aprilcoffeeroasters.com/products/sustainable-profile-coffee-colombia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 78.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Plastic%20Brewer%20%2B%20Paper%20Filter%20%2B%20250g%20Filter%20Beans&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21587,19 +20196,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 18.09,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/sustainable-beans",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.99,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Sustainable%20Profile%20Coffee%20-%20Costa%20Rica&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21625,19 +20227,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 22.24,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/sustainable-profile-coffee-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Sustainable%20Profile%20Coffee%20-%20Decaf&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21663,19 +20258,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 20.77,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/copy",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Tadesse%20-%20Ethiopia%20-%20Natural%20Krume%2074158&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21701,19 +20289,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 19.56,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/tadesse-ethiopia-washed-krume-74158",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Tadesse%20-%20Ethiopia%20-%20Washed%20Krume%2074158&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21739,19 +20320,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "April Coffee (Dinamarca)",
                 "price": 8.04,
                 "inStock": true,
                 "url": "https://aprilcoffeeroasters.com/products/tadesse-washed-krume-drip-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.44,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20Tadesse%20-%20Washed%20Krume%20-%20Drip%20Pack&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -21777,19 +20351,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"April Coffee","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://aprilcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "April Coffee (Dinamarca)",
-                "price": 46.23,
+      {
+                "name": "Coffee Collective (Dinamarca)",
+                "price": 62.31,
                 "inStock": true,
-                "url": "https://aprilcoffeeroasters.com/products/april-coffee-poster",
+                "url": "https://coffeecollective.dk/products/daterra-full-bloom-espresso-1kg",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 48.54,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=April%20Coffee%20The%20April%20Poster&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23563,19 +22130,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 20.1,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/daterra-full-bloom-espresso-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Daterra%20Espresso%2C%20250g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23601,19 +22161,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 62.18,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/espresso-blend-1-kg",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 65.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Espresso%20Blend%20-%201%20KG&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23639,19 +22192,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 38.19,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/dk-espresso-blend-esp-4-week-sub",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 40.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Espresso%20Blend%204-week%20(DK)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23677,19 +22223,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 19.43,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/espresso-blend-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Espresso%20Blend%2C%20250g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23715,19 +22254,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 20.77,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/familia-ccapa-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Familia%20Ccapa%2C%20250%20g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23753,19 +22285,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 19.97,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/familia-lizaraso-espresso-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.97,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Familia%20Lizaraso%20Espresso%2C%20250g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23791,19 +22316,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 22.11,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/gichathaini-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Gichathaini%2C%20250g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -23829,19 +22347,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
-                "price": 40.07,
+                "price": 19.56,
                 "inStock": true,
-                "url": "https://coffeecollective.dk/products/god-kaffe-grundbog",
+                "url": "https://coffeecollective.dk/products/kieni-espresso-250g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 42.07,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20God%20Kaffe%20Grundbog&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -24247,19 +22758,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Coffee Collective (Dinamarca)",
                 "price": 21.57,
                 "inStock": true,
                 "url": "https://coffeecollective.dk/products/kieni-250-g",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.65,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Kieni%2C%20250g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -24285,19 +22789,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Coffee Collective","País de Origen":"Dinamarca","Región":"Europa","Tienda Oficial":"https://coffeecollective.dk","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Coffee Collective (Dinamarca)",
-                "price": 18.09,
+      {
+                "name": "Drop Coffee (Suecia)",
+                "price": 12,
                 "inStock": true,
-                "url": "https://coffeecollective.dk/products/large-cup-saucer",
+                "url": "https://www.dropcoffee.com/products/hunkute-sidamo-ethiopia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.99,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Coffee%20Collective%20Large%20cup%20%26%20saucer&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -24741,19 +23238,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/jute-coffee-bags",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Jute%20Coffee%20Sacks&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -24779,19 +23269,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
-                "url": "https://www.dropcoffee.com/products/copy-of-500-server-g",
+                "url": "https://www.dropcoffee.com/products/la-soledad-washed-caturra-guatemala-copy",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Kalita%20500%20Server%20G&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25235,19 +23718,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/las-brumas-honey-sl28",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Las%20Brumas%2C%20WFC%20Honey%20SL28%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25273,19 +23749,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/las-brumas-natural-gesha-el-salvador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Las%20Brumas%2C%20WFC%2C%20Natural%20Gesha%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25311,19 +23780,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/las-brumas-natural-pacamara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Las%20Brumas%2C%20WFC%2C%20Natural%20Pacamara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25349,19 +23811,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/las-brumas-washed-pacamara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Las%20Brumas%2C%20WFC%2C%20Washed%20Pacamara%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25387,19 +23842,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/las-delicias-natural-java-nicaragua",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Las%20Delicias%2C%20Natural%20Java%2C%20Nicaragua&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25425,19 +23873,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/limoncillo-washed-carturra-nicaragua",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Limoncillo%2C%20Washed%20Caturra%2C%20Nicaragua&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25463,19 +23904,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
-                "url": "https://www.dropcoffee.com/products/little-drop-single-brew-kit",
+                "url": "https://www.dropcoffee.com/products/los-altares-anaerobic-natural-caturra-guatemala",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Little%20Drop%3A%20Single%20Brew%20Kit&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25539,19 +23973,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/los-andes-natural-anaerobic-bourbon-el-salvador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Los%20Andes%2C%20Anaerobic%20Natural%20Bourbon%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25577,19 +24004,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/los-andes-washed-sl28-el-salvador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Los%20Andes%2C%20Washed%20SL28%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25615,19 +24035,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
-                "url": "https://www.dropcoffee.com/products/manifest-for-battre-kaffe",
+                "url": "https://www.dropcoffee.com/products/mugaya-aa-kenya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Manifest%20F%C3%B6r%20B%C3%A4ttre%20Kaffe%20av%20Joanna%20Alm%20-%20Signerad%20Bok&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25767,19 +24180,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/san-cayetano-washed-red-bourbon-el-salvador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20San%20Cayetano%2C%20Washed%20Red%20Caturra%2C%20El%20Salvador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25805,19 +24211,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Drop Coffee (Suecia)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.dropcoffee.com/products/drop-coffee-tasting-pack",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20Tasting%20Box&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -25843,19 +24242,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Drop Coffee","País de Origen":"Suecia","Región":"Europa","Tienda Oficial":"https://www.dropcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Drop Coffee (Suecia)",
-                "price": 12,
+      {
+                "name": "Square Mile Coffee (Reino Unido)",
+                "price": 28.78,
                 "inStock": true,
-                "url": "https://www.dropcoffee.com/products/what-i-know-about-growing-a-coffee-business-colin-harmon",
+                "url": "https://shop.squaremilecoffee.com/products/aquiares",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Drop%20Coffee%20What%20I%20Know%20About%20Growing%20a%20Coffee%20Business%20-%20Colin%20Harmon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -26033,19 +24425,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 40.36,
+                "price": 25.15,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/58mm-grouphead-cleaning-tool",
+                "url": "https://shop.squaremilecoffee.com/products/bar-mat-sqm",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 42.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Artpresso%2058mm%20Grouphead%20Cleaning%20Tool&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -26375,19 +24760,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 214.34,
+                "price": 39.9,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/baratza-encore-esp-grinder",
+                "url": "https://shop.squaremilecoffee.com/products/chepsangor",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 225.06,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Baratza%20Encore%20ESP&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -26527,19 +24905,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
                 "price": 28.9,
                 "inStock": true,
                 "url": "https://shop.squaremilecoffee.com/products/choc-ice",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 30.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Choc%20Ice&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -26565,19 +24936,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 32.76,
+                "price": 26.33,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/choc-ice-glass-bundle",
+                "url": "https://shop.squaremilecoffee.com/products/decaf-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 34.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Choc%20Ice%20%26%20Glass%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -27097,19 +25461,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 23.99,
+                "price": 33.81,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/sqm-test-decaf-espresso-subscription",
+                "url": "https://shop.squaremilecoffee.com/products/el-recuerdo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.19,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Decaf%20Espresso%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -27363,19 +25720,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 19.31,
+                "price": 35.68,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/espresso-spoon-set",
+                "url": "https://shop.squaremilecoffee.com/products/fruit-punch",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Espresso%20Spoon%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -27743,19 +26093,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Square Mile Coffee (Reino Unido)",
-                "price": 44.34,
+                "price": 32.88,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/fruit-punch-glass-bundle",
+                "url": "https://shop.squaremilecoffee.com/products/gatura",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 46.56,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Fruit%20Punch%20%26%20Glass%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -27933,19 +26276,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Square Mile Coffee","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://shop.squaremilecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Square Mile Coffee (Reino Unido)",
-                "price": 27.83,
+      {
+                "name": "Origin Coffee Roasters (Reino Unido)",
+                "price": 17.26,
                 "inStock": true,
-                "url": "https://shop.squaremilecoffee.com/products/square-mile-coffee-roasters-gift-card",
+                "url": "https://www.origincoffee.co.uk/products/decaf-coffee-beans",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Square%20Mile%20Coffee%20Gift%20card&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28085,19 +26421,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 7.61,
+                "price": 14.63,
                 "inStock": true,
-                "url": "https://www.origincoffee.co.uk/products/atlas-decaf-coffee-capsules",
+                "url": "https://www.origincoffee.co.uk/products/beija-flor",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.99,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Atlas%20Decaf%20Coffee%20Capsules&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28161,19 +26490,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 27.96,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/calliandra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Calliandra&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28199,19 +26521,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 15.15,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/sail-ship-coffee-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.91,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Caxambu%20%7C%20Shipped%20by%20Sail&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28237,19 +26552,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 14.04,
-                "inStock": false,
-                "url": "https://www.origincoffee.co.uk/products/coffee-capsule-subscription",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.74,
+                "price": 23.54,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Coffee%20Capsule%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.origincoffee.co.uk/products/dor-tan-beaker-speckled-felspar-pink",
+                "isBest": true
           }
     ]
   },
@@ -28427,19 +26735,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 23.54,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/dor-tan-beaker-linen-blue-speckled",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.72,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Dor%20%26%20Tan%20-%20Beaker%20(speckle%20linen%20blue)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28465,19 +26766,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 23.54,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/dor-tan-beaker-white",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.72,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Dor%20%26%20Tan%20-%20Beaker%20(speckle%20matt%20white)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28503,19 +26797,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 23.54,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/dor-tan-beaker-speckle-nori-green",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.72,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Dor%20%26%20Tan%20-%20Beaker%20(speckle%20nori%20green)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28541,19 +26828,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 23.54,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/dor-tan-beaker-spelt-speckled",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.72,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Dor%20%26%20Tan%20-%20Beaker%20(speckle%20spelt)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28579,19 +26859,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 35.33,
+                "price": 24.22,
                 "inStock": true,
-                "url": "https://www.origincoffee.co.uk/products/dor-tan-mug-feldspar-pink",
+                "url": "https://www.origincoffee.co.uk/products/el-paseo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 37.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Dor%20%26%20Tan%20-%20Mug%20(feldspar%20pink)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -28959,19 +27232,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 36.74,
+                "price": 14.63,
                 "inStock": true,
-                "url": "https://www.origincoffee.co.uk/products/espresso-coffee-gift-set",
+                "url": "https://www.origincoffee.co.uk/products/losaltos",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 38.58,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Espresso%20Coffee%20Gift%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -29225,19 +27491,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 17.4,
+                "price": 15.15,
                 "inStock": true,
-                "url": "https://www.origincoffee.co.uk/products/monoware-filter-cup-180ml-chalk",
+                "url": "https://www.origincoffee.co.uk/products/pathfinder",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Monoware%20Filter%20Cup%20(180ml)%20-%20Chalk&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -29681,19 +27940,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 14.63,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/resolute",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Resolute%20%2B%20Fellow%20Series%20One%20Competition%20Entry&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -29719,19 +27971,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 14.63,
                 "inStock": true,
-                "url": "https://www.origincoffee.co.uk/products/espresso-coffee-subscription",
+                "url": "https://www.origincoffee.co.uk/products/stronghold",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Rotating%20Espresso%20Coffee%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30061,19 +28306,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
-                "price": 7.02,
-                "inStock": false,
-                "url": "https://www.origincoffee.co.uk/products/tres-meninas-coffee-capsules",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.37,
+                "price": 16.97,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Tr%C3%AAs%20Meninas%20Coffee%20Capsules&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.origincoffee.co.uk/products/tres-meninas",
+                "isBest": true
           }
     ]
   },
@@ -30137,19 +28375,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 18.43,
                 "inStock": true,
                 "url": "https://www.origincoffee.co.uk/products/umalila",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Umalila&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30175,19 +28406,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Origin Coffee Roasters","País de Origen":"Reino Unido","Región":"Europa","Tienda Oficial":"https://www.origincoffee.co.uk","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Origin Coffee Roasters (Reino Unido)",
                 "price": 18.66,
                 "inStock": false,
                 "url": "https://www.origincoffee.co.uk/products/verdant-x-origin-burnthouse-coffee-porter-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.59,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Origin%20Coffee%20Roasters%20Verdant%20x%20Origin%20Burnthouse%20Coffee%20Porter%202025&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30213,19 +28437,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 82.8,
                 "inStock": true,
                 "url": "https://onyxcoffeelab.com/products/bro-were-a-tech-startup",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 86.94,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20%22Bro%2C%20we're%20a%20tech%20startup...%22&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30251,19 +28468,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 52.44,
                 "inStock": true,
                 "url": "https://onyxcoffeelab.com/products/that-one-time-in-italy",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 55.06,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20%22That%20one%20time%20in%20Italy...%22&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30289,19 +28499,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 253,
-                "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/productred-gift-subscription-12-months",
+                "price": 202.4,
+                "inStock": false,
+                "url": "https://onyxcoffeelab.com/products/2025-advent-calendar",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 265.65,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20(PRODUCT)RED%20-%20Gift%20Subscription%20-%2012%20months&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30593,19 +28796,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 12,
-                "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/30-oz-stainless-steel-malt-cup-batch-brew-dosing",
+                "price": 10.12,
+                "inStock": false,
+                "url": "https://onyxcoffeelab.com/products/51-dark-milk-mocha-monarch",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%2030%20oz%20Stainless%20Steel%20Malt%20Cup%20(Batch%20Brew%20Dosing)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30707,19 +28903,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 10.12,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/52-ecuador-dark-milk",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%2052%25%20Ecuador%20%7C%20Dark%20Milk&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30745,19 +28934,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 10.12,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/colombia-62-peanut-sesame",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%2062%25%20Colombia%20%7C%20Peanut%20%26%20Sesame&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30783,19 +28965,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 10.12,
                 "inStock": false,
-                "url": "https://onyxcoffeelab.com/products/64-vietnam-spicy-fiji",
+                "url": "https://onyxcoffeelab.com/products/69-madagascar-dark-chocolate",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%2064%25%20Vietnam%20%7C%20Spicy%20Fiji&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30859,19 +29034,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 10.12,
                 "inStock": false,
-                "url": "https://onyxcoffeelab.com/products/70-tanzania-dark",
+                "url": "https://onyxcoffeelab.com/products/77-ecuador-dark",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%2070%25%20Tanzania%20%7C%20Dark%20%26%20Lemon%20Crunch&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -30973,19 +29141,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 60.63,
+                "price": 10.12,
                 "inStock": false,
-                "url": "https://onyxcoffeelab.com/products/7oz-bodega-glass",
+                "url": "https://onyxcoffeelab.com/products/86-peru-dark",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 63.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%207oz%20Bodega%20Glass&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31087,19 +29248,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 138,
+                "price": 154.56,
                 "inStock": false,
-                "url": "https://onyxcoffeelab.com/products/acaia-pearl-coffee-scale-1",
+                "url": "https://onyxcoffeelab.com/products/adventurous-collection",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 144.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Acaia%20Pearl%20Coffee%20Scale&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31467,19 +29621,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 9.15,
-                "inStock": false,
-                "url": "https://onyxcoffeelab.com/products/aeropress-filters",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.61,
+                "price": 23,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20AeroPress%20Filters&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://onyxcoffeelab.com/products/aiding-survivors",
+                "isBest": true
           }
     ]
   },
@@ -31657,19 +29804,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 27.6,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/all-made-up",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20All%20Made%20Up&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31695,19 +29835,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 25.76,
-                "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/allegedly-sipping-carter-move",
+                "price": 23,
+                "inStock": false,
+                "url": "https://onyxcoffeelab.com/products/anhydrobiosis",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Allegedly%20Sipping%20Carter%20Move&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31771,19 +29904,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 9.2,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/animal-collective-collaboration",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Animal%20Collective&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31809,19 +29935,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 32.2,
-                "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/arrows-shirt",
+                "price": 23,
+                "inStock": false,
+                "url": "https://onyxcoffeelab.com/products/august-burns-red",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Arrows%20Shirt&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31885,19 +30004,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 36.8,
+                "price": 10.35,
                 "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/aydin-pocket-tee",
+                "url": "https://onyxcoffeelab.com/products/balanced",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 38.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Aydin%20Pocket%20Tee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -31961,19 +30073,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
-                "price": 183.95,
+                "price": 15.26,
                 "inStock": true,
-                "url": "https://onyxcoffeelab.com/products/baratza-encore-esp",
+                "url": "https://onyxcoffeelab.com/products/baristas-choice",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 193.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Baratza%20Encore%E2%84%A2%20ESP&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32227,19 +30332,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 197.8,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/benjamin-paz-coe-box-set",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 207.69,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Benjamin%20Paz%20CoE%20%231%20-%20Roasters%20Collab%20Box%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32265,19 +30363,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Onyx Coffee Lab","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://onyxcoffeelab.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Onyx Coffee Lab (Estados Unidos)",
                 "price": 154.56,
                 "inStock": false,
                 "url": "https://onyxcoffeelab.com/products/best-sellers-collection",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 162.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Onyx%20Coffee%20Lab%20Best%20Seller's%20Collection&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32303,19 +30394,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 48.71,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/elida-estate-green-tip-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 51.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202018%20The%20Lamastus%20Family%3B%20Elida%20Estate%2C%20Green%20Tip%20Gesha%20-%20Panama&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32341,19 +30425,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/bitalina",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Bitalina%20Lopez%3B%20Finca%20Bitalina%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32379,19 +30456,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 21.11,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/gaaki-aa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.17,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Gaaki%3B%20AA%20Separation%20-%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32417,19 +30487,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/gakuyu-ini-ab",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Gakuyu-ini%3B%20AB%20Separation%20-%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32455,19 +30518,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 32.15,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/oma-plot",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.76,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Gesha%20Village%3B%20Oma%20Plot%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32493,19 +30549,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/halo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Halo%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32531,19 +30580,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/harbegona",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Harbegona%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32569,19 +30611,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-mirador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Jose%20Canacue%3B%20Finca%20El%20Mirador%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32607,19 +30642,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 20.19,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/kiunyu-ab",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Kiunyu%3B%20AB%20Separation%20-%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32645,19 +30673,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/kota",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Kota%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32683,19 +30704,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/la-plata",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20La%20Plata%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32721,19 +30735,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/mas-morenos-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Mario%20Moreno%3B%20Mas%20Morenos%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32759,19 +30766,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/piedras-amarillas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Mario%20Moreno%3B%20Piedras%20Amarillas%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32797,19 +30797,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/ugo-begne-forest",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202019%20Ugo%20Begne%20Forest%3B%20Feku%20Jabril%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32835,19 +30828,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 27.55,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/reina-de-saba",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.93,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Alejandro%20Renjifo%3B%20Reina%20De%20Saba%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32873,19 +30859,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/angamaza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Angel%20Capa%20Carrion%3B%20Angamaza%20-%20Ecuador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32911,19 +30890,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/asefa-dukamo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Asefa%20Dukamo%3B%20Qunqna%20%232%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32949,19 +30921,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/benti-nenka",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Benti%20Nenka%3B%20Guduba%20Wet%20Mill%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -32987,19 +30952,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/biftu-gudina",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Biftu%20Gudina%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33025,19 +30983,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/finca-bitalina",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Bitalina%20Lopez%3B%20Finca%20Bitalina%2C%20Early%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33063,19 +31014,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/finca-bitalina-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Bitalina%20Lopez%3B%20Finca%20Bitalina%2C%20Late%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33101,19 +31045,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/buesaco",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Buesaco%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33139,19 +31076,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 20.19,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/flor-del-cafe",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Carlos%20Barrantes%3B%20Flor%20del%20Cafe%20-%20Costa%20Rica&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33177,19 +31107,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/villa-maria",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Carmen%20Aragon%3B%20Villa%20Maria%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33215,19 +31138,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/los-andes",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Crecencio%20Izaguirre%3B%20Los%20Andes%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33253,19 +31169,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/buena-vista",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Damian%20Bola%C3%B1os%3B%20Buena%20Vista%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33291,19 +31200,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/danche-lot-8",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Danche%3B%20Lot%20%238%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33329,19 +31231,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-campo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Daniel%20Moreno%3B%20El%20Campo%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33367,19 +31262,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/dolmin-moreno-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Dolmin%20Moreno%3B%20La%20Quebrada%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33405,19 +31293,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/liquidamber",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Dolmin%20Moreno%3B%20Liquidamber%20-%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33443,19 +31324,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 20.19,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/lugmapata-mejorado",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Enrique%20Merino%3B%20Lugmapata%2C%20Mejorado%2C%20Early%20-%20Ecuador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33481,19 +31355,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/lugmapata-mejorado-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Enrique%20Merino%3B%20Lugmapata%2C%20Mejorado%2C%20Late%20-%20Ecuador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33519,19 +31386,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 21.11,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/lugmapata-sidra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.17,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Enrique%20Merino%3B%20Lugmapata%2C%20Sidra%2C%20Early%20-%20Ecuador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33557,19 +31417,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/lugmapata-sidra-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Enrique%20Merino%3B%20Lugmapata%2C%20Sidra%2C%20Late%20-%20Ecuador&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33595,19 +31448,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-paraiso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Ernedis%20Rodriguez%3B%20El%20Para%C3%AFso%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33633,19 +31479,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/la-esperanza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Esnaider%20Ortega%3B%20La%20Esperanza%2C%20Early%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33671,19 +31510,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/la-esperanza-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Esnaider%20Ortega%3B%20La%20Esperanza%2C%20Late%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33709,19 +31541,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/samarcanda",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Fidel%20Rojas%3B%20Samarcanda%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33747,19 +31572,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/flor-milena",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Flor%20Milena%3B%20Finca%20Danny%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33785,19 +31603,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/san-gabriel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Gabriel%20Chura%3B%20San%20Gabriel%20-%20Bolivia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33823,19 +31634,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/gatomboya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Gatomboya%20-%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33861,19 +31665,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/giakanja-aa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Giakanja%3B%20AA%20Separation%20-%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33899,19 +31696,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 32.15,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/hacienda-la-esmeralda-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.76,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Hacienda%20La%20Esmeralda%3B%20Buenos%20Aires%204N%2C%20Gesha%2C%20Natural%20-%20Panama&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33937,19 +31727,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 40.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/hacienda-la-esmeralda-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 42.45,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Hacienda%20La%20Esmeralda%3B%20Coronado%2041%2C%20Gesha%2C%20Washed%20-%20Panama&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -33975,19 +31758,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/halo-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Halo%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34013,19 +31789,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/bensa-logita",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Heleanna%20Georgalis%3B%20Bensa%20Logita%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34051,19 +31820,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/harbegona-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Heleanna%20Georgalis%3B%20Harbegona%20-%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34089,19 +31851,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/gitwe-hill",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Heza%3B%20Gitwe%20Hill%20-%20Burundi&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34127,19 +31882,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 16.51,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/las-pulgas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Ivan%20Molano%3B%20Las%20Pulgas%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34165,19 +31913,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/jacob-regelado",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jacob%20Regelado%20-%20Peru&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34203,19 +31944,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-placer-castillo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jesus%20Antonio%20Saavedra%3B%20El%20Placer%2C%20Castillo%2C%20Early%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34241,19 +31975,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-placer-castillo-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jesus%20Antonio%20Saavedra%3B%20El%20Placer%2C%20Castillo%2C%20Late%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34279,19 +32006,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 19.27,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-placer-red-caturra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.23,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jesus%20Antonio%20Saavedra%3B%20El%20Placer%2C%20Red%20Caturra%2C%20Early%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34317,19 +32037,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/el-placer-red-caturra-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jesus%20Antonio%20Saavedra%3B%20El%20Placer%2C%20Red%20Caturra%2C%20Late%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34355,19 +32068,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/finca-danny-mitaca",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jhon%20Wilson%20Poveda%3B%20Finca%20Danny%2C%20Early%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34393,19 +32099,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 18.35,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/finca-danny-2020",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jhon%20Wilson%20Poveda%3B%20Finca%20Danny%2C%20Late%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34431,19 +32130,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Sey Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://seycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Sey Coffee (Estados Unidos)",
                 "price": 17.43,
                 "inStock": false,
                 "url": "https://seycoffee.com/products/sierra-morena",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.3,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sey%20Coffee%202020%20Jose%20Alba%3B%20Sierra%20Morena%20-%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34469,19 +32161,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 69,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/2024-competition-coffee-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 72.45,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%202024%20Competition%20Coffee%20Box&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34507,19 +32192,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 64.4,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/2025-b-w-advent-calendar",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 67.62,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%202025%20B%26W%20Advent%20Calendar&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34545,19 +32223,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-andres-cardona-purple-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Andres%20Cardona%20-%20Purple%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34583,19 +32254,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-angelica-fajardo-bioinnovation-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Angelica%20Fajardo%20-%20Bioinnovation%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34621,19 +32285,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-aponte-village-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Aponte%20Village%20-%20%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34659,19 +32316,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-aricha-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Aricha%20-%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34697,19 +32347,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 27.6,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-arturo-paz-coe-7",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Arturo%20Paz%20-%20COE%20%237&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34735,19 +32378,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-arturo-paz-itacayo-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Arturo%20Paz%20-%20Itacayo%20Gesha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34773,19 +32409,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-arturo-paz-washed-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Arturo%20Paz%20-%20Washed%20Gesha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34811,19 +32440,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-aurelio-villatoro-pacamara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Aurelio%20Villatoro%20-%20Pacamara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -34849,19 +32471,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
-                "price": 12,
-                "inStock": true,
-                "url": "https://blackwhiteroasters.com/products/cowboy-patch",
+                "price": 25.76,
+                "inStock": false,
+                "url": "https://blackwhiteroasters.com/products/r-baolian-lychee-peach-advanced",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20B%26W%20Cowboy%20Patch&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35267,19 +32882,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
-                "price": 31.28,
-                "inStock": true,
-                "url": "https://blackwhiteroasters.com/products/barista-series-oat-case",
+                "price": 25.76,
+                "inStock": false,
+                "url": "https://blackwhiteroasters.com/products/r-basha-bekele-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 32.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Barista%20Series%20Cases&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35343,19 +32951,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bekele-belachew-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bekele%20Belachew%20-%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35381,19 +32982,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bekele-belachew-anaerobic-white-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bekele%20Belachew%20-%20Anaerobic%20White%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35419,19 +33013,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bekele-belaycho-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bekele%20Belaycho%20-%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35457,19 +33044,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 27.6,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-anaerobic-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Anaerobic%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35495,19 +33075,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 29.44,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/benjamin-paz-drd-natural-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 30.91,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20DRD%20Natural%20Gesha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35533,19 +33106,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 16.79,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-la-salsa-sl28",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20La%20Salsa%20SL28&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35571,19 +33137,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-natural-bourbon",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Natural%20Bourbon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35609,19 +33168,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-red-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Red%20Bourbon%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35647,19 +33199,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 32.2,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-salad",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Salad&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35685,19 +33230,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 41.4,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-salad-set-benjamin-paz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 43.47,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Salad%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35723,19 +33261,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 32.2,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-sl28-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20SL28%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35761,19 +33292,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 32.2,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-sl28-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20SL28%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35799,19 +33323,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 32.2,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-sl28-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20SL28%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35837,19 +33354,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 13.8,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-washed-gesha-oct-2024",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20-%20Washed%20Gesha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35875,19 +33385,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 197.8,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-benjamin-paz-coe-1-roasters-collab-box-set",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 207.69,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Benjamin%20Paz%20CoE%20%231%20-%20Roasters%20Collab%20Box%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35913,19 +33416,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 10.12,
                 "inStock": true,
                 "url": "https://blackwhiteroasters.com/products/bespoke-white-label",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bespoke%20White%20Label&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35951,19 +33447,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bombe-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bombe%20-%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -35989,19 +33478,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bombe-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bombe%20-%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36027,19 +33509,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 33.12,
                 "inStock": true,
                 "url": "https://blackwhiteroasters.com/products/w-bouquet-tisane-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 34.78,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bouquet%20%7C%20Tisane%20Blend&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36065,19 +33540,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 16.79,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-boutet-natural-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Boutet%20-%20Natural%20Gesha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36103,19 +33571,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bowicha-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bowicha%20-%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36141,19 +33602,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-brayan-alvear-fruity-flowers",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Brayan%20Alvear%20-%20Fruity%20Flowers&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36179,19 +33633,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-brayan-alvear-lemon-bourbon",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Brayan%20Alvear%20-%20Lemon%20Bourbon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36217,19 +33664,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-bwishaza-cm-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Bwishaza%20-%20CM%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36255,19 +33695,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-carlos-plazas-cinnamon-anaerobic",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Carlos%20Plazas%20-%20Cinnamon%20Anaerobic&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36293,19 +33726,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-carlos-plazas-cinnamon-pink-bourbon",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Carlos%20Plazas%20-%20Cinnamon%20Pink%20Bourbon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36331,19 +33757,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-carlos-plazas-decoy-barrel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Carlos%20Plazas%20-%20Decoy%20Barrel&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36369,19 +33788,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-chachagui-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Chachag%C3%BCi%20-%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36407,19 +33819,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
-                "price": 38.64,
-                "inStock": true,
-                "url": "https://blackwhiteroasters.com/products/w-champagne-long-kou-oolong",
+                "price": 23.92,
+                "inStock": false,
+                "url": "https://blackwhiteroasters.com/products/r-christmas-in-july",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 40.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Champagne%20Long%20Kou%20%7C%20Oolong&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36483,19 +33888,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 17.02,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/christmas-in-july-instant-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.87,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Christmas%20in%20July%20-%20Instant%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36521,19 +33919,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 12.14,
                 "inStock": true,
                 "url": "https://blackwhiteroasters.com/products/coffee-is-for-humans",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Coffee%20is%20for%20Humans&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36559,19 +33950,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Black & White Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://blackwhiteroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Black & White Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://blackwhiteroasters.com/products/r-corazon-de-jesus-reposado-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Black%20%26%20White%20Coffee%20Corazon%20De%20Jesus%20-%20Reposado%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36597,19 +33981,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 35.88,
+                "price": 17.48,
                 "inStock": true,
-                "url": "https://counterculturecoffee.com/products/12-month-gift-subscription",
+                "url": "https://counterculturecoffee.com/products/12oz-year-round-blends",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 37.67,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%2012%20Month%20Gift%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36711,19 +34088,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 16.1,
-                "inStock": true,
-                "url": "https://counterculturecoffee.com/products/gift-subscription-3-month",
+                "price": 35.88,
+                "inStock": false,
+                "url": "https://counterculturecoffee.com/products/abel-salinas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.91,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%203%20Month%20Gift%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36825,19 +34195,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/alto-ihuamaca",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Alto%20Ihuamaca&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36863,19 +34226,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 18.4,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/apollo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Apollo&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36901,19 +34257,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/arnulfo-dias-pacamara-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Arnulfo%20D%C3%ADas%20%E2%80%93%20Pacamara%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36939,19 +34288,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/asuvim",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20ASUVIM&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -36977,19 +34319,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 41.4,
+                "price": 17.94,
                 "inStock": true,
-                "url": "https://counterculturecoffee.com/products/awakening-black-candle",
+                "url": "https://counterculturecoffee.com/products/big-trouble",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 43.47,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Awakening%20Candle%20%E2%80%93%20in%20collaboration%20with%20Bright%20Black.&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37091,19 +34426,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/bijao",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Bijao&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37129,19 +34457,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/birthday-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Birthday%20Blend&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37167,19 +34488,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 32.2,
-                "inStock": true,
-                "url": "https://counterculturecoffee.com/products/blend-box-subscription",
+                "price": 26.68,
+                "inStock": false,
+                "url": "https://counterculturecoffee.com/products/borderlands",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Blend%20Box%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37243,19 +34557,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/borderlands-microlot",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Borderlands%20Microlot&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37281,19 +34588,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 18.4,
-                "inStock": true,
-                "url": "https://counterculturecoffee.com/products/throwback-logo-diner-mug-10oz",
+                "price": 21.16,
+                "inStock": false,
+                "url": "https://counterculturecoffee.com/products/buchiro-2",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Brett's%20Diner%20Mug&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37357,19 +34657,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/buchiro-natural-sundried",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Buchiro%20%E2%80%93%20Natural%20Sundried&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37395,19 +34688,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/buliza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Buliza&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37433,19 +34719,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/buliza-dark-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Buliza%20Dark%20Roast&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37471,19 +34750,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 94.76,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/bulk-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 99.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Bulk%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37509,19 +34781,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/burera",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Burera&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37547,19 +34812,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/cafenor-pacamara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Caf%C3%A9Nor%20Pacamara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37585,19 +34843,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/cinco-de-junio",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Cinco%20de%20Junio&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37623,19 +34874,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 12,
+                "price": 33.12,
                 "inStock": true,
-                "url": "https://counterculturecoffee.com/products/coffee-driven-magnet",
+                "url": "https://counterculturecoffee.com/products/cold-coffee-bundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Coffee%20Driven%20Magnet&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37851,19 +35095,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/cold-hearted",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Cold%20Hearted&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37889,19 +35126,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/concepcion-huista",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Concepci%C3%B3n%20Huista&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -37927,19 +35157,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
-                "price": 9.2,
-                "inStock": true,
-                "url": "https://counterculturecoffee.com/products/counter-culture-gift-card",
+                "price": 21.16,
+                "inStock": false,
+                "url": "https://counterculturecoffee.com/products/cueva-de-los-llanos-2",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Counter%20Culture%20Coffee%20Digital%20Gift%20Card&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38003,19 +35226,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 27.6,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/cueva-de-los-llanos-pink-bourbon",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Cueva%20de%20los%20Llanos%20%E2%80%93%20Pink%20Bourbon%20Variety&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38041,19 +35257,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/dambi-udo-natural-sundried",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Dambi%20Udo%20%E2%80%93%20Natural%20Sundried&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38079,19 +35288,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/damian-espinoza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Damian%20Espinoza&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38117,19 +35319,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/damian-espinoza-natural-sundried",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Damian%20Espinoza%20%E2%80%93%20Natural%20Sundried&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38155,19 +35350,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/decaf-idido",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Decaf%20Idido&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38193,19 +35381,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/decaf-k-uychi",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Decaf%20K%E2%80%99uychi&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38231,19 +35412,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/decaf-urcunina",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Decaf%20Urcunina&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38269,19 +35443,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 24.84,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/duromina",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Duromina&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38307,19 +35474,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 22.08,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/el-batan",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.18,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20El%20Batan&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38345,19 +35505,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 25.76,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/el-buen-pastor",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20El%20Buen%20Pastor&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38383,19 +35536,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 30.36,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/eladio-chamba-anaerobic-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.88,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Eladio%20Chamba%20-%20Anaerobic%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38421,19 +35567,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/equilibrium",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Equilibrium&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38459,19 +35598,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/esgar-fernandez",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Esgar%20Fernandez&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38497,19 +35629,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 37.72,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/eudis-orosco-gesha-variety",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 39.61,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Eudis%20Orosco%20-%20Gesha%20Variety&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38535,19 +35660,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 18.4,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/even-keel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Even%20Keel%20Half-Caff&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38573,19 +35691,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 17.94,
                 "inStock": true,
                 "url": "https://counterculturecoffee.com/products/fast-forward-12oz-bag",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Fast%20Forward&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38611,19 +35722,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/field-trip",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Field%20Trip&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38649,19 +35753,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/finca-aurora-anaerobic-java",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Finca%20Aurora%20%E2%80%93%20Anaerobic%20Java&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38687,19 +35784,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/finca-el-puente",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Finca%20El%20Puente&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38725,19 +35815,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Counter Culture Coffee","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://counterculturecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Counter Culture Coffee (Estados Unidos)",
                 "price": 29.44,
                 "inStock": false,
                 "url": "https://counterculturecoffee.com/products/finca-el-puente-gesha-variety",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 30.91,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Counter%20Culture%20Coffee%20Finca%20El%20Puente%20-%20Gesha%20Variety&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38763,19 +35846,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://www.vervecoffee.com/products/2-in-1-coffee-scoop-clip",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%202-in-1%20Coffee%20Scoop%20Clip&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38801,19 +35877,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
-                "price": 230,
-                "inStock": true,
-                "url": "https://www.vervecoffee.com/products/acaia-lunar-scale",
+                "price": 25.76,
+                "inStock": false,
+                "url": "https://www.vervecoffee.com/products/amparo-maya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 241.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Acaia%20Lunar%20Scale&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38953,19 +36022,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.53,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/amparo-maya-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Amparo%20Maya%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -38991,19 +36053,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.99,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/chachagui-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Chachag%C3%BC%C3%AD%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39029,19 +36084,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/jose-martinez-guzman",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Jose%20Martinez%20Guzman&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39067,19 +36115,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.61,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/mujeres-de-cafe",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Mujeres%20De%20Cafe&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39105,19 +36146,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 27.6,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/nursery-project-chiroso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Nursery%20Project%20Chiroso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39143,19 +36177,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/yacuanquer",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Colombia%20Yacuanquer&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39181,19 +36208,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/el-vendaval-archive",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20El%20Vendaval&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39219,19 +36239,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.61,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/el-yasal",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20El%20Yasal&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39257,19 +36270,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/esperanza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Esperanza&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39295,19 +36301,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.46,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/finca-macho",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Finca%20Macho&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39333,19 +36332,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/francisco-mena",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Francisco%20Mena&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39371,19 +36363,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.46,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/granitos-de-ortiz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Granitos%20de%20Ortiz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39409,19 +36394,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/la-obediencia-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20La%20Obediencia%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39447,19 +36425,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/montes-de-oro",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Montes%20de%20Oro&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39485,19 +36456,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/sumava-lactico",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Costa%20Rica%20Sumava%20Lactico&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39523,19 +36487,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/benjamin-garcia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20El%20Salvador%20Benjamin%20Garcia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39561,19 +36518,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/adorsi",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Adorsi&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39599,19 +36549,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.3,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/guji-anasora-natural-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Anasora%20Natural%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39637,19 +36580,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.99,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/ayla-bombe",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Ayla%20Bombe&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39675,19 +36611,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/banko-taratu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Banko%20Taratu&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39713,19 +36642,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.3,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/bekele-belaycho-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Bekele%20Belaycho%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39751,19 +36673,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.99,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/bekele-yutute",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Bekele%20Yutute&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39789,19 +36704,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.46,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/biftu-gudina-archive",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Biftu%20Gudina&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39827,19 +36735,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/buku-alaka",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Buku%20Alaka&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39865,19 +36766,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/buriso-amaje-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Buriso%20Amaje%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39903,19 +36797,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/dobenawicho",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Dobenawicho&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39941,19 +36828,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/duromina-soe",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Duromina%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -39979,19 +36859,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.53,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/gogogu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Gogogu&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40017,19 +36890,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/goro-muda",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Goro%20Muda&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40055,19 +36921,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.99,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/habtamu-fikadu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Habtamu%20Fikadu&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40093,19 +36952,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.3,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/idido",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Idido&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40131,19 +36983,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/kayon-mountain-archive",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Kayon%20Mountain&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40169,19 +37014,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/mate-matiwos-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Mate%20Matiwos%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40207,19 +37045,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/musa-abalulesa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Musa%20Abalulesa&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40245,19 +37076,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/abakeno",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Mustefa%20Abakeno&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40283,19 +37107,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.84,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/shakiso-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Shakiso%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40321,19 +37138,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 25.99,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/tuke-yute-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Tuke%20Yute%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40359,19 +37169,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/wanja-kersa-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Wanja%20Kersa%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40397,19 +37200,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/worka",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Ethiopia%20Worka&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40435,19 +37231,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.46,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/bella-vista",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Bella%20Vista&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40473,19 +37262,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.61,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/hunapu",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Hunapu&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40511,19 +37293,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/jacinto-domingo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Jacinto%20Domingo&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40549,19 +37324,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/mujeres-de-huehue",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Mujeres%20de%20Huehue&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40587,19 +37355,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/petrona-perez",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Petrona%20Perez&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40625,19 +37386,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.69,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/santa-clara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.87,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Santa%20Clara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40663,19 +37417,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/sierra-de-las-minas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Guatemala%20Sierra%20de%20las%20Minas&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40701,19 +37448,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.69,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/arturo-paz-pacamara",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.87,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20Arturo%20Paz%20Pacamara&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40739,19 +37479,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/arturo-paz-pacas",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20Arturo%20Paz%20Pacas&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40777,19 +37510,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 23.46,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/baide",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.63,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20Baide&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40815,19 +37541,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.15,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/denilson-madrid",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20Denilson%20Madrid&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40853,19 +37572,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 26.45,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/el-portillo-natural-parainema",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.77,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20El%20Portillo%20Natural%20Parainema&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40891,19 +37603,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Verve Coffee Roasters","País de Origen":"Estados Unidos","Región":"Norteamérica","Tienda Oficial":"https://www.vervecoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Verve Coffee Roasters (Estados Unidos)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://www.vervecoffee.com/products/jorge-lanza",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Verve%20Coffee%20Roasters%20Archive%3A%20Honduras%20Jorge%20Lanza&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -40929,19 +37634,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 28.56,
-                "inStock": false,
-                "url": "https://monogramcoffee.com/products/aeropress",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 29.99,
+                "price": 21.42,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Aeropress&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://monogramcoffee.com/products/candy-blast",
+                "isBest": true
           }
     ]
   },
@@ -41119,19 +37817,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 21.42,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/candy-blast-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Candy%20Blast%20Decaf%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41157,19 +37848,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 15.98,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/carmen-estate",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.78,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Carmen%20Estate&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41195,19 +37879,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 15.98,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/carmen-estate-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.78,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Carmen%20Estate%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41233,19 +37910,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 13.6,
+                "price": 17.68,
                 "inStock": true,
-                "url": "https://monogramcoffee.com/products/cascara",
+                "url": "https://monogramcoffee.com/products/daterra-full-gravity",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Cascara%20(Coffee%20Fruit%20Peel%20Tea)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41651,19 +38321,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 17.68,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/daterra-full-gravity-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.56,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Daterra%20Full%20Gravity%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41689,19 +38352,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 30.26,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/deborah-terroir-2",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 31.77,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Deborah%20Terroir&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41727,19 +38383,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 33.92,
+                "price": 17,
                 "inStock": true,
-                "url": "https://monogramcoffee.com/products/dreamy-low-no-cafs-subscription",
+                "url": "https://monogramcoffee.com/products/easy-mode",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 35.62,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Dreamy%20Low%20%2F%20No%20Cafs%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41955,19 +38604,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 17,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/easy-mode-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Easy%20Mode%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -41993,19 +38635,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 25.84,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/el-saman",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.13,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20El%20Sam%C3%A1n&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42031,19 +38666,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 25.84,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/el-saman-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.13,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20El%20Sam%C3%A1n%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42069,19 +38697,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 68,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/espresso-brewing-nov-27-2024",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 71.4,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Espresso%20Brewing&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42107,19 +38728,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 155.72,
-                "inStock": false,
-                "url": "https://monogramcoffee.com/products/fellow-ekg-variable-temperature-kettle",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 163.51,
+                "price": 25.16,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Fellow%20EKG%20Variable%20Temperature%20Kettle&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://monogramcoffee.com/products/hojicha",
+                "isBest": true
           }
     ]
   },
@@ -42563,19 +39177,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 23.12,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/jairo-arcila-cherry",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Jairo%20Arcila%20Cherry&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42601,19 +39208,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 23.12,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/jairo-arcila-cherry-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.28,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Jairo%20Arcila%20Cherry%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42639,19 +39239,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 18.02,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/jairo-arcila-washed",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.92,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Jairo%20Arcila%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42677,19 +39270,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 18.02,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/jairo-arcila-washed-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.92,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Jairo%20Arcila%20Washed%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42715,19 +39301,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 12.85,
+                "price": 13.94,
                 "inStock": true,
-                "url": "https://monogramcoffee.com/products/kalita-filters",
+                "url": "https://monogramcoffee.com/products/la-laguneta-2",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 13.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Kalita%20Filters%20(fits%20Kalita%20185%20brewer)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42829,19 +39408,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 13.94,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/la-laguneta-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20La%20Laguneta%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42867,19 +39439,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 19.04,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/london-fog",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.99,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20London%20Fog%20200g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42905,19 +39470,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 20.4,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/los-rodriguez-caturra",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Los%20Rodriguez&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42943,19 +39501,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 20.4,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/los-rodriguez-caturra-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Los%20Rodriguez%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -42981,19 +39532,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 25.16,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/los-rodriguez-java",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Los%20Rodriguez%20Java&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43019,19 +39563,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 25.16,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/los-rodriguez-java-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 26.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Los%20Rodriguez%20Java%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43057,19 +39594,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
-                "price": 17,
-                "inStock": false,
-                "url": "https://monogramcoffee.com/products/loveramics-coffee-dripper",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.85,
+                "price": 19.04,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Loveramics%20Pourover%20Dripper%20%2B%20Stand&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://monogramcoffee.com/products/luis-choquehuanca-washed-caturra",
+                "isBest": true
           }
     ]
   },
@@ -43133,19 +39663,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Monogram Coffee (Canadá)",
                 "price": 19.04,
                 "inStock": true,
                 "url": "https://monogramcoffee.com/products/luis-choquehuanca-washed-caturra-espresso",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.99,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Luis%20Choquehuanca%20Espresso&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43171,19 +39694,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Monogram Coffee","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://monogramcoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Monogram Coffee (Canadá)",
-                "price": 31.28,
+      {
+                "name": "Pilot Coffee Roasters (Canadá)",
+                "price": 15.61,
                 "inStock": true,
-                "url": "https://monogramcoffee.com/products/maccha",
+                "url": "https://www.pilotcoffeeroasters.com/products/academy-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 32.84,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Monogram%20Coffee%20Maccha%2040g&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43323,19 +39839,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 47.57,
+                "price": 19.72,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/aeropress",
+                "url": "https://www.pilotcoffeeroasters.com/products/ana-sora-ethiopia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20AeroPress%20-%20Clear%20%26%20Colours&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43513,19 +40022,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 18.19,
                 "inStock": true,
                 "url": "https://www.pilotcoffeeroasters.com/products/anahi-brazil",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Anahi%20%E2%80%93%20Brazil&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43551,19 +40053,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 25.84,
-                "inStock": false,
-                "url": "https://www.pilotcoffeeroasters.com/products/arabica-tee",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.13,
+                "price": 18.19,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Arabica%20Tee&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.pilotcoffeeroasters.com/products/catalan-red-bourbon-guatemala",
+                "isBest": true
           }
     ]
   },
@@ -43893,19 +40388,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 16.15,
                 "inStock": true,
                 "url": "https://www.pilotcoffeeroasters.com/products/catalyst-decaf-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.96,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Catalyst%20Blend%20%E2%80%93%20Decaf&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -43931,19 +40419,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 47.6,
+                "price": 17.51,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/chemex",
+                "url": "https://www.pilotcoffeeroasters.com/products/community-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Chemex&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44197,19 +40678,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 14.93,
                 "inStock": true,
                 "url": "https://www.pilotcoffeeroasters.com/products/community-instant-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Community%20Instant%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44235,19 +40709,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 19.72,
-                "inStock": false,
-                "url": "https://www.pilotcoffeeroasters.com/products/notneutral-cortado-glass",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.71,
+                "price": 18.19,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Cortado%20Glass%20%E2%80%93%20NotNeutral&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://www.pilotcoffeeroasters.com/products/feature-espresso",
+                "isBest": true
           }
     ]
   },
@@ -44425,19 +40892,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 10.2,
+                "price": 15.61,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/gift-cards",
+                "url": "https://www.pilotcoffeeroasters.com/products/heritage-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.71,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Gift%20Cards&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44501,19 +40961,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 14.93,
                 "inStock": false,
                 "url": "https://www.pilotcoffeeroasters.com/products/heritage-instant-coffee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Heritage%20Instant%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44539,19 +40992,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 9.52,
+                "price": 19.38,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/kalita-103-4-filters",
+                "url": "https://www.pilotcoffeeroasters.com/products/kii-kenya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Kalita%20103%20%234%20Filters&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44767,19 +41213,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 18.19,
                 "inStock": true,
                 "url": "https://www.pilotcoffeeroasters.com/products/kunjin-papua-new-guinea",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Kunjin%20%E2%80%93%20Papua%20New%20Guinea&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44805,19 +41244,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 19.38,
                 "inStock": true,
                 "url": "https://www.pilotcoffeeroasters.com/products/las-palmas-colombia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Las%20Palmas%20'Espresso'%20%E2%80%93%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44843,19 +41275,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 60.52,
+                "price": 15.61,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/lotus-water-complete-set",
+                "url": "https://www.pilotcoffeeroasters.com/products/monument-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 63.55,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Lotus%20Water%20Complete%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -44995,19 +41420,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 54.4,
                 "inStock": false,
                 "url": "https://www.pilotcoffeeroasters.com/products/nanofoam-milk-frother",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 57.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Nanofoam%20Milk%20Frother%20%E2%80%93%20Subminimal&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -45033,19 +41451,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
                 "price": 18.19,
                 "inStock": false,
                 "url": "https://www.pilotcoffeeroasters.com/products/nantic-mexico",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.1,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Nantic%20%E2%80%93%20Mexico&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -45071,19 +41482,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 22.1,
+                "price": 6.77,
                 "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/nitro-cold-brew",
+                "url": "https://www.pilotcoffeeroasters.com/products/elderberry-hibiscus",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 23.21,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Nitro%20Cold%20Brew%20Coffee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -45185,19 +41589,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Pilot Coffee Roasters","País de Origen":"Canadá","Región":"Norteamérica","Tienda Oficial":"https://www.pilotcoffeeroasters.com","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Pilot Coffee Roasters (Canadá)",
-                "price": 6.77,
-                "inStock": true,
-                "url": "https://www.pilotcoffeeroasters.com/products/organic-gut-feeling-tea",
+      {
+                "name": "Kurasu Kyoto (Japón)",
+                "price": 12,
+                "inStock": false,
+                "url": "https://kurasu.kyoto/products/coffee-deodorizer-pot",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 7.11,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Pilot%20Coffee%20Roasters%20Organic%20Gut%20Feeling%20Tea&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -45983,19 +42380,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": true,
-                "url": "https://kurasu.kyoto/products/coffee-measure-spoon-by-ishii-koji-walnut-wood",
+                "url": "https://kurasu.kyoto/products/colombia-hermides-meneses-light-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Coffee%20Measure%20Spoon%20by%20Ishii%20Koji%20%5BWalnut%20wood%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46173,19 +42563,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://kurasu.kyoto/products/colombia-nestor-lassomedium-light-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Colombia%20Nestor%20Lasso%5BMedium-light%20roast%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46211,19 +42594,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
-                "inStock": false,
-                "url": "https://kurasu.kyoto/products/cups-by-sohei-yamamoto",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Cups%20by%20Sohei%20Yamamoto&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://kurasu.kyoto/products/gl-daibo-replacement-flannel-small",
+                "isBest": true
           }
     ]
   },
@@ -46363,19 +42739,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": false,
                 "url": "https://kurasu.kyoto/products/el-salvador-emerson-vasquez-pacamara-light-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20El%20Salvador%20Emerson%20Vasquez%20Pacamara%20%5BLight%20Roast%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46401,19 +42770,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://kurasu.kyoto/products/ethiopia-sidamo-decaf-medium-roast-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Ethiopia%20Sidamo%20Decaf%20%5BMedium%20roast%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46439,19 +42801,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://kurasu.kyoto/products/fairfield-dark-dark-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Fairfield%20Dark%20%5BDark%20Roast%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46477,19 +42832,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Kurasu Kyoto (Japón)",
                 "price": 12,
                 "inStock": true,
                 "url": "https://kurasu.kyoto/products/fairfield-medium-medium-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20Fairfield%20Medium%20%5BMedium%20Roast%5D&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -46515,19 +42863,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Kurasu Kyoto","País de Origen":"Japón","Región":"Asia / Oceanía","Tienda Oficial":"https://kurasu.kyoto","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Kurasu Kyoto (Japón)",
-                "price": 12,
+      {
+                "name": "Proud Mary Coffee (Australia)",
+                "price": 21.57,
                 "inStock": true,
-                "url": "https://kurasu.kyoto/products/flo",
+                "url": "https://proudmarycoffee.com/products/copy-of-picnmix-single-origin",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Kurasu%20Kyoto%20FLO%20Dripper%20(VARIA%20X%20KURASU%20KYOTO)&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -47769,19 +44110,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
-                "price": 5.37,
-                "inStock": true,
-                "url": "https://proudmarycoffee.com/products/10-tip",
+                "price": 13.17,
+                "inStock": false,
+                "url": "https://proudmarycoffee.com/products/esmeralda-geisha-noria-no-1-100gms",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 5.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20%2410&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -47883,19 +44217,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 23.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/100g-tin-panama-la-esmeralda-panama-la-esmeralda-noria-3-geisha-washed-filter",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.17,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20100g%20Jar%3A%20Panama%20%7C%20La%20Esmeralda%20Noria%201%20%7C%20Geisha%20%7C%20Washed%20%7C%20Filter&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -47921,19 +44248,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 18.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/100g-jar-auromar-geisha-panama",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20100gm%20%7C%20Panama%20'Auromar'%20Geisha%20%7C%20Washed&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -47959,19 +44279,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
-                "price": 258.57,
-                "inStock": false,
-                "url": "https://proudmarycoffee.com/products/12-month-blend-gift-subscription",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 271.5,
+                "price": 19.17,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%2012%20Month%20%7C%20Blend%20%7C%20Gift%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://proudmarycoffee.com/products/angel-wings",
+                "isBest": true
           }
     ]
   },
@@ -48643,19 +44956,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
-                "price": 31.77,
-                "inStock": true,
-                "url": "https://proudmarycoffee.com/products/atx-sweatshirt",
+                "price": 112.77,
+                "inStock": false,
+                "url": "https://proudmarycoffee.com/products/benjamin-paz-coe-1-roasters-collab-box-set",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.36,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20ATX%20Sweatshirt&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48719,19 +45025,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 13.17,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/bolivia-finca-roque-red-catuai-typica-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 13.83,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BOLIVIA%20%7C%20Finca%20Roque%20%7C%20Red%20Catuai%20%26%20Typica%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48757,19 +45056,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.37,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-author-coffee-project-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20Brazil%20%7C%20Author%20Coffee%20Project%20%7C%20Natural%20Anaerobic%2036hr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48795,19 +45087,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 10.17,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-bom-jardim-yellow-catuai-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Bom%20Jardim%20%7C%20Yellow%20Catuai%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48833,19 +45118,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 10.17,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-bom-jardim-yellow-catuai-yellow-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Bom%20Jardim%20%7C%20Yellow%20Catuai%20%7C%20Yellow%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48871,19 +45149,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-cachoeira-da-grama-yellow-bourbon-anaerobic-fermentation",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Cachoeira%20da%20Grama%20%7C%20Yellow%20Bourbon%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48909,19 +45180,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 9.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-coqueiro-cocarive-auction-lot-4-yellow-catuai-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Coqueiro%20%7C%20Cocarive%20Auction%20Lot%234%20%7C%20Yellow%20Catuai%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48947,19 +45211,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 10.17,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-coqueiro-yellow-catucai-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Coqueiro%20%7C%20Yellow%20Catucai%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -48985,19 +45242,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 10.77,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-coqueiro-yellow-catucai-fermented-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.31,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Coqueiro%20%7C%20Yellow%20Catucai%20%7C%20Fermented%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49023,19 +45273,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-da-prata-catucai-pulped-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20da%20Prata%20%7C%20Catuca%C3%AD%20%7C%20Pulped%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49061,19 +45304,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-engenho-farm-yellow-bourbon-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20do%20Engenho%20%7C%20Yellow%20Bourbon%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49099,19 +45335,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-alta-gracia-yellow-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20IP%20-%20Alta%20Gracia%20%7C%20Yellow%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49137,19 +45366,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 12.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-paraiso-yellow-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 13.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Paraiso%20%7C%20Yellow%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49175,19 +45397,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 10.77,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-pedra-preta-cocarive-auction-lot-2-acaia-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.31,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Pedra%20Preta%20%7C%20Cocarive%20Auction%20Lot%232%20%7C%20Acaia%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49213,19 +45428,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 12.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-santa-lucia-2nd-place-cocarive-auction-yellow-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 13.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Santa%20Lucia%20%7C%202nd%20Place%20Cocarive%20Auction%20%7C%20Yellow%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49251,19 +45459,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 9.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-santa-rosa-red-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Santa%20Rosa%20%7C%20Red%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49289,19 +45490,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 11.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-santuario-sul-geisha-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Santuario%20Sul%20%7C%20Geisha%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49327,19 +45521,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 12.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-fazenda-um-yellow-bourbon-anaerobic-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 13.2,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Fazenda%20Um%20%7C%20Yellow%20Bourbon%20%7C%20Anaerobic%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49365,19 +45552,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 19.17,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-granja-sao-francisco-cocarive-auction-1-yellow-bourbon-pulped-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.13,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Granja%20S%C4%81o%20Francisco%20%7C%20Cocarive%20Auction%20%231%20%7C%20Yellow%20Bourbon%20%7C%20Pulped%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49403,19 +45583,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.37,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-de-minas-mixed-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Mantiqueira%20de%20Minas%20%7C%20Mixed%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49441,19 +45614,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 6.57,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-pulp-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 6.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20Brazil%20%7C%20Mantiqueira%20De%20Minas%20%7C%20Pulp%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49479,19 +45645,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.37,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-lot-2-yellow-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Mantiqueira%20de%20Minas%20%7C%20Yellow%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49517,19 +45676,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.37,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-lot-1-yellow-bourbon-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Mantiqueira%20Lot%20%231%20%7C%20Yellow%20Bourbon%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49555,19 +45707,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 7.77,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-mixed-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.16,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Mantiqueira%20%7C%20Mixed%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49593,19 +45738,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Proud Mary Coffee","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://proudmarycoffee.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Proud Mary Coffee (Australia)",
                 "price": 8.97,
                 "inStock": false,
                 "url": "https://proudmarycoffee.com/products/brazil-mantiqueira-yellow-bourbon-yellow-catuai-natural",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Proud%20Mary%20Coffee%20BRAZIL%20%7C%20Mantiqueira%20%7C%20Yellow%20Bourbon%20%26%20Yellow%20Catuai%20%7C%20Natural&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49631,19 +45769,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Market Lane (Australia)",
                 "price": 16.8,
                 "inStock": true,
                 "url": "https://marketlane.com.au/products/adorsi-filter-beans",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Adorsi&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -49669,19 +45800,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Market Lane (Australia)",
-                "price": 47.4,
+                "price": 15,
                 "inStock": true,
-                "url": "https://marketlane.com.au/products/aeropress-coffee-maker",
+                "url": "https://marketlane.com.au/products/coffee-drip-bags-san-antonio-decaf",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 49.77,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Aeropress%20Coffee%20Maker&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -50239,19 +46363,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Market Lane (Australia)",
                 "price": 15,
                 "inStock": true,
                 "url": "https://marketlane.com.au/products/coffee-drip-bags-santa-isabel",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Coffee%20Drip%20Bags%20%E2%80%93%20Santa%20Isabel&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -50277,19 +46394,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Market Lane (Australia)",
-                "price": 9.6,
+                "price": 25.8,
                 "inStock": true,
-                "url": "https://marketlane.com.au/products/coffee-flower-tea",
+                "url": "https://marketlane.com.au/products/espresso-coffee-bundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.08,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Coffee%20Flower%20Tea&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -50543,19 +46653,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Market Lane (Australia)",
-                "price": 414,
+                "price": 19.2,
                 "inStock": true,
-                "url": "https://marketlane.com.au/products/fellow-ode-gen-2-brew-grinder",
+                "url": "https://marketlane.com.au/products/lomaverde-filter-beans",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 434.7,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Fellow%20Ode%20Gen%202%20Brew%20Grinder&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -51531,19 +47634,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Market Lane","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://marketlane.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Market Lane (Australia)",
+      {
+                "name": "Seven Seeds (Australia)",
                 "price": 18,
-                "inStock": true,
-                "url": "https://marketlane.com.au/products/cupping-spoon",
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/asman-arianto-indonesia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Market%20Lane%20Market%20Lane%20Cupping%20Spoon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -51835,19 +47931,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 12,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/bag-clip",
+                "price": 17.4,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/basha-bekele-ethiopia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Bag%20Clip&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -51911,19 +48000,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 16.8,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/bbb-tote",
+                "price": 15,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/bekele-belaycho-ethiopia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20BBB%20Tote&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -51987,19 +48069,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 10.8,
+                "price": 9,
                 "inStock": true,
-                "url": "https://sevenseeds.com.au/products/birdsnake-drinking-chocolate-200g",
+                "url": "https://sevenseeds.com.au/products/coffee-drip-bags",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.34,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Birdsnake%20Drinking%20Chocolate&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52101,19 +48176,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 18,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/cold-filter-cask",
+                "price": 15,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/el-conjuro-peru-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Cold%20Filter%20Cask&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52177,19 +48245,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 16.8,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/el-limoncillo-javanica-nicaragua",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20El%20Limoncillo%20Javanica%2C%20Nicaragua&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52215,19 +48276,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 15.6,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/el-suspiro-nicaragua",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20El%20Suspiro%2C%20Nicaragua&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52253,19 +48307,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 17.4,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/elias-sanchez-gayoso-peru",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Elias%20Sanchez%20Gayoso%2C%20Peru&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52291,19 +48338,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 23.4,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/evin-moreno-geisha-honduras-2526",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Evin%20Moreno%20Geisha%2C%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52329,19 +48369,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 16.8,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/evin-moreno-esp-honduras",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Evin%20Moreno%2C%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52367,19 +48400,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 15,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/f-bomb-filter-blend",
+                "price": 17.4,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/faustino-flores-benegas-peru-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20F.%20Bomb%20Filter%20Blend&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52443,19 +48469,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 419.4,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/fellow-aiden-precision-coffee-brewer",
+                "price": 53.4,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/finca-takesi-geisha-bolivia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 440.37,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Fellow%20Aiden%20Precision%20Coffee%20Brewer&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52519,19 +48538,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 27,
+                "price": 12.6,
                 "inStock": true,
-                "url": "https://sevenseeds.com.au/products/fly-high-chai-1l-bottle",
+                "url": "https://sevenseeds.com.au/products/golden-gate-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Fly%20High%20Chai%201L%20Bottle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52671,19 +48683,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 12,
-                "inStock": false,
-                "url": "https://sevenseeds.com.au/products/hario-v60-filters",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
                 "price": 12.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Hario%20V60%20Filter%20Papers&tag=thecoffeescore-21",
-                "isBest": false
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/irmas-pereira-natural-brazil",
+                "isBest": true
           }
     ]
   },
@@ -52785,19 +48790,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 18,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/kieni-kenya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Kieni%2C%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52823,19 +48821,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 19.2,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/kii-kenya-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.16,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Kii%2C%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52861,19 +48852,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 16.2,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/lester-marquez-honduras",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.01,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Lester%20Marquez%2C%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52899,19 +48883,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 16.8,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/maria-reyes-honduras-2526",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Maria%20Reyes%2C%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52937,19 +48914,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 14.4,
                 "inStock": true,
                 "url": "https://sevenseeds.com.au/products/matambo-decaf-colombia",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Matambo%2C%20Decaf%2C%20Colombia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -52975,19 +48945,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 15.6,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/mushonyi-rwanda-2026",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 16.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Mushonyi%2C%20Rwanda&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53013,19 +48976,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 15,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/mustefa-abalulessa-ethiopia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 15.75,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Mustefa%20Abalulessa%2C%20Ethiopia&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53051,19 +49007,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 17.4,
                 "inStock": true,
                 "url": "https://sevenseeds.com.au/products/mwendi-estate-aa-kenya",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Mwendi%20%20Estate%20AA%2C%20Kenya&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53089,19 +49038,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 18,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/ongoing-coffee-subscription-cold-filter-coffee-2l-cask",
+                "price": 18.6,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/orlando-aguilar-el-salvador",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Ongoing%20Coffee%20Subscription%20-%20Cold%20Filter%20Coffee%202L%20Cask&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53393,19 +49335,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 21,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/pom-pom-beanie",
+                "price": 16.8,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/praxadez-lopez-mexico",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Pom%20Pom%20Beanie&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53469,19 +49404,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 75.6,
-                "inStock": true,
-                "url": "https://sevenseeds.com.au/products/prepaid-subscription-espresso-blend",
+                "price": 18,
+                "inStock": false,
+                "url": "https://sevenseeds.com.au/products/putra-gayo-indonesia-2025",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 79.38,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Prepaid%20Coffee%20Subscription%20-%20Espresso%20Blend&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53621,19 +49549,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 21,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/ratnagiri-estate-india",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Ratnagiri%20Estate%2C%20India&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53659,19 +49580,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
-                "price": 18,
+                "price": 29.4,
                 "inStock": false,
-                "url": "https://sevenseeds.com.au/products/copy-of-super-fast-pocket-thermometer",
+                "url": "https://sevenseeds.com.au/products/santa-lucia-gesha-honduras-2026",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.9,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Rhino%20Coffee%20Gear%20Pocket%20Scale-%201kg&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53735,19 +49649,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 23.4,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/santa-lucia-yellow-pacamara-honduras-2026",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.57,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Santa%20Lucia%20Yellow%20Pacamara%2C%20Honduras&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53773,19 +49680,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 17.4,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/santuario-sul-bourbon-300-brazil",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.27,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Santuario%20Sul%20Bourbon%2C%20Brazil&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53811,19 +49711,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Seven Seeds (Australia)",
                 "price": 27,
                 "inStock": false,
                 "url": "https://sevenseeds.com.au/products/santuario-sul-geisha-brazil",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Santuario%20Sul%20Geisha%2C%20Brazil&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -53849,19 +49742,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Seven Seeds","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://sevenseeds.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Seven Seeds (Australia)",
-                "price": 21,
+      {
+                "name": "Single O (Australia)",
+                "price": 9.57,
                 "inStock": true,
-                "url": "https://sevenseeds.com.au/products/seven-seeds-bold-tee",
+                "url": "https://singleo.com.au/products/awol",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Seven%20Seeds%20Seven%20Seeds%20Bold%20Tee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54267,19 +50153,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 13.77,
+                "price": 28.77,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/beanie",
+                "url": "https://singleo.com.au/products/blend-taster-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 14.46,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Beanie&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54343,19 +50222,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 8.37,
+                "price": 10.77,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/blendrunner-subscription-3",
+                "url": "https://singleo.com.au/products/burundi-mubuga",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20BLENDRUNNER%20SUBSCRIPTION&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54647,19 +50519,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 8.37,
+                "price": 11.37,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/canned-oat-iced-latte",
+                "url": "https://singleo.com.au/products/chute-blend-parachutes",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20CANNED%20OAT%20ICED%20LATTE&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54799,19 +50664,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
                 "price": 17.37,
                 "inStock": true,
                 "url": "https://singleo.com.au/products/beans-chutes-milky-bundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.24,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Chutes%20%26%20Beans%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54837,19 +50695,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 9.57,
+                "price": 8.37,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/clockwork-origin-subscription-ongoing",
+                "url": "https://singleo.com.au/products/collider",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Clockwork%20Origins%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -54913,19 +50764,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 37.77,
+                "price": 10.77,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/collider-2-months-prepaid-subscription",
+                "url": "https://singleo.com.au/products/costa-rica-la-minita-by-hacienda-la-minita",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 39.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Collider%202%20Months%20Prepaid%20Subscription&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55027,19 +50871,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
                 "price": 11.37,
                 "inStock": true,
                 "url": "https://singleo.com.au/products/costa-rica-la-minita-parachutes",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.94,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20COSTA%20RICA%20LA%20MINITA%20PARACHUTES%20DRIP%20COFFEE%20BAGS&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55065,19 +50902,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 8.97,
+                "price": 10.17,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/crew-socks-stefan-hunt",
+                "url": "https://singleo.com.au/products/ethiopia-gara-agena",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Crew%20Socks%20-%20Stefan%20Hunt&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55255,19 +51085,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
                 "price": 11.37,
                 "inStock": true,
                 "url": "https://singleo.com.au/products/ethiopia-gara-agena-parachutes",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 11.94,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20ETHIOPIA%20GARA%20AGENA%20PARACHUTES%20DRIP%20COFFEE%20BAGS&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55293,19 +51116,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 10.17,
+                "price": 17.37,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/filter-show",
+                "url": "https://singleo.com.au/products/killer-combo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.68,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20FILTER%20SHOW&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55635,19 +51451,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
                 "price": 8.37,
                 "inStock": true,
                 "url": "https://singleo.com.au/products/killerbee",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 8.79,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Killerbee&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -55673,19 +51482,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
-                "price": 37.77,
+                "price": 11.37,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/killerbee-2-months-prepaid-subscription-gift",
+                "url": "https://singleo.com.au/products/multichutes-mixed-box-of-chutes",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 39.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20Killerbee%202%20Months%20Prepaid%20Subscription%20Gift&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56091,19 +51893,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Single O (Australia)",
                 "price": 17.37,
                 "inStock": true,
                 "url": "https://singleo.com.au/products/new-worlds-collide-bundle",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.24,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20New%20Worlds%20Collide%20Bundle&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56129,19 +51924,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Single O","País de Origen":"Australia","Región":"Asia / Oceanía","Tienda Oficial":"https://singleo.com.au","Disponibilidad":"En Stock"},
     stores: [
-          {
-                "name": "Single O (Australia)",
-                "price": 9.57,
+      {
+                "name": "Fellow Products (Global / USA)",
+                "price": 21.25,
                 "inStock": true,
-                "url": "https://singleo.com.au/products/peppermint-tea",
+                "url": "https://fellowproducts.com/products/abdo-aba-mecha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 10.05,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Single%20O%20PEPPERMINT%20TEA&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56281,19 +52069,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 367.08,
+                "price": 31.28,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/aiden-personalized-carter",
+                "url": "https://fellowproducts.com/products/albino-ibias-gesha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 385.43,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Aiden%20%2B%20Drops&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56623,19 +52404,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/alvaro-rodriguez-lpet",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Alvaro%20Rodriguez%20LPET&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56661,19 +52435,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/andres-cardona-purple-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Andres%20Cardona%20Purple%20Honey&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56699,19 +52466,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 24.38,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/andres-martinez-blackberry-co-ferment",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.6,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Andres%20Martinez%2C%20Blackberry%20Co-Ferment&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56737,19 +52497,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 17.48,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/angel-wings-blend",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Angel%20Wings&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56775,19 +52528,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 32.2,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/anthem-natural-process-geisha",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 33.81,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Anthem%20Natural%20Geisha&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56813,19 +52559,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 19.32,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/armando-leivas-guatemala-dark-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Armando%20Leivas&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -56851,19 +52590,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 36.8,
+                "price": 32.2,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/artpresso-drain-tray-pro-cleaning-tool",
+                "url": "https://fellowproducts.com/products/back-to-school-coffee-box",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 38.64,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Artpresso%20Drain%20Tray%20Pro%20Cleaning%20Tool&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57079,19 +52811,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 19.78,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/banner-dark-fellow",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.77,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Banner%20Dark&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57117,19 +52842,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 20.24,
                 "inStock": true,
                 "url": "https://fellowproducts.com/products/bat-country-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Bat%20Country&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57155,19 +52873,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 20.24,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/benitez-granja-92",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Benitez%20Granja%2092&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57193,19 +52904,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 18.4,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/guatemala-ben-lopez",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Benjamin%20Lopez&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57231,19 +52935,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 21.16,
                 "inStock": true,
                 "url": "https://fellowproducts.com/products/cc-big-joy",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Big%20Joy&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57269,19 +52966,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 1839.95,
+                "price": 23.92,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/bigface-x-fellow-espresso-series-1",
+                "url": "https://fellowproducts.com/products/unity-blazing-arrow",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 1931.95,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20BIGFACE%20x%20Fellow%20Espresso%20Series%201&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57345,19 +53035,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/fellow-haiku-while-you-brew-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Brandywine%20Rwanda%20Kanzu%20Natural%20I%20Haiku%20While%20You%20Brew&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57383,19 +53066,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/brazil-luis-paolo",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Brazil%20Luis%20Paolo&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57421,19 +53097,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 551.82,
+                "price": 21.62,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/build-your-own-brew-bar",
+                "url": "https://fellowproducts.com/products/buku-sayisa-1",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 579.41,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Build%20Your%20Own%20Brew%20Bar&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57497,19 +53166,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/turaco-medium-dark",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Burundi%20Turaco%20Dark&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57535,19 +53197,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/turaco-light-roast",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Burundi%20Turaco%20Light&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57573,19 +53228,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 21.11,
+                "price": 16.56,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/bwt-bestsave-m-limescale",
+                "url": "https://fellowproducts.com/products/carrot-fellow-drops",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.17,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20BWT%20Bestsave%20M%20Limescale%20Protection%20Pad&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -57687,19 +53335,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
-                "price": 41.35,
+                "price": 18.4,
                 "inStock": false,
-                "url": "https://fellowproducts.com/products/carter-2-in-1-chill-set",
+                "url": "https://fellowproducts.com/products/el-salvador-cerro-las-ranas-honey",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 43.42,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Carter%202-in-1%20Chill%20Set&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58257,19 +53898,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 21.16,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/chelbesa",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Chelbesa&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58295,19 +53929,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 20.24,
                 "inStock": true,
                 "url": "https://fellowproducts.com/products/cherry-pick-fellow-drop-12oz-whole-bean",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.25,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Cherry%20Pick&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58333,19 +53960,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Fellow Products","País de Origen":"Global / USA","Región":"Norteamérica","Tienda Oficial":"https://fellowproducts.com","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Fellow Products (Global / USA)",
                 "price": 23.92,
                 "inStock": false,
                 "url": "https://fellowproducts.com/products/citrus-harmony",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 25.12,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Products%20Citrus%20Harmony&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58371,19 +53991,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 40.48,
+                "price": 18.22,
                 "inStock": true,
-                "url": "https://acaia.co/products/53mm-portafilter-dosing-cup",
+                "url": "https://acaia.co/products/agaro-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 42.5,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%2053%20mm%20Portafilter%20Dosing%20Cup&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58637,19 +54250,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 21.16,
                 "inStock": true,
                 "url": "https://acaia.co/products/andino-peru-10-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Andino%2C%20Peru%2010%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58675,19 +54281,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 17.48,
                 "inStock": true,
                 "url": "https://acaia.co/products/angel-wings-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Angel%20Wings%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58713,19 +54312,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 9.2,
+                "price": 18.63,
                 "inStock": true,
-                "url": "https://acaia.co/products/dosing_cup_magnetic_pad",
+                "url": "https://acaia.co/products/bhadra-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Anti-Static%20Magnetic%20Pad%20for%20Orbit%20Dosing%20Cup&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58865,19 +54457,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 16.56,
                 "inStock": true,
                 "url": "https://acaia.co/products/big-riff-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.39,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Big%20Riff%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -58903,19 +54488,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 25.75,
-                "inStock": false,
-                "url": "https://acaia.co/products/bloom-insulated-stainless-steel-water-bottle",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 27.04,
+                "price": 20.24,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Bloom%20Where%20You%20Pour%20Insulated%20Water%20Bottle&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://acaia.co/products/casa-12-oz",
+                "isBest": true
           }
     ]
   },
@@ -59055,19 +54633,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 21.16,
                 "inStock": true,
                 "url": "https://acaia.co/products/chapina-guatemala-10-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Chapina%2C%20Guatemala%2010%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59093,19 +54664,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 23,
+                "price": 19.32,
                 "inStock": true,
-                "url": "https://acaia.co/products/coffee-bean-credit",
+                "url": "https://acaia.co/products/colombia-ea-decaf-de-cana-huila-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 24.15,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Coffee%20Bean%20Credit&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59169,19 +54733,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 17.48,
                 "inStock": true,
                 "url": "https://acaia.co/products/colorized-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Colorized%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59207,19 +54764,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 16.56,
                 "inStock": true,
                 "url": "https://acaia.co/products/comfort-zone-12-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.39,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Comfort%20Zone%2012%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59245,19 +54795,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 19.32,
                 "inStock": true,
                 "url": "https://acaia.co/products/curious-single-origin-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.29,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Curious%20Single%20Origin%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59283,19 +54826,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 18.22,
                 "inStock": true,
                 "url": "https://acaia.co/products/cusco-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.13,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Cusco%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59321,19 +54857,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 16.56,
                 "inStock": true,
                 "url": "https://acaia.co/products/decaf-12-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.39,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Decaf%2012%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59359,19 +54888,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 20.47,
                 "inStock": true,
                 "url": "https://acaia.co/products/divino-nino-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 21.49,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Divino%20Ni%C3%B1o%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59397,19 +54919,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 27.6,
+                "price": 16.56,
                 "inStock": true,
-                "url": "https://acaia.co/products/acaia-double-insulated-cup-4-oz-120-ml",
+                "url": "https://acaia.co/products/en-masse-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 28.98,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Double%20Insulated%20Cup&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59473,19 +54988,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 21.16,
                 "inStock": true,
                 "url": "https://acaia.co/products/espresso-blend-10-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 22.22,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Espresso%20Blend%2010%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59511,19 +55019,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 16.56,
                 "inStock": true,
                 "url": "https://acaia.co/products/ethereal-12-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 17.39,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Ethereal%2012%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59549,19 +55050,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 17.48,
                 "inStock": true,
                 "url": "https://acaia.co/products/ghost-rider-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Ghost%20Rider%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59587,19 +55081,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 9.2,
+                "price": 20.24,
                 "inStock": true,
-                "url": "https://acaia.co/products/gift-card",
+                "url": "https://acaia.co/products/homestar-espresso-12-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 9.66,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Gift%20Card&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59701,19 +55188,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 179.4,
+                "price": 15.64,
                 "inStock": true,
-                "url": "https://acaia.co/products/horizon",
+                "url": "https://acaia.co/products/humbler-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 188.37,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Horizon&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59777,19 +55257,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 151.8,
+                "price": 19.55,
                 "inStock": true,
-                "url": "https://acaia.co/products/ion-beam",
+                "url": "https://acaia.co/products/keystone-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 159.39,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Ion%20Beam&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59853,19 +55326,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 19.78,
                 "inStock": true,
                 "url": "https://acaia.co/products/los-suenos-decaf-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 20.77,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Los%20Sue%C3%B1os%20Decaf%20250%20gr&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -59891,19 +55357,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 230,
-                "inStock": false,
-                "url": "https://acaia.co/products/lunar_2021",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 241.5,
+                "price": 17.48,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Lunar&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://acaia.co/products/mild-single-origin-250-gr",
+                "isBest": true
           }
     ]
   },
@@ -60119,19 +55578,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 18.4,
+                "price": 18.63,
                 "inStock": true,
-                "url": "https://acaia.co/products/mini-tasting-cup",
+                "url": "https://acaia.co/products/montecarlos-250-gr",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Mini%20Tasting%20Cup%202%20oz%20%2F%2060%20ml&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -60195,19 +55647,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"Agotado"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
-                "price": 1472,
-                "inStock": false,
-                "url": "https://acaia.co/products/orbit",
-                "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 1545.6,
+                "price": 17.48,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Orbit&tag=thecoffeescore-21",
-                "isBest": false
+                "url": "https://acaia.co/products/organic-big-dipper-10-5-oz",
+                "isBest": true
           }
     ]
   },
@@ -60309,19 +55754,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 17.48,
                 "inStock": true,
                 "url": "https://acaia.co/products/organic-driftless-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Organic%20Driftless%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -60347,19 +55785,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 18.4,
                 "inStock": true,
                 "url": "https://acaia.co/products/organic-flyway-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Organic%20Flyway%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -60385,19 +55816,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 18.4,
                 "inStock": true,
                 "url": "https://acaia.co/products/organic-heartstrings-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 19.32,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Organic%20Heartstrings%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },
@@ -60423,19 +55847,12 @@ export const PRODUCTS: Product[] = [
     cons: ["Disponibilidad sujeta a stock de temporada"],
     specs: {"Marca / Tostador":"Acaia Scales","País de Origen":"Global","Región":"Norteamérica","Tienda Oficial":"https://acaia.co","Disponibilidad":"En Stock"},
     stores: [
-          {
+      {
                 "name": "Acaia Scales (Global)",
                 "price": 17.48,
                 "inStock": true,
                 "url": "https://acaia.co/products/organic-off-grid-super-dark-roast-10-5-oz",
                 "isBest": true
-          },
-          {
-                "name": "Amazon España",
-                "price": 18.35,
-                "inStock": true,
-                "url": "https://www.amazon.es/s?k=Acaia%20Scales%20Organic%20Off%20Grid%20Super%20Dark%20Roast%2010.5%20oz&tag=thecoffeescore-21",
-                "isBest": false
           }
     ]
   },

@@ -128,82 +128,105 @@ export const ProductDetailPage: React.FC = () => {
           </div>
 
           <div className="product-detail-price">{product.price} €</div>
-          <div className="price-note mb-4">Precio actualizado y verificado hoy en tiendas oficiales</div>
+          
+          {(() => {
+            const isAvailable = product.stores?.some(s => s.inStock) && product.specs?.['Disponibilidad'] !== 'Agotado';
+            return (
+              <>
+                <div className="flex items-center gap-2 mb-4">
+                  {isAvailable ? (
+                    <span className="text-xs text-[#2e7d32] font-semibold bg-green-50 border border-green-200 px-2.5 py-0.5 rounded-full">
+                      ✓ En stock y disponible
+                    </span>
+                  ) : (
+                    <span className="text-xs text-[#d97706] font-semibold bg-amber-50 border border-amber-200 px-2.5 py-0.5 rounded-full">
+                      ⏳ Lote agotado / fuera de temporada en tostador
+                    </span>
+                  )}
+                  <span className="text-xs text-[#6b6a63]">Precio verificado en tienda oficial</span>
+                </div>
 
-          {/* Quick Direct Store Buttons */}
-          {product.stores && product.stores.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-4">
-              {product.stores.map((st, idx) => (
-                <a
-                  key={idx}
-                  href={st.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
-                    st.isBest
-                      ? 'bg-[#2f6fed] hover:bg-[#2055be] text-white shadow-sm hover:-translate-y-0.5'
-                      : 'bg-white hover:bg-stone-100 text-ink border border-[#e6e3da]'
-                  }`}
-                  title={`Comprar en ${st.name} por ${st.price} €`}
-                >
-                  <span>Comprar en {st.name} ({st.price} €) →</span>
-                </a>
-              ))}
-            </div>
-          )}
+                {/* Quick Direct Store Buttons */}
+                {product.stores && product.stores.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {product.stores.map((st, idx) => (
+                      <a
+                        key={idx}
+                        href={st.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+                          st.isBest && isAvailable
+                            ? 'bg-[#2f6fed] hover:bg-[#2055be] text-white shadow-sm hover:-translate-y-0.5'
+                            : 'bg-white hover:bg-stone-100 text-ink border border-[#e6e3da]'
+                        }`}
+                        title={`Ir a ${st.name} por ${st.price} €`}
+                      >
+                        <span>{isAvailable ? `Comprar en ${st.name} (${st.price} €) →` : `Ver en ${st.name} ↗`}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
 
-          {/* CTAs */}
-          <div className="detail-cta-row flex flex-wrap gap-2.5 items-center">
-            {product.stores && product.stores.length > 0 && (
-              <a
-                href={product.stores[0].url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-solid flex items-center justify-center !bg-[#2f6fed] hover:!bg-[#2055be] !border-none font-bold text-xs !text-white"
-              >
-                <span>Comprar ahora en {product.stores[0].name.split(' ')[0]} →</span>
-              </a>
-            )}
+                {/* CTAs */}
+                <div className="detail-cta-row flex flex-wrap gap-2.5 items-center">
+                  {product.stores && product.stores.length > 0 && (
+                    <a
+                      href={product.stores[0].url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`btn btn-solid flex items-center justify-center !border-none font-bold text-xs !text-white ${
+                        isAvailable
+                          ? '!bg-[#2f6fed] hover:!bg-[#2055be]'
+                          : '!bg-stone-800 hover:!bg-black'
+                      }`}
+                    >
+                      <span>{isAvailable ? `Comprar ahora en ${product.stores[0].name.split(' ')[0]} →` : `Visitar tienda de ${product.stores[0].name.split(' ')[0]} ↗`}</span>
+                    </a>
+                  )}
 
-            <button
-              onClick={() => addItem({
-                productId: product.id,
-                productName: `${product.brand} ${product.name}`,
-                productImage: product.image,
-                selectedStore: product.stores?.[0]?.name || product.brand,
-                storeUrl: product.stores?.[0]?.url,
-                unitPrice: product.price,
-                quantity: 1,
-              })}
-              className="btn btn-solid flex items-center justify-center !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none font-bold text-xs"
-            >
-              <span>Añadir a la Cesta</span>
-            </button>
+                  <button
+                    onClick={() => addItem({
+                      productId: product.id,
+                      productName: `${product.brand} ${product.name}`,
+                      productImage: product.image,
+                      selectedStore: product.stores?.[0]?.name || product.brand,
+                      storeUrl: product.stores?.[0]?.url,
+                      unitPrice: product.price,
+                      quantity: 1,
+                    })}
+                    className="btn btn-solid flex items-center justify-center !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none font-bold text-xs"
+                  >
+                    <span>Añadir a la Cesta</span>
+                  </button>
 
-            <AffiliateButton
-              stores={product.stores}
-              productName={product.name}
-              defaultPrice={product.price}
-              label="Ver todas las tiendas →"
-              className="btn btn-outline text-xs font-semibold"
-            />
+                  <AffiliateButton
+                    stores={product.stores}
+                    productName={product.name}
+                    defaultPrice={product.price}
+                    label="Ver todas las tiendas →"
+                    className="btn btn-outline text-xs font-semibold"
+                  />
 
-            <button
-              onClick={() => inComp ? removeProduct(product.id) : addProduct(product.id)}
-              className="btn btn-outline"
-            >
-              <span>{inComp ? 'En comparador' : '+ Comparar'}</span>
-            </button>
+                  <button
+                    onClick={() => inComp ? removeProduct(product.id) : addProduct(product.id)}
+                    className="btn btn-outline"
+                  >
+                    <span>{inComp ? 'En comparador' : '+ Comparar'}</span>
+                  </button>
 
-            <button
-              onClick={() => toggleFavorite(product.id)}
-              className="btn btn-outline"
-              style={{ padding: '14px 18px' }}
-              title={isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}
-            >
-              <span>{isFav ? 'Guardado' : 'Guardar'}</span>
-            </button>
-          </div>
+                  <button
+                    onClick={() => toggleFavorite(product.id)}
+                    className="btn btn-outline"
+                    style={{ padding: '14px 18px' }}
+                    title={isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}
+                  >
+                    <span>{isFav ? 'Guardado' : 'Guardar'}</span>
+                  </button>
+                </div>
+              </>
+            );
+          })()}
 
           {/* Subscores Grid */}
           <div className="subscore-grid">
