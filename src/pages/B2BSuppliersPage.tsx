@@ -20,6 +20,7 @@ import { showToast } from '../hooks/useToast';
 
 export const B2BSuppliersPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedContinent, setSelectedContinent] = useState<string>('Todos');
   const [selectedCountry, setSelectedCountry] = useState<string>('Todos');
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
   const [inquirySupplier, setInquirySupplier] = useState<B2BSupplier | null>(null);
@@ -30,12 +31,20 @@ export const B2BSuppliersPage: React.FC = () => {
   const [contactPhone, setContactPhone] = useState('');
   const [message, setMessage] = useState('');
 
-  const countries = ['Todos', 'España', 'Etiopía', 'Colombia', 'Brasil', 'Kenia', 'Tailandia', 'Alemania', 'Países Bajos'];
-  const categories = ['Todos', 'Exportador Café Verde', 'Importador Café Verde', 'Tostador B2B', 'Fabricante de Tostadoras'];
+  const continents = ['Todos', 'América Latina', 'África', 'Asia & Pacífico', 'Europa', 'Norteamérica & Oceanía'];
+  
+  const allCountries = useMemo(() => {
+    const list = selectedContinent === 'Todos'
+      ? B2B_SUPPLIERS
+      : B2B_SUPPLIERS.filter(s => s.continent === selectedContinent);
+    return ['Todos', ...Array.from(new Set(list.map(s => s.country)))];
+  }, [selectedContinent]);
 
+  const categories = ['Todos', 'Exportador Café Verde', 'Importador Café Verde', 'Tostador B2B'];
 
   const filteredSuppliers = useMemo(() => {
     return B2B_SUPPLIERS.filter(supplier => {
+      const matchContinent = selectedContinent === 'Todos' || supplier.continent === selectedContinent;
       const matchCountry = selectedCountry === 'Todos' || supplier.country === selectedCountry;
       const matchCategory = selectedCategory === 'Todos' || supplier.category === selectedCategory;
       const matchSearch = searchQuery === '' || 
@@ -45,9 +54,9 @@ export const B2BSuppliersPage: React.FC = () => {
         supplier.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
         supplier.originsOrCapacity.some(o => o.toLowerCase().includes(searchQuery.toLowerCase()));
 
-      return matchCountry && matchCategory && matchSearch;
+      return matchContinent && matchCountry && matchCategory && matchSearch;
     });
-  }, [searchQuery, selectedCountry, selectedCategory]);
+  }, [searchQuery, selectedContinent, selectedCountry, selectedCategory]);
 
   const handleSendInquiry = (e: React.FormEvent) => {
     e.preventDefault();
@@ -70,15 +79,15 @@ export const B2BSuppliersPage: React.FC = () => {
         <div className="max-w-6xl mx-auto">
           <div className="inline-flex items-center gap-1.5 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-3.5 py-1 rounded-full mb-3 shadow-2xs">
             <Building2 size={14} className="shrink-0" />
-            <span>DIRECTORIO B2B & COMERCIO INTERNACIONAL</span>
+            <span>DIRECTORIO B2B MUNDIAL & MATERIA PRIMA</span>
           </div>
 
           <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl text-ink leading-tight mb-4">
-            Proveedores de café, importadores y tostadoras a nivel mundial
+            Exportadores de café verde, importadores en sacos y tostadoras
           </h1>
 
           <p className="text-sm sm:text-base text-stone-600 max-w-3xl leading-relaxed mb-6">
-            Directorio verificado con contactos directos (Etiopía, España, Tailandia, Alemania y Países Bajos), índices de costes mayoristas, importadores de café verde en sacos y fabricantes de maquinaria de tueste profesional.
+            Directorio verificado con contactos directos en los 28 principales orígenes y hubs mundiales (Colombia, Etiopía, Brasil, Panamá, Kenia, España, Alemania, Japón...), precios de referencia de materia prima y cotizaciones B2B.
           </p>
 
           {/* Search Box */}
@@ -88,7 +97,7 @@ export const B2BSuppliersPage: React.FC = () => {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar por tostador, importador, país (Etiopía, España, Tailandia...) o maquinaria..."
+              placeholder="Buscar por exportador, país (Colombia, Panamá, Kenia...), variedad (Geisha, SL28...) o tostador..."
               className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl pl-10 pr-4 py-3 text-xs sm:text-sm outline-none shadow-xs transition-all"
             />
             {searchQuery && (
@@ -124,10 +133,10 @@ export const B2BSuppliersPage: React.FC = () => {
               </div>
               <div>
                 <h3 className="font-serif font-bold text-base sm:text-lg text-ink">
-                  Índice de Precios de Referencia del Mercado Global
+                  Índice de Precios de Referencia del Mercado Mundial
                 </h3>
                 <p className="text-[11px] text-stone-500">
-                  Valores actualizados para café verde FOB, café tostado mayorista y maquinaria
+                  Valores promedio FOB en origen para café verde (materia prima), importación en sacos y café tostado mayorista
                 </p>
               </div>
             </div>
@@ -139,60 +148,82 @@ export const B2BSuppliersPage: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
             {/* Card 1 */}
             <div className="bg-white border border-[#e6e3da] rounded-xl p-3.5">
-              <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wider mb-1">
+              <div className="text-[10px] font-bold text-[#10b981] uppercase tracking-wider mb-1">
                 Café Verde en Origen (FOB)
               </div>
               <div className="text-base font-extrabold text-ink font-mono mb-1">
-                6,80 – 26,00 USD / kg
+                6,50 – 28,00 USD / kg
               </div>
               <p className="text-[10px] text-stone-500 leading-snug">
-                Etiopía (7,50 - 26 $), Tailandia (7,20 - 15 $), Colombia/Kenia (8,50 - 24 $). Sacos 30kg - 60kg GrainPro.
+                Etiopía (7-26 $), Colombia (8-22 $), Kenia AA (9-28 $), Brasil (6-35 $). Sacos 30kg - 60kg GrainPro.
               </p>
             </div>
 
             {/* Card 2 */}
             <div className="bg-white border border-[#e6e3da] rounded-xl p-3.5">
-              <div className="text-[10px] font-bold text-[#2f6fed] uppercase tracking-wider mb-1">
+              <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wider mb-1">
                 Café Tostado B2B Mayorista
               </div>
               <div className="text-base font-extrabold text-ink font-mono mb-1">
-                18,00 – 34,00 € / kg
+                18,00 – 45,00 € / kg
               </div>
               <p className="text-[10px] text-stone-500 leading-snug">
-                España (22 - 34 €/kg), Tailandia (~18 - 32 €/kg). Envíos semanales con fecha de tueste garantizada.
+                España (22 - 34 €), Alemania/UK (28 - 44 €), Japón (~29 - 58 €). Envíos semanales bajo demanda.
               </p>
             </div>
 
             {/* Card 3 */}
             <div className="bg-white border border-[#e6e3da] rounded-xl p-3.5">
-              <div className="text-[10px] font-bold text-[#3fae6a] uppercase tracking-wider mb-1">
-                Tostadoras de Café Profesionales
+              <div className="text-[10px] font-bold text-[#f59e0b] uppercase tracking-wider mb-1">
+                Microlotes Exclusivos & Geisha
               </div>
               <div className="text-base font-extrabold text-ink font-mono mb-1">
-                3.499 € – 65.000 €+
+                35,00 – 250,00+ USD / kg
               </div>
               <p className="text-[10px] text-stone-500 leading-snug">
-                Aillio Bullet (1kg: 3.499 €), Giesen W1A/W6A (18.500 €+), Probat P05/P12 (28.000 €+).
+                Panamá Boquete BOP (35 - 250 $+), Daterra Masterpieces, Etiopía 89+ SCA, fermentaciones anaeróbicas.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. MULTI-FILTERS */}
-      <section className="wrap">
+      {/* 4. MULTI-FILTERS */}
+      <section className="wrap space-y-3">
+        {/* Continents Filter */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+          <span className="text-xs font-bold text-stone-400 mr-1 shrink-0">Continente:</span>
+          {continents.map(cont => (
+            <button
+              key={cont}
+              onClick={() => {
+                setSelectedContinent(cont);
+                setSelectedCountry('Todos');
+              }}
+              className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                selectedContinent === cont
+                  ? 'bg-ink text-white shadow-xs font-bold'
+                  : 'bg-white border border-[#e6e3da] text-stone-700 hover:border-stone-400'
+              }`}
+            >
+              {cont}
+            </button>
+          ))}
+        </div>
+
+        {/* Countries & Categories Bar */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-2 border-b border-[#e6e3da]">
           {/* Countries */}
           <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-            <span className="text-xs font-bold text-stone-400 mr-1 shrink-0">País:</span>
-            {countries.map(country => (
+            <span className="text-xs font-bold text-stone-400 mr-1 shrink-0">País ({allCountries.length - 1}):</span>
+            {allCountries.map(country => (
               <button
                 key={country}
                 onClick={() => setSelectedCountry(country)}
-                className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                className={`px-2.5 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
                   selectedCountry === country
-                    ? 'bg-ink text-white shadow-xs font-bold'
-                    : 'bg-white border border-[#e6e3da] text-stone-700 hover:border-stone-400'
+                    ? 'bg-stone-900 text-white shadow-xs font-bold'
+                    : 'bg-[#f4f2ec] text-stone-700 hover:bg-stone-200 border border-transparent'
                 }`}
               >
                 {country}
@@ -219,6 +250,7 @@ export const B2BSuppliersPage: React.FC = () => {
           </div>
         </div>
       </section>
+
 
       {/* 4. SUPPLIERS DIRECTORY GRID */}
       <section className="wrap">
@@ -283,12 +315,6 @@ export const B2BSuppliersPage: React.FC = () => {
                       <span className="font-extrabold text-ink font-mono">{supplier.priceIndex.wholesaleKg}</span>
                     </div>
                   )}
-                  {supplier.priceIndex.equipmentPrice && (
-                    <div className="flex justify-between items-center">
-                      <span className="text-stone-500 font-medium">Coste Maquinaria:</span>
-                      <span className="font-extrabold text-ink font-mono">{supplier.priceIndex.equipmentPrice}</span>
-                    </div>
-                  )}
                   <div className="flex justify-between items-center pt-1 border-t border-[#f0eee6] text-[11px]">
                     <span className="text-stone-400">Pedido Mínimo:</span>
                     <span className="font-medium text-stone-700">{supplier.minOrder}</span>
@@ -299,11 +325,12 @@ export const B2BSuppliersPage: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Origins / Machinery Specs */}
+                {/* Origins / Varietals */}
                 <div className="mb-4">
                   <div className="text-[10px] font-bold uppercase tracking-wider text-stone-400 mb-1.5">
-                    {supplier.category === 'Fabricante de Tostadoras' ? 'Capacidades & Modelos' : 'Orígenes & Lotes Principales'}
+                    Orígenes & Lotes Principales
                   </div>
+
                   <div className="flex flex-wrap gap-1">
                     {supplier.originsOrCapacity.map((orig, i) => (
                       <span key={i} className="bg-stone-100 text-stone-700 text-[10px] font-medium px-2 py-0.5 rounded-md">
