@@ -65,7 +65,7 @@ export const App: React.FC = () => {
                         category="accesorios"
                         title="Accesorios & Barismo"
                         subtitle="Filtros de especialidad, botellas de batch brew, medidores y básculas de precisión, jarras de latte art y herramientas de barista."
-                        chips={['Todas', 'Filtros', 'Botellas & Batch', 'Medidores & Básculas', 'Jarras & Servidores', 'Herramientas de barista', 'Cafeteras manuales']}
+                        chips={['Todas', 'Lifestyle', 'Botellas & Batch', 'Medidores & Básculas', 'Jarras & Servidores', 'Herramientas de barista']}
                       />
                     }
                   />
