@@ -416,7 +416,11 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
   const activeHub = hubs.find(h => h.id === activeHubId) || hubs[0];
 
-  // Initialize Minimalist Leaflet Map
+  const JAWG_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhIjoiYWNfOHk0bmc2YngiLCJqdGkiOiJlZTJmMGU5MiJ9.3st0oT1vhQW-IPx5KhmE4x4cak5NLVJUVR0-Eo2CL_s';
+  const [mapTheme, setMapTheme] = useState<'jawg-light' | 'jawg-sunny' | 'jawg-dark' | 'jawg-streets'>('jawg-light');
+  const tileLayerRef = useRef<L.TileLayer | null>(null);
+
+  // Initialize Minimalist Leaflet Map with Jawg Maps API
   useEffect(() => {
     if (!mapContainerRef.current || mapInstanceRef.current) return;
 
@@ -425,19 +429,21 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
       center: [15, 10],
       zoom: 2.1,
       minZoom: 1.8,
-      maxZoom: 9,
+      maxZoom: 12,
       zoomControl: false,
       attributionControl: false,
       scrollWheelZoom: false,
     });
 
-    // CartoDB Positron Minimalist Tile Layer (Warm gray & clean parchment)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    // Jawg Maps API Minimalist Retina Tile Layer
+    const tileLayer = L.tileLayer(`https://tile.jawg.io/${mapTheme}/{z}/{x}/{y}{r}.png?access-token=${JAWG_ACCESS_TOKEN}`, {
       subdomains: 'abcd',
       maxZoom: 19,
     }).addTo(map);
 
+    tileLayerRef.current = tileLayer;
     mapInstanceRef.current = map;
+
 
     // Add Markers for raw coffee exporters, importers & roasters
     hubs.forEach((hub) => {
@@ -497,6 +503,13 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
       mapInstanceRef.current = null;
     };
   }, []);
+
+  // Sync theme changes with Jawg Maps API
+  useEffect(() => {
+    if (tileLayerRef.current) {
+      tileLayerRef.current.setUrl(`https://tile.jawg.io/${mapTheme}/{z}/{x}/{y}{r}.png?access-token=${JAWG_ACCESS_TOKEN}`);
+    }
+  }, [mapTheme]);
 
   // Sync external selectedCountry
   useEffect(() => {
@@ -607,12 +620,12 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
         ))}
       </div>
 
-      {/* Leaflet Real Map Container */}
+      {/* Leaflet Real Map Container with Jawg Maps API */}
       <div className="relative w-full aspect-[21/10] sm:aspect-[21/8] bg-[#f8f6f0] border border-[#e6e3da] rounded-xl overflow-hidden mb-4">
         <div ref={mapContainerRef} className="w-full h-full z-0" />
 
-        {/* Minimal Float Controls (Zoom + Reset) */}
-        <div className="absolute right-3 top-3 z-10 flex flex-col gap-1 bg-white/90 backdrop-blur-xs border border-[#e6e3da] rounded-lg p-1 shadow-sm">
+        {/* Minimal Float Controls (Zoom + Reset + Jawg Style Switcher) */}
+        <div className="absolute right-3 top-3 z-10 flex flex-col gap-1 bg-white/95 backdrop-blur-xs border border-[#e6e3da] rounded-lg p-1 shadow-sm">
           <button
             onClick={() => handleZoom(1)}
             className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors"
@@ -638,6 +651,35 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
           >
             <RotateCcw size={12} />
           </button>
+          <div className="h-px bg-[#e6e3da] my-0.5" />
+          {/* Map theme toggles */}
+          <button
+            onClick={() => setMapTheme('jawg-light')}
+            className={`w-7 h-7 flex items-center justify-center rounded text-[10px] font-bold transition-colors ${
+              mapTheme === 'jawg-light' ? 'bg-stone-900 text-white' : 'text-stone-600 hover:bg-stone-100'
+            }`}
+            title="Estilo Minimal Claro"
+          >
+            L
+          </button>
+          <button
+            onClick={() => setMapTheme('jawg-sunny')}
+            className={`w-7 h-7 flex items-center justify-center rounded text-[10px] font-bold transition-colors ${
+              mapTheme === 'jawg-sunny' ? 'bg-amber-600 text-white' : 'text-stone-600 hover:bg-stone-100'
+            }`}
+            title="Estilo Cálido Soleado"
+          >
+            S
+          </button>
+          <button
+            onClick={() => setMapTheme('jawg-dark')}
+            className={`w-7 h-7 flex items-center justify-center rounded text-[10px] font-bold transition-colors ${
+              mapTheme === 'jawg-dark' ? 'bg-black text-white' : 'text-stone-600 hover:bg-stone-100'
+            }`}
+            title="Estilo Oscuro Minimal"
+          >
+            D
+          </button>
         </div>
 
         {/* Minimal Legend Tag for Raw Coffee Bean & Roasting */}
@@ -655,7 +697,13 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
             <span>Importador Verde (Sacos UE / USA)</span>
           </div>
         </div>
+
+        {/* Jawg Maps API Tag */}
+        <div className="absolute right-3 bottom-1.5 z-10 text-[9px] text-stone-400 opacity-80 pointer-events-none">
+          © JawgMaps · © OpenStreetMap
+        </div>
       </div>
+
 
       {/* Selected Hub Detail Bar - Minimal Style */}
       {activeHub && (
