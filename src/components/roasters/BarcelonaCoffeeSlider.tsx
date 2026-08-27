@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useCart } from '../../context/CartContext';
-import { showToast } from '../../hooks/useToast';
 
 export interface BarcelonaCoffeeItem {
   id: string;
@@ -163,7 +161,6 @@ export const BARCELONA_SPECIALTY_COFFEES: BarcelonaCoffeeItem[] = [
 export const BarcelonaCoffeeSlider: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
-  const { addItem } = useCart();
 
   const filters = ['Todos', 'Nomad Coffee', 'Right Side', 'Syra Coffee', 'Three Marks', 'SlowMov', 'Ona Coffee'];
 
@@ -179,19 +176,6 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
         behavior: 'smooth',
       });
     }
-  };
-
-  const handleAddToCart = (coffee: BarcelonaCoffeeItem) => {
-    addItem({
-      productId: coffee.id,
-      productName: `${coffee.roaster} — ${coffee.name}`,
-      productImage: coffee.image,
-      selectedStore: `${coffee.roaster} (Oficial BCN)`,
-      storeUrl: coffee.storeUrl,
-      unitPrice: coffee.price,
-      quantity: 1,
-    });
-    showToast(`${coffee.name} añadido a tu cesta`, 'success');
   };
 
   return (
@@ -267,26 +251,13 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
           {filteredCoffees.map((coffee) => (
             <div
               key={coffee.id}
-              className="snap-start shrink-0 w-[205px] sm:w-[225px] md:w-[240px] bg-white border border-[#e6e3da] hover:border-stone-400 rounded-xl p-3 flex flex-col justify-between shadow-2xs hover:shadow-sm transition-all group"
+              className="snap-start shrink-0 w-[180px] sm:w-[200px] bg-white border border-[#e6e3da] hover:border-stone-400 rounded-xl p-2.5 flex flex-col justify-between shadow-2xs hover:shadow-sm transition-all group"
             >
               <div>
-                {/* Top Badge & Roaster */}
-                <div className="flex items-center justify-between gap-1 mb-2">
-                  <span className="text-[10px] font-bold text-stone-600 truncate">
-                    {coffee.district}
-                  </span>
-
-                  {coffee.badge ? (
-                    <span className="bg-[#eef4ff] text-[#2f6fed] text-[9px] font-bold px-1.5 py-0.2 rounded-full shrink-0 font-mono">
-                      {coffee.badge}
-                    </span>
-                  ) : null}
-                </div>
-
-                {/* Coffee Bag Image - Compact */}
-                <div className="w-full h-24 sm:h-28 bg-[#fbfaf7] border border-[#f0eee6] rounded-lg mb-2 flex items-center justify-center p-2 overflow-hidden relative group-hover:bg-[#f5f2e9] transition-colors">
+                {/* Coffee Bag Image - Compact 50% */}
+                <div className="w-full h-16 sm:h-20 bg-[#fbfaf7] border border-[#f0eee6] rounded-lg mb-1.5 flex items-center justify-center p-1.5 overflow-hidden relative group-hover:bg-[#f5f2e9] transition-colors">
                   {coffee.scaScore && (
-                    <div className="absolute top-1.5 left-1.5 bg-black/80 text-white text-[9px] font-bold px-1.5 py-0.2 rounded font-mono">
+                    <div className="absolute top-1 left-1 bg-black/80 text-white text-[8px] font-bold px-1 py-0.2 rounded font-mono">
                       <span>SCA {coffee.scaScore}</span>
                     </div>
                   )}
@@ -298,59 +269,32 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
                 </div>
 
                 {/* Roaster Brand */}
-                <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wide">
+                <div className="text-[9px] font-bold text-[#e94e2b] uppercase tracking-wide">
                   {coffee.roaster}
                 </div>
 
                 {/* Coffee Title */}
-                <h3 className="font-bold text-xs text-ink line-clamp-1 mb-1">
+                <h3 className="font-bold text-[11px] text-ink line-clamp-1 mb-0.5">
                   {coffee.name}
                 </h3>
 
                 {/* Origin & Process */}
-                <p className="text-[10px] text-stone-500 mb-1.5 truncate">
-                  <span>{coffee.origin}</span> · <span className="text-stone-700 font-medium">{coffee.process}</span>
+                <p className="text-[9px] text-stone-500 truncate">
+                  {coffee.origin} · {coffee.process}
                 </p>
-
-                {/* Tasting Notes Tags */}
-                <div className="flex flex-wrap gap-0.5 mb-2.5">
-                  {coffee.notes.slice(0, 2).map((note, idx) => (
-                    <span
-                      key={idx}
-                      className="bg-[#f4f2ec] text-stone-600 text-[9px] font-medium px-1.5 py-0.2 rounded"
-                    >
-                      {note}
-                    </span>
-                  ))}
-                  {coffee.notes.length > 2 && (
-                    <span className="text-stone-400 text-[9px] py-0.2">+{coffee.notes.length - 2}</span>
-                  )}
-                </div>
               </div>
 
-              {/* Bottom Price & Add to Cart Action */}
-              <div className="pt-2 border-t border-[#f0eee6] mt-auto">
-                <div className="flex items-baseline justify-between mb-1.5">
-                  <div className="flex items-baseline gap-0.5">
-                    <span className="font-extrabold text-sm text-ink font-mono">{coffee.price.toFixed(2)} €</span>
-                    <span className="text-[9px] text-stone-400">/{coffee.weight}</span>
-                  </div>
-                  <a
-                    href={coffee.storeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[10px] text-[#2f6fed] hover:underline"
-                  >
-                    Tienda →
-                  </a>
-                </div>
-
-                <button
-                  onClick={() => handleAddToCart(coffee)}
-                  className="w-full bg-ink hover:bg-black text-white font-bold text-[11px] py-1.5 px-2 rounded-lg flex items-center justify-center transition-all active:scale-98 shadow-2xs"
+              {/* Bottom Price & Link */}
+              <div className="pt-1.5 border-t border-[#f0eee6] mt-1.5 flex items-baseline justify-between">
+                <span className="font-extrabold text-xs text-ink font-mono">{coffee.price.toFixed(2)} €</span>
+                <a
+                  href={coffee.storeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[10px] font-bold text-[#2f6fed] hover:underline"
                 >
-                  <span>Añadir a Cesta</span>
-                </button>
+                  Comprar →
+                </a>
               </div>
             </div>
           ))}

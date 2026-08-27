@@ -5,6 +5,7 @@ import { ProductCard } from '../components/product/ProductCard';
 import { TrustBar } from '../components/layout/TrustBar';
 import { BarcelonaCoffeeSlider } from '../components/roasters/BarcelonaCoffeeSlider';
 import { CoffeeSuppliersSection } from '../components/roasters/CoffeeSuppliersSection';
+import { BaristaBooks } from '../components/home/BaristaBooks';
 import { showToast } from '../hooks/useToast';
 
 
@@ -106,6 +107,9 @@ export const HomePage: React.FC = () => {
 
       {/* 3. BARCELONA SPECIALTY COFFEE SLIDER */}
       <BarcelonaCoffeeSlider />
+
+      {/* 3b. LIBROS PARA BARISTAS */}
+      <BaristaBooks />
 
       {/* 4. TOP DISCOVERY ROW (ENCUENTRA TU PRÓXIMA COMPRA + COMPARA HASTA 4 + OFERTAS DESTACADAS) */}
       <section className="wrap">
