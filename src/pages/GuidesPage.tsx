@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BUYING_GUIDES } from '../data/catalog';
+import { Clock, ArrowRight } from 'lucide-react';
+
 
 export const GuidesPage: React.FC = () => {
+  const [activeCategory, setActiveCategory] = useState<string>('Todas');
+
+  const categories = ['Todas', 'Espresso', 'Molinos', 'Accesorios', 'Café'];
+
+  const filteredGuides = BUYING_GUIDES.filter(guide => {
+    if (activeCategory === 'Todas') return true;
+    return guide.category.toLowerCase().includes(activeCategory.toLowerCase());
+  });
+
   return (
-    <div>
+    <div className="pb-16">
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>
@@ -15,82 +26,79 @@ export const GuidesPage: React.FC = () => {
       {/* Page Header */}
       <div className="page-head">
         <div className="page-eyebrow">
-          Criterio Editorial
+          Criterio Editorial & Pruebas Reales
         </div>
-        <h1 className="page-title">Guías de compra y análisis</h1>
+        <h1 className="page-title">Guías de compra y análisis técnico</h1>
         <p className="page-sub">
           Artículos en profundidad redactados por expertos en café de especialidad y tecnología de extracción para guiar tu inversión según tu presupuesto real.
         </p>
       </div>
 
+      {/* Filter Bar */}
+      <div className="filter-bar">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setActiveCategory(cat)}
+            className={`filter-chip ${activeCategory === cat ? 'active' : ''}`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
       {/* Guides Grid */}
-      <div className="wrap" style={{ padding: '32px' }}>
-        <div className="guides-grid">
-          {BUYING_GUIDES.map(guide => (
-            <article key={guide.id} className="guide-tile">
-              <div className="guide-tile-photo">
-                <img src={guide.image} alt={guide.title} />
+      <div className="wrap py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredGuides.map((guide) => (
+            <article
+              key={guide.id}
+              className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 sm:p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
+            >
+              <div>
+                {/* Photo */}
+                <div className="w-full h-44 bg-[#fbfaf7] border border-[#f0eee6] rounded-xl mb-4 flex items-center justify-center p-4 overflow-hidden group-hover:bg-[#f5f2e9] transition-colors">
+                  <img
+                    src={guide.image}
+                    alt={guide.title}
+                    className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                  />
+                </div>
+
+                {/* Meta */}
+                <div className="flex items-center justify-between gap-2 mb-2">
+                  <span className="bg-[#f4f2ec] text-stone-700 text-[10px] font-bold px-2.5 py-0.5 rounded-full">
+                    {guide.category}
+                  </span>
+                  <span className="text-[11px] text-stone-500 flex items-center gap-1">
+                    <Clock size={12} />
+                    <span>{guide.readTime}</span>
+                  </span>
+                </div>
+
+                {/* Title */}
+                <h3 className="font-serif font-bold text-lg text-ink group-hover:text-[#2f6fed] transition-colors leading-snug mb-2">
+                  {guide.title}
+                </h3>
+
+                {/* Subtitle */}
+                <p className="text-xs text-stone-600 leading-relaxed mb-4">
+                  {guide.subtitle}
+                </p>
               </div>
-              <div className="guide-tile-body">
-                <div className="guide-tile-cat">
-                  {guide.category} · {guide.readTime}
-                </div>
-                <h3 className="guide-tile-title">{guide.title}</h3>
-                <p className="guide-tile-desc">{guide.subtitle}</p>
-                <div style={{ marginTop: 14 }}>
-                  <span className="link-arrow">Leer guía completa →</span>
-                </div>
+
+              {/* Bottom Action */}
+              <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between">
+                <span className="text-[11px] font-bold text-stone-400 uppercase tracking-wider">
+                  Guía completa
+                </span>
+                <span className="inline-flex items-center gap-1 text-xs font-bold text-ink group-hover:text-[#2f6fed] transition-colors">
+                  <span>Leer guía</span>
+                  <ArrowRight size={13} />
+                </span>
               </div>
             </article>
           ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export const BlogPage: React.FC = () => {
-  return (
-    <div>
-      {/* Breadcrumb */}
-      <div className="breadcrumb">
-        <Link to="/">Inicio</Link>
-        <span className="sep">/</span>
-        <span className="current">Blog & Técnica</span>
-      </div>
-
-      <div className="page-head">
-        <div className="page-eyebrow">
-          Cultura & Ciencia
-        </div>
-        <h1 className="page-title">Ciencia del café y recetas</h1>
-        <p className="page-sub">
-          Técnicas de texturizado de leche, calibración de molinos paso a paso, química del agua y perfiles de tueste.
-        </p>
-      </div>
-
-      <div className="wrap" style={{ padding: '32px' }}>
-        <div className="content-grid">
-          <div className="content-card">
-            <div className="eyebrow-red">Técnica & Barismo</div>
-            <h3 className="content-heading">Por qué el ratio 1:2 no siempre es la respuesta</h3>
-            <p className="content-sub">Cómo adaptar el rendimiento en taza según la densidad del grano y el perfil de tueste.</p>
-            <span className="link-arrow">Leer artículo →</span>
-          </div>
-
-          <div className="content-card">
-            <div className="eyebrow-red">Química del Agua</div>
-            <h3 className="content-heading">Dureza y alcalinidad en tu cafetera</h3>
-            <p className="content-sub">El agua representa el 98% de tu espresso. Analizamos las mejores soluciones de filtración doméstica.</p>
-            <span className="link-arrow">Leer artículo →</span>
-          </div>
-
-          <div className="content-card">
-            <div className="eyebrow-red">Mantenimiento</div>
-            <h3 className="content-heading">Descalcificación y limpieza del grupo E61</h3>
-            <p className="content-sub">Protocolos recomendados para prolongar la vida útil de bombas y calderas sin dañar juntas.</p>
-            <span className="link-arrow">Leer artículo →</span>
-          </div>
         </div>
       </div>
     </div>

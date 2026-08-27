@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Globe, ExternalLink, Award, Sparkles, Navigation } from 'lucide-react';
+import { ExternalLink, Award, Sparkles, Navigation } from 'lucide-react';
 import { GLOBAL_COFFEE_SHOPS, GLOBAL_COFFEE_CITIES } from '../data/globalCoffeeIndex';
+
 
 export const GlobalCoffeeIndexPage: React.FC = () => {
   const [selectedCity, setSelectedCity] = useState<string>('Todas');
@@ -29,88 +30,79 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
   });
 
   return (
-    <div className="py-8 sm:py-12">
-      <div className="wrap space-y-8">
-        {/* Breadcrumb */}
-        <div className="breadcrumb">
-          <Link to="/">Inicio</Link>
-          <span className="sep">/</span>
-          <span className="current">Índice Global de Cafeterías</span>
+    <div className="pb-16">
+      {/* Breadcrumb */}
+      <div className="breadcrumb">
+        <Link to="/">Inicio</Link>
+        <span className="sep">/</span>
+        <span className="current">Índice Global de Cafeterías</span>
+      </div>
+
+      {/* Page Header */}
+      <div className="page-head">
+        <div className="page-eyebrow">
+          Radar Internacional & Guía de Viaje
         </div>
+        <h1 className="page-title">Índice Global del Café de Especialidad</h1>
+        <p className="page-sub">
+          Las cafeterías de culto y tostadores de referencia en las grandes capitales mundiales: desde los templos del tueste nórdico en <strong>Tokio, Malmö y Berlín</strong>, pasando por la vanguardia de <strong>Nueva York, Londres y Bangkok</strong>, hasta la tradición reinventada en <strong>Roma, Nápoles, Barcelona y Melbourne</strong>.
+        </p>
+      </div>
 
-        {/* Page Head */}
-        <div className="border-b border-[#e6e3da] pb-8">
-          <div className="inline-flex items-center gap-1.5 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-3 py-1 rounded-full mb-3">
-            <Globe size={14} />
-            <span>RADAR INTERNACIONAL & GUÍA DE VIAJE</span>
-          </div>
-          <h1 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight mb-4">
-            Índice Global del Café de Especialidad
-          </h1>
-          <p className="text-sm sm:text-base text-[#6b6a63] max-w-3xl leading-relaxed">
-            Las cafeterías de culto y tostadores de referencia en las grandes capitales mundiales: desde los templos del tueste nórdico en <strong>Tokio, Malmö y Berlín</strong>, pasando por la vanguardia de <strong>Nueva York, Londres y Bangkok</strong>, hasta la tradición reinventada en <strong>Roma, Nápoles, Barcelona y Melbourne</strong>.
-          </p>
-        </div>
+      {/* Filter Bar */}
+      <div className="filter-bar">
+        {GLOBAL_COFFEE_CITIES.map((city) => (
+          <button
+            key={city}
+            onClick={() => setSelectedCity(city)}
+            className={`filter-chip ${selectedCity === city ? 'active' : ''}`}
+          >
+            {city}
+          </button>
+        ))}
 
-        {/* Filter Bar & Cities */}
-        <div className="space-y-4">
-          {/* City Chips */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
-            {GLOBAL_COFFEE_CITIES.map((city) => (
-              <button
-                key={city}
-                onClick={() => setSelectedCity(city)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
-                  selectedCity === city
-                    ? 'bg-ink text-white shadow-sm font-bold'
-                    : 'bg-white border border-[#e6e3da] text-[#333] hover:border-stone-400'
-                }`}
-              >
-                {city}
-              </button>
-            ))}
-          </div>
+        <div className="filter-spacer" />
 
-          {/* Search, Sort and View Toggle */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 pt-2">
-            <div className="relative flex-1 max-w-md">
-              <input
-                type="text"
-                placeholder="Buscar por ciudad, tostador, máquina (ej: Slayer, EK43) o café…"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-white border border-[#e6e3da] rounded-xl px-4 py-2 text-xs text-ink placeholder:text-[#6b6a63] outline-none focus:border-ink"
-              />
-            </div>
+        <div className="flex items-center gap-2">
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value as any)}
+            className="sort-select"
+          >
+            <option value="score">Ordenar: Mayor Puntuación</option>
+            <option value="price">Precio Espresso: Menor a mayor</option>
+            <option value="name">Nombre alfabético</option>
+          </select>
 
-            <div className="flex items-center gap-2">
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-white border border-[#e6e3da] rounded-xl px-3 py-2 text-xs text-ink font-semibold outline-none cursor-pointer"
-              >
-                <option value="score">Ordenar: Mayor Puntuación</option>
-                <option value="price">Precio Espresso: Menor a mayor</option>
-                <option value="name">Nombre alfabético</option>
-              </select>
-
-              <div className="hidden sm:flex border border-[#e6e3da] rounded-xl overflow-hidden bg-white">
-                <button
-                  onClick={() => setViewMode('grid')}
-                  className={`px-3 py-1.5 text-xs font-bold ${viewMode === 'grid' ? 'bg-ink text-white' : 'text-[#6b6a63]'}`}
-                >
-                  Tarjetas
-                </button>
-                <button
-                  onClick={() => setViewMode('table')}
-                  className={`px-3 py-1.5 text-xs font-bold ${viewMode === 'table' ? 'bg-ink text-white' : 'text-[#6b6a63]'}`}
-                >
-                  Tabla
-                </button>
-              </div>
-            </div>
+          <div className="hidden sm:flex border border-[#e6e3da] rounded-xl overflow-hidden bg-white">
+            <button
+              onClick={() => setViewMode('grid')}
+              className={`px-3 py-1.5 text-xs font-bold ${viewMode === 'grid' ? 'bg-ink text-white' : 'text-[#6b6a63]'}`}
+            >
+              Tarjetas
+            </button>
+            <button
+              onClick={() => setViewMode('table')}
+              className={`px-3 py-1.5 text-xs font-bold ${viewMode === 'table' ? 'bg-ink text-white' : 'text-[#6b6a63]'}`}
+            >
+              Tabla
+            </button>
           </div>
         </div>
+      </div>
+
+      <div className="wrap py-8 space-y-6">
+        {/* Search Input Bar */}
+        <div className="relative max-w-md">
+          <input
+            type="text"
+            placeholder="Buscar por ciudad, tostador, máquina (ej: Slayer, EK43) o café…"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl px-4 py-2 text-xs text-ink placeholder:text-[#6b6a63] outline-none shadow-xs"
+          />
+        </div>
+
 
         {/* Counter */}
         <div className="text-xs text-[#6b6a63]">

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { ExternalLink, Clock, BookOpen, Tag } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ExternalLink, Clock, Tag, Search } from 'lucide-react';
 import { BLOG_ARTICLES } from '../data/blogArticles';
+
 
 export const BlogPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
@@ -22,67 +24,67 @@ export const BlogPage: React.FC = () => {
   const regular = filteredArticles.filter(a => !a.featured);
 
   return (
-    <div className="py-8 sm:py-12">
-      <div className="wrap space-y-8">
-        {/* Page Header */}
-        <div className="border-b border-[#e6e3da] pb-8">
-          <div className="inline-flex items-center gap-1.5 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-3 py-1 rounded-full mb-3">
-            <BookOpen size={13} />
-            <span>RADAR EDITORIAL & ARTÍCULOS</span>
-          </div>
-          <h1 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight mb-4">
-            El Blog del Café de Especialidad
-          </h1>
-          <p className="text-sm sm:text-base text-[#6b6a63] max-w-2xl leading-relaxed">
-            Curaduría diaria de los mejores análisis técnicos, innovaciones en fermentación de origen, comparativas de equipamiento y cultura barista mundial.
-          </p>
+    <div className="pb-16">
+      {/* Breadcrumb */}
+      <div className="breadcrumb">
+        <Link to="/">Inicio</Link>
+        <span className="sep">/</span>
+        <span className="current">Blog & Artículos</span>
+      </div>
+
+      {/* Page Header */}
+      <div className="page-head">
+        <div className="page-eyebrow">
+          Radar Editorial & Artículos
         </div>
+        <h1 className="page-title">El Blog del Café de Especialidad</h1>
+        <p className="page-sub">
+          Curaduría diaria de los mejores análisis técnicos, innovaciones en fermentación de origen, comparativas de equipamiento y cultura barista mundial.
+        </p>
+      </div>
 
-        {/* Filter Bar */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
-          {/* Categories */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 max-w-full">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
-                  selectedCategory === cat
-                    ? 'bg-ink text-white shadow-sm font-bold'
-                    : 'bg-white border border-[#e6e3da] text-[#333] hover:border-stone-400'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
+      {/* Filter Bar */}
+      <div className="filter-bar">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setSelectedCategory(cat)}
+            className={`filter-chip ${selectedCategory === cat ? 'active' : ''}`}
+          >
+            {cat}
+          </button>
+        ))}
 
-          {/* Search Box */}
-          <div className="relative min-w-[220px]">
-            <input
-              type="text"
-              placeholder="Buscar artículos…"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-white border border-[#e6e3da] rounded-full px-4 py-1.5 text-xs text-ink placeholder:text-[#6b6a63] outline-none focus:border-ink"
-            />
-          </div>
+        <div className="filter-spacer" />
+
+        {/* Search Box in Filter Bar */}
+        <div className="relative min-w-[200px] sm:min-w-[240px]">
+          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" />
+          <input
+            type="text"
+            placeholder="Buscar artículos…"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-full pl-8 pr-3 py-1.5 text-xs text-ink outline-none transition-colors"
+          />
         </div>
+      </div>
 
+      <div className="wrap py-8 space-y-8">
         {/* Featured Articles (Top Grid) */}
         {featured.length > 0 && selectedCategory === 'Todas' && !searchQuery && (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {featured.map((article) => (
               <article
                 key={article.id}
-                className="bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-7 flex flex-col justify-between shadow-sm hover:shadow-md transition-all group"
+                className="bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-7 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
               >
                 <div>
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <span className="bg-[#fdece7] text-[#e94e2b] text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+                    <span className="bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full font-mono">
                       {article.category.toUpperCase()}
                     </span>
-                    <div className="flex items-center gap-1 text-[11px] text-[#6b6a63]">
+                    <div className="flex items-center gap-1 text-[11px] text-stone-500">
                       <Clock size={12} />
                       <span>{article.readTime}</span>
                     </div>
@@ -94,23 +96,23 @@ export const BlogPage: React.FC = () => {
                     </a>
                   </h2>
 
-                  <p className="text-xs sm:text-sm text-[#6b6a63] leading-relaxed mb-4">
+                  <p className="text-xs sm:text-sm text-stone-600 leading-relaxed mb-4">
                     {article.excerpt}
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-[#e6e3da] flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-xs text-[#333]">
-                    <span className="font-semibold">{article.source}</span>
+                <div className="pt-4 border-t border-[#e6e3da] flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2 text-stone-700">
+                    <span className="font-semibold text-ink">{article.source}</span>
                     <span>·</span>
-                    <span className="text-[#6b6a63]">{article.author}</span>
+                    <span className="text-stone-500">{article.author}</span>
                   </div>
 
                   <a
                     href={article.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
+                    className="inline-flex items-center gap-1.5 font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
                   >
                     <span>Leer artículo</span>
                     <ExternalLink size={13} />
@@ -126,23 +128,23 @@ export const BlogPage: React.FC = () => {
           {(selectedCategory !== 'Todas' || searchQuery ? filteredArticles : regular).map((article) => (
             <article
               key={article.id}
-              className="bg-white border border-[#e6e3da] rounded-2xl p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all group"
+              className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
             >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <span className="bg-[#f4f2ec] text-[#6b6a63] text-[11px] font-bold px-2.5 py-0.5 rounded-full">
+                  <span className="bg-[#f4f2ec] text-stone-700 text-[10px] font-bold px-2.5 py-0.5 rounded-full">
                     {article.category}
                   </span>
-                  <span className="text-[11px] text-[#6b6a63]">{article.publishDate}</span>
+                  <span className="text-[11px] text-stone-500">{article.publishDate}</span>
                 </div>
 
-                <h3 className="font-serif font-bold text-base sm:text-lg text-ink group-hover:text-[#2f6fed] transition-colors leading-tight mb-2.5">
+                <h3 className="font-serif font-bold text-base sm:text-lg text-ink group-hover:text-[#2f6fed] transition-colors leading-snug mb-2.5">
                   <a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">
                     {article.title}
                   </a>
                 </h3>
 
-                <p className="text-xs text-[#6b6a63] leading-relaxed mb-4 line-clamp-3">
+                <p className="text-xs text-stone-600 leading-relaxed mb-4 line-clamp-3">
                   {article.excerpt}
                 </p>
 
@@ -150,7 +152,7 @@ export const BlogPage: React.FC = () => {
                   {article.tags.slice(0, 2).map((t, idx) => (
                     <span
                       key={idx}
-                      className="inline-flex items-center gap-1 text-[10px] bg-[#fbfaf7] border border-[#e6e3da] px-2 py-0.5 rounded-md text-[#6b6a63]"
+                      className="inline-flex items-center gap-1 text-[10px] bg-[#fbfaf7] border border-[#e6e3da] px-2 py-0.5 rounded-md text-stone-600"
                     >
                       <Tag size={10} />
                       <span>{t}</span>
@@ -159,15 +161,15 @@ export const BlogPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between mt-auto">
-                <span className="text-[11px] font-medium text-[#6b6a63] truncate max-w-[150px]">
+              <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between mt-auto text-xs">
+                <span className="text-[11px] font-medium text-stone-500 truncate max-w-[150px]">
                   {article.source}
                 </span>
                 <a
                   href={article.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs font-bold text-ink hover:text-[#2f6fed] transition-colors"
+                  className="inline-flex items-center gap-1 font-bold text-ink hover:text-[#2f6fed] transition-colors"
                 >
                   <span>Leer</span>
                   <ExternalLink size={12} />

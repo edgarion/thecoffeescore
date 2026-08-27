@@ -1,14 +1,50 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/product/ProductCard';
 import { BarcelonaIndexTable } from '../components/roasters/BarcelonaIndexTable';
 import { PRODUCTS } from '../data/catalog';
+import { Flame } from 'lucide-react';
+
 
 export const CoffeePage: React.FC = () => {
-  const coffeeProducts = PRODUCTS.filter(p => p.category === 'cafe');
+  const [activeChip, setActiveChip] = useState('Todos');
+  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name'>('score');
+
+  const chips = ['Todos', 'Espresso', 'Filtro', 'Colombia', 'Etiopía', 'Microlotes'];
+
+  const allCoffee = useMemo(() => {
+    return PRODUCTS.filter(p => p.category === 'cafe');
+  }, []);
+
+  const filteredProducts = useMemo(() => {
+    let list = [...allCoffee];
+
+    if (activeChip !== 'Todos') {
+      const chipLow = activeChip.toLowerCase();
+      list = list.filter(p => 
+        (p.subCategory && p.subCategory.toLowerCase().includes(chipLow)) ||
+        (p.name && p.name.toLowerCase().includes(chipLow)) ||
+        (p.specs?.origen && p.specs.origen.toLowerCase().includes(chipLow)) ||
+        (p.badge && p.badge.toLowerCase().includes(chipLow))
+      );
+    }
+
+    if (sortBy === 'score') {
+      list.sort((a, b) => b.score.getValue() - a.score.getValue());
+    } else if (sortBy === 'price_asc') {
+
+      list.sort((a, b) => a.price - b.price);
+    } else if (sortBy === 'price_desc') {
+      list.sort((a, b) => b.price - a.price);
+    } else if (sortBy === 'name') {
+      list.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return list;
+  }, [allCoffee, activeChip, sortBy]);
 
   return (
-    <div>
+    <div className="pb-16">
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>
@@ -19,35 +55,72 @@ export const CoffeePage: React.FC = () => {
       {/* Page Header */}
       <div className="page-head">
         <div className="page-eyebrow">
-          Microtuestes & Orígenes
+          Microtuestes & Orígenes Puros
         </div>
         <h1 className="page-title">Café de especialidad en grano</h1>
         <p className="page-sub">
-          Catamos y evaluamos lotes de tueste fresco, variedades arábicas puras, perfiles sensoriales y trazabilidad de origen.
+          Catamos y evaluamos lotes de tueste fresco, variedades arábicas puras, perfiles sensoriales y trazabilidad de origen de los mejores tostadores.
         </p>
       </div>
 
-      <div className="wrap" style={{ padding: '32px' }}>
-        {/* Products */}
-        <h2 className="section-title" style={{ fontSize: '1.6rem' }}>Cafés analizados</h2>
-        <div className="product-grid" style={{ marginBottom: 48 }}>
-          {coffeeProducts.map(p => (
-            <ProductCard key={p.id} product={p} />
-          ))}
-        </div>
+      {/* Filter Bar */}
+      <div className="filter-bar">
+        {chips.map(chip => (
+          <button
+            key={chip}
+            onClick={() => setActiveChip(chip)}
+            className={`filter-chip ${activeChip === chip ? 'active' : ''}`}
+          >
+            {chip}
+          </button>
+        ))}
 
-        {/* Barcelona Index */}
-        <div className="page-head" style={{ padding: '0 0 20px 0' }}>
-          <div className="page-eyebrow" style={{ color: 'var(--accent)' }}>
-            Índice Local de Referencia
+        <div className="filter-spacer" />
+
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value as any)}
+          className="sort-select"
+        >
+          <option value="score">Ordenar: Mejor Coffee Score</option>
+          <option value="price_asc">Precio: menor a mayor</option>
+          <option value="price_desc">Precio: mayor a menor</option>
+          <option value="name">Nombre alfabético</option>
+        </select>
+      </div>
+
+      {/* Main Content Wrap */}
+      <div className="wrap py-8 space-y-12">
+        {/* Products Section */}
+        <div>
+          <div className="results-count mb-4">
+            Mostrando <strong>{filteredProducts.length}</strong> cafés de especialidad evaluados
           </div>
-          <h2 className="page-title" style={{ fontSize: '1.9rem' }}>Barcelona Roasters Index</h2>
-          <p className="page-sub">
-            Monitorización continua de precios por kilogramo, orígenes directos y frecuencias de tueste en tostadores de Barcelona.
-          </p>
+
+          <div className="listing-grid">
+            {filteredProducts.map(p => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
         </div>
 
-        <BarcelonaIndexTable />
+        {/* Barcelona Index Section */}
+        <div className="pt-6 border-t border-[#e6e3da]">
+          <div className="mb-6">
+            <div className="inline-flex items-center gap-1.5 bg-[#fdece7] text-[#e94e2b] text-xs font-bold px-3 py-1 rounded-full mb-2">
+              <Flame size={13} className="shrink-0" />
+              <span>Índice Local de Referencia</span>
+            </div>
+            <h2 className="font-serif font-bold text-2xl sm:text-3xl text-ink">
+              Barcelona Roasters Index
+            </h2>
+            <p className="text-xs sm:text-sm text-[#6b6a63] mt-1 max-w-2xl">
+              Monitorización continua de precios por kilogramo, orígenes directos y frecuencias de tueste en los tostadores de referencia de Barcelona.
+            </p>
+          </div>
+
+          <BarcelonaIndexTable />
+        </div>
       </div>
     </div>
   );

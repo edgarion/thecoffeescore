@@ -2,17 +2,36 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDealsFilter } from '../hooks/useDealsFilter';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
+import { Info, ShoppingBag } from 'lucide-react';
+
+import { useCart } from '../context/CartContext';
+import { showToast } from '../hooks/useToast';
 
 export const DealsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('todas');
+  const { addItem } = useCart();
+
   const { deals, count } = useDealsFilter({
     category: selectedCategory,
     minScore: 7.5,
     minDiscountPct: 10,
   });
 
+  const handleAddToCart = (product: any, currentPrice: number) => {
+    addItem({
+      productId: product.id,
+      productName: product.name,
+      productImage: product.image,
+      selectedStore: product.stores?.[0]?.name || 'Amazon',
+      storeUrl: product.stores?.[0]?.url || 'https://amazon.es',
+      unitPrice: currentPrice,
+      quantity: 1,
+    });
+    showToast(`🛒 ${product.name} añadido a la cesta`, 'success');
+  };
+
   return (
-    <div>
+    <div className="pb-16">
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>
@@ -22,8 +41,8 @@ export const DealsPage: React.FC = () => {
 
       {/* Page Header */}
       <div className="page-head">
-        <div className="page-eyebrow" style={{ color: 'var(--accent)' }}>
-          Radar de Precios
+        <div className="page-eyebrow">
+          Radar de Precios & Oportunidades
         </div>
         <h1 className="page-title">Ofertas que merecen la pena</h1>
         <p className="page-sub">
@@ -38,6 +57,7 @@ export const DealsPage: React.FC = () => {
           { id: 'maquinas', label: 'Máquinas' },
           { id: 'molinos', label: 'Molinos' },
           { id: 'accesorios', label: 'Accesorios' },
+          { id: 'cafe', label: 'Café de especialidad' },
         ].map(cat => (
           <button
             key={cat.id}
@@ -50,7 +70,7 @@ export const DealsPage: React.FC = () => {
       </div>
 
       {/* Deals List */}
-      <div className="wrap" style={{ padding: '32px' }}>
+      <div className="wrap py-8 space-y-6">
         <div className="results-count">
           <strong>{count}</strong> ofertas verificadas activas hoy
         </div>
@@ -82,13 +102,22 @@ export const DealsPage: React.FC = () => {
                   <span className="offer-row-pct">-{discountPercentage}%</span>
                 </div>
 
-                <div>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => handleAddToCart(product, currentPrice)}
+                    className="w-9 h-9 rounded-xl bg-[#f4f2ec] hover:bg-stone-200 text-ink flex items-center justify-center transition-colors border border-[#e6e3da]"
+                    title="Añadir a la cesta"
+                    aria-label="Añadir a la cesta"
+                  >
+                    <ShoppingBag size={16} className="text-[#e94e2b]" />
+                  </button>
+
                   <AffiliateButton
                     stores={product.stores}
                     productName={product.name}
                     defaultPrice={currentPrice}
                     label="Ver oferta →"
-                    className="btn btn-solid"
+                    className="btn btn-solid !py-2.5 !text-xs !rounded-xl"
                   />
                 </div>
               </div>
@@ -97,10 +126,10 @@ export const DealsPage: React.FC = () => {
         </div>
 
         {/* Transparency note */}
-        <div className="trust-note" style={{ marginTop: 32 }}>
-          <div className="ic">ℹ️</div>
-          <div>
-            <strong>Transparencia:</strong> Las ofertas se contrastan con históricos reales para evitar precios inflados previos al descuento. Si compras a través de nuestros enlaces podemos percibir una comisión de afiliación sin coste adicional para ti.
+        <div className="trust-note mt-8">
+          <Info size={16} className="text-stone-400 shrink-0 mt-0.5" />
+          <div className="text-xs text-stone-600 leading-relaxed">
+            <strong>Transparencia de Precios:</strong> Las ofertas se contrastan con registros históricos reales para evitar precios inflados previos al descuento. Si compras a través de nuestros enlaces podemos percibir una comisión de afiliación sin coste adicional para ti.
           </div>
         </div>
       </div>

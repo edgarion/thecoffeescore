@@ -24,14 +24,14 @@ export const ComparatorPage: React.FC = () => {
         </p>
       </div>
 
-      <div className="wrap" style={{ padding: '32px 48px' }}>
+      <div className="wrap py-8 space-y-8">
         {/* Main Comparison Component */}
         <ComparisonTable />
 
         {/* Trust & Transparency Note */}
-        <div className="trust-note" style={{ marginTop: 40 }}>
-          <Info size={16} className="text-ink-muted shrink-0 mt-0.5" />
-          <div>
+        <div className="trust-note">
+          <Info size={16} className="text-stone-400 shrink-0 mt-0.5" />
+          <div className="text-xs text-stone-600 leading-relaxed">
             <strong>Criterio Independiente y Financiación:</strong> Las especificaciones técnicas son verificadas en nuestro banco de pruebas. Si compras a través de los enlaces de tienda podemos recibir una comisión sin ningún coste extra para ti, lo que sostiene nuestro laboratorio independiente.
           </div>
         </div>
@@ -39,3 +39,4 @@ export const ComparatorPage: React.FC = () => {
     </div>
   );
 };
+
