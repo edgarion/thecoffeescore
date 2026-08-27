@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import { PRODUCTS } from '../data/catalog';
 import { ProductCard } from '../components/product/ProductCard';
 import { TrustBar } from '../components/layout/TrustBar';
+import { BarcelonaCoffeeSlider } from '../components/roasters/BarcelonaCoffeeSlider';
 import { showToast } from '../hooks/useToast';
+
 import {
   Search,
   BarChart2,
@@ -113,7 +115,10 @@ export const HomePage: React.FC = () => {
       {/* 2. BRANDS TICKER */}
       <TrustBar />
 
-      {/* 3. TOP DISCOVERY ROW (ENCUENTRA TU PRÓXIMA COMPRA + COMPARA HASTA 4 + OFERTAS DESTACADAS) */}
+      {/* 3. BARCELONA SPECIALTY COFFEE SLIDER */}
+      <BarcelonaCoffeeSlider />
+
+      {/* 4. TOP DISCOVERY ROW (ENCUENTRA TU PRÓXIMA COMPRA + COMPARA HASTA 4 + OFERTAS DESTACADAS) */}
       <section className="wrap">
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-stretch">
           {/* Main Discovery Catalog (7 cols) */}
