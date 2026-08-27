@@ -99,16 +99,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 467,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Bambino%20Plus"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 485,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Bambino%20Plus"
           }
     ]
   },
@@ -142,16 +142,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 363,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Bambino"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 377,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Bambino"
           }
     ]
   },
@@ -185,16 +185,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 654,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Express+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Express"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 679,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Express&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Barista%20Express"
           }
     ]
   },
@@ -228,16 +228,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1039,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Touch+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Touch"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1079,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Touch&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Barista%20Touch"
           }
     ]
   },
@@ -271,16 +271,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1351,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Dual%20Boiler+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Sage%20Sage%20Dual%20Boiler"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1403,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Sage%20Sage%20Dual%20Boiler&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Sage%20Sage%20Dual%20Boiler"
           }
     ]
   },
@@ -314,16 +314,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 571,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Anna%20PL41TEM+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Lelit%20Anna%20PL41TEM"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 593,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Anna%20PL41TEM&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Lelit%20Lelit%20Anna%20PL41TEM"
           }
     ]
   },
@@ -357,16 +357,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 727,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Glenda%20PL41PLUS+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Lelit%20Glenda%20PL41PLUS"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 755,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Lelit%20Lelit%20Glenda%20PL41PLUS"
           }
     ]
   },
@@ -400,16 +400,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 935,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Victoria%20PL91T+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Lelit%20Victoria%20PL91T"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 971,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Victoria%20PL91T&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Lelit%20Lelit%20Victoria%20PL91T"
           }
     ]
   },
@@ -443,16 +443,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1247,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Mara%20X%20V2+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Lelit%20Mara%20X%20V2"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1295,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Mara%20X%20V2&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Lelit%20Lelit%20Mara%20X%20V2"
           }
     ]
   },
@@ -486,16 +486,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 2287,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Bianca%20V3+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Lelit%20Bianca%20V3"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 2375,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Bianca%20V3&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Lelit%20Lelit%20Bianca%20V3"
           }
     ]
   },
@@ -529,16 +529,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 446,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Gaggia%20Gaggia%20Classic%20Pro+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Gaggia%20Gaggia%20Classic%20Pro"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 463,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Gaggia%20Gaggia%20Classic%20Pro&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Gaggia%20Gaggia%20Classic%20Pro"
           }
     ]
   },
@@ -572,16 +572,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 623,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Rancilio%20Silvia"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 647,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Rancilio%20Rancilio%20Silvia"
           }
     ]
   },
@@ -615,16 +615,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1611,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia%20Pro%20X+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Rancilio%20Silvia%20Pro%20X"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1673,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia%20Pro%20X&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Rancilio%20Rancilio%20Silvia%20Pro%20X"
           }
     ]
   },
@@ -658,16 +658,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 935,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20GO+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20Profitec%20GO"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 971,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20GO&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Profitec%20Profitec%20GO"
           }
     ]
   },
@@ -701,16 +701,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 2807,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20Drive+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20Profitec%20Drive"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 2915,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20Drive&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Profitec%20Profitec%20Drive"
           }
     ]
   },
@@ -744,16 +744,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1455,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rocket%20Espresso%20Rocket%20Appartamento+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Rocket%20Espresso%20Rocket%20Appartamento"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1511,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Rocket%20Espresso%20Rocket%20Appartamento&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Rocket%20Espresso%20Rocket%20Appartamento"
           }
     ]
   },
@@ -787,16 +787,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 675,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Flair%20Espresso%20Flair%2058%20Plus"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 701,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Flair%20Espresso%20Flair%2058%20Plus"
           }
     ]
   },
@@ -830,16 +830,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 779,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Pavoni%20La%20Pavoni%20Europiccola+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=La%20Pavoni%20La%20Pavoni%20Europiccola"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 809,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=La%20Pavoni%20La%20Pavoni%20Europiccola&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=La%20Pavoni%20La%20Pavoni%20Europiccola"
           }
     ]
   },
@@ -873,16 +873,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 259,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 269,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select"
           }
     ]
   },
@@ -916,16 +916,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 176,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Dedica%20EC685+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=De'Longhi%20De'Longhi%20Dedica%20EC685"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 183,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Dedica%20EC685&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=De'Longhi%20De'Longhi%20Dedica%20EC685"
           }
     ]
   },
@@ -959,16 +959,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 727,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Specialista%20Prestigio+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=De'Longhi%20De'Longhi%20Specialista%20Prestigio"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 755,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Specialista%20Prestigio&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=De'Longhi%20De'Longhi%20Specialista%20Prestigio"
           }
     ]
   },
@@ -1002,16 +1002,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 311,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Magnifica%20S+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=De'Longhi%20De'Longhi%20Magnifica%20S"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 323,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Magnifica%20S&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=De'Longhi%20De'Longhi%20Magnifica%20S"
           }
     ]
   },
@@ -1045,16 +1045,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 1767,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Ascaso%20Ascaso%20Steel%20Duo%20PID+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Ascaso%20Ascaso%20Steel%20Duo%20PID"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 1835,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Ascaso%20Ascaso%20Steel%20Duo%20PID&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Ascaso%20Ascaso%20Steel%20Duo%20PID"
           }
     ]
   },
@@ -1088,16 +1088,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 415,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Fellow%20Ode%20Gen%202+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Fellow%20Fellow%20Ode%20Gen%202"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 431,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Fellow%20Ode%20Gen%202&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Fellow%20Fellow%20Ode%20Gen%202"
           }
     ]
   },
@@ -1131,16 +1131,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 207,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Fellow%20Opus%20Conical%20Burr+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Fellow%20Fellow%20Opus%20Conical%20Burr"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 215,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Fellow%20Fellow%20Opus%20Conical%20Burr&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Fellow%20Fellow%20Opus%20Conical%20Burr"
           }
     ]
   },
@@ -1174,16 +1174,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 623,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Niche%20Niche%20Zero%20Grinder+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Niche%20Niche%20Zero%20Grinder"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 647,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Niche%20Niche%20Zero%20Grinder&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Niche%20Niche%20Zero%20Grinder"
           }
     ]
   },
@@ -1217,16 +1217,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 436,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Specialita+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Eureka%20Eureka%20Mignon%20Specialita"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 453,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Specialita&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Eureka%20Eureka%20Mignon%20Specialita"
           }
     ]
   },
@@ -1260,16 +1260,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 363,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Silenzio+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Eureka%20Eureka%20Mignon%20Silenzio"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 377,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Silenzio&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Eureka%20Eureka%20Mignon%20Silenzio"
           }
     ]
   },
@@ -1303,16 +1303,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 415,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Zero+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Eureka%20Eureka%20Mignon%20Zero"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 431,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Zero&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Eureka%20Eureka%20Mignon%20Zero"
           }
     ]
   },
@@ -1346,16 +1346,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 124,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=KINGrinder%20KINGrinder%20K6+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=KINGrinder%20KINGrinder%20K6"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 129,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=KINGrinder%20KINGrinder%20K6&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=KINGrinder%20KINGrinder%20K6"
           }
     ]
   },
@@ -1389,16 +1389,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 280,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Comandante%20Comandante%20C40%20MK4%20Nitro%20Blade+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Comandante%20Comandante%20C40%20MK4%20Nitro%20Blade"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 291,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Comandante%20Comandante%20C40%20MK4%20Nitro%20Blade&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Comandante%20Comandante%20C40%20MK4%20Nitro%20Blade"
           }
     ]
   },
@@ -1432,16 +1432,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 93,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Timemore%20Timemore%20Chestnut%20C3%20PRO+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Timemore%20Timemore%20Chestnut%20C3%20PRO"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 96,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Timemore%20Timemore%20Chestnut%20C3%20PRO&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Timemore%20Timemore%20Chestnut%20C3%20PRO"
           }
     ]
   },
@@ -1475,16 +1475,16 @@ export const PRODUCTS: Product[] = [
                 "isBest": true
           },
           {
-                "name": "Tienda Barista Especializada",
+                "name": "MaxiCoffee España",
                 "price": 207,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Baratza%20Baratza%20Encore%20ESP+barista&tag=thecoffeescore-21"
+                "url": "https://www.maxicoffee.com/es-es/search?q=Baratza%20Baratza%20Encore%20ESP"
           },
           {
                 "name": "El Corte Inglés",
                 "price": 215,
                 "inStock": true,
-                "url": "https://www.amazon.es/s?k=Baratza%20Baratza%20Encore%20ESP&tag=thecoffeescore-21"
+                "url": "https://www.elcorteingles.es/search/?s=Baratza%20Baratza%20Encore%20ESP"
           }
     ]
   },

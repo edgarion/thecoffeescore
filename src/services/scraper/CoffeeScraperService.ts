@@ -226,17 +226,17 @@ export class CoffeeScraperService {
         isBest: true,
       },
       {
-        name: 'Tienda Barista Especializada',
-        price: Math.round(product.price * 1.04),
+        name: 'MaxiCoffee España',
+        price: Math.round(product.price * 1.04 * 100) / 100,
         inStock: true,
-        url: `https://www.amazon.es/s?k=${query}+barista&tag=thecoffeescore-21`,
+        url: `https://www.maxicoffee.com/es-es/search?q=${query}`,
         isBest: false,
       },
       {
         name: 'El Corte Inglés',
-        price: product.oldPrice ? product.oldPrice : Math.round(product.price * 1.08),
+        price: product.oldPrice ? product.oldPrice : Math.round(product.price * 1.08 * 100) / 100,
         inStock: true,
-        url: `https://www.amazon.es/s?k=${query}&tag=thecoffeescore-21`,
+        url: `https://www.elcorteingles.es/search/?s=${query}`,
         isBest: false,
       },
     ];
