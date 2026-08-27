@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ExternalLink, Clock, Tag, Search } from 'lucide-react';
 import { BLOG_ARTICLES } from '../data/blogArticles';
-
 
 export const BlogPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
@@ -59,13 +57,12 @@ export const BlogPage: React.FC = () => {
 
         {/* Search Box in Filter Bar */}
         <div className="relative min-w-[200px] sm:min-w-[240px]">
-          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" />
           <input
             type="text"
             placeholder="Buscar artículos…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-full pl-8 pr-3 py-1.5 text-xs text-ink outline-none transition-colors"
+            className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-full px-3.5 py-1.5 text-xs text-ink outline-none transition-colors"
           />
         </div>
       </div>
@@ -84,10 +81,9 @@ export const BlogPage: React.FC = () => {
                     <span className="bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full font-mono">
                       {article.category.toUpperCase()}
                     </span>
-                    <div className="flex items-center gap-1 text-[11px] text-stone-500">
-                      <Clock size={12} />
-                      <span>{article.readTime}</span>
-                    </div>
+                    <span className="text-[11px] text-stone-500">
+                      {article.readTime}
+                    </span>
                   </div>
 
                   <h2 className="font-serif font-bold text-xl sm:text-2xl text-ink group-hover:text-[#2f6fed] transition-colors leading-tight mb-3">
@@ -112,10 +108,9 @@ export const BlogPage: React.FC = () => {
                     href={article.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
+                    className="font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
                   >
-                    <span>Leer artículo</span>
-                    <ExternalLink size={13} />
+                    Leer artículo →
                   </a>
                 </div>
               </article>
@@ -152,10 +147,9 @@ export const BlogPage: React.FC = () => {
                   {article.tags.slice(0, 2).map((t, idx) => (
                     <span
                       key={idx}
-                      className="inline-flex items-center gap-1 text-[10px] bg-[#fbfaf7] border border-[#e6e3da] px-2 py-0.5 rounded-md text-stone-600"
+                      className="text-[10px] bg-[#fbfaf7] border border-[#e6e3da] px-2 py-0.5 rounded-md text-stone-600 font-medium"
                     >
-                      <Tag size={10} />
-                      <span>{t}</span>
+                      #{t}
                     </span>
                   ))}
                 </div>
@@ -169,10 +163,9 @@ export const BlogPage: React.FC = () => {
                   href={article.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 font-bold text-ink hover:text-[#2f6fed] transition-colors"
+                  className="font-bold text-ink hover:text-[#2f6fed] transition-colors"
                 >
-                  <span>Leer</span>
-                  <ExternalLink size={12} />
+                  Leer →
                 </a>
               </div>
             </article>

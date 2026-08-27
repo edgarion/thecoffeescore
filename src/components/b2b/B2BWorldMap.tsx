@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { ExternalLink, Sparkles, ChevronRight, Plus, Minus, RotateCcw } from 'lucide-react';
 import { B2B_SUPPLIERS, B2BSupplier } from '../../data/b2bSuppliers';
 
 export interface MapHub {
@@ -573,8 +572,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
       {/* Top Header - Minimal & Editorial */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4 pb-3 border-b border-[#f0eee6]">
         <div>
-          <div className="flex items-center gap-1.5 text-[11px] font-bold text-[#e94e2b] uppercase tracking-wider mb-0.5">
-            <Sparkles size={12} />
+          <div className="text-[11px] font-bold text-[#e94e2b] uppercase tracking-wider mb-0.5">
             <span>Radar Global de Materia Prima & Tostadores</span>
           </div>
           <h2 className="font-serif font-bold text-lg sm:text-xl text-ink">
@@ -627,31 +625,31 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
         <div ref={mapContainerRef} className="w-full h-full z-0" />
 
         {/* Minimal Float Controls (Zoom + Reset + Jawg Style Switcher) */}
-        <div className="absolute right-3 top-3 z-10 flex flex-col gap-1 bg-white/95 backdrop-blur-xs border border-[#e6e3da] rounded-lg p-1 shadow-sm">
+        <div className="absolute right-3 top-3 z-10 flex flex-col gap-1 bg-white/95 backdrop-blur-xs border border-[#e6e3da] rounded-lg p-1 shadow-sm font-bold">
           <button
             onClick={() => handleZoom(1)}
-            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors"
+            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors text-sm"
             title="Acercar mapa"
             aria-label="Acercar mapa"
           >
-            <Plus size={14} />
+            +
           </button>
           <button
             onClick={() => handleZoom(-1)}
-            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors"
+            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors text-sm"
             title="Alejar mapa"
             aria-label="Alejar mapa"
           >
-            <Minus size={14} />
+            -
           </button>
           <div className="h-px bg-[#e6e3da] my-0.5" />
           <button
             onClick={handleReset}
-            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors"
+            className="w-7 h-7 flex items-center justify-center text-stone-700 hover:text-ink hover:bg-stone-100 rounded transition-colors text-xs"
             title="Restablecer vista"
             aria-label="Restablecer vista"
           >
-            <RotateCcw size={12} />
+            ↺
           </button>
           <div className="h-px bg-[#e6e3da] my-0.5" />
           {/* Map theme toggles */}
@@ -706,7 +704,6 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
         </div>
       </div>
 
-
       {/* Selected Hub Detail Bar - Minimal Style */}
       {activeHub && (
         <div className="bg-[#fbfaf7] border border-[#ece8df] rounded-xl p-3.5 sm:p-4">
@@ -740,10 +737,9 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
               {onSelectCountry && (
                 <button
                   onClick={() => onSelectCountry(activeHub.name)}
-                  className="bg-ink hover:bg-black text-white font-bold text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 transition-all shadow-2xs"
+                  className="bg-ink hover:bg-black text-white font-bold text-xs px-3 py-1.5 rounded-lg transition-all shadow-2xs"
                 >
-                  <span>Filtrar {activeHub.name}</span>
-                  <ChevronRight size={13} />
+                  <span>Filtrar {activeHub.name} →</span>
                 </button>
               )}
             </div>
@@ -781,10 +777,9 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
                     href={supplier.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#2f6fed] hover:underline inline-flex items-center gap-0.5 font-semibold"
+                    className="text-[#2f6fed] hover:underline font-semibold"
                   >
-                    <span>Web</span>
-                    <ExternalLink size={9} />
+                    Web →
                   </a>
                 </div>
               </div>

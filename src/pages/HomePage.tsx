@@ -8,19 +8,6 @@ import { CoffeeSuppliersSection } from '../components/roasters/CoffeeSuppliersSe
 import { showToast } from '../hooks/useToast';
 
 
-import {
-  Search,
-  BarChart2,
-  Tag,
-  Coffee,
-  Flame,
-  Sliders,
-  Wrench,
-  Euro,
-  Send,
-  ArrowRight
-} from 'lucide-react';
-
 export const HomePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'maquinas' | 'molinos' | 'accesorios' | 'cafe'>('maquinas');
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -31,7 +18,7 @@ export const HomePage: React.FC = () => {
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     if (newsletterEmail && newsletterEmail.includes('@')) {
-      showToast('✉️ ¡Te has suscrito con éxito a El radar del café!', 'success');
+      showToast('¡Te has suscrito con éxito a El radar del café!', 'success');
       setNewsletterEmail('');
     } else {
       showToast('Introduce un correo electrónico válido', 'warning');
@@ -199,15 +186,15 @@ export const HomePage: React.FC = () => {
 
               <ul className="space-y-3.5 text-xs font-semibold text-[#333] mb-6">
                 <li className="flex items-center gap-2.5">
-                  <Search size={15} className="text-[#2f6fed] shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#2f6fed] shrink-0" />
                   <span>Especificaciones técnicas</span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <BarChart2 size={15} className="text-[#2f6fed] shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#2f6fed] shrink-0" />
                   <span>Puntuaciones por categoría</span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <Tag size={15} className="text-[#2f6fed] shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#2f6fed] shrink-0" />
                   <span>Precios en tiempo real</span>
                 </li>
               </ul>
@@ -429,18 +416,13 @@ export const HomePage: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {/* Bottom Card 1: Newsletter */}
           <div className="bg-[#f4f2ec] border border-[#e6e3da] rounded-2xl p-6 flex flex-col justify-between">
-            <div className="flex items-start justify-between gap-3 mb-4">
-              <div>
-                <h3 className="font-serif font-bold text-lg sm:text-xl text-ink mb-2 leading-tight">
-                  El radar del café,<br />cada semana.
-                </h3>
-                <p className="text-xs text-[#6b6a63] leading-relaxed">
-                  Noticias, análisis, ofertas y nuevas guías. Sin spam. Solo lo importante.
-                </p>
-              </div>
-              <div className="w-12 h-12 shrink-0 flex items-center justify-center text-ink opacity-75">
-                <Send size={28} />
-              </div>
+            <div className="mb-4">
+              <h3 className="font-serif font-bold text-lg sm:text-xl text-ink mb-2 leading-tight">
+                El radar del café,<br />cada semana.
+              </h3>
+              <p className="text-xs text-[#6b6a63] leading-relaxed">
+                Noticias, análisis, ofertas y nuevas guías. Sin spam. Solo lo importante.
+              </p>
             </div>
 
             <form onSubmit={handleSubscribe} className="flex gap-2">
@@ -475,10 +457,9 @@ export const HomePage: React.FC = () => {
                   </h4>
                   <Link
                     to="/guias"
-                    className="inline-flex items-center gap-1 text-[11px] font-bold text-ink hover:text-[#2f6fed]"
+                    className="text-[11px] font-bold text-ink hover:text-[#2f6fed]"
                   >
-                    <span>Leer guía</span>
-                    <ArrowRight size={11} />
+                    Leer guía →
                   </Link>
                 </div>
                 <div className="w-full h-14 flex items-center justify-center mt-2">
@@ -498,10 +479,9 @@ export const HomePage: React.FC = () => {
                   </h4>
                   <Link
                     to="/guias"
-                    className="inline-flex items-center gap-1 text-[11px] font-bold text-ink hover:text-[#2f6fed]"
+                    className="text-[11px] font-bold text-ink hover:text-[#2f6fed]"
                   >
-                    <span>Leer guía</span>
-                    <ArrowRight size={11} />
+                    Leer guía →
                   </Link>
                 </div>
                 <div className="w-full h-14 flex items-center justify-center mt-2">
@@ -524,40 +504,40 @@ export const HomePage: React.FC = () => {
             <div className="grid grid-cols-5 gap-2 text-center py-2">
               {/* 1. Espresso */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-[#2f6fed] text-white flex items-center justify-center shadow-sm">
-                  <Coffee size={18} />
+                <div className="w-10 h-10 rounded-full bg-[#2f6fed] text-white flex items-center justify-center shadow-sm font-bold text-xs font-mono">
+                  ESP
                 </div>
                 <span className="text-[11px] font-medium text-[#6b6a63]">Espresso</span>
               </div>
 
               {/* 2. Vapor */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-[#e94e2b] text-white flex items-center justify-center shadow-sm">
-                  <Flame size={18} />
+                <div className="w-10 h-10 rounded-full bg-[#e94e2b] text-white flex items-center justify-center shadow-sm font-bold text-xs font-mono">
+                  STM
                 </div>
                 <span className="text-[11px] font-medium text-[#6b6a63]">Vapor</span>
               </div>
 
               {/* 3. Facilidad */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-[#f5b642] text-white flex items-center justify-center shadow-sm">
-                  <Sliders size={18} />
+                <div className="w-10 h-10 rounded-full bg-[#f5b642] text-white flex items-center justify-center shadow-sm font-bold text-xs font-mono">
+                  UX
                 </div>
                 <span className="text-[11px] font-medium text-[#6b6a63]">Facilidad</span>
               </div>
 
               {/* 4. Construcción */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-[#9c9a90] text-white flex items-center justify-center shadow-sm">
-                  <Wrench size={18} />
+                <div className="w-10 h-10 rounded-full bg-[#9c9a90] text-white flex items-center justify-center shadow-sm font-bold text-xs font-mono">
+                  BLD
                 </div>
                 <span className="text-[11px] font-medium text-[#6b6a63]">Construcción</span>
               </div>
 
               {/* 5. Precio */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-[#3fae6a] text-white flex items-center justify-center shadow-sm">
-                  <Euro size={18} />
+                <div className="w-10 h-10 rounded-full bg-[#3fae6a] text-white flex items-center justify-center shadow-sm font-bold text-xs font-mono">
+                  VAL
                 </div>
                 <span className="text-[11px] font-medium text-[#6b6a63]">Precio</span>
               </div>

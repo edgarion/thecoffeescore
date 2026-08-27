@@ -1,5 +1,4 @@
 import React from 'react';
-import { X, ArrowRight, BookOpen, Coffee } from 'lucide-react';
 import { useSearch } from '../../hooks/useSearch';
 import { Link } from 'react-router-dom';
 import { ScoreBadge } from '../ui/ScoreBadge';
@@ -30,10 +29,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
           />
           <button
             onClick={onClose}
-            className="w-7 h-7 rounded-full bg-paper-secondary flex items-center justify-center text-ink-muted hover:text-ink"
+            className="w-7 h-7 rounded-full bg-paper-secondary flex items-center justify-center text-ink font-bold text-xs hover:bg-stone-200"
             aria-label="Cerrar búsqueda"
           >
-            <X size={14} />
+            ✕
           </button>
         </div>
 
@@ -87,18 +86,15 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
                         key={g.id}
                         to="/guias"
                         onClick={onClose}
-                        className="flex items-center gap-3 p-2.5 rounded-editorial hover:bg-paper-secondary transition-colors group"
+                        className="flex items-center justify-between p-2.5 rounded-editorial hover:bg-paper-secondary transition-colors group"
                       >
-                        <div className="w-8 h-8 rounded-full bg-editorial-blue/10 flex items-center justify-center text-editorial-blue shrink-0">
-                          <BookOpen size={15} />
-                        </div>
                         <div className="flex-1 min-w-0">
                           <div className="font-semibold text-ink text-sm group-hover:text-editorial-blue transition-colors truncate">
                             {g.title}
                           </div>
                           <div className="text-xs text-ink-muted">{g.category} · {g.readTime} lectura</div>
                         </div>
-                        <ArrowRight size={14} className="text-ink-muted group-hover:translate-x-1 transition-transform" />
+                        <span className="text-xs text-ink-muted group-hover:text-ink">Leer →</span>
                       </Link>
                     ))}
                   </div>
@@ -116,11 +112,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
                         key={r.name}
                         to="/cafe"
                         onClick={onClose}
-                        className="flex items-center gap-3 p-2.5 rounded-editorial hover:bg-paper-secondary transition-colors group"
+                        className="flex items-center justify-between p-2.5 rounded-editorial hover:bg-paper-secondary transition-colors group"
                       >
-                        <div className="w-8 h-8 rounded-full bg-editorial-red/10 flex items-center justify-center text-editorial-red shrink-0">
-                          <Coffee size={15} />
-                        </div>
                         <div className="flex-1 min-w-0">
                           <div className="font-semibold text-ink text-sm group-hover:text-editorial-blue transition-colors">
                             {r.name} ({r.district})

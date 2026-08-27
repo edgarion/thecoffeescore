@@ -18,11 +18,12 @@ export interface EditorialReview {
 }
 
 export interface ProductSubscores {
-  espresso: number;
-  vapor: number;      // Or retention for grinders
-  facilidad: number;
-  construccion: number;
-  precio: number;
+  espresso?: number;
+  vapor?: number;      // Or retention for grinders
+  facilidad?: number;
+  construccion?: number;
+  precio?: number;
+  [key: string]: number | undefined;
 }
 
 export interface Product {

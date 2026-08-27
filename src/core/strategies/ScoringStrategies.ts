@@ -20,11 +20,11 @@ export class EspressoMachineStrategy implements ICoffeeScoreStrategy {
 
   public calculateScore(subscores: ProductSubscores): number {
     const raw = 
-      (subscores.espresso * this.weights.espresso) +
-      (subscores.vapor * this.weights.vapor) +
-      (subscores.facilidad * this.weights.facilidad) +
-      (subscores.construccion * this.weights.construccion) +
-      (subscores.precio * this.weights.precio);
+      ((subscores.espresso ?? 9) * this.weights.espresso) +
+      ((subscores.vapor ?? 9) * this.weights.vapor) +
+      ((subscores.facilidad ?? 9) * this.weights.facilidad) +
+      ((subscores.construccion ?? 9) * this.weights.construccion) +
+      ((subscores.precio ?? 9) * this.weights.precio);
 
     return Math.round(raw * 10) / 10;
   }
@@ -63,11 +63,11 @@ export class GrinderStrategy implements ICoffeeScoreStrategy {
 
   public calculateScore(subscores: ProductSubscores): number {
     const raw = 
-      (subscores.espresso * this.weights.espresso) +
-      (subscores.vapor * this.weights.vapor) +
-      (subscores.facilidad * this.weights.facilidad) +
-      (subscores.construccion * this.weights.construccion) +
-      (subscores.precio * this.weights.precio);
+      ((subscores.espresso ?? 9) * this.weights.espresso) +
+      ((subscores.vapor ?? 9) * this.weights.vapor) +
+      ((subscores.facilidad ?? 9) * this.weights.facilidad) +
+      ((subscores.construccion ?? 9) * this.weights.construccion) +
+      ((subscores.precio ?? 9) * this.weights.precio);
 
     return Math.round(raw * 10) / 10;
   }
@@ -98,11 +98,11 @@ export class DefaultScoreStrategy implements ICoffeeScoreStrategy {
 
   public calculateScore(subscores: ProductSubscores): number {
     const raw = 
-      (subscores.espresso * this.weights.espresso) +
-      (subscores.vapor * this.weights.vapor) +
-      (subscores.facilidad * this.weights.facilidad) +
-      (subscores.construccion * this.weights.construccion) +
-      (subscores.precio * this.weights.precio);
+      ((subscores.espresso ?? 9) * this.weights.espresso) +
+      ((subscores.vapor ?? 9) * this.weights.vapor) +
+      ((subscores.facilidad ?? 9) * this.weights.facilidad) +
+      ((subscores.construccion ?? 9) * this.weights.construccion) +
+      ((subscores.precio ?? 9) * this.weights.precio);
 
     return Math.round(raw * 10) / 10;
   }

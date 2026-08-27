@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { X, Plus } from 'lucide-react';
 import { useComparator } from '../../hooks/useComparator';
 import { Link } from 'react-router-dom';
 import { ProductPickerModal } from './ProductPickerModal';
@@ -20,7 +19,6 @@ export const ComparisonTable: React.FC = () => {
           onClick={() => setIsPickerOpen(true)}
           className="btn btn-solid"
         >
-          <Plus size={16} />
           <span>Añadir primer producto</span>
         </button>
         <ProductPickerModal isOpen={isPickerOpen} onClose={() => setIsPickerOpen(false)} />
@@ -37,14 +35,22 @@ export const ComparisonTable: React.FC = () => {
             <div key={product.id} className="compare-picked">
               <button
                 onClick={() => removeProduct(product.id)}
-                className="remove-x"
+                className="remove-x font-bold text-xs"
                 title="Eliminar de la comparativa"
               >
-                <X size={15} />
+                ✕
               </button>
 
               <div className="compare-col-photo mx-auto">
-                <img src={product.image} alt={product.name} />
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.onerror = null;
+                    target.src = '/assets/products/sage-bambino.png';
+                  }}
+                />
               </div>
               <h4 className="font-bold text-sm text-ink truncate mb-1" title={product.name}>
                 {product.name}
@@ -74,10 +80,10 @@ export const ComparisonTable: React.FC = () => {
           {canAddMore && (
             <div
               onClick={() => setIsPickerOpen(true)}
-              className="compare-slot flex flex-col items-center justify-center min-h-[220px]"
+              className="compare-slot flex flex-col items-center justify-center min-h-[220px] cursor-pointer"
             >
-              <div className="w-9 h-9 rounded-full bg-white border border-[#e6e3da] flex items-center justify-center mb-2">
-                <Plus size={16} />
+              <div className="w-9 h-9 rounded-full bg-white border border-[#e6e3da] flex items-center justify-center mb-2 font-bold text-sm">
+                +
               </div>
               <span className="font-bold text-xs">+ Añadir producto</span>
               <span className="text-[11px] text-[#6b6a63] mt-1 font-mono">
@@ -112,6 +118,28 @@ export const ComparisonTable: React.FC = () => {
                   ))}
                 </tr>
               ))}
+              <tr>
+                <td className="spec-label font-bold">Comprar</td>
+                {selectedProducts.map(p => (
+                  <td key={p.id} className="p-3 text-center">
+                    {p.stores && p.stores.length > 0 ? (
+                      <div className="flex flex-col items-center gap-1.5">
+                        <span className="font-extrabold text-sm text-ink font-mono">{p.stores[0].price} €</span>
+                        <a
+                          href={p.stores[0].url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-[#2f6fed] hover:bg-[#2055be] text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors shadow-sm block w-full text-center"
+                        >
+                          {p.stores[0].name.split(' ')[0]} →
+                        </a>
+                      </div>
+                    ) : (
+                      <span className="text-xs text-[#6b6a63]">Consultar</span>
+                    )}
+                  </td>
+                ))}
+              </tr>
             </tbody>
           </table>
         </div>

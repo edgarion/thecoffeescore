@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Building2, ArrowRight, TrendingUp, CheckCircle2, ShieldCheck } from 'lucide-react';
-
 
 export const CoffeeSuppliersSection: React.FC = () => {
   return (
@@ -10,8 +8,7 @@ export const CoffeeSuppliersSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           {/* Left: Info */}
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-1.5 bg-[#eef4ff] text-[#2f6fed] text-[11px] font-bold px-3 py-1 rounded-full mb-2.5">
-              <Building2 size={13} className="shrink-0" />
+            <div className="inline-flex items-center bg-[#eef4ff] text-[#2f6fed] text-[11px] font-bold px-3 py-1 rounded-full mb-2.5">
               <span>DIRECTORIO B2B & IMPORTACIÓN INTERNACIONAL</span>
             </div>
 
@@ -20,21 +17,18 @@ export const CoffeeSuppliersSection: React.FC = () => {
             </h2>
 
             <p className="text-xs sm:text-sm text-[#6b6a63] leading-relaxed mb-4">
-              Directorio internacional con índices de precios FOB de café verde en saco, tarifas mayoristas para cafeterías y contactos directos en <strong>España 🇪🇸, Etiopía 🇪🇹, Tailandia 🇹🇭, Alemania 🇩🇪 y Países Bajos 🇳🇱</strong>.
+              Directorio internacional con índices de precios FOB de café verde en saco, tarifas mayoristas para cafeterías y contactos directos en <strong>España, Etiopía, Tailandia, Alemania y Países Bajos</strong>.
             </p>
 
             {/* Micro Highlights */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
-              <div className="flex items-center gap-1.5 text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
-                <CheckCircle2 size={13} className="text-emerald-600 shrink-0" />
+              <div className="flex items-center text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
                 <span className="truncate text-[11px] font-medium">Precios FOB verificados</span>
               </div>
-              <div className="flex items-center gap-1.5 text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
-                <ShieldCheck size={13} className="text-[#2f6fed] shrink-0" />
+              <div className="flex items-center text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
                 <span className="truncate text-[11px] font-medium">Contactos comerciales directos</span>
               </div>
-              <div className="hidden sm:flex items-center gap-1.5 text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
-                <TrendingUp size={13} className="text-[#e94e2b] shrink-0" />
+              <div className="hidden sm:flex items-center text-stone-700 bg-white border border-[#e6e3da] rounded-lg px-2.5 py-1.5">
                 <span className="truncate text-[11px] font-medium">Tostadoras Probat & Giesen</span>
               </div>
             </div>
@@ -58,8 +52,7 @@ export const CoffeeSuppliersSection: React.FC = () => {
               to="/b2b"
               className="btn btn-solid w-full justify-center !py-2.5 !text-xs !rounded-xl"
             >
-              <span>Ver Directorio B2B</span>
-              <ArrowRight size={13} />
+              <span>Ver Directorio B2B →</span>
             </Link>
           </div>
         </div>

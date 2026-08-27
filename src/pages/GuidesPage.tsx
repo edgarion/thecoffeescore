@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BUYING_GUIDES } from '../data/catalog';
-import { Clock, ArrowRight } from 'lucide-react';
-
 
 export const GuidesPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('Todas');
@@ -70,8 +68,7 @@ export const GuidesPage: React.FC = () => {
                   <span className="bg-[#f4f2ec] text-stone-700 text-[10px] font-bold px-2.5 py-0.5 rounded-full">
                     {guide.category}
                   </span>
-                  <span className="text-[11px] text-stone-500 flex items-center gap-1">
-                    <Clock size={12} />
+                  <span className="text-[11px] text-stone-500">
                     <span>{guide.readTime}</span>
                   </span>
                 </div>
@@ -92,9 +89,8 @@ export const GuidesPage: React.FC = () => {
                 <span className="text-[11px] font-bold text-stone-400 uppercase tracking-wider">
                   Guía completa
                 </span>
-                <span className="inline-flex items-center gap-1 text-xs font-bold text-ink group-hover:text-[#2f6fed] transition-colors">
-                  <span>Leer guía</span>
-                  <ArrowRight size={13} />
+                <span className="text-xs font-bold text-ink group-hover:text-[#2f6fed] transition-colors">
+                  Leer guía →
                 </span>
               </div>
             </article>

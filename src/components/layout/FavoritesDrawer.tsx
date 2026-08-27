@@ -1,5 +1,4 @@
 import React from 'react';
-import { X, Trash2, ArrowRight, ShoppingBag } from 'lucide-react';
 import { useFavorites } from '../../hooks/useFavorites';
 import { useComparator } from '../../hooks/useComparator';
 import { Link } from 'react-router-dom';
@@ -29,19 +28,19 @@ export const FavoritesDrawer: React.FC<FavoritesDrawerProps> = ({ isOpen, onClos
             </div>
             <button
               onClick={onClose}
-              className="w-8 h-8 rounded-full bg-paper-secondary flex items-center justify-center text-ink-muted hover:text-ink transition-colors"
+              className="w-8 h-8 rounded-full bg-paper-secondary flex items-center justify-center text-ink font-bold text-xs hover:bg-stone-200 transition-colors"
+              aria-label="Cerrar favoritos"
             >
-              <X size={16} />
+              ✕
             </button>
           </div>
 
           <div className="flex-1 overflow-y-auto py-4 space-y-3">
             {favoriteProducts.length === 0 ? (
               <div className="text-center py-16 text-ink-muted">
-                <ShoppingBag size={36} className="mx-auto mb-3 opacity-30" />
                 <p className="font-serif text-lg text-ink">Tu lista de guardados está vacía</p>
                 <p className="text-xs mt-1 max-w-xs mx-auto">
-                  Guarda productos haciendo clic en el icono ♡ en cualquier card para revisarlos o compararlos después.
+                  Guarda productos haciendo clic en Guardar en cualquier ficha para revisarlos o compararlos después.
                 </p>
               </div>
             ) : (
@@ -82,10 +81,10 @@ export const FavoritesDrawer: React.FC<FavoritesDrawerProps> = ({ isOpen, onClos
                     </button>
                     <button
                       onClick={() => toggleFavorite(p.id)}
-                      className="text-stone-400 hover:text-editorial-red text-xs p-1 text-center transition-colors"
+                      className="text-stone-400 hover:text-red-600 text-xs p-1 text-center transition-colors font-medium"
                       title="Eliminar de favoritos"
                     >
-                      <Trash2 size={13} className="mx-auto" />
+                      Eliminar
                     </button>
                   </div>
                 </div>
@@ -97,10 +96,9 @@ export const FavoritesDrawer: React.FC<FavoritesDrawerProps> = ({ isOpen, onClos
             <Link
               to="/comparador"
               onClick={onClose}
-              className="w-full inline-flex items-center justify-center gap-2 bg-ink hover:bg-black text-white font-semibold text-sm py-3 rounded-editorial transition-colors shadow-sm"
+              className="w-full inline-flex items-center justify-center bg-ink hover:bg-black text-white font-semibold text-sm py-3 rounded-editorial transition-colors shadow-sm"
             >
               <span>Ir al comparador</span>
-              <ArrowRight size={15} />
             </Link>
           </div>
         </div>

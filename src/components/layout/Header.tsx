@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GitCompare, Heart, Coffee, X, ChevronRight, ChevronDown, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut, BookOpen, Compass, FileText, Building2 } from 'lucide-react';
 
 
 import { useFavorites } from '../../hooks/useFavorites';
@@ -90,12 +89,11 @@ export const Header: React.FC = () => {
 
   // Secondary links grouped in "Explorar" dropdown
   const secondaryLinks = [
-    { name: 'Proveedores & B2B', path: '/b2b', icon: Building2, desc: 'Café verde, tostadores e importadores' },
-    { name: 'Guías de Compra', path: '/guias', icon: BookOpen, desc: 'Consejos y análisis paso a paso' },
-    { name: 'Blog Especializado', path: '/blog', icon: FileText, desc: 'Técnicas de extracción y novedades' },
-    { name: 'Índice Global', path: '/indice-global', icon: Compass, desc: 'Mejores cafeterías del mundo' },
+    { name: 'Proveedores & B2B', path: '/b2b', desc: 'Café verde, tostadores e importadores' },
+    { name: 'Guías de Compra', path: '/guias', desc: 'Consejos y análisis paso a paso' },
+    { name: 'Blog Especializado', path: '/blog', desc: 'Técnicas de extracción y novedades' },
+    { name: 'Índice Global', path: '/indice-global', desc: 'Mejores cafeterías del mundo' },
   ];
-
 
   return (
     <>
@@ -158,30 +156,24 @@ export const Header: React.FC = () => {
                 }`}
               >
                 <span>Explorar</span>
-                <ChevronDown size={13} className={`transition-transform duration-200 ${isMoreMenuOpen ? 'rotate-180' : ''}`} />
+                <span className="text-[10px] text-stone-400">▾</span>
               </button>
 
               {isMoreMenuOpen && (
                 <div className="absolute left-0 top-full mt-1.5 w-60 bg-white border border-[#e6e3da] rounded-2xl shadow-xl p-1.5 z-50 animate-scaleUp">
                   {secondaryLinks.map((item) => {
-                    const Icon = item.icon;
                     const isActive = location.pathname === item.path;
                     return (
                       <Link
                         key={item.path}
                         to={item.path}
                         onClick={() => setIsMoreMenuOpen(false)}
-                        className={`flex items-start gap-2.5 p-2 rounded-xl transition-colors ${
+                        className={`flex flex-col p-2.5 rounded-xl transition-colors ${
                           isActive ? 'bg-[#f4f2ec] text-ink font-bold' : 'hover:bg-[#fbfaf7] text-stone-700'
                         }`}
                       >
-                        <div className="w-7 h-7 rounded-lg bg-stone-100 flex items-center justify-center shrink-0 mt-0.5 text-ink">
-                          <Icon size={14} />
-                        </div>
-                        <div>
-                          <p className="text-xs font-semibold text-ink leading-tight">{item.name}</p>
-                          <p className="text-[10px] text-stone-500 leading-tight mt-0.5">{item.desc}</p>
-                        </div>
+                        <p className="text-xs font-semibold text-ink leading-tight">{item.name}</p>
+                        <p className="text-[10px] text-stone-500 leading-tight mt-0.5">{item.desc}</p>
                       </Link>
                     );
                   })}
@@ -190,7 +182,7 @@ export const Header: React.FC = () => {
             </div>
           </nav>
 
-          {/* Right Header Controls - Compact Pill Style */}
+          {/* Right Header Controls - Clean Pill Style */}
           <div className="flex items-center gap-1.5 sm:gap-2">
             {/* Search Box with Shortcut Badge */}
             <div
@@ -216,46 +208,45 @@ export const Header: React.FC = () => {
               Buscar
             </button>
 
-            {/* Comparador Icon (Desktop only) */}
+            {/* Comparador Link (Desktop only) */}
             <Link
               to="/comparador"
-              className="hidden lg:flex relative w-7 h-7 items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
+              className="hidden lg:flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
               title="Comparador de productos"
-              aria-label="Ver comparador de productos"
             >
-              <GitCompare size={16} className={selectedIds.length > 0 ? 'text-[#2f6fed]' : ''} />
+              <span>Comparar</span>
               {selectedIds.length > 0 && (
-                <span className="absolute -top-1 -right-1 bg-[#2f6fed] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
+                <span className="ml-1 bg-[#2f6fed] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                   {selectedIds.length}
                 </span>
               )}
             </Link>
 
-            {/* Favoritos Icon */}
+            {/* Favoritos Button */}
             <button
-              className="relative w-7 h-7 flex items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
+              className="flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
               onClick={() => setIsFavOpen(true)}
               title="Favoritos"
               aria-label={`Favoritos (${favCount})`}
             >
-              <Heart size={16} className={favCount > 0 ? 'fill-[#e94e2b] text-[#e94e2b]' : ''} />
+              <span>Favoritos</span>
               {favCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-[#e94e2b] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
+                <span className="ml-1 bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                   {favCount}
                 </span>
               )}
             </button>
 
-            {/* Cesta de Compra Icon */}
+            {/* Cesta de Compra Button */}
             <button
-              className="relative w-7 h-7 flex items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
+              className="flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
               onClick={openCart}
               title="Cesta de compra"
               aria-label={`Cesta (${cartCount})`}
             >
-              <ShoppingBag size={16} className={cartCount > 0 ? 'text-[#e94e2b]' : ''} />
+              <span>Cesta</span>
               {cartCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-[#e94e2b] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
+                <span className="ml-1 bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                   {cartCount}
                 </span>
               )}
@@ -279,9 +270,8 @@ export const Header: React.FC = () => {
               ) : (
                 <button
                   onClick={() => openAuthModal('login')}
-                  className="flex items-center gap-1 bg-ink hover:bg-black text-white text-[11px] font-bold px-2.5 py-1 rounded-full transition-all shadow-sm"
+                  className="flex items-center bg-ink hover:bg-black text-white text-[11px] font-bold px-3 py-1 rounded-full transition-all shadow-sm"
                 >
-                  <UserIcon size={12} />
                   <span>Entrar</span>
                 </button>
               )}
@@ -301,10 +291,7 @@ export const Header: React.FC = () => {
                       }}
                       className="w-full flex items-center justify-between px-2.5 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
                     >
-                      <span className="flex items-center gap-2">
-                        <ShoppingBag size={13} className="text-stone-400" />
-                        <span>Mi Cesta</span>
-                      </span>
+                      <span>Mi Cesta</span>
                       {cartCount > 0 && (
                         <span className="bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                           {cartCount}
@@ -318,10 +305,7 @@ export const Header: React.FC = () => {
                       }}
                       className="w-full flex items-center justify-between px-2.5 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
                     >
-                      <span className="flex items-center gap-2">
-                        <Heart size={13} className="text-stone-400" />
-                        <span>Mis Favoritos</span>
-                      </span>
+                      <span>Mis Favoritos</span>
                       {favCount > 0 && (
                         <span className="bg-stone-200 text-stone-700 text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                           {favCount}
@@ -335,9 +319,8 @@ export const Header: React.FC = () => {
                         setIsUserMenuOpen(false);
                         logout();
                       }}
-                      className="w-full flex items-center gap-2 px-2.5 py-1.5 text-xs text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium"
+                      className="w-full flex items-center px-2.5 py-1.5 text-xs text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium"
                     >
-                      <LogOut size={13} />
                       <span>Cerrar Sesión</span>
                     </button>
                   </div>
@@ -347,17 +330,15 @@ export const Header: React.FC = () => {
 
             {/* Mobile Burger Menu Button */}
             <button
-              className="lg:hidden flex items-center gap-1 bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-2 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
+              className="lg:hidden flex items-center bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-3 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
             >
-              <Coffee size={14} className="text-[#e94e2b] shrink-0" />
               <span className="font-semibold text-xs">Menú</span>
             </button>
           </div>
         </div>
       </header>
-
 
       {/* Mobile & Tablet Drawer (< 1024px) */}
       {isMobileMenuOpen && (
@@ -377,23 +358,18 @@ export const Header: React.FC = () => {
           <div className="relative w-full max-w-[300px] sm:max-w-xs h-full bg-[#fbfaf7] border-l border-[#e6e3da] shadow-2xl flex flex-col z-10 animate-slideUp">
             {/* Drawer Header */}
             <div className="flex items-center justify-between px-5 py-3.5 border-b border-[#e6e3da] bg-white">
-              <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded-full bg-[#f4f2ec] flex items-center justify-center text-[#e94e2b]">
-                  <Coffee size={16} />
-                </div>
-                <span className="font-bold text-sm text-ink leading-tight">thecoffeescore</span>
-              </div>
+              <span className="font-bold text-sm text-ink leading-tight">thecoffeescore</span>
 
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="w-7 h-7 rounded-full bg-[#f4f2ec] flex items-center justify-center text-ink hover:bg-stone-200 transition-colors"
+                className="w-7 h-7 rounded-full bg-[#f4f2ec] flex items-center justify-center text-ink hover:bg-stone-200 transition-colors font-bold text-xs"
                 aria-label="Cerrar menú"
               >
-                <X size={15} />
+                ✕
               </button>
             </div>
 
-            {/* Quick Search inside Drawer (NO magnifying glass) */}
+            {/* Quick Search inside Drawer */}
             <div className="p-3.5 pb-1.5">
               <div
                 onClick={() => {
@@ -427,14 +403,11 @@ export const Header: React.FC = () => {
                     }`}
                   >
                     <span>{link.name}</span>
-                    <div className="flex items-center gap-1.5">
-                      {link.badge && (
-                        <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono ${isActive ? 'bg-[#e94e2b] text-white' : 'bg-[#2f6fed] text-white'}`}>
-                          {link.badge}
-                        </span>
-                      )}
-                      <ChevronRight size={13} className={isActive ? 'text-white' : 'text-stone-400'} />
-                    </div>
+                    {link.badge && (
+                      <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono ${isActive ? 'bg-[#e94e2b] text-white' : 'bg-[#2f6fed] text-white'}`}>
+                        {link.badge}
+                      </span>
+                    )}
                   </Link>
                 );
               })}
@@ -443,7 +416,6 @@ export const Header: React.FC = () => {
                 Explorar & Guías
               </div>
               {secondaryLinks.map((link) => {
-                const Icon = link.icon;
                 const isActive = location.pathname === link.path;
                 return (
                   <Link
@@ -456,11 +428,7 @@ export const Header: React.FC = () => {
                         : 'text-ink bg-white/70 hover:bg-white border border-transparent hover:border-[#e6e3da]'
                     }`}
                   >
-                    <div className="flex items-center gap-2">
-                      <Icon size={14} className={isActive ? 'text-white' : 'text-stone-400'} />
-                      <span>{link.name}</span>
-                    </div>
-                    <ChevronRight size={13} className={isActive ? 'text-white' : 'text-stone-400'} />
+                    <span>{link.name}</span>
                   </Link>
                 );
               })}
@@ -475,10 +443,7 @@ export const Header: React.FC = () => {
                 }}
                 className="w-full flex items-center justify-between px-3.5 py-2.5 bg-white border border-[#e6e3da] rounded-xl text-xs font-bold text-ink shadow-sm"
               >
-                <span className="flex items-center gap-2">
-                  <ShoppingBag size={15} className="text-[#e94e2b]" />
-                  <span>Mi Cesta de Compra</span>
-                </span>
+                <span>Mi Cesta de Compra</span>
                 <span className="bg-ink text-white text-[11px] font-bold px-2 py-0.5 rounded-full font-mono">
                   {cartCount}
                 </span>
@@ -502,10 +467,10 @@ export const Header: React.FC = () => {
                       setIsMobileMenuOpen(false);
                       logout();
                     }}
-                    className="p-1.5 text-stone-400 hover:text-red-600 transition-colors"
+                    className="text-xs text-stone-500 hover:text-red-600 font-semibold px-2 py-1"
                     title="Cerrar sesión"
                   >
-                    <LogOut size={15} />
+                    Salir
                   </button>
                 </div>
               ) : (
@@ -514,9 +479,8 @@ export const Header: React.FC = () => {
                     setIsMobileMenuOpen(false);
                     openAuthModal('login');
                   }}
-                  className="w-full flex items-center justify-center gap-2 bg-ink hover:bg-black text-white font-bold text-xs py-2.5 rounded-xl shadow-sm transition-all"
+                  className="w-full flex items-center justify-center bg-ink hover:bg-black text-white font-bold text-xs py-2.5 rounded-xl shadow-sm transition-all"
                 >
-                  <UserIcon size={14} />
                   <span>Iniciar Sesión / Registro</span>
                 </button>
               )}
@@ -529,7 +493,6 @@ export const Header: React.FC = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="btn btn-solid w-full justify-center !py-2.5 !text-xs !rounded-xl"
               >
-                <SlidersHorizontal size={13} />
                 <span>Abrir comparador</span>
                 {selectedIds.length > 0 && ` (${selectedIds.length})`}
               </Link>

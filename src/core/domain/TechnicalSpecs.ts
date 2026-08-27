@@ -29,6 +29,7 @@ export interface TechnicalSpecs {
   material?: string;
   capacidad?: string;
   resortes?: string;
+  [key: string]: string | undefined;
 }
 
 export interface SpecRowDefinition {

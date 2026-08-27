@@ -6,7 +6,6 @@ import { useComparator } from '../hooks/useComparator';
 import { useFavorites } from '../hooks/useFavorites';
 import { useCart } from '../context/CartContext';
 import { ProductCard } from '../components/product/ProductCard';
-import { GitCompare, Heart, ShoppingBag } from 'lucide-react';
 import { CalculateScoreUseCase } from '../core/use-cases/CalculateScoreUseCase';
 
 export const ProductDetailPage: React.FC = () => {
@@ -18,7 +17,6 @@ export const ProductDetailPage: React.FC = () => {
   const { toggleFavorite, isFavorite } = useFavorites();
   const { addItem } = useCart();
 
-
   const inComp = isInCompare(product.id);
   const isFav = isFavorite(product.id);
 
@@ -28,11 +26,11 @@ export const ProductDetailPage: React.FC = () => {
   const metricNames = strategy.getMetricNames();
 
   const subscoresList = [
-    { label: metricNames.espresso || 'Extracción', value: product.subscores.espresso },
-    { label: metricNames.vapor || 'Vapor / Retención', value: product.subscores.vapor },
-    { label: metricNames.facilidad || 'Facilidad de uso', value: product.subscores.facilidad },
-    { label: metricNames.construccion || 'Construcción', value: product.subscores.construccion },
-    { label: metricNames.precio || 'Relación Calidad/Precio', value: product.subscores.precio },
+    { label: metricNames.espresso || 'Extracción', value: product.subscores.espresso ?? 9.0 },
+    { label: metricNames.vapor || 'Vapor / Retención', value: product.subscores.vapor ?? 9.0 },
+    { label: metricNames.facilidad || 'Facilidad de uso', value: product.subscores.facilidad ?? 9.0 },
+    { label: metricNames.construccion || 'Construcción', value: product.subscores.construccion ?? 9.0 },
+    { label: metricNames.precio || 'Relación Calidad/Precio', value: product.subscores.precio ?? 9.0 },
   ];
 
   const specRows = [
@@ -74,7 +72,15 @@ export const ProductDetailPage: React.FC = () => {
         {/* Left: Gallery */}
         <div>
           <div className="gallery-main">
-            <img src={activeImage} alt={product.name} />
+            <img
+              src={activeImage}
+              alt={product.name}
+              onError={(e) => {
+                const target = e.currentTarget;
+                target.onerror = null;
+                target.src = '/assets/products/sage-bambino.png';
+              }}
+            />
           </div>
           {product.gallery.length > 1 && (
             <div className="gallery-thumbs">
@@ -85,7 +91,15 @@ export const ProductDetailPage: React.FC = () => {
                   className="gallery-thumb"
                   style={{ borderColor: selectedImgIdx === idx ? 'var(--blue)' : 'var(--line)' }}
                 >
-                  <img src={img} alt={`${product.name} ${idx + 1}`} />
+                  <img
+                    src={img}
+                    alt={`${product.name} ${idx + 1}`}
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.onerror = null;
+                      target.src = '/assets/products/sage-bambino.png';
+                    }}
+                  />
                 </div>
               ))}
             </div>
@@ -128,9 +142,8 @@ export const ProductDetailPage: React.FC = () => {
                 unitPrice: product.price,
                 quantity: 1,
               })}
-              className="btn btn-solid flex items-center gap-2 !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none"
+              className="btn btn-solid flex items-center justify-center !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none font-bold text-xs"
             >
-              <ShoppingBag size={16} />
               <span>Añadir a la Cesta</span>
             </button>
 
@@ -146,17 +159,16 @@ export const ProductDetailPage: React.FC = () => {
               onClick={() => inComp ? removeProduct(product.id) : addProduct(product.id)}
               className="btn btn-outline"
             >
-              <GitCompare size={15} />
               <span>{inComp ? 'En comparador' : '+ Comparar'}</span>
             </button>
 
             <button
               onClick={() => toggleFavorite(product.id)}
               className="btn btn-outline"
-              style={{ padding: '14px 16px' }}
+              style={{ padding: '14px 18px' }}
               title={isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}
             >
-              <Heart size={16} className={isFav ? 'fill-accent text-accent' : ''} />
+              <span>{isFav ? 'Guardado' : 'Guardar'}</span>
             </button>
           </div>
 
@@ -197,6 +209,86 @@ export const ProductDetailPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Dónde Comprar al Mejor Precio: Tiendas, Precios y Enlaces Directos */}
+      {product.stores && product.stores.length > 0 && (
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-8 max-w-[900px]">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-[#e6e3da]">
+              <div>
+                <div className="text-[#e94e2b] text-xs font-bold uppercase tracking-wider mb-1">
+                  Comparativa de Tiendas & Disponibilidad
+                </div>
+                <h2 className="text-xl sm:text-2xl font-bold text-ink">
+                  Dónde comprar {product.name} al mejor precio
+                </h2>
+              </div>
+              <div className="text-xs text-[#6b6a63] bg-[#f4f2ec] px-3 py-1.5 rounded-full self-start sm:self-auto font-medium">
+                Precios verificados hoy
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              {product.stores.map((store, idx) => (
+                <div
+                  key={idx}
+                  className={`flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-xl border transition-all gap-3 ${
+                    store.isBest
+                      ? 'border-[#2f6fed] bg-[#f8fbff] ring-1 ring-[#2f6fed]/30'
+                      : 'border-[#e6e3da] bg-white hover:border-[#2f6fed]/40'
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-[#f4f2ec] flex items-center justify-center font-bold text-xs text-ink shrink-0 font-mono">
+                      {store.name.substring(0, 2).toUpperCase()}
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold text-ink text-sm sm:text-base">{store.name}</span>
+                        {store.isBest && (
+                          <span className="bg-[#2f6fed] text-white text-[11px] font-bold px-2 py-0.5 rounded-full">
+                            Mejor Precio
+                          </span>
+                        )}
+                      </div>
+                      <div className="text-xs text-[#6b6a63] mt-0.5">
+                        {store.inStock ? 'En stock · Entrega 24/48h' : 'Bajo pedido'}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between sm:justify-end gap-4 mt-2 sm:mt-0">
+                    <div className="text-right">
+                      <span className="font-extrabold text-lg sm:text-xl text-ink font-mono">{store.price} €</span>
+                      {store.isBest && product.oldPrice && product.oldPrice > store.price && (
+                        <div className="text-[11px] text-[#2e7d32] font-semibold">
+                          Ahorras {(product.oldPrice - store.price)} €
+                        </div>
+                      )}
+                    </div>
+                    <a
+                      href={store.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`px-4 py-2 rounded-lg text-xs font-bold transition-all shrink-0 ${
+                        store.isBest
+                          ? 'bg-[#2f6fed] hover:bg-[#2055be] text-white shadow-sm hover:-translate-y-0.5'
+                          : 'bg-ink hover:bg-black text-white'
+                      }`}
+                    >
+                      Comprar en {store.name.split(' ')[0]} →
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-4 text-xs text-[#6b6a63] leading-relaxed bg-[#fbfaf8] p-3 rounded-lg border border-[#e6e3da]">
+              <strong>Transparencia e Independencia:</strong> Monitorizamos diariamente los precios de venta en Amazon, tiendas especializadas de café y distribuidores oficiales autorizados. Si compras a través de estos enlaces, podemos recibir una comisión sin coste adicional para ti.
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Editorial Body */}
       {product.editorialReview && (

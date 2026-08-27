@@ -64,8 +64,8 @@ export const App: React.FC = () => {
                       <CategoryListingPage
                         category="accesorios"
                         title="Accesorios & Barismo"
-                        subtitle="Básculas de precisión, hervidores cuello de cisne, tampers autonivelantes y herramientas WDT para optimizar cada shot."
-                        chips={['Todas', 'Cafeteras manuales', 'Hervidores', 'Herramientas de barista']}
+                        subtitle="Filtros de especialidad, botellas de batch brew, medidores y básculas de precisión, jarras de latte art y herramientas de barista."
+                        chips={['Todas', 'Filtros', 'Botellas & Batch', 'Medidores & Básculas', 'Jarras & Servidores', 'Herramientas de barista', 'Cafeteras manuales']}
                       />
                     }
                   />

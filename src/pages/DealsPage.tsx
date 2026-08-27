@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDealsFilter } from '../hooks/useDealsFilter';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
-import { Info, ShoppingBag } from 'lucide-react';
-
 import { useCart } from '../context/CartContext';
 import { showToast } from '../hooks/useToast';
 
@@ -27,7 +25,7 @@ export const DealsPage: React.FC = () => {
       unitPrice: currentPrice,
       quantity: 1,
     });
-    showToast(`🛒 ${product.name} añadido a la cesta`, 'success');
+    showToast(`${product.name} añadido a la cesta`, 'success');
   };
 
   return (
@@ -81,7 +79,15 @@ export const DealsPage: React.FC = () => {
             return (
               <div key={product.id} className="offer-row-card">
                 <Link to={`/producto/${product.slug}`} className="offer-row-photo">
-                  <img src={product.image} alt={product.name} />
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.onerror = null;
+                      target.src = '/assets/products/sage-bambino.png';
+                    }}
+                  />
                 </Link>
 
                 <div className="offer-row-mid">
@@ -105,11 +111,10 @@ export const DealsPage: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => handleAddToCart(product, currentPrice)}
-                    className="w-9 h-9 rounded-xl bg-[#f4f2ec] hover:bg-stone-200 text-ink flex items-center justify-center transition-colors border border-[#e6e3da]"
+                    className="px-3 py-2.5 rounded-xl bg-[#f4f2ec] hover:bg-stone-200 text-ink text-xs font-semibold transition-colors border border-[#e6e3da]"
                     title="Añadir a la cesta"
-                    aria-label="Añadir a la cesta"
                   >
-                    <ShoppingBag size={16} className="text-[#e94e2b]" />
+                    + Cesta
                   </button>
 
                   <AffiliateButton
@@ -127,7 +132,6 @@ export const DealsPage: React.FC = () => {
 
         {/* Transparency note */}
         <div className="trust-note mt-8">
-          <Info size={16} className="text-stone-400 shrink-0 mt-0.5" />
           <div className="text-xs text-stone-600 leading-relaxed">
             <strong>Transparencia de Precios:</strong> Las ofertas se contrastan con registros históricos reales para evitar precios inflados previos al descuento. Si compras a través de nuestros enlaces podemos percibir una comisión de afiliación sin coste adicional para ti.
           </div>

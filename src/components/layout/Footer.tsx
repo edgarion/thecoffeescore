@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { openCookieSettings } from '../legal/CookieConsentBanner';
-import { Shield } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -31,17 +30,15 @@ export const Footer: React.FC = () => {
           <Link to="/indice-global" className="hover:underline">Índice Global</Link>
           <Link to="/b2b" className="hover:underline font-semibold text-ink">Proveedores B2B</Link>
           <Link to="/comparador" className="hover:underline">Comparador</Link>
-
         </div>
 
         {/* Legal & Compliance Links */}
         <div className="flex items-center justify-center flex-wrap gap-4 text-xs text-[#6b6a63] pt-3 border-t border-[#e6e3da]/80 w-full max-w-xl">
           <button
             onClick={openCookieSettings}
-            className="hover:text-ink underline transition-colors cursor-pointer flex items-center gap-1"
+            className="hover:text-ink underline transition-colors cursor-pointer"
           >
-            <Shield size={12} />
-            <span>Configurar cookies</span>
+            Configurar cookies
           </button>
           <span>·</span>
           <span>Privacidad RGPD & LSSI</span>

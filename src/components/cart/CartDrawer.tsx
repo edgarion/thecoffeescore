@@ -1,7 +1,5 @@
 import React from 'react';
-import { X, Trash2, Plus, Minus, ShoppingBag, ExternalLink, ArrowRight, ShieldCheck } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
-
 
 export const CartDrawer: React.FC = () => {
   const { items, isOpen, closeCart, updateQuantity, removeItem, clearCart, totalCount, totalAmount } = useCart();
@@ -20,21 +18,16 @@ export const CartDrawer: React.FC = () => {
       <div className="relative w-full max-w-md h-full bg-[#fbfaf7] border-l border-[#e6e3da] shadow-2xl flex flex-col z-10 animate-slideLeft">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-[#e6e3da] bg-white">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-full bg-[#f4f2ec] flex items-center justify-center text-[#e94e2b]">
-              <ShoppingBag size={18} />
-            </div>
-            <div>
-              <h2 className="font-bold text-base text-ink">Mi Cesta</h2>
-              <p className="text-xs text-stone-500">{totalCount} {totalCount === 1 ? 'producto' : 'productos'}</p>
-            </div>
+          <div>
+            <h2 className="font-bold text-base text-ink">Mi Cesta</h2>
+            <p className="text-xs text-stone-500">{totalCount} {totalCount === 1 ? 'producto' : 'productos'}</p>
           </div>
 
           <div className="flex items-center gap-2">
             {items.length > 0 && (
               <button
                 onClick={clearCart}
-                className="text-xs text-stone-500 hover:text-red-600 px-2 py-1 transition-colors"
+                className="text-xs text-stone-500 hover:text-red-600 px-2 py-1 transition-colors font-medium"
                 title="Vaciar cesta"
               >
                 Vaciar
@@ -42,10 +35,10 @@ export const CartDrawer: React.FC = () => {
             )}
             <button
               onClick={closeCart}
-              className="w-8 h-8 rounded-full bg-[#f4f2ec] hover:bg-stone-200 text-ink flex items-center justify-center transition-colors"
+              className="w-8 h-8 rounded-full bg-[#f4f2ec] hover:bg-stone-200 text-ink flex items-center justify-center font-bold text-xs transition-colors"
               aria-label="Cerrar cesta"
             >
-              <X size={16} />
+              ✕
             </button>
           </div>
         </div>
@@ -53,9 +46,6 @@ export const CartDrawer: React.FC = () => {
         {/* Cart Item List */}
         {items.length === 0 ? (
           <div className="flex-1 flex flex-col items-center justify-center p-8 text-center">
-            <div className="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center text-stone-400 mb-4">
-              <ShoppingBag size={30} />
-            </div>
             <h3 className="font-bold text-lg text-ink mb-1">Tu cesta está vacía</h3>
             <p className="text-xs text-stone-500 max-w-xs mb-6 leading-relaxed">
               Explora nuestras selecciones analizadas en laboratorio de cafeteras, molinos y cafés de especialidad.
@@ -83,7 +73,7 @@ export const CartDrawer: React.FC = () => {
                       className="max-h-full max-w-full object-contain"
                     />
                   ) : (
-                    <ShoppingBag size={20} className="text-stone-300" />
+                    <span className="text-xs text-stone-400">Sin foto</span>
                   )}
                 </div>
 
@@ -102,10 +92,9 @@ export const CartDrawer: React.FC = () => {
                           href={item.storeUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[10px] text-[#2f6fed] hover:underline inline-flex items-center gap-0.5"
+                          className="text-[10px] text-[#2f6fed] hover:underline"
                         >
-                          <span>Ver enlace</span>
-                          <ExternalLink size={9} />
+                          Ver enlace →
                         </a>
                       )}
                     </div>
@@ -116,20 +105,20 @@ export const CartDrawer: React.FC = () => {
                     <div className="flex items-center border border-[#e6e3da] bg-[#fbfaf7] rounded-lg overflow-hidden">
                       <button
                         onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                        className="px-2 py-1 text-stone-600 hover:bg-stone-200 transition-colors"
+                        className="px-2.5 py-1 text-stone-600 hover:bg-stone-200 transition-colors font-bold text-xs"
                         aria-label="Reducir cantidad"
                       >
-                        <Minus size={12} />
+                        -
                       </button>
-                      <span className="px-2.5 py-0.5 text-xs font-bold text-ink">
+                      <span className="px-2 py-0.5 text-xs font-bold text-ink">
                         {item.quantity}
                       </span>
                       <button
                         onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                        className="px-2 py-1 text-stone-600 hover:bg-stone-200 transition-colors"
+                        className="px-2.5 py-1 text-stone-600 hover:bg-stone-200 transition-colors font-bold text-xs"
                         aria-label="Aumentar cantidad"
                       >
-                        <Plus size={12} />
+                        +
                       </button>
                     </div>
 
@@ -140,10 +129,10 @@ export const CartDrawer: React.FC = () => {
                       </span>
                       <button
                         onClick={() => removeItem(item.id)}
-                        className="text-stone-400 hover:text-red-500 transition-colors p-1"
+                        className="text-stone-400 hover:text-red-500 transition-colors text-xs font-medium px-1"
                         aria-label="Eliminar producto"
                       >
-                        <Trash2 size={14} />
+                        Eliminar
                       </button>
                     </div>
                   </div>
@@ -177,14 +166,12 @@ export const CartDrawer: React.FC = () => {
                 href={items[0]?.storeUrl || 'https://www.amazon.es'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full bg-ink hover:bg-black text-white font-bold text-xs sm:text-sm py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md hover:-translate-y-0.5"
+                className="w-full bg-ink hover:bg-black text-white font-bold text-xs sm:text-sm py-3 px-4 rounded-xl flex items-center justify-center transition-all shadow-md hover:-translate-y-0.5"
               >
-                <span>Tramitar Compra en Tiendas Oficiales</span>
-                <ArrowRight size={15} />
+                <span>Tramitar Compra en Tiendas Oficiales →</span>
               </a>
 
               <div className="flex items-center justify-center gap-1.5 text-[11px] text-stone-500">
-                <ShieldCheck size={13} className="text-emerald-600" />
                 <span>Precios y stock verificados en tiempo real</span>
               </div>
             </div>

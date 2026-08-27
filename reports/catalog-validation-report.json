@@ -1,0 +1,2381 @@
+{
+  "timestamp": "2026-08-27T15:13:38.376Z",
+  "totalEntitiesChecked": 482,
+  "productsChecked": 395,
+  "barcelonaCoffeesChecked": 8,
+  "b2bSuppliersChecked": 43,
+  "globalShopsChecked": 24,
+  "blogArticlesChecked": 7,
+  "buyingGuidesChecked": 5,
+  "totalErrors": 0,
+  "totalWarnings": 338,
+  "status": "PASSED",
+  "errors": [
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sage-bambino-plus",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sage-bambino",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sage-barista-express",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sage-barista-touch",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sage-dual-boiler",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "lelit-anna-pl41tem",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "lelit-glenda-pl41plus",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "lelit-victoria-pl91t",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "lelit-mara-x-v2",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "lelit-bianca-v3",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "gaggia-classic-pro",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "rancilio-silvia",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "rancilio-silvia-pro-x",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "profitec-go",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "profitec-drive",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "rocket-appartamento",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-58-plus",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-pavoni-europiccola",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "technivorm-moccamaster-kbg-select",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "de-longhi-dedica-ec685",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "de-longhi-specialista-prestigio",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "de-longhi-magnifica-s",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "ascaso-steel-duo-pid",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-ode-gen-2",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-opus-conical-burr",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "niche-zero-grinder",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "eureka-mignon-specialita",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "eureka-mignon-silenzio",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "eureka-mignon-zero",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kingrinder-k6",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "comandante-c40-mk4-nitro-blade",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "timemore-chestnut-c3-pro",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "baratza-encore-esp",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-karimiuki",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-bombe-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-acacia-hills-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-shakiso-hadeso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-barista-hustle-distribuidor-the-comb",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-llavero-nomad-athome",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-samuel-tunisisa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-pink-bourbon-fellow-farm",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-exfoliante-corporal-de-cafe-nomad",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-camiseta-serveis-de-cafe",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-camiseta-ice-manga-corta",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-tote-bag-22kg-heavyweight",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-play-and-brew-con-dara-santana",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-entre-rios",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-geisha-timbuyaku",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-juan-pinto",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-kafipamba",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "nomad-coffee-cuchara-de-cata-x-nomad",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-atitlan",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-b2b-monthly-subscription",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bahire",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bascula-acaia-pearl",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bascula-acaia-pearl-s",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bascula-v60-drip-hario",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bascula-v60-metal-drip-hario",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-bukonzo-ana",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-cafetera-automatica-philips-5500",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-caspulas-brasil",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-caspulas-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-caspulas-etiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-cold-brewer-hario",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-comandante-molinillo-c40-mk4-nitro-blade",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-daniso-horsa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-decaf-pack",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "syra-coffee-discovery-kit",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-abasambi-natural-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-abrar-keno-natural-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-alessi-moka",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-andres-torres-geisha-natural-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-arturo-aviles-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-arturo-paz-maracaturra-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-bascula-timemore-black-mirror-basic-2",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-bascula-timemore-black-mirror-nano",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-bayetas-de-microfibra-sb",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-benjamin-paz-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-bernardo-floriano-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "right-side-coffee-big-mr-sunshine-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-1kg-espresso-seasonal",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-2x250gr-espresso-seasonal",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-2x250gr-espresso-roaster-s-pick",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-2x2x250gr-espresso-roaster-s-pick",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-3kg-office-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-aponte",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-bialetti-moka-2-cups",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-bookkisa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-corazon-de-jesus-drip-bags-10u",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-curso-completo-barista",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-decaf",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-decaf-coffee-capsules-chabela",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-decaf-drip-coffee-bags-10u",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-diego-vergara-pink-bourbon",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-el-alisal",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-iria-ini-kiamwangi",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-kamavindi-kamathura",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-mutana-hill",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "three-marks-coffee-pepe-jijon-drip-bags-10u",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-sweet-coffee-bundle",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-brazil-twin-box",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-elida-gesha-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-volcan-azul-obata",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-guatemala-twin-box",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-la-colina-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-nebula-brewing-tool",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-sundrop-peaberry",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-atlas-coffee",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-fellow-carter-move-tumbler",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-fellow-carter-carry-tumbler",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-fellow-carry-lid",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-aroma-nativo-aji",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-nucleus-bloom",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-volcan-azul",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-ivan-dos-santos-typica",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-ivan-dos-santos-anaerobic",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-los-lajones-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-hario-v60-red-02",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-anniversary-coffee",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-decaf-twin-box",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "the-barn-berlin-melitta-aromaboy-brewer",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-jorge-andrade",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-oma-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-oma-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-arbegona",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-la-choza",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-k-h-wurtz-cup-vesper",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-kiangoi",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-alto-naranjal",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-gift-card",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-k-h-wurtz-garnet-collection",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-equilibrium-bundle-single-serve",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-sagastume-washed-single-serve",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-shyira-anaerobic-48hr-single-serve",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-shyira-washed-single-serve",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-bloom-by-paw-gissel",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-k-h-wurtz-aarhus-collection",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-k-h-wurtz-graphite-collection",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-la-cabra-tote-bag",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-luna",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-terra",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-profiles-subscription",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "la-cabra-ground-chocolate-la-cueva",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-april-trousers",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-april-organic-subscription",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-kamavindi-kenya-washed-sl34-ab",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-gesha-village-ethiopia-natural-geisha-1931-oma-142",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-kamavindi-kenya-washed-sl28-sl34-aa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-ethiopia-kayon-mountain-natural-heirloom",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-tadesse-ethiopia-washed-krume-74158",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-tadesse-ethiopia-natural-krume-74158",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-volcan-azul-costa-rica-washed-sl28",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-sustainable-profile-coffee-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-sustainable-profile-coffee-costa-rica",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-april-thermos",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-april-x-iznik-mavi-cini-ceramic-brewer",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-april-long-sleeve",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-hacienda-la-esmeralda-washed-geisha-drip-pack",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-el-morito-washed-pacamara-drip-pack",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-el-socorro-washed-geisha-drip-pack",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-el-morito-washed-yellow-geisha-drip-pack",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "april-coffee-volcan-azul-natural-sl28-drip-pack-box",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-panama-kotowa-las-brujas-gesha-natural-cafe-only",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-costa-rica-volcan-azul-sl28-cafe-only",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-ethiopia-shakiso-doyenne-natural-cafe-only",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-morning-mayhem",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-io-f-21",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-costa-rica-las-lajas-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-mexico-oaxaca-yogondoy-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-colombia-adrian-lasso-typica-mejorado",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-india-ratnagiri-mosto-anaerobic-cafe-only",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-who-we-are-hat",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-the-pilgrimage-hat",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-philos",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-panama-savage-coffees-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-panama-elida-gesha-falda-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "onyx-coffee-lab-power-nap-cometeer",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-gerald-njagi-kambarare-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-carmen-montoya-bella-vista-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-demeka-becha-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-sike-bokasso-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-harmufo-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-guiliar-perez-cuellar-la-granja-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-mbature-family-kamavindi-estate-gesha-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-abraham-armijos-ecuador",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-kamwangi-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-yabitu-koba-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-pepe-jose-jijon-and-francisco-vintimilla-putushio-2nd-harvest-ecuador",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-william-ortiz-la-cabana-end-of-season-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-manuel-dota-ecuador",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-hector-londono-santa-catalina-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-raro-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-albino-ibias-tres-cedros-2nd-harvest-peru",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-felix-morocho-2nd-harvest-ecuador",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-diana-arboleda-tabares-la-esperanza-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-florence-jessica-marigi-malaki-estate-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-basha-bekele-badigalo-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-mbature-family-kamavindi-estate-lot-1-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-david-berrio-la-casita-end-of-season-colombia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-ndwiga-family-nginda-estate-kenya",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-esayas-beriso-buku-sayisa-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "sey-coffee-2026-miguel-dota-ecuador",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-together-we-end-als",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-nestor-lasso-thermal-shock-caturra",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-mustefa-abakeno-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-hugo-grey-black-blend",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-edwin-norena-gummy-sharks",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-marlon-bolanos-pink-bourbon",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-familia-bermudez-lychee-peach",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-julio-madrid-april",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-nelson-moreno-anaerobic-bourbon",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-diego-bermudez-total-eclipse",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-lica-torres-black-cherry-natural-instant-coffee",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-duwancho-full-spectrum",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-sebastian-ramirez-red-fruits-decaf",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-diego-bermudez-luna-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-boutet-natural-gesha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-sola-als-blend-2026",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-b-w-cowboy-patch",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "black-white-coffee-b-w-cowboy-sticker",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-colombia-hermides-meneses-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-zebrang-coffee-mill-stainless-cutter",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-seasonal-blend-natsu-ake-2026-medium-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-cold-brewnatsu-ake-2026-medium-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-39arita-double-wall-cup",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-2-way-matcha-whisk-stand-by-origami",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-coffee-measure-spoon-by-ishii-koji-walnut-wood",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-colombia-nestor-lasso-medium-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-premium-colombia-oscar-hernandez-bourbon-pimienta-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-cold-brew-fairfield-dark-dark-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-rwanda-mbilima-soil-project-lot-0704-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-kenya-gatomboya-ab-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-kurasu-drip-coffee-bag-rwanda-mbilima-soil-project-lot-0704-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-kurasu-drip-coffee-bag-indonesia-frinsa-estate-weninggalih-light-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-fairfield-medium-medium-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-fairfield-dark-dark-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "kurasu-kyoto-matcha-kurasu-blend-with-sugar",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-limited-pmc-socks",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-costa-rica-cerro-san-luis-finca-espiritu-san-luis-sl28-anaerobic-honey",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-costa-rica-las-lajas-finca-san-isidro-caturra-catuai-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-costa-rica-las-lajas-finca-la-julia-san-isidro-black-honey",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-kenya-ruarai-aa-ruiru-11-sl28-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-kenya-gathaithi-pb-ruiru-11-sl28-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-kenya-ruera-aa-sl28-sl34-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-special-release-the-graciano-cruz-bundle",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-colombia-ea-decaf-de-cana-huila-castillo-caturra-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-ethiopia-abedo-abamecha-heirloom-natural",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-espresso-series-1",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-limited-summer-solstice-limited-blend",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-6-month-wild-gift-subscription-cf-special-request",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-colombia-antioquia-castillo-caturra-washed",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "proud-mary-coffee-corduroy-logo-field-trip-hat",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-espresso-coffee-bundle",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-small-producers-of-cajamarca",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-ndocha",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-adorsi",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-seasonal-blend",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-moccamaster-select-1-25l-coffee-maker-dutch-cocoa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-sitio-canaa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-lomaverde",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-drip-bags-santa-isabel",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-drip-bags-san-antonio-decaf",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-i-like",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-class-coffee-appreciation-class",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-class-learn-how-to-make-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-tea-bundle",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-coffee-flower-tea",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-hario-v60-pour-over-cone-indigo",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-market-lane-enamel-cup",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-moccamaster-select-1-25l-coffee-maker-sorbet",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-gift-3-month-subscription-ships-every-2-weeks-6-deliveries",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-gift-12-month-subscription-ships-every-2-weeks-26-deliveries",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "market-lane-gift-6-month-subscription-ships-every-2-weeks-12-deliveries",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-victor-florez-chiroso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-hills-of-heza",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-el-nevado-decaf",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-double-feature",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-harmufo-ethiopia",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-the-aiden-cold-brew-starter-bundle",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-necessary-dark-roast",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-juan-puerta-mango",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-moonrise",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-big-joy",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-struttura",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-haro-wachu-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-the-series-1-grinder-kit",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-opus-2-espresso-accessories-kit",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-impact-usa",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-matchday",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "fellow-products-jaguar-espresso",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-los-suenos-decaf-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-west-coast-espresso-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-horizon",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-keystone-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-stowaway-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-bhadra-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-montecarlos-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-cusco-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-casa-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-coffee-bean-credit",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-mini-tasting-cup-2-oz-60-ml",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-pyxis-black",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-angel-wings-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-curious-single-origin-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-mild-single-origin-250-gr",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-colorized-10-5-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-big-riff-10-5-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-en-masse-10-5-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-decaf-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-ethereal-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-comfort-zone-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-seismic-10-5-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-yes-plz-decaf-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-homestar-espresso-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "acaia-scales-yes-plz-single-origin-12-oz",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-ewizard-milk-steamer-110v-refurbished",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-flair-2go-refurbished",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-flair-49-pro-refurbished",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-flair-58-plus-2-power-supply",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-second-shot-plus-2026",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-electric-steam-kit-flair-58-plus-2",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-stovetop-steam-kit-flair-58-plus-2",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-electric-steam-kit-flair-49-pro",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-stovetop-steam-kit-flair-49-pro",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-electric-steam-kit-flair-classic",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-stovetop-steam-kit-flair-classic",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-steam-travel-kit-pro-flair-2go",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-flair-58-stainless-steel-joint-hook-upgrade",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-flair-58-pressurized-basket",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-steam-travel-kit-flair-2go",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-travel-kit-flair-2go",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-grinder-kit-flair-classic",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-espresso-bar-kit-flair-classic",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-grinder-kit-flair-49-pro",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-espresso-bar-kit-flair-49-pro",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-grinder-kit-flair-58-plus-2",
+      "field": "specs",
+      "message": "Grinder is missing standard grinder specs (muelas/ajuste)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-espresso-bar-kit-flair-58-plus-2",
+      "field": "specs",
+      "message": "Coffee machine is missing standard machine specs (bomba/caldera/potencia)"
+    },
+    {
+      "type": "WARNING",
+      "entityType": "PRODUCT",
+      "entityId": "flair-espresso-analog-milk-steaming-thermometer",
+      "field": "specs",
+      "message": "Specialty coffee is missing origin/process specs"
+    }
+  ]
+}

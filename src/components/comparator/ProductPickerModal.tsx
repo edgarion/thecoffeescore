@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Search } from 'lucide-react';
 import { PRODUCTS } from '../../data/catalog';
 import { useComparator } from '../../hooks/useComparator';
 import { ScoreBadge } from '../ui/ScoreBadge';
@@ -37,13 +36,12 @@ export const ProductPickerModal: React.FC<ProductPickerModalProps> = ({ isOpen, 
       maxWidth="max-w-2xl"
     >
       <div className="relative my-3">
-        <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-muted" />
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Filtrar por nombre o marca..."
-          className="w-full pl-9 pr-4 py-2 text-xs bg-paper-secondary border border-stone-200 rounded-editorial outline-none focus:border-ink font-sans"
+          className="w-full px-4 py-2 text-xs bg-paper-secondary border border-stone-200 rounded-editorial outline-none focus:border-ink font-sans"
           autoFocus
         />
       </div>

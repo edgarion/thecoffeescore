@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GitCompare, X, ArrowRight } from 'lucide-react';
 import { useComparator } from '../../hooks/useComparator';
 
 export const ComparisonDrawer: React.FC = () => {
@@ -17,7 +16,6 @@ export const ComparisonDrawer: React.FC = () => {
       className="fixed bottom-4 sm:bottom-6 left-3 right-3 sm:left-1/2 sm:-translate-x-1/2 z-40 bg-white border border-[#111111] rounded-full shadow-2xl px-4 sm:px-5 py-2.5 flex items-center justify-between gap-3 sm:gap-4 max-w-lg mx-auto animate-slideUp"
     >
       <div className="flex items-center gap-2 shrink-0">
-        <GitCompare size={17} className="text-editorial-blue" />
         <span className="font-bold text-xs sm:text-sm text-ink whitespace-nowrap">
           Comparando ({selectedProducts.length}/4)
         </span>
@@ -32,10 +30,10 @@ export const ComparisonDrawer: React.FC = () => {
             <span className="max-w-[80px] truncate">{p.name}</span>
             <button
               onClick={() => removeProduct(p.id)}
-              className="text-[#6b6a63] hover:text-[#e94e2b] p-0.5"
+              className="text-[#6b6a63] hover:text-[#e94e2b] text-[10px] font-bold px-1"
               title="Quitar"
             >
-              <X size={11} />
+              ✕
             </button>
           </div>
         ))}
@@ -46,15 +44,14 @@ export const ComparisonDrawer: React.FC = () => {
           to="/comparador"
           className="btn btn-solid !py-1.5 !px-3.5 !text-xs !rounded-full whitespace-nowrap"
         >
-          <span>Ver tabla</span>
-          <ArrowRight size={13} />
+          <span>Ver tabla →</span>
         </Link>
         <button
           onClick={clear}
-          className="text-[#6b6a63] hover:text-ink p-1"
+          className="text-[#6b6a63] hover:text-ink text-xs font-bold px-1"
           title="Vaciar comparador"
         >
-          <X size={15} />
+          ✕
         </button>
       </div>
     </div>

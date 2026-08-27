@@ -1,8 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, ShoppingBag, ExternalLink, Flame, MapPin, Award } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
-
 import { showToast } from '../../hooks/useToast';
 
 export interface BarcelonaCoffeeItem {
@@ -98,85 +96,88 @@ export const BARCELONA_SPECIALTY_COFFEES: BarcelonaCoffeeItem[] = [
     district: "Fort Pienc / Poblenou",
     name: "Seasonal Espresso Blend",
     origin: "Colombia & Etiopía",
-    process: "Lavado + Natural",
-    altitude: "1.950 m",
-    notes: ["Chocolate negro", "Ciruela madura", "Nuez pecana"],
-    scaScore: 87.8,
-    price: 24.50,
-    weight: "500g (2x250g)",
-    image: "/assets/bag.png",
-    storeUrl: "https://threemarkscoffee.com/collections/coffee",
-    badge: "Pack Ahorro",
-    isNew: true,
-  },
-  {
-    id: "rightside-ancizar",
-    roaster: "Right Side Coffee",
-    district: "Castelldefels / BCN",
-    name: "Ancizar Narváez Filtro",
-    origin: "Nariño · Colombia",
-    process: "Lavado",
-    altitude: "2.050 m",
-    notes: ["Cítricos dulces", "Té negro", "Bergamota"],
-    scaScore: 89.0,
-    price: 21.00,
-    weight: "250g",
-    image: "/assets/products/nomad-shakiso.png",
-    storeUrl: "https://rightsidecoffee.com/collections/coffee",
-    badge: "Edición Limitada",
-    isNew: true,
-  },
-  {
-    id: "syra-yirgacheffe",
-    roaster: "Syra Coffee",
-    district: "Poblenou / Eixample",
-    name: "Yirgacheffe Orgánico Sidamo",
-    origin: "Yirgacheffe · Etiopía",
-    process: "Lavado",
-    altitude: "2.150 m",
-    notes: ["Limoncillo", "Jazmín", "Miel de flores"],
-    scaScore: 88.0,
+    process: "Lavado & Natural",
+    altitude: "1.900 m",
+    notes: ["Chocolate con leche", "Albaricoque", "Cítricos"],
+    scaScore: 87.5,
     price: 16.00,
     weight: "250g",
-    image: "/assets/products/nomad-samuel.png",
-    storeUrl: "https://syra.coffee/collections/coffee",
-    badge: "100% Orgánico",
+    image: "/assets/bag.png",
+    storeUrl: "https://threemarkscoffee.com/shop",
+    badge: "Fórmula de la Casa",
+    isNew: false,
+  },
+  {
+    id: "slowmov-el-mirador",
+    roaster: "SlowMov",
+    district: "Vila de Gràcia",
+    name: "El Mirador Anaeróbico",
+    origin: "Pitalito · Huila",
+    process: "Anaeróbico 48h",
+    altitude: "1.750 m",
+    notes: ["Papaya", "Caña de azúcar", "Cardamomo"],
+    scaScore: 88.2,
+    price: 18.50,
+    weight: "250g",
+    image: "/assets/products/nomad-shakiso.png",
+    storeUrl: "https://slowmov.com/collections/cafes",
+    badge: "Tueste Sostenible",
     isNew: true,
   },
   {
-    id: "three-marks-kenya",
-    roaster: "Three Marks Coffee",
-    district: "Fort Pienc",
-    name: "Kenya Kirinyaga AA",
-    origin: "Kirinyaga · Kenia",
+    id: "onacoffee-san-rafael",
+    roaster: "Ona Coffee BCN",
+    district: "Eixample Esquerra",
+    name: "San Rafael Carbonic Maceration",
+    origin: "Tarrazú · Costa Rica",
+    process: "Maceración Carbónica",
+    altitude: "1.950 m",
+    notes: ["Frambuesa madura", "Vino dulce", "Menta fresca"],
+    scaScore: 90.0,
+    price: 24.50,
+    weight: "200g",
+    image: "/assets/bag.png",
+    storeUrl: "https://onacoffee.com",
+    badge: "Edición Campeones",
+    isNew: true,
+  },
+  {
+    id: "saturn-kenya-nyeri",
+    roaster: "Saturn Coffee",
+    district: "Sant Antoni",
+    name: "Nyeri Hill Farm AA",
+    origin: "Nyeri · Kenia",
     process: "Lavado Doble",
     altitude: "1.800 m",
-    notes: ["Grosella negra", "Ruibarbo", "Lima kaffir"],
-    scaScore: 89.5,
-    price: 19.00,
+    notes: ["Grosella negra", "Ruibarbo", "Pomelo rosado"],
+    scaScore: 88.8,
+    price: 17.90,
     weight: "250g",
-    image: "/assets/bag.png",
-    storeUrl: "https://threemarkscoffee.com/collections/coffee",
-    badge: "Puntuación 89.5",
+    image: "/assets/products/nomad-samuel.png",
+    storeUrl: "https://saturncoffee.com",
+    badge: "Tueste Claro Nórdico",
     isNew: true,
   }
 ];
 
 export const BarcelonaCoffeeSlider: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const { addItem } = useCart();
   const [activeFilter, setActiveFilter] = useState<string>('Todos');
+  const { addItem } = useCart();
 
-  const filters = ['Todos', 'Nomad Coffee', 'Right Side Coffee', 'Syra Coffee', 'Three Marks Coffee'];
+  const filters = ['Todos', 'Nomad Coffee', 'Right Side', 'Syra Coffee', 'Three Marks', 'SlowMov', 'Ona Coffee'];
 
   const filteredCoffees = activeFilter === 'Todos'
     ? BARCELONA_SPECIALTY_COFFEES
-    : BARCELONA_SPECIALTY_COFFEES.filter(c => c.roaster === activeFilter);
+    : BARCELONA_SPECIALTY_COFFEES.filter(c => c.roaster.toLowerCase().includes(activeFilter.toLowerCase()));
 
   const handleScroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
-      const scrollAmount = direction === 'left' ? -340 : 340;
-      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      const scrollAmount = 280;
+      scrollRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth',
+      });
     }
   };
 
@@ -190,7 +191,7 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
       unitPrice: coffee.price,
       quantity: 1,
     });
-    showToast(`☕ ${coffee.name} añadido a tu cesta`, 'success');
+    showToast(`${coffee.name} añadido a tu cesta`, 'success');
   };
 
   return (
@@ -200,8 +201,7 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 mb-3.5 pb-2.5 border-b border-[#ece8df]">
           <div>
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1 bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2 py-0.5 rounded-full">
-                <Flame size={11} className="shrink-0" />
+              <span className="inline-flex items-center bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2 py-0.5 rounded-full">
                 <span>Tueste BCN</span>
               </span>
               <h2 className="font-serif font-bold text-lg sm:text-xl text-ink">
@@ -219,24 +219,23 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
               to="/cafe"
               className="text-[11px] font-bold text-[#2f6fed] hover:underline hidden md:inline-flex items-center gap-0.5"
             >
-              <span>Ver todos</span>
-              <span>→</span>
+              <span>Ver todos →</span>
             </Link>
 
             <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-0.5 shadow-2xs">
               <button
                 onClick={() => handleScroll('left')}
-                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors"
+                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
                 aria-label="Anterior café"
               >
-                <ChevronLeft size={15} />
+                ←
               </button>
               <button
                 onClick={() => handleScroll('right')}
-                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors"
+                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
                 aria-label="Siguiente café"
               >
-                <ChevronRight size={15} />
+                →
               </button>
             </div>
           </div>
@@ -273,9 +272,8 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
               <div>
                 {/* Top Badge & Roaster */}
                 <div className="flex items-center justify-between gap-1 mb-2">
-                  <span className="text-[10px] font-bold text-stone-600 flex items-center gap-1 truncate">
-                    <MapPin size={10} className="text-[#e94e2b] shrink-0" />
-                    <span className="truncate">{coffee.district}</span>
+                  <span className="text-[10px] font-bold text-stone-600 truncate">
+                    {coffee.district}
                   </span>
 
                   {coffee.badge ? (
@@ -288,9 +286,8 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
                 {/* Coffee Bag Image - Compact */}
                 <div className="w-full h-24 sm:h-28 bg-[#fbfaf7] border border-[#f0eee6] rounded-lg mb-2 flex items-center justify-center p-2 overflow-hidden relative group-hover:bg-[#f5f2e9] transition-colors">
                   {coffee.scaScore && (
-                    <div className="absolute top-1.5 left-1.5 bg-black/80 text-white text-[9px] font-bold px-1.5 py-0.2 rounded flex items-center gap-0.5 font-mono">
-                      <Award size={9} className="text-amber-400" />
-                      <span>{coffee.scaScore}</span>
+                    <div className="absolute top-1.5 left-1.5 bg-black/80 text-white text-[9px] font-bold px-1.5 py-0.2 rounded font-mono">
+                      <span>SCA {coffee.scaScore}</span>
                     </div>
                   )}
                   <img
@@ -342,18 +339,16 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
                     href={coffee.storeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[10px] text-[#2f6fed] hover:underline inline-flex items-center gap-0.5"
+                    className="text-[10px] text-[#2f6fed] hover:underline"
                   >
-                    <span>Tienda</span>
-                    <ExternalLink size={8} />
+                    Tienda →
                   </a>
                 </div>
 
                 <button
                   onClick={() => handleAddToCart(coffee)}
-                  className="w-full bg-ink hover:bg-black text-white font-bold text-[11px] py-1.5 px-2 rounded-lg flex items-center justify-center gap-1.5 transition-all active:scale-98 shadow-2xs"
+                  className="w-full bg-ink hover:bg-black text-white font-bold text-[11px] py-1.5 px-2 rounded-lg flex items-center justify-center transition-all active:scale-98 shadow-2xs"
                 >
-                  <ShoppingBag size={12} className="text-[#e94e2b]" />
                   <span>Añadir a Cesta</span>
                 </button>
               </div>
@@ -364,4 +359,3 @@ export const BarcelonaCoffeeSlider: React.FC = () => {
     </section>
   );
 };
-

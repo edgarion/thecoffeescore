@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ExternalLink, Award, Sparkles, Navigation } from 'lucide-react';
 import { GLOBAL_COFFEE_SHOPS, GLOBAL_COFFEE_CITIES } from '../data/globalCoffeeIndex';
-
 
 export const GlobalCoffeeIndexPage: React.FC = () => {
   const [selectedCity, setSelectedCity] = useState<string>('Todas');
@@ -103,7 +101,6 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
           />
         </div>
 
-
         {/* Counter */}
         <div className="text-xs text-[#6b6a63]">
           Mostrando <strong>{filteredShops.length}</strong> templos del café en <strong>{selectedCity === 'Todas' ? 'el mundo' : selectedCity}</strong>
@@ -129,8 +126,7 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-1 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-2 py-0.5 rounded-lg shrink-0">
-                      <Award size={13} />
+                    <div className="bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-2.5 py-0.5 rounded-lg shrink-0">
                       <span>{shop.score}</span>
                     </div>
                   </div>
@@ -153,8 +149,7 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
                   </div>
 
                   {/* Gear Setup */}
-                  <div className="text-[11px] text-[#6b6a63] mb-3 flex items-start gap-1.5">
-                    <Sparkles size={13} className="text-stone-400 shrink-0 mt-0.5" />
+                  <div className="text-[11px] text-[#6b6a63] mb-3">
                     <span><strong>Setup: </strong>{shop.gearSetup}</span>
                   </div>
 
@@ -183,19 +178,18 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
                       href={shop.mapsUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-1.5 text-[#6b6a63] hover:text-[#2f6fed] rounded-lg transition-colors"
+                      className="text-xs text-[#6b6a63] hover:text-[#2f6fed] font-semibold px-2 py-1"
                       title="Abrir en Google Maps"
                     >
-                      <Navigation size={15} />
+                      Maps
                     </a>
                     <a
                       href={shop.websiteUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-outline !py-1.5 !px-3 !text-xs !rounded-lg inline-flex items-center gap-1"
+                      className="btn btn-outline !py-1.5 !px-3 !text-xs !rounded-lg"
                     >
-                      <span>Web</span>
-                      <ExternalLink size={12} />
+                      <span>Web →</span>
                     </a>
                   </div>
                 </div>
@@ -226,9 +220,8 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
                       {shop.city}
                     </td>
                     <td className="py-3.5 px-4 font-bold text-ink">
-                      <a href={shop.websiteUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#2f6fed] inline-flex items-center gap-1">
-                        <span>{shop.name}</span>
-                        <ExternalLink size={11} className="text-[#6b6a63]" />
+                      <a href={shop.websiteUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#2f6fed]">
+                        {shop.name} →
                       </a>
                     </td>
                     <td className="py-3.5 px-4 text-[#6b6a63]">{shop.district}</td>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ExternalLink, Check, Info } from 'lucide-react';
 import { StoreOffer } from '../../core/domain/Product';
 import { Modal } from './Modal';
 import { CoffeeScraperService } from '../../services/scraper/CoffeeScraperService';
@@ -93,8 +92,7 @@ export const AffiliateButton: React.FC<AffiliateButtonProps> = ({
                     </span>
                   )}
                 </div>
-                <div className="flex items-center gap-1 text-xs text-ink-muted font-medium mt-0.5">
-                  <Check size={13} className="text-stone-400 stroke-[2.5]" />
+                <div className="text-xs text-ink-muted font-medium mt-0.5">
                   <span>{store.inStock ? 'En stock · Entrega 24/48h' : 'Bajo pedido'}</span>
                 </div>
               </div>
@@ -105,18 +103,16 @@ export const AffiliateButton: React.FC<AffiliateButtonProps> = ({
                   href={store.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 bg-ink hover:bg-black text-white text-xs font-semibold px-3.5 py-2 rounded-editorial transition-colors shadow-sm"
+                  className="inline-flex items-center bg-ink hover:bg-black text-white text-xs font-semibold px-3.5 py-2 rounded-editorial transition-colors shadow-sm"
                 >
-                  <span>Ir a la tienda</span>
-                  <ExternalLink size={12} />
+                  <span>Ir a la tienda →</span>
                 </a>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-4 p-3 bg-paper-secondary rounded-editorial border border-stone-200/60 text-xs text-ink-muted leading-relaxed flex items-start gap-2">
-          <Info size={15} className="text-ink-muted shrink-0 mt-0.5" />
+        <div className="mt-4 p-3 bg-paper-secondary rounded-editorial border border-stone-200/60 text-xs text-ink-muted leading-relaxed">
           <span>
             <strong>Transparencia:</strong> Al comprar a través de nuestros enlaces podemos percibir una pequeña comisión de afiliado sin coste adicional para ti. Esto garantiza nuestra total independencia editorial.
           </span>

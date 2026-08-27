@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/product/ProductCard';
 import { BarcelonaIndexTable } from '../components/roasters/BarcelonaIndexTable';
 import { PRODUCTS } from '../data/catalog';
-import { Flame } from 'lucide-react';
-
 
 export const CoffeePage: React.FC = () => {
   const [activeChip, setActiveChip] = useState('Todos');
@@ -107,8 +105,7 @@ export const CoffeePage: React.FC = () => {
         {/* Barcelona Index Section */}
         <div className="pt-6 border-t border-[#e6e3da]">
           <div className="mb-6">
-            <div className="inline-flex items-center gap-1.5 bg-[#fdece7] text-[#e94e2b] text-xs font-bold px-3 py-1 rounded-full mb-2">
-              <Flame size={13} className="shrink-0" />
+            <div className="inline-flex items-center bg-[#fdece7] text-[#e94e2b] text-xs font-bold px-3 py-1 rounded-full mb-2">
               <span>Índice Local de Referencia</span>
             </div>
             <h2 className="font-serif font-bold text-2xl sm:text-3xl text-ink">

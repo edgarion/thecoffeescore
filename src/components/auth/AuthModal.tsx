@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { X, Mail, Lock, User as UserIcon, Eye, EyeOff, Coffee, ArrowRight, CheckCircle, Sparkles } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 
 export const AuthModal: React.FC = () => {
@@ -64,17 +63,14 @@ export const AuthModal: React.FC = () => {
         <div className="bg-gradient-to-r from-[#2c2825] to-[#1a1816] text-white p-6 relative">
           <button
             onClick={closeAuthModal}
-            className="absolute top-4 right-4 text-stone-400 hover:text-white p-1 rounded-full hover:bg-white/10 transition-colors"
+            className="absolute top-4 right-4 text-stone-400 hover:text-white font-bold text-xs p-1"
             aria-label="Cerrar modal"
           >
-            <X size={18} />
+            ✕
           </button>
 
-          <div className="flex items-center gap-2 mb-2">
-            <div className="w-8 h-8 rounded-full bg-[#e94e2b] flex items-center justify-center text-white shadow-md">
-              <Coffee size={18} />
-            </div>
-            <span className="font-bold text-sm tracking-wider uppercase text-stone-300">thecoffeescore</span>
+          <div className="mb-2">
+            <span className="font-bold text-xs tracking-wider uppercase text-stone-400">thecoffeescore</span>
           </div>
 
           <h2 className="text-xl font-bold text-white">
@@ -129,8 +125,7 @@ export const AuthModal: React.FC = () => {
           )}
 
           {successMsg && (
-            <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs rounded-xl flex items-center gap-2">
-              <CheckCircle size={15} className="text-emerald-600 shrink-0" />
+            <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs rounded-xl">
               <span>{successMsg}</span>
             </div>
           )}
@@ -138,33 +133,27 @@ export const AuthModal: React.FC = () => {
           {authModalTab === 'register' && (
             <div>
               <label className="block text-xs font-bold text-ink mb-1.5">Nombre Completo</label>
-              <div className="relative">
-                <UserIcon size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400" />
-                <input
-                  type="text"
-                  required
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="ej. Carlos Gómez"
-                  className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl pl-10 pr-4 py-2.5 text-sm text-ink outline-none transition-colors"
-                />
-              </div>
+              <input
+                type="text"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="ej. Carlos Gómez"
+                className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl px-3.5 py-2.5 text-sm text-ink outline-none transition-colors"
+              />
             </div>
           )}
 
           <div>
             <label className="block text-xs font-bold text-ink mb-1.5">Correo Electrónico</label>
-            <div className="relative">
-              <Mail size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400" />
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="tu@email.com"
-                className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl pl-10 pr-4 py-2.5 text-sm text-ink outline-none transition-colors"
-              />
-            </div>
+            <input
+              type="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="tu@email.com"
+              className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl px-3.5 py-2.5 text-sm text-ink outline-none transition-colors"
+            />
           </div>
 
           <div>
@@ -177,22 +166,21 @@ export const AuthModal: React.FC = () => {
               )}
             </div>
             <div className="relative">
-              <Lock size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400" />
               <input
                 type={showPassword ? 'text' : 'password'}
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder={authModalTab === 'register' ? 'Mínimo 6 caracteres' : '••••••••'}
-                className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl pl-10 pr-10 py-2.5 text-sm text-ink outline-none transition-colors"
+                className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-xl pl-3.5 pr-14 py-2.5 text-sm text-ink outline-none transition-colors"
               />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-stone-400 hover:text-ink"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-stone-500 hover:text-ink font-semibold"
                 aria-label={showPassword ? 'Ocultar contraseña' : 'Ver contraseña'}
               >
-                {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+                {showPassword ? 'Ocultar' : 'Ver'}
               </button>
             </div>
           </div>
@@ -200,10 +188,9 @@ export const AuthModal: React.FC = () => {
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full bg-ink hover:bg-black text-white font-bold text-sm py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50"
+            className="w-full bg-ink hover:bg-black text-white font-bold text-sm py-3 rounded-xl transition-all shadow-md flex items-center justify-center hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50"
           >
-            <span>{isLoading ? 'Procesando...' : authModalTab === 'login' ? 'Acceder a mi cuenta' : 'Completar Registro'}</span>
-            <ArrowRight size={15} />
+            <span>{isLoading ? 'Procesando...' : authModalTab === 'login' ? 'Acceder a mi cuenta →' : 'Completar Registro →'}</span>
           </button>
 
           {/* Quick Demo Access */}
@@ -211,9 +198,8 @@ export const AuthModal: React.FC = () => {
             <button
               type="button"
               onClick={handleDemoLogin}
-              className="w-full bg-[#f4f2ec] hover:bg-stone-200 text-stone-800 font-semibold text-xs py-2.5 rounded-xl transition-colors flex items-center justify-center gap-1.5 border border-[#e6e3da]"
+              className="w-full bg-[#f4f2ec] hover:bg-stone-200 text-stone-800 font-semibold text-xs py-2.5 rounded-xl transition-colors flex items-center justify-center border border-[#e6e3da]"
             >
-              <Sparkles size={14} className="text-[#e94e2b]" />
               <span>Acceso Rápido con Usuario Demo</span>
             </button>
           </div>

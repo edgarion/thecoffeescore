@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ComparisonTable } from '../components/comparator/ComparisonTable';
-import { Info } from 'lucide-react';
 
 export const ComparatorPage: React.FC = () => {
   return (
@@ -30,7 +29,6 @@ export const ComparatorPage: React.FC = () => {
 
         {/* Trust & Transparency Note */}
         <div className="trust-note">
-          <Info size={16} className="text-stone-400 shrink-0 mt-0.5" />
           <div className="text-xs text-stone-600 leading-relaxed">
             <strong>Criterio Independiente y Financiación:</strong> Las especificaciones técnicas son verificadas en nuestro banco de pruebas. Si compras a través de los enlaces de tienda podemos recibir una comisión sin ningún coste extra para ti, lo que sostiene nuestro laboratorio independiente.
           </div>

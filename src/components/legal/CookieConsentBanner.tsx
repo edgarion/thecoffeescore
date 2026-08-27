@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { ShieldCheck, SlidersHorizontal, X } from 'lucide-react';
 
 export interface CookiePreferences {
   essential: boolean; // always true
@@ -64,27 +63,22 @@ export const CookieConsentBanner: React.FC = () => {
       <div className="w-full max-w-3xl bg-[#fbfaf7] border-2 border-[#111111] rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.25)] p-5 sm:p-7 flex flex-col gap-4 text-ink">
         {/* Banner Header */}
         <div className="flex items-start justify-between gap-3">
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-full bg-[#111111] text-white flex items-center justify-center shrink-0">
-              <ShieldCheck size={20} className="text-[#3fae6a]" />
-            </div>
-            <div>
-              <h3 className="font-serif font-bold text-base sm:text-lg text-ink leading-tight">
-                Privacidad y Gestión de Cookies
-              </h3>
-              <span className="text-[11px] text-[#6b6a63]">
-                Conforme al RGPD (UE 2016/679) y Ley LSSI-CE (Art. 22.2)
-              </span>
-            </div>
+          <div>
+            <h3 className="font-serif font-bold text-base sm:text-lg text-ink leading-tight">
+              Privacidad y Gestión de Cookies
+            </h3>
+            <span className="text-[11px] text-[#6b6a63]">
+              Conforme al RGPD (UE 2016/679) y Ley LSSI-CE (Art. 22.2)
+            </span>
           </div>
 
           <button
             onClick={handleRejectAll}
-            className="text-[#6b6a63] hover:text-ink p-1 rounded-lg"
+            className="text-[#6b6a63] hover:text-ink font-bold text-xs p-1"
             title="Cerrar y rechazar no esenciales"
             aria-label="Cerrar banner"
           >
-            <X size={18} />
+            ✕
           </button>
         </div>
 
@@ -149,9 +143,8 @@ export const CookieConsentBanner: React.FC = () => {
           <button
             type="button"
             onClick={() => setShowConfig(!showConfig)}
-            className="inline-flex items-center justify-center gap-1.5 text-xs font-semibold text-[#6b6a63] hover:text-ink py-2 px-3 rounded-xl hover:bg-stone-200/50 transition-colors"
+            className="inline-flex items-center justify-center text-xs font-semibold text-[#6b6a63] hover:text-ink py-2 px-3 rounded-xl hover:bg-stone-200/50 transition-colors"
           >
-            <SlidersHorizontal size={14} />
             <span>{showConfig ? 'Ocultar ajustes' : 'Personalizar cookies'}</span>
           </button>
 

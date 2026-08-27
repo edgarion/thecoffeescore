@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BarcelonaRoaster } from '../../core/domain/Roaster';
 import { BARCELONA_ROASTERS } from '../../data/catalog';
-import { ArrowUpDown } from 'lucide-react';
 
 export const BarcelonaIndexTable: React.FC = () => {
   const [roasters, setRoasters] = useState<BarcelonaRoaster[]>(BARCELONA_ROASTERS);
@@ -30,25 +29,16 @@ export const BarcelonaIndexTable: React.FC = () => {
         <thead>
           <tr>
             <th onClick={() => handleSort('name')} style={{ cursor: 'pointer' }}>
-              <div className="flex items-center gap-1">
-                <span>Tostador</span>
-                <ArrowUpDown size={12} />
-              </div>
+              <span>Tostador</span>
             </th>
             <th>Distrito / Obrador</th>
             <th onClick={() => handleSort('priceKg')} style={{ cursor: 'pointer', textAlign: 'right' }}>
-              <div className="flex items-center justify-end gap-1">
-                <span>Precio Medio / kg</span>
-                <ArrowUpDown size={12} />
-              </div>
+              <span>Precio Medio / kg</span>
             </th>
             <th>Orígenes frecuentes</th>
             <th>Frecuencia de tueste</th>
             <th onClick={() => handleSort('score')} style={{ cursor: 'pointer', textAlign: 'right' }}>
-              <div className="flex items-center justify-end gap-1">
-                <span>Coffee Score</span>
-                <ArrowUpDown size={12} />
-              </div>
+              <span>Coffee Score</span>
             </th>
           </tr>
         </thead>
