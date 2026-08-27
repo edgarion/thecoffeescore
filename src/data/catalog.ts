@@ -91,26 +91,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Portafiltro de 54mm en vez de 58mm", "Bandeja de goteo pequeña"],
             specs: { "Caldera / Calentamiento": "ThermoJet (3 segundos)", "Portafiltro": "54 mm acero inoxidable", "Presión": "15 bar (OPV a 9 bar)", "Vaporizador": "Automático con 3 temperaturas y texturas", "Capacidad Agua": "1.9 L", "Dimensiones": "19.5 x 32 x 31 cm", "Peso": "4.95 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 449,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 467,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 485,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino%20Plus&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 449,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage%20Bambino%20Plus&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Sage Oficial",
+            "price": 499,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 485,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Sage%20Bambino%20Plus",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "sage-bambino",
@@ -134,26 +138,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Sin sensor de temperatura automático", "Carcasa ligera"],
             specs: { "Caldera / Calentamiento": "ThermoJet (3s)", "Portafiltro": "54 mm", "Presión": "15 bar regulada", "Vaporizador": "Manual profesional", "Capacidad Agua": "1.4 L", "Dimensiones": "16 x 31 x 30 cm", "Peso": "4.5 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 349,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 363,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 377,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Bambino&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 349,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage%20Bambino&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Sage Oficial",
+            "price": 399,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 379,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Sage%20Bambino",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "sage-barista-express",
@@ -177,26 +185,30 @@ export const PRODUCTS: Product[] = [
             cons: ["El molinillo integrado tiene saltos entre puntos", "Requiere limpieza frecuente del molino"],
             specs: { "Molinillo": "Muelas cónicas acero inox (18 ajustes)", "Calentamiento": "Thermocoil 1600W con PID", "Portafiltro": "54 mm acero inox", "Manómetro": "Analógico de presión de extracción", "Capacidad Grano": "250 g", "Capacidad Agua": "2.0 L", "Peso": "10.6 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 629,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Express&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 654,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Express+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 679,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Express&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 599,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage%20Barista%20Express&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Sage Oficial",
+            "price": 699,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 649,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Sage%20Barista%20Express",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "sage-barista-touch",
@@ -220,26 +232,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Precio más elevado", "Ajuste de molido por pasos"],
             specs: { "Pantalla": "Táctil a color interactiva", "Molinillo": "Muelas cónicas integradas", "Calentamiento": "ThermoJet 3 segundos", "Vapor": "Automático Auto MilQ", "Capacidad Agua": "2.0 L", "Peso": "10.3 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 999,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Touch&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1039,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Touch+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1079,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Barista%20Touch&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 999,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage%20Barista%20Touch&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Sage Oficial",
+            "price": 1199,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 1099,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Sage%20Barista%20Touch",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "sage-dual-boiler",
@@ -263,26 +279,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Estética de electrodoméstico", "Mantenimiento de juntas periódicas"],
             specs: { "Calderas": "Doble caldera inox (Café 0.3L + Vapor 0.95L)", "Grupo": "58 mm comercial con resistencia activa", "Control": "Doble PID digital regulable grado a grado", "Válvula": "OPV a 9 bar regulable", "Capacidad Agua": "2.5 L", "Peso": "13.6 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 1299,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Dual%20Boiler&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1351,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Dual%20Boiler+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1403,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Sage%20Sage%20Dual%20Boiler&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 1199,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage%20Dual%20Boiler&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Sage Oficial",
+            "price": 1399,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 1299,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Sage%20Dual%20Boiler",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "lelit-anna-pl41tem",
@@ -306,26 +326,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Medida de portafiltro de 57mm", "Tiempo de calentamiento ~10 min"],
             specs: { "Caldera": "Latón 250 ml", "Grupo": "57 mm Lelit", "Control": "PID digital integrado", "Manómetro": "Sí, presión bomba", "Cuerpo": "Acero inoxidable pulido", "Depósito": "2.7 L", "Peso": "7.2 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 549,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Anna%20PL41TEM&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 571,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Anna%20PL41TEM+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 593,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Anna%20PL41TEM&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 499,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Lelit%20Anna%20PL41TEM&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Lelit Oficial",
+            "price": 549,
+            "inStock": true,
+            "url": "https://lelit.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 519,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Anna",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "lelit-glenda-pl41plus",
@@ -435,26 +459,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Requiere 20-25 min de calentamiento del grupo E61", "Peso elevado"],
             specs: { "Sistema": "Intercambiador de calor (HX) prioritario café", "Grupo": "E61 termosifónico", "Bomba": "Vibratoria ultra-silenciosa con soporte patentado", "Caldera": "Acero inox 1.8 L", "Dimensiones": "22 x 41 x 35 cm", "Peso": "18.8 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 1199,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Mara%20X%20V2&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1247,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Mara%20X%20V2+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1295,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Mara%20X%20V2&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 1149,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Lelit%20Mara%20X&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Lelit Oficial",
+            "price": 1299,
+            "inStock": true,
+            "url": "https://lelit.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 1199,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Mara%20X",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "lelit-bianca-v3",
@@ -478,26 +506,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Tamaño y peso considerable", "Curva de aprendizaje para dominar el perfilado"],
             specs: { "Calderas": "Doble caldera inox (Café 0.8L + Vapor 1.5L)", "Grupo": "E61 modificado con válvula de flujo", "Perfilado": "Paddle mecánico manual 0-12 bar", "Bomba": "Rotativa comercial (conexión a red o depósito)", "Depósito": "Reposicionable en 3 lados", "Peso": "26.5 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 2199,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Bianca%20V3&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 2287,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Bianca%20V3+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 2375,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Bianca%20V3&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 2299,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Lelit%20Bianca%20V3&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Lelit Oficial",
+            "price": 2499,
+            "inStock": true,
+            "url": "https://lelit.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 2349,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Bianca",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "gaggia-classic-pro",
@@ -521,26 +553,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Sin PID de fábrica (termostato bimétalico)", "Capacidad de caldera pequeña"],
             specs: { "Caldera": "Aluminio tradicional 100 ml", "Grupo": "58 mm comercial latón cromado", "Electroválvula": "3 vías para pastilla seca", "Vapor": "Lanza profesional de dos orificios", "Carcasa": "Acero inoxidable cepillado", "Peso": "7.3 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 429,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Gaggia%20Gaggia%20Classic%20Pro&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 446,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Gaggia%20Gaggia%20Classic%20Pro+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 463,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Gaggia%20Gaggia%20Classic%20Pro&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 429,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Gaggia%20Classic%20Pro&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Gaggia Oficial",
+            "price": 499,
+            "inStock": true,
+            "url": "https://www.gaggia.com",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 459,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Gaggia%20Classic",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "rancilio-silvia",
@@ -564,26 +600,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Requiere técnica de temp-surfing sin PID", "Tiempo de calentamiento ~15 min"],
             specs: { "Caldera": "Latón marino 300 ml aislada", "Grupo": "58 mm latón forjado", "Vapor": "Lanza comercial multidireccional", "Chasis": "Hierro y acero inoxidable", "Depósito": "2.0 L", "Peso": "14.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 599,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 623,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 647,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 599,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Rancilio%20Silvia&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Rancilio Oficial",
+            "price": 679,
+            "inStock": true,
+            "url": "https://www.ranciliogroup.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 629,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "rancilio-silvia-pro-x",
@@ -607,26 +647,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Estética industrial austera", "Sin opción de conexión directa a red"],
             specs: { "Calderas": "Doble caldera (Café latón 0.3L + Vapor inox 1.0L)", "Control": "Doble PID digital regulable", "Preinfusión": "Soft Infusion a baja presión", "Grupo": "58 mm profesional", "Manómetro": "Analógico frontal", "Peso": "20.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 1549,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia%20Pro%20X&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1611,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia%20Pro%20X+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1673,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rancilio%20Rancilio%20Silvia%20Pro%20X&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 1499,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Rancilio%20Silvia%20Pro%20X&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Rancilio Oficial",
+            "price": 1699,
+            "inStock": true,
+            "url": "https://www.ranciliogroup.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 1549,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia%20Pro%20X",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "profitec-go",
@@ -650,26 +694,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Monocaldera (espera para vapor)", "Bandeja de goteo algo justa"],
             specs: { "Caldera": "Latón 0.4 L", "Grupo": "58 mm comercial con campana de latón", "Control": "PID frontal con shot timer", "Calentamiento": "Fast Heat-Up (~5-7 min)", "OPV": "Regulable externamente", "Peso": "12.9 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 899,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20GO&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 935,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20GO+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 971,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20GO&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 899,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Profitec%20GO&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Profitec Oficial (Alemania)",
+            "price": 999,
+            "inStock": true,
+            "url": "https://www.profitec-espresso.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 949,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20GO",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "profitec-drive",
@@ -693,26 +741,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Inversión de alto presupuesto", "Peso de 31 kg"],
             specs: { "Calderas": "Doble caldera inox (Café 0.75L + Vapor 2.0L)", "Grupo": "E61 con Flow Control integrado", "Bomba": "Rotativa comercial ultra-silenciosa", "Display": "OLED discreto con múltiples menús", "Auto-On": "Programador semanal de encendido", "Peso": "31.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 2699,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20Drive&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 2807,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20Drive+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 2915,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Profitec%20Profitec%20Drive&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 2699,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Profitec%20Drive&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Profitec Oficial (Alemania)",
+            "price": 2899,
+            "inStock": true,
+            "url": "https://www.profitec-espresso.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 2799,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20Drive",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "rocket-appartamento",
@@ -736,26 +788,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Sin control PID digital de fábrica", "Requiere purga de enfriamiento ocasional"],
             specs: { "Caldera": "Cobre 1.8 L con intercambiador termosifónico", "Grupo": "E61 macizo de latón", "Presostato": "Sirai / Mater de alta durabilidad", "Lanzas": "Anti-quemaduras (Cool Touch)", "Dimensiones": "27.4 x 42.5 x 36 cm", "Peso": "20.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 1399,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rocket%20Espresso%20Rocket%20Appartamento&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1455,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rocket%20Espresso%20Rocket%20Appartamento+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1511,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Rocket%20Espresso%20Rocket%20Appartamento&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 1499,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Rocket%20Appartamento&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Rocket Espresso (Milán)",
+            "price": 1650,
+            "inStock": true,
+            "url": "https://rocket-espresso.com",
+            "isBest": false
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 1549,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rocket%20Appartamento",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "flair-58-plus",
@@ -865,26 +921,30 @@ export const PRODUCTS: Product[] = [
             cons: ["Solo para café de filtro (no espresso)", "Jarra de cristal requiere cuidado"],
             specs: { "Capacidad": "1.25 L (10 tazas)", "Elemento": "Cobre puro de doble resistencia", "Temperatura": "92 °C - 96 °C constante", "Selector": "Jarra completa o media jarra con flujo adaptado", "Placa": "Térmica con auto-apagado tras 40 min", "Peso": "2.8 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 249,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 259,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 269,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Moccamaster%20Technivorm%20Moccamaster%20KBG%20Select&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 239,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Moccamaster%20KBG%20Select&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Moccamaster Oficial",
+            "price": 269,
+            "inStock": true,
+            "url": "https://www.moccamaster.es",
+            "isBest": false
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 259,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Moccamaster",
+            "isBest": false
+      }
+
+    ]
   },
   {
     id: "de-longhi-dedica-ec685",
@@ -1037,26 +1097,41 @@ export const PRODUCTS: Product[] = [
             cons: ["Precio premium en gama de termobloque"],
             specs: { "Calentamiento": "Doble Termobloque Acero Inox", "Control": "PID digital con display", "Grupo": "58 mm comercial", "Preinfusión": "1 a 5 segundos programable", "Peso": "15.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 1699,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Ascaso%20Ascaso%20Steel%20Duo%20PID&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 1767,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Ascaso%20Ascaso%20Steel%20Duo%20PID+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 1835,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Ascaso%20Ascaso%20Steel%20Duo%20PID&tag=thecoffeescore-21"
-                  }
-            ]
+      
+      {
+            "name": "Amazon España",
+            "price": 1699,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Ascaso%20Steel%20Duo%20PID&tag=thecoffeescore-21",
+            "isBest": true,
+            "shipping": "Envío Prime 24/48h · Garantía España"
+      },
+      {
+            "name": "Ascaso Oficial (Barcelona)",
+            "price": 1799,
+            "inStock": true,
+            "url": "https://www.ascaso.com",
+            "isBest": false,
+            "shipping": "Fabricación y garantía directa de fábrica"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 1749,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Ascaso%20Steel%20Duo%20PID",
+            "isBest": false,
+            "shipping": "Distribuidor oficial autorizado"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 1799,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Ascaso%20Steel",
+            "isBest": false,
+            "shipping": "Garantía El Corte Inglés"
+      }
+
+    ]
   },
   {
     id: "fellow-ode-gen-2",
