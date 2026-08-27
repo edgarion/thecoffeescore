@@ -1,0 +1,68 @@
+{
+  "stores": [
+    {
+      "name": "Nomad Coffee",
+      "country": "España",
+      "city": "Barcelona",
+      "type": "shopify_json",
+      "url": "https://nomadcoffee.es/collections/all/products.json?limit=30",
+      "domain": "https://nomadcoffee.es"
+    },
+    {
+      "name": "Syra Coffee",
+      "country": "España",
+      "city": "Barcelona",
+      "type": "shopify_json",
+      "url": "https://syra.coffee/collections/all/products.json?limit=30",
+      "domain": "https://syra.coffee"
+    },
+    {
+      "name": "Right Side Coffee",
+      "country": "España",
+      "city": "Barcelona",
+      "type": "shopify_json",
+      "url": "https://rightsidecoffee.com/collections/all/products.json?limit=30",
+      "domain": "https://rightsidecoffee.com"
+    },
+    {
+      "name": "Three Marks Coffee",
+      "country": "España",
+      "city": "Barcelona",
+      "type": "shopify_json",
+      "url": "https://threemarkscoffee.com/collections/all/products.json?limit=30",
+      "domain": "https://threemarkscoffee.com"
+    },
+    {
+      "name": "The Barn Berlin",
+      "country": "Alemania",
+      "city": "Berlín",
+      "type": "shopify_json",
+      "url": "https://thebarn.de/collections/all/products.json?limit=30",
+      "domain": "https://thebarn.de"
+    },
+    {
+      "name": "La Cabra",
+      "country": "Dinamarca",
+      "city": "Aarhus",
+      "type": "shopify_json",
+      "url": "https://lacabra.dk/collections/all/products.json?limit=30",
+      "domain": "https://lacabra.dk"
+    },
+    {
+      "name": "Onyx Coffee Lab",
+      "country": "Estados Unidos",
+      "city": "Arkansas",
+      "type": "shopify_json",
+      "url": "https://onyxcoffeelab.com/collections/all/products.json?limit=30",
+      "domain": "https://onyxcoffeelab.com"
+    },
+    {
+      "name": "Kurasu Kyoto",
+      "country": "Japón",
+      "city": "Kioto",
+      "type": "shopify_json",
+      "url": "https://kurasu.kyoto/collections/all/products.json?limit=30",
+      "domain": "https://kurasu.kyoto"
+    }
+  ]
+}
