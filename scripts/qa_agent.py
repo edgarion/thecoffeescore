@@ -213,13 +213,7 @@ def test_4_accessory_subcategories(driver: webdriver.Chrome):
     driver.get(BASE_URL + "/accesorios")
     time.sleep(2)
 
-    expected_chips = [
-        "Lifestyle",
-        "Botellas & Batch",
-        "Medidores & Básculas",
-        "Jarras & Servidores",
-        "Herramientas de barista"
-    ]
+    expected_chips = ['Lifestyle', 'Herramientas de barista', 'Jarras & Servidores', 'Medidores & Básculas', 'Filtros y Papeles', 'Mantenimiento & Limpieza']
 
     for chip in expected_chips:
         try:
