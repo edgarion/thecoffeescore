@@ -9,6 +9,9 @@ export interface StoreOffer {
   inStock: boolean;
   url: string;
   isBest?: boolean;
+  region?: string;
+  flag?: string;
+  shipping?: string;
 }
 
 export interface EditorialReview {
