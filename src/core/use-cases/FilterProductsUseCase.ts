@@ -7,7 +7,7 @@ export interface ProductFilterCriteria {
   selectedBrands?: string[];
   minScore?: number;
   searchQuery?: string;
-  sortBy?: 'score' | 'price_asc' | 'price_desc' | 'name';
+  sortBy?: 'score' | 'price_asc' | 'price_desc' | 'name' | 'newest';
 }
 
 export class FilterProductsUseCase {
@@ -61,6 +61,10 @@ export class FilterProductsUseCase {
 
     // Sorting
     switch (criteria.sortBy) {
+      case 'newest':
+        // Reverse array or prioritize latest added products / special deals
+        result.reverse();
+        break;
       case 'price_asc':
         result.sort((a, b) => a.price - b.price);
         break;

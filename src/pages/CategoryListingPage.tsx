@@ -22,7 +22,7 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
   const [activeChip, setActiveChip] = useState('Todas');
   const [maxPrice, setMaxPrice] = useState(5000);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name'>('score');
+  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name' | 'newest'>('score');
 
   // Reset filters when changing category route
   useEffect(() => {
@@ -108,7 +108,8 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
           <option value="score">Ordenar: Mejor Coffee Score</option>
           <option value="price_asc">Precio: menor a mayor</option>
           <option value="price_desc">Precio: mayor a menor</option>
-          <option value="name">Nombre alfabético</option>
+          <option value="newest">Novedades y Recientes</option>
+          <option value="name">Nombre alfabético (A - Z)</option>
         </select>
       </div>
 

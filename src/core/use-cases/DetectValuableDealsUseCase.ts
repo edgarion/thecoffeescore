@@ -5,6 +5,7 @@ export interface DealFilterCriteria {
   minScore?: number;        // Default 7.5
   minDiscountPct?: number;  // Default 10%
   category?: string;
+  sortBy?: 'discount' | 'price_asc' | 'price_desc' | 'newest';
 }
 
 export class DetectValuableDealsUseCase {
@@ -29,8 +30,22 @@ export class DetectValuableDealsUseCase {
       }
     });
 
-    // Sort by highest discount percentage descending
-    deals.sort((a, b) => b.discountPercentage - a.discountPercentage);
+    // Sorting
+    switch (criteria.sortBy) {
+      case 'price_asc':
+        deals.sort((a, b) => a.currentPrice - b.currentPrice);
+        break;
+      case 'price_desc':
+        deals.sort((a, b) => b.currentPrice - a.currentPrice);
+        break;
+      case 'newest':
+        deals.reverse();
+        break;
+      case 'discount':
+      default:
+        deals.sort((a, b) => b.discountPercentage - a.discountPercentage);
+        break;
+    }
 
     return deals;
   }

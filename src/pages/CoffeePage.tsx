@@ -8,7 +8,7 @@ import { PRODUCTS } from '../data/catalog';
 
 export const CoffeePage: React.FC = () => {
   const [activeChip, setActiveChip] = useState('Todos');
-  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name'>('score');
+  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc' | 'name' | 'newest'>('newest');
 
   const chips = ['Todos', 'Espresso', 'Filtro', 'Colombia', 'Etiopía', 'Microlotes'];
 
@@ -29,7 +29,9 @@ export const CoffeePage: React.FC = () => {
       );
     }
 
-    if (sortBy === 'score') {
+    if (sortBy === 'newest') {
+      list.reverse();
+    } else if (sortBy === 'score') {
       list.sort((a, b) => b.score.getValue() - a.score.getValue());
     } else if (sortBy === 'price_asc') {
       list.sort((a, b) => a.price - b.price);
@@ -87,10 +89,11 @@ export const CoffeePage: React.FC = () => {
           onChange={(e) => setSortBy(e.target.value as any)}
           className="sort-select"
         >
-          <option value="score">Ordenar: Mejor Coffee Score</option>
+          <option value="newest">Novedades y Últimos Tuestes</option>
           <option value="price_asc">Precio: menor a mayor</option>
           <option value="price_desc">Precio: mayor a menor</option>
-          <option value="name">Nombre alfabético</option>
+          <option value="score">Mejor Coffee Score</option>
+          <option value="name">Nombre alfabético (A - Z)</option>
         </select>
       </div>
 

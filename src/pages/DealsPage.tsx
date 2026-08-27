@@ -7,12 +7,22 @@ import { showToast } from '../hooks/useToast';
 
 export const DealsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('todas');
+  const [sortBy, setSortBy] = useState<'discount' | 'price_asc' | 'price_desc' | 'newest'>('discount');
   const { addItem } = useCart();
+
+  const chipsCategory = [
+    { id: 'todas', label: 'Todas las ofertas' },
+    { id: 'maquinas', label: 'Máquinas' },
+    { id: 'molinos', label: 'Molinos' },
+    { id: 'accesorios', label: 'Accesorios' },
+    { id: 'cafe', label: 'Café de especialidad' },
+  ];
 
   const { deals, count } = useDealsFilter({
     category: selectedCategory,
     minScore: 7.5,
     minDiscountPct: 10,
+    sortBy,
   });
 
   const handleAddToCart = (product: any, currentPrice: number) => {
@@ -50,13 +60,7 @@ export const DealsPage: React.FC = () => {
 
       {/* Filter Bar */}
       <div className="filter-bar">
-        {[
-          { id: 'todas', label: 'Todas las ofertas' },
-          { id: 'maquinas', label: 'Máquinas' },
-          { id: 'molinos', label: 'Molinos' },
-          { id: 'accesorios', label: 'Accesorios' },
-          { id: 'cafe', label: 'Café de especialidad' },
-        ].map(cat => (
+        {chipsCategory.map(cat => (
           <button
             key={cat.id}
             onClick={() => setSelectedCategory(cat.id)}
@@ -65,12 +69,25 @@ export const DealsPage: React.FC = () => {
             {cat.label}
           </button>
         ))}
+
+        <div className="filter-spacer" />
+
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value as any)}
+          className="sort-select"
+        >
+          <option value="discount">Mayor descuento %</option>
+          <option value="price_asc">Precio: menor a mayor</option>
+          <option value="price_desc">Precio: mayor a menor</option>
+          <option value="newest">Novedades y Recientes</option>
+        </select>
       </div>
 
       {/* Deals List */}
       <div className="wrap py-8 space-y-6">
         <div className="results-count">
-          <strong>{count}</strong> ofertas verificadas activas hoy
+          Mostrando <strong>{count}</strong> ofertas verificadas activas hoy
         </div>
 
         <div className="space-y-3">
