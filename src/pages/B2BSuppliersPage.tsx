@@ -13,7 +13,9 @@ import {
   Send,
   MessageSquare
 } from 'lucide-react';
+import { B2BWorldMap } from '../components/b2b/B2BWorldMap';
 import { showToast } from '../hooks/useToast';
+
 
 
 export const B2BSuppliersPage: React.FC = () => {
@@ -100,7 +102,18 @@ export const B2BSuppliersPage: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. PRICE INDEX BENCHMARK OVERVIEW */}
+      {/* 2. INTERACTIVE WORLD MAP WITH POINTERS */}
+      <section className="wrap">
+        <B2BWorldMap
+          selectedCountry={selectedCountry}
+          onSelectCountry={(country) => {
+            setSelectedCountry(country);
+            showToast(`📍 Mostrando proveedores de ${country}`, 'info');
+          }}
+        />
+      </section>
+
+      {/* 3. PRICE INDEX BENCHMARK OVERVIEW */}
       <section className="wrap">
         <div className="bg-[#f4f2ec] border border-[#e6e3da] rounded-2xl p-5 sm:p-6 shadow-xs">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
