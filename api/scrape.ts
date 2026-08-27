@@ -15,6 +15,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // 2. Scrape deals across all catalog items
     const deals = await CoffeeScraperService.scrapeAllDeals();
 
+    // 3. Persist live scraped items to Turso DB
+    let syncedToTurso = 0;
+    try {
+      syncedToTurso = await CoffeeScraperService.syncLiveRoastersToTurso();
+    } catch (dbErr: any) {
+      console.warn('Turso sync warning during cron:', dbErr.message);
+    }
+
     const timestamp = new Date().toISOString();
 
     return res.status(200).json({
@@ -25,6 +33,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       totalCatalogProducts: PRODUCTS.length,
       activeOffersFound: deals.length,
       liveScrapedRoasterItems: liveRoasters.length,
+      tursoSyncedItems: syncedToTurso,
       roasterSamples: liveRoasters.slice(0, 10),
       deals,
     });
@@ -35,3 +44,4 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   }
 }
+
