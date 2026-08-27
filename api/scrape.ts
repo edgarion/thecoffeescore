@@ -8,6 +8,15 @@ import { CoffeeScraperService } from '../src/services/scraper/CoffeeScraperServi
  * Scrapes prices, live deals, roaster catalogs (Nomad, Syra, Right Side), authentic images, and affiliate links.
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+  // Cybersecurity: Verify Cron Secret if configured in environment
+  const authHeader = req.headers['authorization'];
+  if (process.env.CRON_SECRET && authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+    return res.status(401).json({
+      success: false,
+      error: 'Unauthorized. Invalid or missing security authorization token.',
+    });
+  }
+
   try {
     // 1. Scrape live specialty coffee products directly from roasters
     const liveRoasters = await CoffeeScraperService.scrapeLiveRoasters();

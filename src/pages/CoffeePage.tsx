@@ -2,6 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/product/ProductCard';
 import { BarcelonaIndexTable } from '../components/roasters/BarcelonaIndexTable';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
+import { ScrollLoaderIndicator } from '../components/ui/ScrollLoaderIndicator';
 import { PRODUCTS } from '../data/catalog';
 
 export const CoffeePage: React.FC = () => {
@@ -30,7 +32,6 @@ export const CoffeePage: React.FC = () => {
     if (sortBy === 'score') {
       list.sort((a, b) => b.score.getValue() - a.score.getValue());
     } else if (sortBy === 'price_asc') {
-
       list.sort((a, b) => a.price - b.price);
     } else if (sortBy === 'price_desc') {
       list.sort((a, b) => b.price - a.price);
@@ -40,6 +41,12 @@ export const CoffeePage: React.FC = () => {
 
     return list;
   }, [allCoffee, activeChip, sortBy]);
+
+  const { displayedItems, hasMore, isLoadingMore, sentinelRef, loadMore, displayedCount } = useInfiniteScroll({
+    items: filteredProducts,
+    pageSize: 28,
+    initialBatch: 28,
+  });
 
   return (
     <div className="pb-16">
@@ -57,7 +64,7 @@ export const CoffeePage: React.FC = () => {
         </div>
         <h1 className="page-title">Café de especialidad en grano</h1>
         <p className="page-sub">
-          Catamos y evaluamos lotes de tueste fresco, variedades arábicas puras, perfiles sensoriales y trazabilidad de origen de los mejores tostadores.
+          Catamos y evaluamos lotes de tueste fresco, variedades arábicas puras, perfiles sensoriales y trazabilidad de origen de los mejores tostadores del mundo.
         </p>
       </div>
 
@@ -92,14 +99,25 @@ export const CoffeePage: React.FC = () => {
         {/* Products Section */}
         <div>
           <div className="results-count mb-4">
-            Mostrando <strong>{filteredProducts.length}</strong> cafés de especialidad evaluados
+            Mostrando <strong>{displayedCount}</strong> de <strong>{filteredProducts.length}</strong> cafés de especialidad evaluados
           </div>
 
           <div className="listing-grid">
-            {filteredProducts.map(p => (
+            {displayedItems.map(p => (
               <ProductCard key={p.id} product={p} />
             ))}
           </div>
+
+          {/* Scroll Sentinel */}
+          <div ref={sentinelRef} className="h-4 w-full" />
+
+          <ScrollLoaderIndicator
+            isLoading={isLoadingMore}
+            hasMore={hasMore}
+            displayedCount={displayedCount}
+            totalCount={filteredProducts.length}
+            onLoadMore={loadMore}
+          />
         </div>
 
         {/* Barcelona Index Section */}

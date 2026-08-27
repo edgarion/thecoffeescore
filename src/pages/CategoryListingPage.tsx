@@ -2,6 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/product/ProductCard';
 import { useProductFilter } from '../hooks/useProductFilter';
+import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
+import { ScrollLoaderIndicator } from '../components/ui/ScrollLoaderIndicator';
 import { PRODUCTS } from '../data/catalog';
 
 interface CategoryListingPageProps {
@@ -36,6 +38,12 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
     maxPrice,
     selectedBrands,
     sortBy,
+  });
+
+  const { displayedItems, hasMore, isLoadingMore, sentinelRef, loadMore, displayedCount } = useInfiniteScroll({
+    items: filteredProducts,
+    pageSize: 24,
+    initialBatch: 24,
   });
 
   // Extract unique brands for the current category
@@ -163,7 +171,7 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
         {/* Products Grid */}
         <main>
           <div className="results-count">
-            Mostrando <strong>{totalCount}</strong> productos analizados
+            Mostrando <strong>{displayedCount}</strong> de <strong>{totalCount}</strong> productos analizados
           </div>
           {filteredProducts.length === 0 ? (
             <div className="text-center py-16 px-4 bg-white border border-[#e6e3da] rounded-xl">
@@ -171,11 +179,24 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
               <p className="text-xs text-[#6b6a63]">Prueba ampliando los filtros de presupuesto o marcas.</p>
             </div>
           ) : (
-            <div className="listing-grid">
-              {filteredProducts.map(p => (
-                <ProductCard key={p.id} product={p} />
-              ))}
-            </div>
+            <>
+              <div className="listing-grid">
+                {displayedItems.map(p => (
+                  <ProductCard key={p.id} product={p} />
+                ))}
+              </div>
+
+              {/* Scroll Sentinel for Infinite Loading */}
+              <div ref={sentinelRef} className="h-4 w-full" />
+
+              <ScrollLoaderIndicator
+                isLoading={isLoadingMore}
+                hasMore={hasMore}
+                displayedCount={displayedCount}
+                totalCount={totalCount}
+                onLoadMore={loadMore}
+              />
+            </>
           )}
         </main>
       </div>

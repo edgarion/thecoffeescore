@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Product } from '../../core/domain/Product';
 import { useFavorites } from '../../hooks/useFavorites';
 import { useComparator } from '../../hooks/useComparator';
+import { OptimizedImage } from '../ui/OptimizedImage';
 
 interface ProductCardProps {
   product: Product;
@@ -73,15 +74,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
 
         {/* Product Photo */}
         <Link to={`/producto/${product.slug}`} className="w-full h-36 sm:h-40 bg-white rounded-xl flex items-center justify-center p-2 mb-3 overflow-hidden group">
-          <img
+          <OptimizedImage
             src={product.image}
             alt={product.name}
-            loading="lazy"
-            onError={(e) => {
-              const target = e.currentTarget;
-              target.onerror = null;
-              target.src = '/assets/products/sage-bambino.png';
-            }}
+            wrapperClassName="w-full h-full"
             className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
           />
         </Link>

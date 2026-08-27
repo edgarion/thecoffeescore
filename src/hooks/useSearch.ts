@@ -1,11 +1,12 @@
 import { useState, useMemo } from 'react';
 import { PRODUCTS, BUYING_GUIDES, BARCELONA_ROASTERS } from '../data/catalog';
+import { sanitizeSearchQuery } from '../utils/security';
 
 export function useSearch() {
   const [query, setQuery] = useState('');
 
   const results = useMemo(() => {
-    const q = query.toLowerCase().trim();
+    const q = sanitizeSearchQuery(query).toLowerCase();
     if (!q) {
       return {
         products: PRODUCTS.slice(0, 4),
