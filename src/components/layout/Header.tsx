@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GitCompare, Heart, Coffee, X, ChevronRight, ChevronDown, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut, BookOpen, Compass, FileText } from 'lucide-react';
+import { GitCompare, Heart, Coffee, X, ChevronRight, ChevronDown, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut, BookOpen, Compass, FileText, Building2 } from 'lucide-react';
+
+
 import { useFavorites } from '../../hooks/useFavorites';
 import { useComparator } from '../../hooks/useComparator';
 import { useAuth } from '../../context/AuthContext';
@@ -88,10 +90,12 @@ export const Header: React.FC = () => {
 
   // Secondary links grouped in "Explorar" dropdown
   const secondaryLinks = [
+    { name: 'Proveedores & B2B', path: '/b2b', icon: Building2, desc: 'Café verde, tostadores e importadores' },
     { name: 'Guías de Compra', path: '/guias', icon: BookOpen, desc: 'Consejos y análisis paso a paso' },
     { name: 'Blog Especializado', path: '/blog', icon: FileText, desc: 'Técnicas de extracción y novedades' },
     { name: 'Índice Global', path: '/indice-global', icon: Compass, desc: 'Mejores cafeterías del mundo' },
   ];
+
 
   return (
     <>
@@ -148,7 +152,7 @@ export const Header: React.FC = () => {
               <button
                 onClick={() => setIsMoreMenuOpen(!isMoreMenuOpen)}
                 className={`px-2.5 py-1 rounded-lg flex items-center gap-1 transition-all text-[#555] hover:text-ink hover:bg-stone-100/70 font-medium ${
-                  isMoreMenuOpen || ['/guias', '/blog', '/indice-global'].includes(location.pathname)
+                  isMoreMenuOpen || ['/guias', '/blog', '/indice-global', '/b2b', '/proveedores'].includes(location.pathname)
                     ? 'font-bold text-ink bg-stone-200/60'
                     : ''
                 }`}
