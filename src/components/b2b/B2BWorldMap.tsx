@@ -8,7 +8,7 @@ export interface MapHub {
   id: string;
   name: string;
   flag: string;
-  type: 'Origen Verde' | 'Tostadores B2B' | 'Fabricante Tostadoras' | 'Hub Mixto';
+  type: 'Exportador Verde' | 'Importador Verde' | 'Tostador B2B' | 'Hub Grano Verde & Tostado';
   lat: number;
   lng: number;
   suppliersCount: number;
@@ -29,79 +29,79 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
   const [activeHubId, setActiveHubId] = useState<string>('spain');
 
-  // Geographic coordinates for each hub
+  // ONLY Coffee bean exporters, importers and roasters (raw material & roasting hubs)
   const hubs: MapHub[] = [
     {
       id: 'spain',
       name: 'España',
       flag: '🇪🇸',
-      type: 'Hub Mixto',
+      type: 'Hub Grano Verde & Tostado',
       lat: 41.3879,
       lng: 2.1699,
-      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'España').length,
-      highlight: 'Barcelona & Castelldefels · Sacos de Verde y Tueste Semanal',
+      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'España' && s.category !== 'Fabricante de Tostadoras').length,
+      highlight: 'Barcelona & Castelldefels · Importador de verde (Mare Terra) y Tostadurías B2B',
       priceSample: 'Verde: 8,50$ | Tostado: 22-34€/kg',
-      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'España'),
+      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'España' && s.category !== 'Fabricante de Tostadoras'),
     },
     {
       id: 'ethiopia',
       name: 'Etiopía',
       flag: '🇪🇹',
-      type: 'Origen Verde',
+      type: 'Exportador Verde',
       lat: 9.0250,
       lng: 38.7469,
       suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Etiopía').length,
-      highlight: 'Addis Abeba, Guji, Yirgacheffe & Sidama · Estaciones de Lavado',
+      highlight: 'Addis Abeba, Guji & Yirgacheffe · Estaciones de lavado y sacos GrainPro',
       priceSample: 'FOB Verde: 6,80 – 26,00 $/kg',
       suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Etiopía'),
+    },
+    {
+      id: 'colombia',
+      name: 'Colombia',
+      flag: '🇨🇴',
+      type: 'Exportador Verde',
+      lat: 4.5709,
+      lng: -74.2973,
+      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Colombia').length,
+      highlight: 'Medellín, Huila, Nariño & Cauca · Microlotes de especialidad y Direct Trade',
+      priceSample: 'FOB Verde: 8,20 – 22,00 $/kg',
+      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Colombia'),
+    },
+    {
+      id: 'brazil',
+      name: 'Brasil',
+      flag: '🇧🇷',
+      type: 'Exportador Verde',
+      lat: -18.9333,
+      lng: -46.9922,
+      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Brasil').length,
+      highlight: 'Cerrado Mineiro & Mogiana · Envasado al vacío PentaPack y café de finca',
+      priceSample: 'FOB Verde: 7,50 – 35,00 $/kg',
+      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Brasil'),
+    },
+    {
+      id: 'kenya',
+      name: 'Kenia',
+      flag: '🇰🇪',
+      type: 'Exportador Verde',
+      lat: -1.2921,
+      lng: 36.8219,
+      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Kenia').length,
+      highlight: 'Nairobi, Nyeri & Kirinyaga · Sacos de grano verde Grado AA (SL28 / SL34)',
+      priceSample: 'FOB Verde: 9,50 – 28,00 $/kg',
+      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Kenia'),
     },
     {
       id: 'thailand',
       name: 'Tailandia',
       flag: '🇹🇭',
-      type: 'Origen Verde',
+      type: 'Exportador Verde',
       lat: 18.7883,
       lng: 98.9853,
       suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Tailandia').length,
-      highlight: 'Chiang Mai & Chiang Rai · Procesos Anaeróbicos y Comercio Justo',
+      highlight: 'Chiang Mai & Chiang Rai · Grano verde de altura y tueste en origen',
       priceSample: 'Verde: 7,20$ | Tostado: 14,50-32€/kg',
       suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Tailandia'),
-    },
-    {
-      id: 'germany',
-      name: 'Alemania',
-      flag: '🇩🇪',
-      type: 'Fabricante Tostadoras',
-      lat: 51.8340,
-      lng: 6.2460,
-      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Alemania').length,
-      highlight: 'Emmerich am Rhein · Probat Roasters (Tambor y Plantas Industriales)',
-      priceSample: 'Tostadoras desde 28.000 €',
-      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Alemania'),
-    },
-    {
-      id: 'netherlands',
-      name: 'Países Bajos',
-      flag: '🇳🇱',
-      type: 'Fabricante Tostadoras',
-      lat: 51.8900,
-      lng: 6.3800,
-      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Países Bajos').length,
-      highlight: 'Ulft · Giesen Coffee Roasters (W1A, W6A, W15A)',
-      priceSample: 'Tostadoras desde 18.500 €',
-      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Países Bajos'),
-    },
-    {
-      id: 'denmark',
-      name: 'Dinamarca',
-      flag: '🇩🇰',
-      type: 'Fabricante Tostadoras',
-      lat: 55.6761,
-      lng: 12.5683,
-      suppliersCount: B2B_SUPPLIERS.filter(s => s.country === 'Dinamarca').length,
-      highlight: 'Copenhague · Aillio Bullet R1/R2 (Tostado por Inducción 1kg)',
-      priceSample: 'Bullet R1: 3.499 €',
-      suppliers: B2B_SUPPLIERS.filter(s => s.country === 'Dinamarca'),
     }
   ];
 
@@ -111,10 +111,10 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
   useEffect(() => {
     if (!mapContainerRef.current || mapInstanceRef.current) return;
 
-    // Create Map with minimal controls
+    // Create Map focused on global coffee belt & trade hubs
     const map = L.map(mapContainerRef.current, {
-      center: [26, 20],
-      zoom: 2.2,
+      center: [12, 10],
+      zoom: 2.1,
       minZoom: 1.8,
       maxZoom: 9,
       zoomControl: false,
@@ -122,7 +122,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
       scrollWheelZoom: false,
     });
 
-    // CartoDB Positron Minimalist Tile Layer (Ultra-clean, warm gray & parchment)
+    // CartoDB Positron Minimalist Tile Layer (Warm gray & clean parchment)
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       subdomains: 'abcd',
       maxZoom: 19,
@@ -130,9 +130,9 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
     mapInstanceRef.current = map;
 
-    // Add Markers for each Hub with Custom Minimal HTML DivIcon
+    // Add Markers for raw coffee exporters, importers & roasters
     hubs.forEach((hub) => {
-      const typeColor = hub.type === 'Origen Verde' ? '#10b981' : hub.type === 'Fabricante Tostadoras' ? '#2f6fed' : '#e94e2b';
+      const typeColor = hub.type === 'Exportador Verde' ? '#10b981' : hub.type === 'Importador Verde' ? '#f59e0b' : '#e94e2b';
 
       const customIcon = L.divIcon({
         className: 'custom-b2b-marker',
@@ -174,7 +174,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
       marker.on('click', () => {
         setActiveHubId(hub.id);
-        map.flyTo([hub.lat, hub.lng], Math.max(map.getZoom(), 4.5), { duration: 1 });
+        map.flyTo([hub.lat, hub.lng], Math.max(map.getZoom(), 4.2), { duration: 1 });
         if (onSelectCountry) {
           onSelectCountry(hub.name);
         }
@@ -196,7 +196,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
       if (match) {
         setActiveHubId(match.id);
         if (mapInstanceRef.current) {
-          mapInstanceRef.current.flyTo([match.lat, match.lng], 4.5, { duration: 0.9 });
+          mapInstanceRef.current.flyTo([match.lat, match.lng], 4.2, { duration: 0.9 });
         }
       }
     }
@@ -205,7 +205,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
   const handleHubClick = (hub: MapHub) => {
     setActiveHubId(hub.id);
     if (mapInstanceRef.current) {
-      mapInstanceRef.current.flyTo([hub.lat, hub.lng], 4.5, { duration: 0.9 });
+      mapInstanceRef.current.flyTo([hub.lat, hub.lng], 4.2, { duration: 0.9 });
     }
     if (onSelectCountry) {
       onSelectCountry(hub.name);
@@ -220,7 +220,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
   const handleReset = () => {
     if (mapInstanceRef.current) {
-      mapInstanceRef.current.flyTo([26, 20], 2.2, { duration: 0.8 });
+      mapInstanceRef.current.flyTo([12, 10], 2.1, { duration: 0.8 });
     }
   };
 
@@ -231,13 +231,13 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
         <div>
           <div className="flex items-center gap-1.5 text-[11px] font-bold text-[#e94e2b] uppercase tracking-wider mb-0.5">
             <Sparkles size={12} />
-            <span>Mapa de Suministro B2B</span>
+            <span>Mapa de Materia Prima & Tostadores</span>
           </div>
           <h2 className="font-serif font-bold text-lg sm:text-xl text-ink">
-            Red global de exportación, café verde y tostadoras
+            Exportadores de café verde, importadores en sacos y tostadoras B2B
           </h2>
           <p className="text-[11px] text-stone-500 mt-0.5">
-            Haz clic en los puntos del mapa para explorar proveedores, índices de precios y fábricas de tostadoras.
+            Explora las regiones de origen de grano verde (materia prima) y los principales tostadores de café.
           </p>
         </div>
 
@@ -296,19 +296,19 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
           </button>
         </div>
 
-        {/* Minimal Legend Tag */}
+        {/* Minimal Legend Tag for Raw Coffee Bean & Roasting */}
         <div className="absolute left-3 bottom-3 z-10 hidden sm:flex items-center gap-3 bg-white/90 backdrop-blur-xs border border-[#e6e3da] px-2.5 py-1 rounded-md text-[10px] text-stone-600 shadow-2xs">
+          <div className="flex items-center gap-1">
+            <span className="w-2 h-2 rounded-full bg-emerald-500" />
+            <span>Exportador Verde (Materia Prima)</span>
+          </div>
           <div className="flex items-center gap-1">
             <span className="w-2 h-2 rounded-full bg-[#e94e2b]" />
             <span>Tostadores B2B</span>
           </div>
           <div className="flex items-center gap-1">
-            <span className="w-2 h-2 rounded-full bg-emerald-500" />
-            <span>Café Verde Origen</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <span className="w-2 h-2 rounded-full bg-[#2f6fed]" />
-            <span>Fabricantes Tostadoras</span>
+            <span className="w-2 h-2 rounded-full bg-amber-500" />
+            <span>Importador Verde (Sacos UE)</span>
           </div>
         </div>
       </div>
@@ -336,7 +336,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
             <div className="flex items-center gap-2.5 shrink-0">
               <div className="text-right">
-                <span className="text-[9px] text-stone-400 block font-medium">Índice de Precios</span>
+                <span className="text-[9px] text-stone-400 block font-medium">Índice de Precios Materia Prima</span>
                 <span className="font-mono font-bold text-xs text-ink">{activeHub.priceSample}</span>
               </div>
 
@@ -352,7 +352,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
             </div>
           </div>
 
-          {/* List of suppliers in this hub */}
+          {/* List of raw coffee / roaster suppliers in this hub */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
             {activeHub.suppliers.map((supplier) => (
               <div
@@ -378,7 +378,7 @@ export const B2BWorldMap: React.FC<B2BWorldMapProps> = ({ onSelectCountry, selec
 
                 <div className="pt-1.5 border-t border-[#f0eee6] flex items-center justify-between text-[10px]">
                   <span className="text-stone-700 font-mono font-bold">
-                    {supplier.priceIndex.wholesaleKg || supplier.priceIndex.greenFobKg || supplier.priceIndex.equipmentPrice}
+                    {supplier.priceIndex.greenFobKg || supplier.priceIndex.wholesaleKg}
                   </span>
                   <a
                     href={supplier.website}

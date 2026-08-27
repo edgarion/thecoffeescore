@@ -30,8 +30,9 @@ export const B2BSuppliersPage: React.FC = () => {
   const [contactPhone, setContactPhone] = useState('');
   const [message, setMessage] = useState('');
 
-  const countries = ['Todos', 'España', 'Etiopía', 'Tailandia', 'Alemania', 'Países Bajos', 'Dinamarca'];
-  const categories = ['Todos', 'Tostador B2B', 'Importador Café Verde', 'Fabricante de Tostadoras'];
+  const countries = ['Todos', 'España', 'Etiopía', 'Colombia', 'Brasil', 'Kenia', 'Tailandia', 'Alemania', 'Países Bajos'];
+  const categories = ['Todos', 'Exportador Café Verde', 'Importador Café Verde', 'Tostador B2B', 'Fabricante de Tostadoras'];
+
 
   const filteredSuppliers = useMemo(() => {
     return B2B_SUPPLIERS.filter(supplier => {
