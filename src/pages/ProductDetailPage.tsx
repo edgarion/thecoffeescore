@@ -128,10 +128,43 @@ export const ProductDetailPage: React.FC = () => {
           </div>
 
           <div className="product-detail-price">{product.price} €</div>
-          <div className="price-note">Precio actualizado y verificado hoy en tiendas oficiales</div>
+          <div className="price-note mb-4">Precio actualizado y verificado hoy en tiendas oficiales</div>
+
+          {/* Quick Direct Store Buttons */}
+          {product.stores && product.stores.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-4">
+              {product.stores.map((st, idx) => (
+                <a
+                  key={idx}
+                  href={st.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+                    st.isBest
+                      ? 'bg-[#2f6fed] hover:bg-[#2055be] text-white shadow-sm hover:-translate-y-0.5'
+                      : 'bg-white hover:bg-stone-100 text-ink border border-[#e6e3da]'
+                  }`}
+                  title={`Comprar en ${st.name} por ${st.price} €`}
+                >
+                  <span>Comprar en {st.name} ({st.price} €) →</span>
+                </a>
+              ))}
+            </div>
+          )}
 
           {/* CTAs */}
           <div className="detail-cta-row flex flex-wrap gap-2.5 items-center">
+            {product.stores && product.stores.length > 0 && (
+              <a
+                href={product.stores[0].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-solid flex items-center justify-center !bg-[#2f6fed] hover:!bg-[#2055be] !border-none font-bold text-xs !text-white"
+              >
+                <span>Comprar ahora en {product.stores[0].name.split(' ')[0]} →</span>
+              </a>
+            )}
+
             <button
               onClick={() => addItem({
                 productId: product.id,
@@ -151,8 +184,8 @@ export const ProductDetailPage: React.FC = () => {
               stores={product.stores}
               productName={product.name}
               defaultPrice={product.price}
-              label="Comprobar precio en tiendas →"
-              className="btn btn-solid"
+              label="Ver todas las tiendas →"
+              className="btn btn-outline text-xs font-semibold"
             />
 
             <button

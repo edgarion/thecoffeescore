@@ -240,7 +240,29 @@ def test_4_accessory_subcategories(driver: webdriver.Chrome):
         except Exception as e:
             record_issue("accesorios", chip, "error-filtro", str(e))
 
-# ─── Runner ───────────────────────────────────────────────────────────────────
+def test_5_buy_links(driver: webdriver.Chrome):
+    print("\n" + "="*65, flush=True)
+    print("🛒 TEST 5: Enlaces de Compra 'Comprar →' a Tiendas Oficiales", flush=True)
+    print("="*65, flush=True)
+
+    pages = ["/accesorios", "/cafe", "/molinos", "/maquinas"]
+    for path in pages:
+        driver.get(BASE_URL + path)
+        time.sleep(2)
+
+        buy_buttons = driver.find_elements(By.XPATH, "//a[contains(text(), 'Comprar') or contains(@title, 'Comprar')]")
+        valid_links = 0
+        for btn in buy_buttons[:10]:
+            href = btn.get_attribute("href")
+            if href and (href.startswith("http://") or href.startswith("https://")) and not href.startswith("http://localhost"):
+                valid_links += 1
+                global total_checks
+                total_checks += 1
+            elif href:
+                record_issue(path.strip("/"), href, "enlace-invalido", f"Enlace no apunta a tienda externa: {href}")
+
+        if valid_links > 0:
+            record_pass(f"{path}: {valid_links} botones 'Comprar →' validados hacia tiendas oficiales y Amazon")
 
 def main():
     print("\n" + "═"*70, flush=True)
@@ -263,6 +285,7 @@ def main():
         test_2_image_rendering(driver)
         test_3_product_detail_links(driver)
         test_4_accessory_subcategories(driver)
+        test_5_buy_links(driver)
     finally:
         driver.quit()
 
