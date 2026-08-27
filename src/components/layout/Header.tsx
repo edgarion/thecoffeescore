@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GitCompare, Heart, Coffee, X, ChevronRight, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut } from 'lucide-react';
+import { GitCompare, Heart, Coffee, X, ChevronRight, ChevronDown, SlidersHorizontal, ShoppingBag, User as UserIcon, LogOut, BookOpen, Compass, FileText } from 'lucide-react';
 import { useFavorites } from '../../hooks/useFavorites';
 import { useComparator } from '../../hooks/useComparator';
 import { useAuth } from '../../context/AuthContext';
@@ -19,24 +19,30 @@ export const Header: React.FC = () => {
   const [isFavOpen, setIsFavOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+  const [isMoreMenuOpen, setIsMoreMenuOpen] = useState(false);
 
   const userMenuRef = useRef<HTMLDivElement>(null);
+  const moreMenuRef = useRef<HTMLDivElement>(null);
 
-  // Close dropdown on click outside
+  // Close dropdowns on outside click
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (userMenuRef.current && !userMenuRef.current.contains(event.target as Node)) {
         setIsUserMenuOpen(false);
+      }
+      if (moreMenuRef.current && !moreMenuRef.current.contains(event.target as Node)) {
+        setIsMoreMenuOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Close mobile menu on route change
+  // Close mobile & dropdown menus on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
     setIsUserMenuOpen(false);
+    setIsMoreMenuOpen(false);
   }, [location.pathname]);
 
   // Lock body scroll when mobile menu is active
@@ -51,7 +57,7 @@ export const Header: React.FC = () => {
     };
   }, [isMobileMenuOpen]);
 
-  // Keyboard shortcut (Escape to close menu)
+  // Global Keyboard shortcuts (Escape, Cmd+K / Ctrl+K)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -59,32 +65,42 @@ export const Header: React.FC = () => {
         setIsSearchOpen(false);
         setIsFavOpen(false);
         setIsUserMenuOpen(false);
+        setIsMoreMenuOpen(false);
+      }
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setIsSearchOpen(true);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const navLinks = [
-    { name: 'Comparador', path: '/comparador', badge: selectedIds.length > 0 ? selectedIds.length : null },
+  // Primary categories
+  const primaryLinks = [
     { name: 'Máquinas', path: '/maquinas' },
     { name: 'Molinos', path: '/molinos' },
-    { name: 'Accesorios', path: '/accesorios' },
     { name: 'Café', path: '/cafe' },
-    { name: 'Ofertas', path: '/ofertas' },
-    { name: 'Guías', path: '/guias' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Índice Global', path: '/indice-global' },
+    { name: 'Accesorios', path: '/accesorios' },
+    { name: 'Ofertas', path: '/ofertas', highlight: true },
+    { name: 'Comparador', path: '/comparador', badge: selectedIds.length > 0 ? selectedIds.length : null },
+  ];
+
+  // Secondary links grouped in "Explorar" dropdown
+  const secondaryLinks = [
+    { name: 'Guías de Compra', path: '/guias', icon: BookOpen, desc: 'Consejos y análisis paso a paso' },
+    { name: 'Blog Especializado', path: '/blog', icon: FileText, desc: 'Técnicas de extracción y novedades' },
+    { name: 'Índice Global', path: '/indice-global', icon: Compass, desc: 'Mejores cafeterías del mundo' },
   ];
 
   return (
     <>
       <header
         role="banner"
-        className="sticky top-0 z-40 bg-[#fbfaf7]/95 backdrop-blur-md border-b border-[#e6e3da] px-4 sm:px-8 lg:px-12 py-2 sm:py-2.5 transition-all"
+        className="sticky top-0 z-40 bg-[#fbfaf7]/95 backdrop-blur-md border-b border-[#e6e3da] px-3 sm:px-6 lg:px-8 py-1.5 sm:py-2 transition-all shadow-[0_1px_2px_rgba(0,0,0,0.02)]"
       >
-        <div className="w-full flex items-center justify-between gap-3 sm:gap-6">
-          {/* Logo - Proportional and Harmonious */}
+        <div className="w-full max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-4">
+          {/* Logo - Compact & Sharp */}
           <Link
             to="/"
             className="logo flex-shrink-0 flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink rounded-lg p-0.5"
@@ -93,65 +109,104 @@ export const Header: React.FC = () => {
             <img
               src="/assets/logo-tagline.png"
               alt="thecoffeescore"
-              className="h-7 sm:h-9 md:h-11 lg:h-12 w-auto object-contain transition-all"
+              className="h-6 sm:h-7 md:h-8 w-auto object-contain transition-all"
             />
           </Link>
 
-          {/* Desktop Navigation (>= 1024px) */}
+          {/* Desktop Navigation (>= 1024px) - Compact and clear */}
           <nav
             role="navigation"
             aria-label="Navegación principal"
-            className="hidden lg:flex items-center gap-4 xl:gap-7 text-[0.9rem]"
+            className="hidden lg:flex items-center gap-1 xl:gap-2 text-[0.84rem]"
           >
-            {navLinks.map((link) => {
+            {primaryLinks.map((link) => {
               const isActive = location.pathname === link.path;
               return (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`transition-colors py-1 px-1 rounded flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink ${
+                  className={`px-2.5 py-1 rounded-lg flex items-center gap-1 transition-all ${
                     isActive
-                      ? 'font-bold text-ink border-b-2 border-ink -mb-[2px]'
-                      : 'text-[#333] hover:text-editorial-blue'
+                      ? 'font-bold text-ink bg-stone-200/60'
+                      : link.highlight
+                      ? 'text-[#e94e2b] font-bold hover:bg-orange-50'
+                      : 'text-[#444] hover:text-ink hover:bg-stone-100/70 font-medium'
                   }`}
                 >
                   <span>{link.name}</span>
                   {link.badge && (
-                    <span style={{
-                      marginLeft: 2,
-                      background: 'var(--blue)',
-                      color: '#fff',
-                      fontSize: '0.62rem',
-                      fontWeight: 700,
-                      padding: '1px 5px',
-                      borderRadius: 10,
-                    }}>
+                    <span className="ml-0.5 bg-[#2f6fed] text-white text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                       {link.badge}
                     </span>
                   )}
                 </Link>
               );
             })}
+
+            {/* Explorar / Más Dropdown */}
+            <div className="relative" ref={moreMenuRef}>
+              <button
+                onClick={() => setIsMoreMenuOpen(!isMoreMenuOpen)}
+                className={`px-2.5 py-1 rounded-lg flex items-center gap-1 transition-all text-[#555] hover:text-ink hover:bg-stone-100/70 font-medium ${
+                  isMoreMenuOpen || ['/guias', '/blog', '/indice-global'].includes(location.pathname)
+                    ? 'font-bold text-ink bg-stone-200/60'
+                    : ''
+                }`}
+              >
+                <span>Explorar</span>
+                <ChevronDown size={13} className={`transition-transform duration-200 ${isMoreMenuOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isMoreMenuOpen && (
+                <div className="absolute left-0 top-full mt-1.5 w-60 bg-white border border-[#e6e3da] rounded-2xl shadow-xl p-1.5 z-50 animate-scaleUp">
+                  {secondaryLinks.map((item) => {
+                    const Icon = item.icon;
+                    const isActive = location.pathname === item.path;
+                    return (
+                      <Link
+                        key={item.path}
+                        to={item.path}
+                        onClick={() => setIsMoreMenuOpen(false)}
+                        className={`flex items-start gap-2.5 p-2 rounded-xl transition-colors ${
+                          isActive ? 'bg-[#f4f2ec] text-ink font-bold' : 'hover:bg-[#fbfaf7] text-stone-700'
+                        }`}
+                      >
+                        <div className="w-7 h-7 rounded-lg bg-stone-100 flex items-center justify-center shrink-0 mt-0.5 text-ink">
+                          <Icon size={14} />
+                        </div>
+                        <div>
+                          <p className="text-xs font-semibold text-ink leading-tight">{item.name}</p>
+                          <p className="text-[10px] text-stone-500 leading-tight mt-0.5">{item.desc}</p>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
           </nav>
 
-          {/* Right Header Controls */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            {/* Search box desktop (NO magnifying glass icon) */}
+          {/* Right Header Controls - Compact Pill Style */}
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            {/* Search Box with Shortcut Badge */}
             <div
               role="button"
               tabIndex={0}
               onKeyDown={(e) => e.key === 'Enter' && setIsSearchOpen(true)}
               onClick={() => setIsSearchOpen(true)}
-              className="hidden md:flex items-center border border-[#e6e3da] bg-white rounded-full px-4 py-1.5 text-xs text-[#6b6a63] cursor-pointer hover:border-stone-400 hover:text-ink transition-colors min-w-[170px] select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="hidden md:flex items-center justify-between border border-[#e6e3da] bg-white rounded-full pl-3 pr-2 py-1 text-xs text-[#6b6a63] cursor-pointer hover:border-stone-400 hover:text-ink transition-all w-36 lg:w-44 select-none shadow-sm"
               aria-label="Buscar productos y marcas"
             >
-              <span className="truncate">Buscar productos…</span>
+              <span className="truncate text-[11px]">Buscar...</span>
+              <kbd className="hidden lg:inline-block bg-stone-100 border border-stone-300/70 text-[9px] font-mono px-1.5 py-0.2 rounded text-stone-500">
+                ⌘K
+              </kbd>
             </div>
 
-            {/* Search button mobile & tablet (NO magnifying glass icon) */}
+            {/* Search button mobile */}
             <button
               onClick={() => setIsSearchOpen(true)}
-              className="md:hidden text-xs font-semibold text-[#6b6a63] hover:text-ink px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="md:hidden text-xs font-semibold text-[#6b6a63] hover:text-ink px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white transition-colors"
               aria-label="Abrir buscador"
             >
               Buscar
@@ -160,27 +215,13 @@ export const Header: React.FC = () => {
             {/* Comparador Icon (Desktop only) */}
             <Link
               to="/comparador"
-              className="hidden lg:flex relative w-8 h-8 items-center justify-center rounded-full hover:bg-stone-200/50 text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="hidden lg:flex relative w-7 h-7 items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
               title="Comparador de productos"
               aria-label="Ver comparador de productos"
             >
-              <GitCompare size={18} className={selectedIds.length > 0 ? 'text-editorial-blue' : ''} />
+              <GitCompare size={16} className={selectedIds.length > 0 ? 'text-[#2f6fed]' : ''} />
               {selectedIds.length > 0 && (
-                <span style={{
-                  position: 'absolute',
-                  top: -2,
-                  right: -2,
-                  background: 'var(--blue)',
-                  color: '#fff',
-                  fontSize: '0.6rem',
-                  fontWeight: 700,
-                  width: 15,
-                  height: 15,
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}>
+                <span className="absolute -top-1 -right-1 bg-[#2f6fed] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
                   {selectedIds.length}
                 </span>
               )}
@@ -188,28 +229,14 @@ export const Header: React.FC = () => {
 
             {/* Favoritos Icon */}
             <button
-              className="relative w-8 h-8 flex items-center justify-center rounded-full hover:bg-stone-200/50 text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="relative w-7 h-7 flex items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
               onClick={() => setIsFavOpen(true)}
               title="Favoritos"
               aria-label={`Favoritos (${favCount})`}
             >
-              <Heart size={18} className={favCount > 0 ? 'fill-[#e94e2b] text-[#e94e2b]' : ''} />
+              <Heart size={16} className={favCount > 0 ? 'fill-[#e94e2b] text-[#e94e2b]' : ''} />
               {favCount > 0 && (
-                <span style={{
-                  position: 'absolute',
-                  top: -2,
-                  right: -2,
-                  background: 'var(--accent)',
-                  color: '#fff',
-                  fontSize: '0.6rem',
-                  fontWeight: 700,
-                  width: 15,
-                  height: 15,
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}>
+                <span className="absolute -top-1 -right-1 bg-[#e94e2b] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
                   {favCount}
                 </span>
               )}
@@ -217,39 +244,25 @@ export const Header: React.FC = () => {
 
             {/* Cesta de Compra Icon */}
             <button
-              className="relative w-8 h-8 flex items-center justify-center rounded-full hover:bg-stone-200/50 text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="relative w-7 h-7 flex items-center justify-center rounded-full hover:bg-stone-200/60 text-ink transition-colors"
               onClick={openCart}
               title="Cesta de compra"
               aria-label={`Cesta (${cartCount})`}
             >
-              <ShoppingBag size={18} className={cartCount > 0 ? 'text-[#e94e2b]' : ''} />
+              <ShoppingBag size={16} className={cartCount > 0 ? 'text-[#e94e2b]' : ''} />
               {cartCount > 0 && (
-                <span style={{
-                  position: 'absolute',
-                  top: -2,
-                  right: -2,
-                  background: '#e94e2b',
-                  color: '#fff',
-                  fontSize: '0.6rem',
-                  fontWeight: 700,
-                  width: 15,
-                  height: 15,
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}>
+                <span className="absolute -top-1 -right-1 bg-[#e94e2b] text-white text-[9px] font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center font-mono">
                   {cartCount}
                 </span>
               )}
             </button>
 
             {/* User Profile / Auth Button Desktop */}
-            <div className="relative hidden sm:block" ref={userMenuRef}>
+            <div className="relative hidden sm:block ml-1" ref={userMenuRef}>
               {isAuthenticated && user ? (
                 <button
                   onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                  className="flex items-center gap-1.5 border border-[#e6e3da] bg-white hover:border-stone-400 rounded-full pl-1 pr-2.5 py-1 text-xs text-ink transition-all shadow-sm"
+                  className="flex items-center gap-1.5 border border-[#e6e3da] bg-white hover:border-stone-400 rounded-full pl-1 pr-2 py-0.5 text-xs text-ink transition-all shadow-sm"
                   aria-label="Perfil de usuario"
                 >
                   <img
@@ -257,24 +270,24 @@ export const Header: React.FC = () => {
                     alt={user.name}
                     className="w-5 h-5 rounded-full object-cover bg-stone-100"
                   />
-                  <span className="font-bold max-w-[80px] truncate">{user.name.split(' ')[0]}</span>
+                  <span className="font-bold max-w-[70px] truncate text-[11px]">{user.name.split(' ')[0]}</span>
                 </button>
               ) : (
                 <button
                   onClick={() => openAuthModal('login')}
-                  className="flex items-center gap-1 bg-ink hover:bg-black text-white text-xs font-bold px-3 py-1.5 rounded-full transition-all shadow-sm"
+                  className="flex items-center gap-1 bg-ink hover:bg-black text-white text-[11px] font-bold px-2.5 py-1 rounded-full transition-all shadow-sm"
                 >
-                  <UserIcon size={13} />
+                  <UserIcon size={12} />
                   <span>Entrar</span>
                 </button>
               )}
 
               {/* User Dropdown */}
               {isUserMenuOpen && isAuthenticated && user && (
-                <div className="absolute right-0 top-full mt-2 w-56 bg-white border border-[#e6e3da] rounded-2xl shadow-xl p-2 z-50 animate-scaleUp">
-                  <div className="px-3 py-2 border-b border-[#f0eee6]">
+                <div className="absolute right-0 top-full mt-1.5 w-52 bg-white border border-[#e6e3da] rounded-2xl shadow-xl p-1.5 z-50 animate-scaleUp">
+                  <div className="px-2.5 py-2 border-b border-[#f0eee6]">
                     <p className="font-bold text-xs text-ink">{user.name}</p>
-                    <p className="text-[11px] text-stone-500 truncate">{user.email}</p>
+                    <p className="text-[10px] text-stone-500 truncate">{user.email}</p>
                   </div>
                   <div className="py-1 space-y-0.5">
                     <button
@@ -282,14 +295,14 @@ export const Header: React.FC = () => {
                         setIsUserMenuOpen(false);
                         openCart();
                       }}
-                      className="w-full flex items-center justify-between px-3 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
+                      className="w-full flex items-center justify-between px-2.5 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
                     >
                       <span className="flex items-center gap-2">
-                        <ShoppingBag size={14} className="text-stone-400" />
+                        <ShoppingBag size={13} className="text-stone-400" />
                         <span>Mi Cesta</span>
                       </span>
                       {cartCount > 0 && (
-                        <span className="bg-[#e94e2b] text-white text-[10px] font-bold px-1.5 py-0.2 rounded-full">
+                        <span className="bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                           {cartCount}
                         </span>
                       )}
@@ -299,14 +312,14 @@ export const Header: React.FC = () => {
                         setIsUserMenuOpen(false);
                         setIsFavOpen(true);
                       }}
-                      className="w-full flex items-center justify-between px-3 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
+                      className="w-full flex items-center justify-between px-2.5 py-1.5 text-xs text-stone-700 hover:bg-[#fbfaf7] rounded-lg transition-colors"
                     >
                       <span className="flex items-center gap-2">
-                        <Heart size={14} className="text-stone-400" />
+                        <Heart size={13} className="text-stone-400" />
                         <span>Mis Favoritos</span>
                       </span>
                       {favCount > 0 && (
-                        <span className="bg-stone-200 text-stone-700 text-[10px] font-bold px-1.5 py-0.2 rounded-full">
+                        <span className="bg-stone-200 text-stone-700 text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                           {favCount}
                         </span>
                       )}
@@ -318,7 +331,7 @@ export const Header: React.FC = () => {
                         setIsUserMenuOpen(false);
                         logout();
                       }}
-                      className="w-full flex items-center gap-2 px-3 py-1.5 text-xs text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium"
+                      className="w-full flex items-center gap-2 px-2.5 py-1.5 text-xs text-red-600 hover:bg-red-50 rounded-lg transition-colors font-medium"
                     >
                       <LogOut size={13} />
                       <span>Cerrar Sesión</span>
@@ -328,14 +341,13 @@ export const Header: React.FC = () => {
               )}
             </div>
 
-            {/* Mobile & Tablet Burger Menu Button (< 1024px) */}
+            {/* Mobile Burger Menu Button */}
             <button
-              className="lg:hidden flex items-center gap-1.5 bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink"
+              className="lg:hidden flex items-center gap-1 bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-2 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú de navegación'}
-              aria-expanded={isMobileMenuOpen}
+              aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
             >
-              <Coffee size={15} className="text-[#e94e2b] shrink-0" />
+              <Coffee size={14} className="text-[#e94e2b] shrink-0" />
               <span className="font-semibold text-xs">Menú</span>
             </button>
           </div>
@@ -392,35 +404,59 @@ export const Header: React.FC = () => {
 
             {/* Navigation Links */}
             <div className="flex-1 overflow-y-auto px-3.5 py-2 space-y-1">
-              {navLinks.map((link) => {
+              <div className="text-[10px] font-bold uppercase tracking-wider text-stone-400 px-3 py-1">
+                Catálogo
+              </div>
+              {primaryLinks.map((link) => {
                 const isActive = location.pathname === link.path;
                 return (
                   <Link
                     key={link.path}
                     to={link.path}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
+                    className={`flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
+                      isActive
+                        ? 'bg-ink text-white shadow-sm font-bold'
+                        : link.highlight
+                        ? 'text-[#e94e2b] bg-orange-50/70 hover:bg-orange-100/70 font-bold'
+                        : 'text-ink bg-white/70 hover:bg-white border border-transparent hover:border-[#e6e3da]'
+                    }`}
+                  >
+                    <span>{link.name}</span>
+                    <div className="flex items-center gap-1.5">
+                      {link.badge && (
+                        <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded-full font-mono ${isActive ? 'bg-[#e94e2b] text-white' : 'bg-[#2f6fed] text-white'}`}>
+                          {link.badge}
+                        </span>
+                      )}
+                      <ChevronRight size={13} className={isActive ? 'text-white' : 'text-stone-400'} />
+                    </div>
+                  </Link>
+                );
+              })}
+
+              <div className="text-[10px] font-bold uppercase tracking-wider text-stone-400 px-3 pt-3 pb-1">
+                Explorar & Guías
+              </div>
+              {secondaryLinks.map((link) => {
+                const Icon = link.icon;
+                const isActive = location.pathname === link.path;
+                return (
+                  <Link
+                    key={link.path}
+                    to={link.path}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className={`flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
                       isActive
                         ? 'bg-ink text-white shadow-sm font-bold'
                         : 'text-ink bg-white/70 hover:bg-white border border-transparent hover:border-[#e6e3da]'
                     }`}
                   >
-                    <span>{link.name}</span>
                     <div className="flex items-center gap-2">
-                      {link.badge && (
-                        <span style={{
-                          background: isActive ? 'var(--accent)' : 'var(--blue)',
-                          color: '#fff',
-                          fontSize: '0.65rem',
-                          fontWeight: 700,
-                          padding: '1px 6px',
-                          borderRadius: 10,
-                        }}>
-                          {link.badge}
-                        </span>
-                      )}
-                      <ChevronRight size={14} className={isActive ? 'text-white' : 'text-stone-400'} />
+                      <Icon size={14} className={isActive ? 'text-white' : 'text-stone-400'} />
+                      <span>{link.name}</span>
                     </div>
+                    <ChevronRight size={13} className={isActive ? 'text-white' : 'text-stone-400'} />
                   </Link>
                 );
               })}
