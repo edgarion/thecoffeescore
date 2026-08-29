@@ -6,6 +6,7 @@ import { TrustBar } from '../components/layout/TrustBar';
 import { BarcelonaCoffeeSlider } from '../components/roasters/BarcelonaCoffeeSlider';
 import { CoffeeSuppliersSection } from '../components/roasters/CoffeeSuppliersSection';
 import { BaristaBooks } from '../components/home/BaristaBooks';
+import { BLOG_ARTICLES } from '../data/blogArticles';
 import { showToast } from '../hooks/useToast';
 
 
@@ -497,7 +498,77 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 5. BOTTOM SECTION: 3 CARDS ROW (NEWSLETTER + GUIDES + RATINGS) */}
+      {/* 5. RADAR EDITORIAL & BLOG SECTION */}
+      <section className="wrap">
+        <div className="bg-white border border-[#e6e3da] rounded-3xl p-6 sm:p-9 shadow-sm">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 pb-4 border-b border-[#e6e3da]">
+            <div>
+              <div className="text-[#e94e2b] text-xs font-bold uppercase tracking-wider mb-1 font-mono">
+                RADAR EDITORIAL & INVESTIGACIÓN
+              </div>
+              <h2 className="font-serif font-bold text-2xl sm:text-3xl text-ink">
+                Artículos, Ciencia y Cultura Barista
+              </h2>
+              <p className="text-xs sm:text-sm text-stone-600 mt-1 max-w-xl">
+                Los mejores análisis técnicos, química de extracción y novedades de origen redactados por los mayores referentes del mundo del café.
+              </p>
+            </div>
+            <Link
+              to="/blog"
+              className="btn btn-outline !text-xs !py-2 !px-4 !rounded-xl font-bold self-start sm:self-auto hover:bg-stone-50"
+            >
+              <span>Ver todos los artículos ({BLOG_ARTICLES.length}) →</span>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {BLOG_ARTICLES.slice(0, 3).map((article) => (
+              <Link
+                key={article.id}
+                to={`/blog/${article.slug}`}
+                className="bg-[#fbfaf7] hover:bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 flex flex-col justify-between transition-all group shadow-2xs hover:shadow-md"
+              >
+                <div>
+                  {/* Photo */}
+                  <div className="w-full h-44 bg-white border border-[#f0eee6] rounded-xl mb-4 flex items-center justify-center p-3 overflow-hidden group-hover:bg-[#f5f2e9] transition-colors">
+                    <img
+                      src={article.imageUrl}
+                      alt={article.title}
+                      className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                    />
+                  </div>
+
+                  <div className="flex items-center justify-between gap-2 mb-2.5">
+                    <span className="bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2 py-0.5 rounded-full font-mono">
+                      {article.category.toUpperCase()}
+                    </span>
+                    <span className="text-[11px] text-stone-500">{article.readTime}</span>
+                  </div>
+
+                  <h3 className="font-serif font-bold text-base sm:text-lg text-ink group-hover:text-[#2f6fed] transition-colors leading-snug mb-2 line-clamp-2">
+                    {article.title}
+                  </h3>
+
+                  <p className="text-xs text-stone-600 leading-relaxed mb-4 line-clamp-2">
+                    {article.excerpt}
+                  </p>
+                </div>
+
+                <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between text-xs mt-auto">
+                  <span className="text-[11px] font-medium text-stone-500 truncate max-w-[160px]">
+                    {article.author} · {article.source}
+                  </span>
+                  <span className="font-bold text-ink group-hover:text-[#2f6fed] transition-colors">
+                    Leer →
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6. BOTTOM SECTION: 3 CARDS ROW (NEWSLETTER + GUIDES + RATINGS) */}
       <section className="wrap">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {/* Bottom Card 1: Newsletter */}

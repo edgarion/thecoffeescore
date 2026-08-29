@@ -74,9 +74,18 @@ export const BlogPage: React.FC = () => {
             {featured.map((article) => (
               <article
                 key={article.id}
-                className="bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-7 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
+                className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-6 sm:p-7 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
               >
                 <div>
+                  {/* Photo */}
+                  <div className="w-full h-52 bg-[#fbfaf7] border border-[#f0eee6] rounded-xl mb-4 flex items-center justify-center p-4 overflow-hidden group-hover:bg-[#f5f2e9] transition-colors">
+                    <img
+                      src={article.imageUrl}
+                      alt={article.title}
+                      className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                    />
+                  </div>
+
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <span className="bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full font-mono">
                       {article.category.toUpperCase()}
@@ -87,9 +96,9 @@ export const BlogPage: React.FC = () => {
                   </div>
 
                   <h2 className="font-serif font-bold text-xl sm:text-2xl text-ink group-hover:text-[#2f6fed] transition-colors leading-tight mb-3">
-                    <a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">
+                    <Link to={`/blog/${article.slug}`}>
                       {article.title}
-                    </a>
+                    </Link>
                   </h2>
 
                   <p className="text-xs sm:text-sm text-stone-600 leading-relaxed mb-4">
@@ -99,19 +108,17 @@ export const BlogPage: React.FC = () => {
 
                 <div className="pt-4 border-t border-[#e6e3da] flex items-center justify-between text-xs">
                   <div className="flex items-center gap-2 text-stone-700">
-                    <span className="font-semibold text-ink">{article.source}</span>
+                    <span className="font-semibold text-ink">{article.author}</span>
                     <span>·</span>
-                    <span className="text-stone-500">{article.author}</span>
+                    <span className="text-stone-500">{article.source}</span>
                   </div>
 
-                  <a
-                    href={article.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
+                  <Link
+                    to={`/blog/${article.slug}`}
+                    className="font-bold text-ink group-hover:text-[#2f6fed] transition-colors flex items-center gap-1"
                   >
-                    Leer artículo →
-                  </a>
+                    <span>Leer artículo →</span>
+                  </Link>
                 </div>
               </article>
             ))}
@@ -126,17 +133,26 @@ export const BlogPage: React.FC = () => {
               className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
             >
               <div>
+                {/* Photo */}
+                <div className="w-full h-40 bg-[#fbfaf7] border border-[#f0eee6] rounded-xl mb-4 flex items-center justify-center p-3 overflow-hidden group-hover:bg-[#f5f2e9] transition-colors">
+                  <img
+                    src={article.imageUrl}
+                    alt={article.title}
+                    className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                  />
+                </div>
+
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <span className="bg-[#f4f2ec] text-stone-700 text-[10px] font-bold px-2.5 py-0.5 rounded-full">
+                  <span className="bg-[#f4f2ec] text-stone-700 text-[10px] font-bold px-2.5 py-0.5 rounded-full font-mono">
                     {article.category}
                   </span>
                   <span className="text-[11px] text-stone-500">{article.publishDate}</span>
                 </div>
 
                 <h3 className="font-serif font-bold text-base sm:text-lg text-ink group-hover:text-[#2f6fed] transition-colors leading-snug mb-2.5">
-                  <a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">
+                  <Link to={`/blog/${article.slug}`}>
                     {article.title}
-                  </a>
+                  </Link>
                 </h3>
 
                 <p className="text-xs text-stone-600 leading-relaxed mb-4 line-clamp-3">
@@ -157,16 +173,14 @@ export const BlogPage: React.FC = () => {
 
               <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between mt-auto text-xs">
                 <span className="text-[11px] font-medium text-stone-500 truncate max-w-[150px]">
-                  {article.source}
+                  {article.author} · {article.source}
                 </span>
-                <a
-                  href={article.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-bold text-ink hover:text-[#2f6fed] transition-colors"
+                <Link
+                  to={`/blog/${article.slug}`}
+                  className="font-bold text-ink group-hover:text-[#2f6fed] transition-colors"
                 >
                   Leer →
-                </a>
+                </Link>
               </div>
             </article>
           ))}

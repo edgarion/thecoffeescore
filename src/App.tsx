@@ -25,6 +25,7 @@ import { B2BSuppliersPage } from './pages/B2BSuppliersPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { SetupConfiguratorPage } from './pages/SetupConfiguratorPage';
 import { GuideDetailPage } from './pages/GuideDetailPage';
+import { BlogDetailPage } from './pages/BlogDetailPage';
 
 export const App: React.FC = () => {
   return (
@@ -76,6 +77,7 @@ export const App: React.FC = () => {
                   <Route path="/ofertas" element={<DealsPage />} />
                   <Route path="/guias" element={<GuidesPage />} />
                   <Route path="/blog" element={<BlogPage />} />
+                  <Route path="/blog/:slug" element={<BlogDetailPage />} />
                   <Route path="/indice-global" element={<GlobalCoffeeIndexPage />} />
                   <Route path="/cafeterias" element={<GlobalCoffeeIndexPage />} />
                   <Route path="/b2b" element={<B2BSuppliersPage />} />
