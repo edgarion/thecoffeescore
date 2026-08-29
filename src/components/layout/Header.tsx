@@ -90,6 +90,7 @@ export const Header: React.FC = () => {
 
   // Secondary links grouped in "Explorar" dropdown
   const secondaryLinks = [
+    { name: 'Recetas & Guía de Bebidas', path: '/recetas', desc: 'SampleAPIs, RoastDB y coffeeDB en directo' },
     { name: 'Configurador de Setup', path: '/configurador', desc: 'Arma, optimiza y compara tu estación barista' },
     { name: 'Proveedores & B2B', path: '/b2b', desc: 'Café verde, tostadores e importadores' },
     { name: 'Guías de Compra', path: '/guias', desc: 'Consejos y análisis paso a paso' },
