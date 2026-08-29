@@ -10,6 +10,7 @@ import { ComparisonDrawer } from './components/comparator/ComparisonDrawer';
 import { CookieConsentBanner } from './components/legal/CookieConsentBanner';
 import { AuthModal } from './components/auth/AuthModal';
 import { CartDrawer } from './components/cart/CartDrawer';
+import { MobileBottomBar } from './components/layout/MobileBottomBar';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -33,7 +34,7 @@ export const App: React.FC = () => {
             <div className="min-h-screen flex flex-col bg-paper text-ink font-sans">
               <Header />
 
-              <main className="flex-1">
+              <main className="flex-1 pb-16 lg:pb-0">
                 <Routes>
                   <Route path="/" element={<HomePage />} />
                   <Route path="/comparador" element={<ComparatorPage />} />
@@ -85,6 +86,7 @@ export const App: React.FC = () => {
               </main>
 
               <Footer />
+              <MobileBottomBar />
               <ComparisonDrawer />
               <CartDrawer />
               <AuthModal />

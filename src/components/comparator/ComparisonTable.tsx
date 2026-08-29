@@ -10,16 +10,23 @@ export const ComparisonTable: React.FC = () => {
 
   if (selectedProducts.length === 0) {
     return (
-      <div className="text-center py-20 bg-white border border-[#e6e3da] rounded-xl p-8 max-w-xl mx-auto">
-        <h3 className="font-serif font-bold text-2xl text-ink mb-2">Tu comparador está vacío</h3>
-        <p className="text-sm text-[#6b6a63] mb-6 leading-relaxed">
-          Selecciona hasta 4 productos para comparar sus especificaciones técnicas de laboratorio, puntuaciones The Coffee Score y precios.
+      <div className="text-center py-12 sm:py-16 bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-10 max-w-xl mx-auto shadow-xs">
+        <div className="w-36 sm:w-44 h-auto mx-auto mb-4">
+          <img
+            src="/assets/comparator-people.png"
+            alt="Tu comparador de café"
+            className="w-full h-auto object-contain mx-auto select-none pointer-events-none drop-shadow-sm"
+          />
+        </div>
+        <h3 className="font-serif font-bold text-2xl text-ink mb-2">Tu comparador está listo</h3>
+        <p className="text-xs sm:text-sm text-[#6b6a63] mb-6 leading-relaxed">
+          Selecciona hasta 4 productos (cafeteras, molinos, básculas o accesorios) para comparar lado a lado sus especificaciones técnicas, retención, puntuaciones y precios.
         </p>
         <button
           onClick={() => setIsPickerOpen(true)}
-          className="btn btn-solid"
+          className="btn btn-solid !py-3 !px-6 text-xs sm:text-sm font-bold !rounded-xl !bg-ink hover:!bg-black shadow-sm"
         >
-          <span>Añadir primer producto</span>
+          <span>+ Añadir primer producto al comparador</span>
         </button>
         <ProductPickerModal isOpen={isPickerOpen} onClose={() => setIsPickerOpen(false)} />
       </div>

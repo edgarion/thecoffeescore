@@ -201,13 +201,15 @@ export const Header: React.FC = () => {
               </kbd>
             </div>
 
-            {/* Search button mobile */}
+            {/* Search button mobile (Minimalist Gray Icon) */}
             <button
               onClick={() => setIsSearchOpen(true)}
-              className="md:hidden text-xs font-semibold text-[#6b6a63] hover:text-ink px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white transition-colors"
+              className="md:hidden w-8 h-8 rounded-full bg-stone-100/90 border border-stone-200/60 flex items-center justify-center text-stone-500 hover:text-stone-800 active:scale-95 transition-all shadow-2xs"
               aria-label="Abrir buscador"
             >
-              Buscar
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
             </button>
 
             {/* Comparador Link (Desktop only) */}
@@ -224,31 +226,61 @@ export const Header: React.FC = () => {
               )}
             </Link>
 
-            {/* Favoritos Button */}
+            {/* Favoritos Button - Desktop text pill, Mobile sleek gray icon */}
             <button
-              className="flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
+              className="hidden sm:flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
               onClick={() => setIsFavOpen(true)}
               title="Favoritos"
               aria-label={`Favoritos (${favCount})`}
             >
               <span>Favoritos</span>
               {favCount > 0 && (
-                <span className="ml-1 bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                <span className="ml-1 bg-stone-700 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                  {favCount}
+                </span>
+              )}
+            </button>
+            <button
+              className="sm:hidden relative w-8 h-8 rounded-full bg-stone-100/90 border border-stone-200/60 flex items-center justify-center text-stone-500 hover:text-stone-800 active:scale-95 transition-all shadow-2xs"
+              onClick={() => setIsFavOpen(true)}
+              title="Favoritos"
+              aria-label={`Favoritos (${favCount})`}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+              {favCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-stone-700 text-white text-[8px] font-bold px-1 py-0.1 rounded-full font-mono">
                   {favCount}
                 </span>
               )}
             </button>
 
-            {/* Cesta de Compra Button */}
+            {/* Cesta de Compra Button - Desktop text pill, Mobile sleek gray icon */}
             <button
-              className="flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
+              className="hidden sm:flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border border-[#e6e3da] bg-white hover:bg-stone-100 text-ink transition-colors"
               onClick={openCart}
               title="Cesta de compra"
               aria-label={`Cesta (${cartCount})`}
             >
               <span>Cesta</span>
               {cartCount > 0 && (
-                <span className="ml-1 bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                <span className="ml-1 bg-stone-700 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                  {cartCount}
+                </span>
+              )}
+            </button>
+            <button
+              className="sm:hidden relative w-8 h-8 rounded-full bg-stone-100/90 border border-stone-200/60 flex items-center justify-center text-stone-500 hover:text-stone-800 active:scale-95 transition-all shadow-2xs"
+              onClick={openCart}
+              title="Cesta de compra"
+              aria-label={`Cesta (${cartCount})`}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+              </svg>
+              {cartCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-stone-700 text-white text-[8px] font-bold px-1 py-0.1 rounded-full font-mono">
                   {cartCount}
                 </span>
               )}
@@ -295,7 +327,7 @@ export const Header: React.FC = () => {
                     >
                       <span>Mi Cesta</span>
                       {cartCount > 0 && (
-                        <span className="bg-[#e94e2b] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full">
+                        <span className="bg-stone-700 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                           {cartCount}
                         </span>
                       )}
@@ -330,19 +362,16 @@ export const Header: React.FC = () => {
               )}
             </div>
 
-            {/* Mobile Burger Menu Button with Character */}
+            {/* Mobile Burger Menu Button (Minimalist Gray Icon) */}
             <div className="lg:hidden flex items-center gap-1.5">
-              <img
-                src="/assets/header-coffee-character.png"
-                alt="Coffee Explorer"
-                className="h-8 w-auto object-contain select-none pointer-events-none drop-shadow-sm"
-              />
               <button
-                className="flex items-center bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-3 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
+                className="w-8 h-8 rounded-full bg-stone-100/90 border border-stone-200/60 flex items-center justify-center text-stone-500 hover:text-stone-800 active:scale-95 transition-all shadow-2xs"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
               >
-                <span className="font-semibold text-xs">Menú</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
               </button>
             </div>
           </div>
