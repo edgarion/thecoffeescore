@@ -49,9 +49,10 @@ export const GuidesPage: React.FC = () => {
       <div className="wrap py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredGuides.map((guide) => (
-            <article
+            <Link
               key={guide.id}
-              className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 sm:p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group"
+              to={`/guia/${guide.slug}`}
+              className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 sm:p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition-all group block"
             >
               <div>
                 {/* Photo */}
@@ -93,7 +94,7 @@ export const GuidesPage: React.FC = () => {
                   Leer guía →
                 </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>

@@ -24,6 +24,7 @@ import { GlobalCoffeeIndexPage } from './pages/GlobalCoffeeIndexPage';
 import { B2BSuppliersPage } from './pages/B2BSuppliersPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { SetupConfiguratorPage } from './pages/SetupConfiguratorPage';
+import { GuideDetailPage } from './pages/GuideDetailPage';
 
 export const App: React.FC = () => {
   return (
@@ -81,6 +82,7 @@ export const App: React.FC = () => {
                   <Route path="/proveedores" element={<B2BSuppliersPage />} />
                   <Route path="/configurador" element={<SetupConfiguratorPage />} />
                   <Route path="/setup" element={<SetupConfiguratorPage />} />
+                  <Route path="/guia/:slug" element={<GuideDetailPage />} />
                   <Route path="/producto/:slug" element={<ProductDetailPage />} />
                 </Routes>
               </main>

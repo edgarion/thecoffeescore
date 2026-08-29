@@ -63988,23 +63988,25 @@ export const BUYING_GUIDES: BuyingGuide[] = [
             id: 'guia-primera-cafetera-espresso',
             slug: 'primera-cafetera-espresso-manual',
             title: 'Tu primera cafetera de espresso: qué buscar y qué ignorar',
-            subtitle: 'Por qué los bares de presión no importan, cómo el control de temperatura define el sabor y qué presupuesto mínimo necesitas para no tirar el dinero.',
+            subtitle: 'Por qué los 15-20 bares de marketing no importan, cómo la estabilidad térmica define el sabor y qué presupuesto mínimo necesitas.',
             category: 'Guías de compra',
             readTime: '8 min de lectura',
             image: '/assets/products/sage-bambino.png',
             featured: true,
-            publishedAt: '2026-08-15'
+            publishedAt: '2026-08-15',
+            content: '<section><h2 class="font-serif font-bold text-2xl text-ink mb-3">1. El mito de los 15-20 bares de presión</h2><p class="mb-4">La norma del espresso de especialidad dictamina una presión constante de <strong>9 bares en la pastilla de café</strong> (con tolerancias entre 6 y 9 bar para perfiles modernos). Cuando los fabricantes de gama comercial anuncian 15 o 20 bares, se refieren al límite máximo teórico de la bomba vibratoria Ulka, no a la presión real en el grupo. Una presión excesiva (>12 bar) compacta la pastilla, genera canalizaciones microscópicas y produce un espresso sobreextraído, amargo y áspero.</p><p>Las mejores máquinas incorporan una <strong>válvula OPV (Over Pressure Valve)</strong> calibrada a 9 bar para descargar el exceso de flujo y garantizar extracciones homogéneas y dulces.</p></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">2. Estabilidad térmica: Bloque térmico vs Caldera</h2><p class="mb-4">El agua debe llegar al café a una temperatura estable (típicamente entre 91°C y 94°C). Una fluctuación de solo 2°C durante los 25-30 segundos de extracción altera drásticamente la acidez y los azúcares disueltos:</p><ul class="list-disc pl-5 space-y-2 mb-4"><li><strong>ThermoJet / Thermoblock moderno (Sage Bambino):</strong> Calentamiento ultrarrápido en 3 segundos, gran eficiencia energética y control electrónico PID activo.</li><li><strong>Caldera única de latón (Gaggia Classic Pro, Lelit Anna):</strong> Mayor masa térmica pero requiere purgas («temperature surfing») si no tiene PID integrado.</li><li><strong>Doble caldera (Sage Dual Boiler, Lelit Bianca):</strong> Control milimétrico e independiente para vaporizar leche y extraer café simultáneamente.</li></ul></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">3. Diámetro del portafiltro: 54 mm vs 58 mm</h2><p>El estándar comercial de 58 mm permite utilizar las cestas de competición (IMS, VST) y los mejores niveladores y prensadores del mercado. Sin embargo, el formato de 54 mm (común en Sage) ofrece una pastilla más profunda que tolera mejor pequeños errores de molienda en baristas principiantes.</p></section>'
       },
       {
             id: 'guia-molinillo-antes-que-cafetera',
             slug: 'por-que-el-molinillo-es-mas-importante-que-la-cafetera',
             title: 'Por qué el molinillo es más importante que la propia cafetera',
-            subtitle: 'Un análisis con microscopio de la distribución de partículas: la diferencia entre muelas cónicas y planas en la extracción real del café.',
+            subtitle: 'La distribución de partículas microscópicas: la diferencia real entre muelas cónicas y planas en la extracción del café.',
             category: 'Técnica y equipo',
             readTime: '12 min de lectura',
             image: '/assets/products/fellow-ode-gen-2.png',
             featured: false,
-            publishedAt: '2026-08-10'
+            publishedAt: '2026-08-10',
+            content: '<section><h2 class="font-serif font-bold text-2xl text-ink mb-3">1. La física de la extracción: Finos vs Gruesos</h2><p class="mb-4">Una cafetera de 3.000 € es incapaz de compensar una molienda irregular producida por un molino con holguras o cuchillas. El agua siempre busca el camino de menor resistencia. Si la molienda contiene partículas de tamaños dispares, los finos se sobreextraen (amargor a ceniza) y los granos gruesos se subextraen (acidez agria y leñosa).</p><p>Un molino con <strong>baja tolerancia micrométrica</strong> genera una campana de distribución granulométrica estrecha, maximizando la superficie de contacto homogénea con el agua.</p></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">2. Muelas cónicas vs Muelas planas</h2><div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4"><div class="bg-[#fbfaf8] border border-[#e6e3da] p-4 rounded-xl"><h4 class="font-bold text-ink mb-1">Muelas Cónicas (Niche Zero, Baratza Encore ESP)</h4><p class="text-xs text-stone-600">Distribución bimodal. Mayor cantidad de finos que aportan cuerpo denso, crema espesa y texturas chocolatadas tradicionales.</p></div><div class="bg-[#fbfaf8] border border-[#e6e3da] p-4 rounded-xl"><h4 class="font-bold text-ink mb-1">Muelas Planas (Eureka Specialita, DF64, Fellow Ode)</h4><p class="text-xs text-stone-600">Distribución unimodal. Mayor claridad de notas frutales, acidez cítrica brillante y separación de matices en tuestes claros.</p></div></div></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">3. Retención de café: El enemigo silencioso</h2><p>Los molinos tradicionales atrapan entre 3 y 7 gramos de café molido en su cámara interna. Al día siguiente, esos gramos oxidados contaminan la primera taza. Los molinos modernos <strong>Single Dose con fuelle o conducto directo</strong> reducen la retención a menos de 0.1 g.</p></section>'
       },
       {
             id: 'guia-sage-vs-delonghi',
@@ -64013,9 +64015,10 @@ export const BUYING_GUIDES: BuyingGuide[] = [
             subtitle: 'Enfrentamos las dos cafeteras compactas más vendidas del mercado en cinco pruebas ciegas de extracción, estabilidad térmica y vapor.',
             category: 'Cara a cara',
             readTime: '10 min de lectura',
-            image: '/assets/products/sage-bambino.png',
+            image: '/assets/products/delonghi-dedica.png',
             featured: false,
-            publishedAt: '2026-08-05'
+            publishedAt: '2026-08-05',
+            content: '<section><h2 class="font-serif font-bold text-2xl text-ink mb-3">1. Especificaciones frente a frente</h2><div class="overflow-x-auto my-4"><table class="w-full text-xs text-left border-collapse"><thead class="bg-[#f4f2ec] text-ink font-bold"><tr><th class="p-2.5 border border-[#e6e3da]">Parámetro</th><th class="p-2.5 border border-[#e6e3da]">Sage Bambino Plus</th><th class="p-2.5 border border-[#e6e3da]">De\'Longhi Dedica EC685</th></tr></thead><tbody><tr><td class="p-2.5 border border-[#e6e3da] font-semibold">Sistema térmico</td><td class="p-2.5 border border-[#e6e3da]">ThermoJet (Listo en 3s) con PID</td><td class="p-2.5 border border-[#e6e3da]">Thermoblock (Listo en 35s)</td></tr><tr><td class="p-2.5 border border-[#e6e3da] font-semibold">Vaporizador</td><td class="p-2.5 border border-[#e6e3da]">Automático asistido + sensor (Microespuma)</td><td class="p-2.5 border border-[#e6e3da]">Panarello manual (Espuma gruesa)</td></tr><tr><td class="p-2.5 border border-[#e6e3da] font-semibold">Portafiltro de serie</td><td class="p-2.5 border border-[#e6e3da]">54 mm (Cestas presurizadas y despresurizadas)</td><td class="p-2.5 border border-[#e6e3da]">51 mm presurizado</td></tr><tr><td class="p-2.5 border border-[#e6e3da] font-semibold">Válvula 9 bar</td><td class="p-2.5 border border-[#e6e3da]">OPV integrada de fábrica a 9 bar</td><td class="p-2.5 border border-[#e6e3da]">Sin OPV calibrada (~13 bar)</td></tr></tbody></table></div></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">2. Veredicto del laboratorio</h2><p class="mb-4">La <strong>Sage Bambino Plus</strong> es técnicamente superior en casi todos los aspectos: preinfusión suave a baja presión, presión regulada a 9 bar y un vaporizador automático con sensor que produce microespuma sedosa apta para latte art real sin esfuerzo.</p><p>La <strong>De\'Longhi Dedica</strong> sigue siendo una opción muy digna para presupuestos ajustados (&lt;200 €), pero requiere sustituir el portafiltro por uno despresurizado bottomless y retirar el capuchonador de plástico para exprimir su potencial.</p></section>'
       },
       {
             id: 'guia-mejores-molinos-calidad-precio',
@@ -64024,9 +64027,10 @@ export const BUYING_GUIDES: BuyingGuide[] = [
             subtitle: 'De 50€ a 600€: qué modelo comprar según si tomas espresso, filtro o ambos, medido con retención y uniformidad.',
             category: 'Rankings',
             readTime: '15 min de lectura',
-            image: '/assets/products/coffee-grinders-compare.png',
+            image: '/assets/products/fellow-ode-gen-2.png',
             featured: false,
-            publishedAt: '2026-08-01'
+            publishedAt: '2026-08-01',
+            content: '<section><h2 class="font-serif font-bold text-2xl text-ink mb-3">1. Gama Económica: Menos de 120 €</h2><p class="mb-4">En este rango los molinos eléctricos baratos utilizan cuchillas o muelas cerámicas con holgura. La mejor elección indiscutible es un molino manual de precisión:</p><ul class="list-disc pl-5 space-y-2 mb-4"><li><strong>KINGrinder K2 / K6:</strong> Muelas de acero inoxidable heptagonales de 48 mm, cuerpo macizo de aluminio y ajuste micrométrico exterior.</li><li><strong>Timemore Chestnut C3:</strong> Gran velocidad de molienda y cuchillas Spike-to-Cut para filtro y moka.</li></ul></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">2. Gama Media: 150 € a 350 €</h2><ul class="list-disc pl-5 space-y-2 mb-4"><li><strong>Baratza Encore ESP:</strong> La mejor opción eléctrica polivalente para iniciarse en espresso y filtro con microajuste de 40 pasos.</li><li><strong>Eureka Mignon Manuale / Silenzio:</strong> Construcción italiana indestructible de aluminio, muelas planas de 50 mm y ajuste stepless infinito.</li></ul></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">3. Gama Entusiasta / Barista: 350 € a 650 €</h2><p>Aquí encontramos el sweetspot de la especialidad: <strong>Fellow Ode Gen 2</strong> para los amantes del café de filtro y batch brew, y <strong>Eureka Mignon Specialita</strong> o <strong>DF64 Gen 2</strong> con muelas DLC/SSP para extracciones de espresso con máxima definición.</p></section>'
       },
       {
             id: 'guia-setup-barista-casa-menos-500',
@@ -64035,8 +64039,9 @@ export const BUYING_GUIDES: BuyingGuide[] = [
             subtitle: 'La combinación exacta de máquina, molinillo y accesorios imprescindibles para conseguir espresso de cafetería sin arruinarte.',
             category: 'Presupuestos',
             readTime: '7 min de lectura',
-            image: '/assets/products/aeropress.png',
+            image: '/assets/comparator-people.png',
             featured: false,
-            publishedAt: '2026-07-28'
+            publishedAt: '2026-07-28',
+            content: '<section><h2 class="font-serif font-bold text-2xl text-ink mb-3">1. El desglose del presupuesto inteligente (500 €)</h2><p class="mb-4">El error más frecuente es gastar 450 € en la cafetera y comprar un molino de 50 €. La distribución correcta de presupuesto recomendada por baristas profesionales es:</p><div class="bg-[#fbfaf8] border border-[#e6e3da] p-5 rounded-2xl space-y-2.5 text-xs sm:text-sm my-4"><div class="flex justify-between font-bold text-ink border-b pb-2"><span>Componente</span><span>Modelo Recomendado</span><span>Precio</span></div><div class="flex justify-between"><span>Cafetera espresso</span><span>Sage Bambino (o De\'Longhi Dedica modificada)</span><span>299 €</span></div><div class="flex justify-between"><span>Molino de precisión</span><span>KINGrinder K6 (muelas 48mm)</span><span>119 €</span></div><div class="flex justify-between"><span>Báscula con timer</span><span>Báscula digital 0.1g con cronómetro</span><span>24 €</span></div><div class="flex justify-between"><span>Herramienta WDT</span><span>WDT 8 agujas finas 0.35 mm</span><span>14 €</span></div><div class="flex justify-between"><span>Tamper calibrado</span><span>Tamper plano de resorte 30 lbs</span><span>22 €</span></div><div class="flex justify-between font-bold text-[#e94e2b] border-t pt-2"><span>TOTAL SETUP</span><span>Estación de barista completa</span><span>478 €</span></div></div></section><section><h2 class="font-serif font-bold text-2xl text-ink mb-3">2. El resultado en taza</h2><p>Con este setup de 478 €, utilizando café de especialidad fresco de tostadores locales (tostado hace entre 7 y 30 días), la calidad sensorial y el balance superan con creces a cualquier máquina superautomática de 1.000 €.</p></section>'
       }
 ];
