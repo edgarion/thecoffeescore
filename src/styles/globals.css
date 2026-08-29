@@ -41,6 +41,8 @@ h1,h2,h3{ font-family: 'Georgia', 'Iowan Old Style', serif; font-weight: 700; le
 .thin{ font-weight: 400; }
 a{ color:inherit; text-decoration:none; }
 img{ max-width:100%; display:block; }
+span { color: #6b6a63; }
+.btn-solid span, .btn-solid * span, [class*="text-white"] span, [class*="bg-ink"] span, [class*="bg-[#e94e2b]"] span, [class*="bg-[#2f6fed]"] span { color: inherit; }
 .wrap{ width:100%; max-width:100%; margin:0; padding:0 48px; }
 
 /* HEADER FULL WIDTH & MOBILE RESPONSIVE */

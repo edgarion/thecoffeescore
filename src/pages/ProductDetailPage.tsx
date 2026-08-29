@@ -355,7 +355,7 @@ export const ProductDetailPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-[#e6e3da]">
               <div>
                 <div className="text-[#e94e2b] text-xs font-bold uppercase tracking-wider mb-1 flex items-center gap-1.5">
-                  <span>🌍</span> Comparativa Internacional de Tiendas & Disponibilidad
+                  <span>Comparativa Internacional de Tiendas & Disponibilidad</span>
                 </div>
                 <h2 className="text-xl sm:text-2xl font-bold text-ink">
                   Dónde comprar {product.name} al mejor precio
@@ -374,22 +374,23 @@ export const ProductDetailPage: React.FC = () => {
               {product.stores.map((store, idx) => {
                 // Determine origin flag and store type
                 const isAmazon = store.name.toLowerCase().includes('amazon');
-                const isOfficial = !isAmazon && (store.name.toLowerCase().includes('oficial') || store.name.toLowerCase().includes(product.brand.toLowerCase()));
+                const isAliExpress = store.name.toLowerCase().includes('aliexpress');
+                const isOfficial = !isAmazon && !isAliExpress && (store.name.toLowerCase().includes('oficial') || store.name.toLowerCase().includes(product.brand.toLowerCase()));
                 const isECI = store.name.toLowerCase().includes('corte');
                 const isMaxi = store.name.toLowerCase().includes('maxi');
                 
-                let flag = store.flag || (isAmazon ? '🇪🇸' : isECI ? '🇪🇸' : isMaxi ? '🇪🇺' : '🌍');
-                if (product.specs?.['País de Origen']?.includes('España')) flag = '🇪🇸';
-                else if (product.specs?.['País de Origen']?.includes('Alemania')) flag = '🇩🇪';
-                else if (product.specs?.['País de Origen']?.includes('Dinamarca')) flag = '🇩🇰';
-                else if (product.specs?.['País de Origen']?.includes('Reino Unido')) flag = '🇬🇧';
-                else if (product.specs?.['País de Origen']?.includes('USA') || product.specs?.['País de Origen']?.includes('Estados Unidos')) flag = '🇺🇸';
-                else if (product.specs?.['País de Origen']?.includes('Japón')) flag = '🇯🇵';
-                else if (product.specs?.['País de Origen']?.includes('Australia')) flag = '🇦🇺';
-                else if (product.specs?.['País de Origen']?.includes('Italia')) flag = '🇮🇹';
+                let flag = store.flag || (isAmazon ? 'ES' : isAliExpress ? 'ALI' : isECI ? 'ES' : isMaxi ? 'EU' : 'INT');
+                if (product.specs?.['País de Origen']?.includes('España')) flag = 'ES';
+                else if (product.specs?.['País de Origen']?.includes('Alemania')) flag = 'DE';
+                else if (product.specs?.['País de Origen']?.includes('Dinamarca')) flag = 'DK';
+                else if (product.specs?.['País de Origen']?.includes('Reino Unido')) flag = 'UK';
+                else if (product.specs?.['País de Origen']?.includes('USA') || product.specs?.['País de Origen']?.includes('Estados Unidos')) flag = 'US';
+                else if (product.specs?.['País de Origen']?.includes('Japón')) flag = 'JP';
+                else if (product.specs?.['País de Origen']?.includes('Australia')) flag = 'AU';
+                else if (product.specs?.['País de Origen']?.includes('Italia')) flag = 'IT';
 
-                const storeType = isOfficial ? 'Tienda Oficial Directa' : isAmazon ? 'Marketplace Verificado' : isECI ? 'Gran Superficie Autorizada' : 'Distribuidor Especializado';
-                const shippingNote = store.shipping || (isAmazon ? 'Envío Prime 24h · Devolución fácil' : isOfficial ? 'Envío directo de fabricante / tostador' : 'Envío rápido 24-48h');
+                const storeType = isOfficial ? 'Tienda Oficial Directa' : isAmazon ? 'Marketplace Verificado' : isAliExpress ? 'AliExpress Choice / Oficial' : isECI ? 'Gran Superficie Autorizada' : 'Distribuidor Especializado';
+                const shippingNote = store.shipping || (isAmazon ? 'Envío Prime 24h · Devolución fácil' : isAliExpress ? 'Envío Choice 5-7 días · Garantía de entrega' : isOfficial ? 'Envío directo de fabricante / tostador' : 'Envío rápido 24-48h');
 
                 return (
                   <div
@@ -401,7 +402,7 @@ export const ProductDetailPage: React.FC = () => {
                     }`}
                   >
                     <div className="flex items-center gap-3.5">
-                      <div className="w-11 h-11 rounded-xl bg-[#f4f2ec] border border-[#e6e3da] flex items-center justify-center font-bold text-lg shrink-0">
+                      <div className="w-11 h-11 rounded-xl bg-[#f4f2ec] border border-[#e6e3da] flex items-center justify-center font-mono font-bold text-xs text-stone-700 shrink-0">
                         {flag}
                       </div>
                       <div>
@@ -418,7 +419,7 @@ export const ProductDetailPage: React.FC = () => {
                         </div>
                         <div className="text-xs text-[#6b6a63] mt-1 flex items-center gap-1.5">
                           <span className={store.inStock ? "text-[#2e7d32] font-semibold" : "text-[#d97706] font-semibold"}>
-                            {store.inStock ? '✓ En stock' : '⏳ Disponibilidad bajo pedido'}
+                            {store.inStock ? 'En stock' : 'Disponibilidad bajo pedido'}
                           </span>
                           <span>·</span>
                           <span>{shippingNote}</span>
@@ -459,8 +460,7 @@ export const ProductDetailPage: React.FC = () => {
               })}
             </div>
 
-            <div className="mt-5 text-xs text-[#6b6a63] leading-relaxed bg-[#fbfaf8] p-3.5 rounded-xl border border-[#e6e3da] flex items-start gap-2.5">
-              <span className="text-base leading-none shrink-0">🛡️</span>
+            <div className="mt-5 text-xs text-[#6b6a63] leading-relaxed bg-[#fbfaf8] p-3.5 rounded-xl border border-[#e6e3da]">
               <div>
                 <strong>Garantía de Transparencia:</strong> Todos los enlaces dirigen directamente a comercios certificados y tiendas oficiales. Los precios y stocks se sincronizan para ofrecerte siempre la alternativa de compra más ventajosa.
               </div>

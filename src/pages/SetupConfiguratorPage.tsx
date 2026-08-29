@@ -22,21 +22,21 @@ const SETUP_SLOTS: SetupSlotConfig[] = [
     type: 'maquina',
     title: '1. Máquina o Método de Extracción',
     subtitle: 'El corazón de tu estación de café',
-    icon: '☕',
+    icon: 'M1',
     categoryFilter: ['maquinas'],
   },
   {
     type: 'molino',
     title: '2. Molino de Café de Precisión',
     subtitle: 'La clave absoluta para la uniformidad y el sabor',
-    icon: '⚙️',
+    icon: 'M2',
     categoryFilter: ['molinos'],
   },
   {
     type: 'bascula',
     title: '3. Báscula & Medición de Ratio',
     subtitle: 'Precisión decimal y cronómetro integrado',
-    icon: '⚖️',
+    icon: 'M3',
     categoryFilter: ['accesorios'],
     subCategoryKeywords: ['báscula', 'scale', 'lunar', 'pearl', 'black mirror', 'arc', 'medidor', 'timer'],
   },
@@ -44,7 +44,7 @@ const SETUP_SLOTS: SetupSlotConfig[] = [
     type: 'distribucion',
     title: '4. Distribución & Prensado (WDT / Tamper)',
     subtitle: 'Elimina canalizaciones y homogeneiza la pastilla',
-    icon: '🎯',
+    icon: 'M4',
     categoryFilter: ['accesorios'],
     subCategoryKeywords: ['wdt', 'tamper', 'prensador', 'distribuidor', 'nivelador', 'shaker', 'dosing'],
   },
@@ -52,7 +52,7 @@ const SETUP_SLOTS: SetupSlotConfig[] = [
     type: 'accesorios',
     title: '5. Texturizado, Filtro & Servicio',
     subtitle: 'Jarras de latte art, cestas de precisión o servidores',
-    icon: '🥛',
+    icon: 'M5',
     categoryFilter: ['accesorios'],
     subCategoryKeywords: ['jarra', 'pitcher', 'motta', 'basket', 'filtro', 'cup', 'vaso', 'taza', 'servidor', 'dripper'],
   },
@@ -60,7 +60,7 @@ const SETUP_SLOTS: SetupSlotConfig[] = [
     type: 'cafe',
     title: '6. Café de Especialidad en Grano',
     subtitle: 'Microlotes recién tostados de origen único',
-    icon: '🌱',
+    icon: 'M6',
     categoryFilter: ['cafe'],
   },
 ];
@@ -224,13 +224,13 @@ export const SetupConfiguratorPage: React.FC = () => {
     const molinoPrice = items.molino?.price || 0;
 
     if (maquinaPrice > 1200 && molinoPrice < 300 && items.molino) {
-      balanceNote = '⚠️ Cuello de botella en molienda: Tu máquina de gama alta sacaría mucho más partido con un molino de muelas de 64 mm.';
+      balanceNote = 'Aviso de molienda: Tu máquina de gama alta sacaría mucho más partido con un molino de muelas de 64 mm.';
       balanceStatus = 'warning';
     } else if (maquinaPrice < 400 && molinoPrice > 700) {
-      balanceNote = '✨ Molino superior: Extraerás el 100% de la cafetera, con opción de actualizar la máquina más adelante.';
+      balanceNote = 'Molino superior: Extraerás el 100% de la cafetera, con opción de actualizar la máquina más adelante.';
       balanceStatus = 'pro';
     } else if (completedSlots === 6) {
-      balanceNote = '🏆 Setup 100% Completo: Estación de barista integral lista para elaborar extracciones de cafetería de especialidad.';
+      balanceNote = 'Setup Completo: Estación de barista integral equilibrada y optimizada para elaborar café de especialidad.';
       balanceStatus = 'optimal';
     } else {
       balanceNote = `Faltan ${6 - completedSlots} componentes para completar la estación de barista.`;
@@ -327,8 +327,8 @@ export const SetupConfiguratorPage: React.FC = () => {
       <section className="bg-gradient-to-b from-[#f8f6f0] via-[#fcfbf9] to-[#faf8f5] border-b border-[#e6e3da] py-8 sm:py-12">
         <div className="wrap">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#fdece7] text-[#e94e2b] text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-2xs">
-              <span>☕ ESTACIÓN DE CAFÉ PERSONALIZADA</span>
+            <div className="inline-flex items-center gap-2 bg-[#fdece7] text-[#e94e2b] text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-2xs uppercase tracking-wide">
+              <span>ESTACIÓN DE CAFÉ PERSONALIZADA</span>
             </div>
             <h1 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight mb-3">
               Configurador y Comparador de Setups de Café
@@ -347,14 +347,14 @@ export const SetupConfiguratorPage: React.FC = () => {
                     : 'btn-outline bg-white hover:bg-stone-50'
                 }`}
               >
-                <span>{isComparing ? '✓ Modo Comparativa Activo' : '⚖️ Comparar 2 Setups Lado a Lado'}</span>
+                <span>{isComparing ? 'Modo Comparativa Activo' : 'Comparar 2 Setups Lado a Lado'}</span>
               </button>
 
               <button
                 onClick={() => handleAddAllToCart(selectedItems)}
                 className="btn btn-solid !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none !py-2.5 !px-4 text-xs font-bold rounded-xl"
               >
-                <span>🛒 Añadir Setup Completo a la Cesta ({metricsA.totalPrice.toFixed(2)} €)</span>
+                <span>Añadir Setup Completo a la Cesta ({metricsA.totalPrice.toFixed(2)} €)</span>
               </button>
             </div>
           </div>
@@ -460,9 +460,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                 ? 'bg-[#eef4ff] border-[#c2d6ff] text-[#2f6fed]'
                 : 'bg-[#fff8e1] border-[#ffe082] text-[#b78103]'
             }`}>
-              <span className="text-base leading-none">
-                {metricsA.balanceStatus === 'optimal' ? '✅' : metricsA.balanceStatus === 'pro' ? '💎' : 'ℹ️'}
-              </span>
+              <span className="w-2 h-2 rounded-full mt-1.5 shrink-0 bg-current"></span>
               <div>
                 <strong>Diagnóstico de Barista:</strong> {metricsA.balanceNote}
               </div>
@@ -470,7 +468,7 @@ export const SetupConfiguratorPage: React.FC = () => {
 
             {/* Slots List */}
             <div className="space-y-3.5">
-              {SETUP_SLOTS.map((slot) => {
+              {SETUP_SLOTS.map((slot, idx) => {
                 const item = selectedItems[slot.type];
                 return (
                   <div
@@ -482,7 +480,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                     }`}
                   >
                     <div className="flex items-center gap-3.5 min-w-0">
-                      {/* Item Thumbnail / Slot Icon */}
+                      {/* Item Thumbnail / Slot Index */}
                       <div className="w-14 h-14 rounded-xl bg-[#fbfaf7] border border-[#f0eee6] flex items-center justify-center p-1 shrink-0 overflow-hidden relative">
                         {item ? (
                           <img
@@ -496,7 +494,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                             }}
                           />
                         ) : (
-                          <span className="text-2xl select-none">{slot.icon}</span>
+                          <span className="text-xs font-mono font-bold text-stone-400">0{idx + 1}</span>
                         )}
                       </div>
 
@@ -620,7 +618,7 @@ export const SetupConfiguratorPage: React.FC = () => {
 
               {/* Slots List for Setup B */}
               <div className="space-y-3.5">
-                {SETUP_SLOTS.map((slot) => {
+                {SETUP_SLOTS.map((slot, idx) => {
                   const item = compareItems[slot.type];
                   return (
                     <div
@@ -646,7 +644,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                               }}
                             />
                           ) : (
-                            <span className="text-2xl select-none">{slot.icon}</span>
+                            <span className="text-xs font-mono font-bold text-stone-400">0{idx + 1}</span>
                           )}
                         </div>
 
@@ -802,7 +800,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                         {product.price} €
                       </div>
                       <div className="text-[10px] text-[#2f6fed] font-bold">
-                        ★ {product.score?.getFormatted?.() || '8.5'}
+                        Score: {product.score?.getFormatted?.() || '8.5'}
                       </div>
                     </div>
                     <button className="btn btn-solid !py-1.5 !px-3 !text-xs !bg-[#2f6fed] text-white rounded-lg">

@@ -17,8 +17,8 @@ export const ComparatorPage: React.FC = () => {
         <div className="wrap">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10">
             <div className="max-w-2xl">
-              <div className="inline-flex items-center gap-2 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-2xs">
-                <span>⚖️ COMPARADOR TÉCNICO MULTI-PRODUCTO</span>
+              <div className="inline-flex items-center gap-2 bg-[#eef4ff] text-[#2f6fed] text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-2xs uppercase tracking-wide">
+                <span>COMPARADOR TÉCNICO MULTI-PRODUCTO</span>
               </div>
               <h1 className="font-serif font-bold text-3xl sm:text-4xl text-ink leading-tight mb-3">
                 Compara antes de comprar
@@ -51,11 +51,8 @@ export const ComparatorPage: React.FC = () => {
 
         {/* Trust & Transparency Note */}
         <div className="trust-note bg-white border border-[#e6e3da] rounded-2xl p-5 shadow-2xs">
-          <div className="text-xs text-stone-600 leading-relaxed flex items-start gap-3">
-            <span className="text-xl shrink-0">🛡️</span>
-            <div>
-              <strong>Criterio Independiente y Financiación:</strong> Las especificaciones técnicas son verificadas en nuestro banco de pruebas. Si compras a través de los enlaces de tienda podemos recibir una comisión sin ningún coste extra para ti, lo que sostiene nuestro laboratorio independiente.
-            </div>
+          <div className="text-xs text-stone-600 leading-relaxed">
+            <strong>Criterio Independiente y Financiación:</strong> Las especificaciones técnicas son verificadas en nuestro banco de pruebas. Si compras a través de los enlaces de tienda podemos recibir una comisión sin ningún coste extra para ti, lo que sostiene nuestro laboratorio independiente.
           </div>
         </div>
       </div>

@@ -44,15 +44,27 @@ export const HomePage: React.FC = () => {
             <p className="hero-sub">
               Analizamos, comparamos y recomendamos productos con datos reales, pruebas de uso y criterio independiente. Para que hagas un mejor café en casa, en la oficina o en tu negocio.
             </p>
-            <div className="cta-row flex items-center flex-wrap sm:flex-nowrap gap-3">
-              <Link className="btn btn-solid" to="/configurador">Configurador de Setup ☕</Link>
-              <Link className="btn btn-outline" to="/comparador">Ir al comparador →</Link>
+            {/* Mobile 50/50 CTA + Illustration in the same line */}
+            <div className="flex sm:hidden items-center justify-between gap-3 w-full my-3">
+              <div className="w-1/2">
+                <Link className="btn btn-solid w-full justify-center !py-3 !px-2 !text-xs !rounded-xl" to="/configurador">
+                  Configurador →
+                </Link>
+              </div>
+              <div className="w-1/2 flex items-center justify-center">
+                <img
+                  src="/assets/header-coffee-character.png"
+                  alt="Explorador de café"
+                  className="w-full max-h-24 object-contain drop-shadow-md select-none pointer-events-none"
+                />
+              </div>
+            </div>
+
+            {/* Desktop CTA Row */}
+            <div className="cta-row hidden sm:flex items-center gap-3">
+              <Link className="btn btn-solid" to="/configurador">Configurador de Setup →</Link>
+              <Link className="btn btn-outline" to="/comparador">Ir al comparador</Link>
               <Link className="btn btn-outline" to="/guias">Ver análisis</Link>
-              <img
-                src="/assets/header-coffee-character.png"
-                alt="Explorador de café"
-                className="block sm:hidden h-12 w-auto object-contain drop-shadow-sm ml-1 select-none pointer-events-none"
-              />
             </div>
             <div className="trust-row">
               <span><span className="check">✓</span> Datos técnicos</span>
@@ -279,8 +291,8 @@ export const HomePage: React.FC = () => {
       <section className="wrap">
         <div className="bg-gradient-to-r from-[#21201c] via-[#2c2924] to-[#1a1917] rounded-3xl p-6 sm:p-9 text-white shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10">
           <div className="relative z-10 max-w-xl">
-            <div className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 text-[11px] font-bold px-3 py-1 rounded-full mb-3 backdrop-blur-xs">
-              <span>✨ NUEVA HERRAMIENTA INTERACTIVA</span>
+            <div className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 text-[11px] font-bold px-3 py-1 rounded-full mb-3 backdrop-blur-xs tracking-wide uppercase">
+              <span>HERRAMIENTA INTERACTIVA</span>
             </div>
             <h2 className="font-serif font-bold text-2xl sm:text-3xl lg:text-4xl leading-tight mb-3 text-white">
               Diseña y Compara tu Setup de Café Perfecto
@@ -289,7 +301,8 @@ export const HomePage: React.FC = () => {
               Elige tu cafetera, empareja el molino ideal, añade báscula y herramientas de distribución WDT. Analiza compatibilidades, detecta cuellos de botella y calcula el presupuesto total en tiempo real.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3">
+            {/* Desktop CTA Row */}
+            <div className="hidden md:flex flex-wrap items-center gap-3">
               <Link
                 to="/configurador"
                 className="btn btn-solid !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none !text-white font-bold text-xs sm:text-sm !py-3 !px-6 !rounded-xl shadow-md"
@@ -300,10 +313,29 @@ export const HomePage: React.FC = () => {
                 ✓ 4 Plantillas preconfiguradas · Comparativa A vs B
               </span>
             </div>
+
+            {/* Mobile 50/50 CTA + Illustration in the same line */}
+            <div className="flex md:hidden items-center justify-between gap-3 w-full mt-4">
+              <div className="w-1/2">
+                <Link
+                  to="/configurador"
+                  className="btn btn-solid w-full justify-center !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none !text-white font-bold !text-xs !py-3 !px-2 !rounded-xl shadow-md"
+                >
+                  <span>Configurar →</span>
+                </Link>
+              </div>
+              <div className="w-1/2 flex items-center justify-center">
+                <img
+                  src="/assets/comparator-people.png"
+                  alt="Diseña y compara tu setup de café"
+                  className="w-full max-h-24 object-contain drop-shadow-md select-none pointer-events-none"
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Illustration Container */}
-          <div className="relative z-10 w-44 sm:w-56 md:w-64 shrink-0 flex items-center justify-center">
+          {/* Desktop Illustration Container */}
+          <div className="hidden md:flex relative z-10 w-44 sm:w-56 md:w-64 shrink-0 items-center justify-center">
             <img
               src="/assets/comparator-people.png"
               alt="Diseña y compara tu setup de café"
