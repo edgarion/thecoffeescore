@@ -28,10 +28,20 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   aspectRatio,
   ...props
 }) => {
-  const defaultFallback = category === 'accesorios'
-    ? '/assets/accessory-fallback.png'
-    : '/assets/machine-fallback.png';
-  const resolvedFallback = fallbackSrc || defaultFallback;
+  const getCategoryFallback = (cat?: string) => {
+    switch (cat) {
+      case 'cafe':
+        return '/assets/nomad-coffee-bag.png';
+      case 'molinos':
+        return '/assets/eureka-specialita-real.png';
+      case 'accesorios':
+        return '/assets/accessory-fallback.png';
+      case 'maquinas':
+      default:
+        return '/assets/machine-fallback.png';
+    }
+  };
+  const resolvedFallback = fallbackSrc || getCategoryFallback(category);
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
   const [hasError, setHasError] = useState<boolean>(false);
   const [isInView, setIsInView] = useState<boolean>(false);
@@ -103,6 +113,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
           onError={handleError}
           loading="lazy"
           decoding="async"
+          referrerPolicy="no-referrer"
           className={`transition-opacity duration-300 ${
             isLoaded ? 'opacity-100' : 'opacity-0'
           } ${className}`}
