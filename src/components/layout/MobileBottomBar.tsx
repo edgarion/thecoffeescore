@@ -10,7 +10,7 @@ export const MobileBottomBar: React.FC = () => {
 
   const navItems = [
     {
-      label: 'Inicio',
+      ariaLabel: 'Inicio',
       path: '/',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@ export const MobileBottomBar: React.FC = () => {
       ),
     },
     {
-      label: 'Catálogo',
+      ariaLabel: 'Catálogo',
       path: '/maquinas',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -28,7 +28,7 @@ export const MobileBottomBar: React.FC = () => {
       ),
     },
     {
-      label: 'Comparar',
+      ariaLabel: 'Comparar',
       path: '/comparador',
       badge: selectedIds.length > 0 ? selectedIds.length : null,
       icon: (
@@ -38,7 +38,7 @@ export const MobileBottomBar: React.FC = () => {
       ),
     },
     {
-      label: 'Setup',
+      ariaLabel: 'Configurador de Setup',
       path: '/configurador',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@ export const MobileBottomBar: React.FC = () => {
       ),
     },
     {
-      label: 'Cesta',
+      ariaLabel: 'Cesta de compra',
       isCart: true,
       badge: cartCount > 0 ? cartCount : null,
       icon: (
@@ -60,53 +60,54 @@ export const MobileBottomBar: React.FC = () => {
 
   return (
     <nav
-      className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#fbfaf7]/95 backdrop-blur-md border-t border-[#e6e3da] px-2 py-1.5 shadow-[0_-2px_10px_rgba(0,0,0,0.03)]"
-      aria-label="Navegación móvil"
+      className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#fbfaf7]/95 backdrop-blur-md border-t border-[#e6e3da] px-3 py-2 shadow-[0_-2px_10px_rgba(0,0,0,0.03)]"
+      aria-label="Navegación rápida móvil"
     >
-      <div className="flex items-center justify-around max-w-md mx-auto">
-        {navItems.map((item) => {
+      <div className="flex items-center justify-between max-w-sm mx-auto">
+        {navItems.map((item, idx) => {
           const isActive = !item.isCart && location.pathname === item.path;
 
           if (item.isCart) {
             return (
               <button
-                key={item.label}
+                key={idx}
                 onClick={openCart}
-                className="relative flex flex-col items-center justify-center p-1.5 text-stone-500 hover:text-stone-800 transition-colors focus:outline-hidden"
-                aria-label={`Abrir cesta (${cartCount} productos)`}
+                className="relative w-11 h-11 rounded-2xl flex items-center justify-center text-stone-500 hover:text-stone-800 hover:bg-stone-100 active:scale-95 transition-all focus:outline-hidden"
+                aria-label={item.ariaLabel}
+                title={item.ariaLabel}
               >
-                <div className="relative text-stone-500">
+                <div className="relative">
                   {item.icon}
                   {item.badge !== null && item.badge !== undefined && (
-                    <span className="absolute -top-1 -right-2 bg-stone-700 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                    <span className="absolute -top-1.5 -right-2 bg-stone-700 text-white text-[8px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                       {item.badge}
                     </span>
                   )}
                 </div>
-                <span className="text-[10px] font-medium text-stone-500 mt-0.5">{item.label}</span>
               </button>
             );
           }
 
           return (
             <Link
-              key={item.path}
+              key={idx}
               to={item.path!}
-              className={`relative flex flex-col items-center justify-center p-1.5 transition-colors focus:outline-hidden ${
-                isActive ? 'text-stone-900 font-bold' : 'text-stone-500 hover:text-stone-800 font-medium'
+              className={`relative w-11 h-11 rounded-2xl flex items-center justify-center transition-all active:scale-95 focus:outline-hidden ${
+                isActive
+                  ? 'bg-stone-200/80 text-stone-900 shadow-2xs'
+                  : 'text-stone-400 hover:text-stone-700 hover:bg-stone-100'
               }`}
+              aria-label={item.ariaLabel}
+              title={item.ariaLabel}
             >
-              <div className={`relative ${isActive ? 'text-stone-900 scale-105' : 'text-stone-500'} transition-transform`}>
+              <div className="relative">
                 {item.icon}
                 {item.badge !== null && item.badge !== undefined && (
-                  <span className="absolute -top-1 -right-2 bg-stone-700 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full font-mono">
+                  <span className="absolute -top-1.5 -right-2 bg-stone-700 text-white text-[8px] font-bold px-1.5 py-0.2 rounded-full font-mono">
                     {item.badge}
                   </span>
                 )}
               </div>
-              <span className={`text-[10px] mt-0.5 ${isActive ? 'text-stone-900 font-bold' : 'text-stone-500'}`}>
-                {item.label}
-              </span>
             </Link>
           );
         })}

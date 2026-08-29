@@ -277,12 +277,8 @@ export const HomePage: React.FC = () => {
 
       {/* SETUP CONFIGURATOR PROMO BANNER */}
       <section className="wrap">
-        <div className="bg-gradient-to-r from-[#21201c] via-[#2c2924] to-[#1a1917] rounded-3xl p-6 sm:p-9 text-white shadow-xl relative overflow-hidden">
-          <div className="absolute right-0 top-0 bottom-0 w-1/3 opacity-10 pointer-events-none flex items-center justify-center">
-            <span className="text-[180px] font-serif select-none">☕</span>
-          </div>
-
-          <div className="relative z-10 max-w-2xl">
+        <div className="bg-gradient-to-r from-[#21201c] via-[#2c2924] to-[#1a1917] rounded-3xl p-6 sm:p-9 text-white shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10">
+          <div className="relative z-10 max-w-xl">
             <div className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 text-[11px] font-bold px-3 py-1 rounded-full mb-3 backdrop-blur-xs">
               <span>✨ NUEVA HERRAMIENTA INTERACTIVA</span>
             </div>
@@ -304,6 +300,15 @@ export const HomePage: React.FC = () => {
                 ✓ 4 Plantillas preconfiguradas · Comparativa A vs B
               </span>
             </div>
+          </div>
+
+          {/* Illustration Container */}
+          <div className="relative z-10 w-44 sm:w-56 md:w-64 shrink-0 flex items-center justify-center">
+            <img
+              src="/assets/comparator-people.png"
+              alt="Diseña y compara tu setup de café"
+              className="w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 select-none pointer-events-none"
+            />
           </div>
         </div>
       </section>
