@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src: string;
   alt: string;
+  category?: string;
   fallbackSrc?: string;
   className?: string;
   wrapperClassName?: string;
@@ -14,18 +15,23 @@ interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> 
  * 1. IntersectionObserver viewport loading
  * 2. Animated shimmer skeleton placeholder while loading
  * 3. Smooth fade-in transition on load
- * 4. Error fallback to pristine local assets
+ * 4. Error fallback to pristine local assets by category (accessories vs machines)
  * 5. Cybersecurity sanitize against malicious data URIs
  */
 export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   src,
   alt,
-  fallbackSrc = '/assets/machine-fallback.png',
+  category,
+  fallbackSrc,
   className = '',
   wrapperClassName = '',
   aspectRatio,
   ...props
 }) => {
+  const defaultFallback = category === 'accesorios'
+    ? '/assets/accessory-fallback.png'
+    : '/assets/machine-fallback.png';
+  const resolvedFallback = fallbackSrc || defaultFallback;
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
   const [hasError, setHasError] = useState<boolean>(false);
   const [isInView, setIsInView] = useState<boolean>(false);
@@ -68,9 +74,9 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   };
 
   // Sanitize src to prevent malicious javascript: or malformed URIs
-  const safeSrc = (hasError ? fallbackSrc : src) || fallbackSrc;
+  const safeSrc = (hasError ? resolvedFallback : src) || resolvedFallback;
   const isSecuritySafe = safeSrc.startsWith('/') || safeSrc.startsWith('https://') || safeSrc.startsWith('http://');
-  const finalSrc = isSecuritySafe ? safeSrc : fallbackSrc;
+  const finalSrc = isSecuritySafe ? safeSrc : resolvedFallback;
 
   return (
     <div

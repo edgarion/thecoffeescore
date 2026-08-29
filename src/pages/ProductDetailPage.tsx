@@ -78,7 +78,7 @@ export const ProductDetailPage: React.FC = () => {
               onError={(e) => {
                 const target = e.currentTarget;
                 target.onerror = null;
-                target.src = '/assets/machine-fallback.png';
+                target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
               }}
             />
           </div>
@@ -97,7 +97,7 @@ export const ProductDetailPage: React.FC = () => {
                     onError={(e) => {
                       const target = e.currentTarget;
                       target.onerror = null;
-                      target.src = '/assets/machine-fallback.png';
+                      target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
                     }}
                   />
                 </div>

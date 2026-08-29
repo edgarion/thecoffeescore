@@ -77,6 +77,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
           <OptimizedImage
             src={product.image}
             alt={product.name}
+            category={product.category}
             wrapperClassName="w-full h-full"
             className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
           />
