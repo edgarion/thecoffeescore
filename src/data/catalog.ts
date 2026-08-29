@@ -13,10 +13,10 @@ export interface BarcelonaRoaster {
 }
 
 export const CATEGORIES: { id: ProductCategory; name: string; icon: string; count: number }[] = [
-  { id: 'maquinas', name: 'Máquinas de Café', icon: '', count: 97 },
+  { id: 'maquinas', name: 'Máquinas de Café', icon: '', count: 66 },
   { id: 'molinos', name: 'Molinos de Café', icon: '', count: 37 },
-  { id: 'accesorios', name: 'Accesorios Barista', icon: '', count: 770 },
-  { id: 'cafe', name: 'Café de Especialidad', icon: '', count: 705 }
+  { id: 'accesorios', name: 'Accesorios Barista', icon: '', count: 787 },
+  { id: 'cafe', name: 'Café de Especialidad', icon: '', count: 719 }
 ];
 
 export const BRANDS = [
@@ -1786,20 +1786,38 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 130.95,
-                        "inStock": true,
-                        "url": "https://flairespresso.com/products/flair-2go-refurbished",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Amazon España",
-                        "price": 137.5,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%202GO%20Refurbished&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 130.95,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/flair-2go-refurbished",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 137.5,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%202GO%20Refurbished&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 130.95,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 136,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 130.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-49-pro-refurbished",
@@ -1823,28 +1841,46 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 236.95,
-                        "inStock": false,
-                        "url": "https://flairespresso.com/products/flair-49-pro-refurbished",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Amazon España",
-                        "price": 248.8,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2049%20Pro%20Refurbished&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 236.95,
+            "inStock": false,
+            "url": "https://flairespresso.com/products/flair-49-pro-refurbished",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 248.8,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2049%20Pro%20Refurbished&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 236.95,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 246,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 236.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-58-plus-2-power-supply",
             slug: "flair-espresso-flair-58-plus-2-power-supply",
             name: "Flair Espresso — Flair 58 Plus 2 Power Supply",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 60.95,
             oldPrice: null,
             historicalAveragePrice: 64.61,
@@ -1880,8 +1916,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-electric-steam-kit-flair-58-plus-2",
             name: "Flair Espresso — Electric Steam Kit: Flair 58 Plus 2",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 877.95,
             oldPrice: null,
             historicalAveragePrice: 930.63,
@@ -1917,8 +1953,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-stovetop-steam-kit-flair-58-plus-2",
             name: "Flair Espresso — Stovetop Steam Kit: Flair 58 Plus 2",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 776.95,
             oldPrice: null,
             historicalAveragePrice: 823.57,
@@ -1954,8 +1990,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-electric-steam-kit-flair-49-pro",
             name: "Flair Espresso — Electric Steam Kit: Flair 49 PRO",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 579.95,
             oldPrice: null,
             historicalAveragePrice: 614.75,
@@ -1991,8 +2027,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-stovetop-steam-kit-flair-49-pro",
             name: "Flair Espresso — Stovetop Steam Kit: Flair 49 PRO",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 478.95,
             oldPrice: null,
             historicalAveragePrice: 507.69,
@@ -2250,8 +2286,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-travel-kit-flair-2go",
             name: "Flair Espresso — Travel Kit: Flair 2GO",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 266.95,
             oldPrice: null,
             historicalAveragePrice: 282.97,
@@ -2361,8 +2397,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-grinder-kit-flair-49-pro",
             name: "Flair Espresso — Grinder Kit: Flair 49 PRO",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Molinillos",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 470.95,
             oldPrice: null,
             historicalAveragePrice: 499.21,
@@ -2435,8 +2471,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-grinder-kit-flair-58-plus-2",
             name: "Flair Espresso — Grinder Kit: Flair 58 Plus 2",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Molinillos",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 768.95,
             oldPrice: null,
             historicalAveragePrice: 815.09,
@@ -3115,14 +3151,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Nomad Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://nomadcoffee.es", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Nomad Coffee (España)",
-                        "price": 420,
-                        "inStock": true,
-                        "url": "https://nomadcoffee.es/products/cafetera-de-goteo-fellow-aiden-precision-coffee-maker",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Nomad Coffee (España)",
+            "price": 420,
+            "inStock": true,
+            "url": "https://nomadcoffee.es/products/cafetera-de-goteo-fellow-aiden-precision-coffee-maker",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 420,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 428,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 420,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "nomad-coffee-cafetera-la-marzocco-linea-micra",
@@ -3146,14 +3200,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Nomad Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://nomadcoffee.es", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Nomad Coffee (España)",
-                        "price": 3480.59,
-                        "inStock": true,
-                        "url": "https://nomadcoffee.es/products/la-marzocco-linea-micra",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Nomad Coffee (España)",
+            "price": 3480.59,
+            "inStock": true,
+            "url": "https://nomadcoffee.es/products/la-marzocco-linea-micra",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3480.59,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3411,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "nomad-coffee-cafetera-la-marzocco-linea-mini",
@@ -3177,14 +3243,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Nomad Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://nomadcoffee.es", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Nomad Coffee (España)",
-                        "price": 5272.58,
-                        "inStock": true,
-                        "url": "https://nomadcoffee.es/products/la-marzocco-linea-mini",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Nomad Coffee (España)",
+            "price": 5272.58,
+            "inStock": true,
+            "url": "https://nomadcoffee.es/products/la-marzocco-linea-mini",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 5272.58,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 5167,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "nomad-coffee-cafetera-sage-barista-express-impress-con-molinillo-integrado",
@@ -3208,14 +3286,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Nomad Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://nomadcoffee.es", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Nomad Coffee (España)",
-                        "price": 829.9,
-                        "inStock": true,
-                        "url": "https://nomadcoffee.es/products/sage-barista-express-impress",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Nomad Coffee (España)",
+            "price": 829.9,
+            "inStock": true,
+            "url": "https://nomadcoffee.es/products/sage-barista-express-impress",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 871,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 829.9,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 855,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Nomad%20Coffee%20%E2%80%94%20Cafetera%20Sage%20Barista%20Express%20Impress%20con%20molinillo%20integrado"
+      }
+]
   },
   {
     id: "nomad-coffee-cafetera-sage-barista-pro",
@@ -3270,14 +3366,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Nomad Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://nomadcoffee.es", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Nomad Coffee (España)",
-                        "price": 1299.9,
-                        "inStock": true,
-                        "url": "https://nomadcoffee.es/products/sage-touch-impress",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Nomad Coffee (España)",
+            "price": 1299.9,
+            "inStock": true,
+            "url": "https://nomadcoffee.es/products/sage-touch-impress",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 1365,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 1299.9,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Barista+Touch+Impress&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 1339,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Nomad%20Coffee%20%E2%80%94%20Cafetera%20Sage%20the%20Barista%20Touch%E2%84%A2%20Impress%20con%20molinillo%20integrado."
+      }
+]
   },
   {
     id: "nomad-coffee-cafetera-sage-the-luxe-brewer",
@@ -4214,8 +4328,8 @@ export const PRODUCTS: Product[] = [
             slug: "nomad-coffee-fellow-aiden-filters",
             name: "Nomad Coffee — Fellow Aiden Filters",
             brand: "Nomad Coffee",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "accesorios",
+            subCategory: "Filtros y Papeles",
             price: 12.1,
             oldPrice: null,
             historicalAveragePrice: 13.07,
@@ -5843,14 +5957,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 259,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamasterkbgselectpolishedsilver",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 259,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamasterkbgselectpolishedsilver",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 259,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 272,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 264,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-blanco-mate",
@@ -5874,14 +6006,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 259,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamasterkbgselectoffwhite",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 259,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamasterkbgselectoffwhite",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 259,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 272,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 264,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-green-forest",
@@ -5905,14 +6055,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 275,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamaster-kbg-select-verd",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 275,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamaster-kbg-select-verd",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 275,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 289,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 281,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-naranja",
@@ -5936,14 +6104,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 275,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamaster-kbg-select-naranja",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 275,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamaster-kbg-select-naranja",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 275,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 289,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 281,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-negro",
@@ -5967,14 +6153,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 259,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamasterkbgselectblack",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 259,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamasterkbgselectblack",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 259,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 272,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 264,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-rojo",
@@ -5998,14 +6202,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 269,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamasterkbgselectred",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 269,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamasterkbgselectred",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 269,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 282,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 274,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-rosa",
@@ -6029,14 +6251,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 275,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamaster-kbg-select-rosa",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 275,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamaster-kbg-select-rosa",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 275,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 289,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 281,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-verde-pastel",
@@ -6060,14 +6300,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 275,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamasterkbgselectpastelgreen",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 275,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamasterkbgselectpastelgreen",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 275,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 289,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 281,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "syra-coffee-moccamaster-kbg-select-yellow",
@@ -6091,14 +6349,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Syra Coffee", "País de Origen": "España", "Región": "Europa", "Tienda Oficial": "https://syra.coffee", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Syra Coffee (España)",
-                        "price": 275,
-                        "inStock": true,
-                        "url": "https://syra.coffee/products/moccamaster-kbg-select-amarilla",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Syra Coffee (España)",
+            "price": 275,
+            "inStock": true,
+            "url": "https://syra.coffee/products/moccamaster-kbg-select-amarilla",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 275,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 289,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 281,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "right-side-coffee-abasambi-natural-espresso",
@@ -6260,8 +6536,8 @@ export const PRODUCTS: Product[] = [
             slug: "right-side-coffee-alfredo-ordonez-maragogype-filtro",
             name: "Right Side Coffee — Alfredo Ordoñez Maragogype Filtro",
             brand: "Right Side Coffee",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "cafe",
+            subCategory: "Filtro",
             price: 18,
             oldPrice: null,
             historicalAveragePrice: 19.44,
@@ -6508,8 +6784,8 @@ export const PRODUCTS: Product[] = [
             slug: "right-side-coffee-arturo-paz-maracaturra-espresso",
             name: "Right Side Coffee — Arturo Paz Maracaturra Espresso",
             brand: "Right Side Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Espresso",
             price: 15.75,
             oldPrice: null,
             historicalAveragePrice: 17.01,
@@ -14258,8 +14534,8 @@ export const PRODUCTS: Product[] = [
             slug: "five-elephant-colombia-la-violeta-pacamara-filter",
             name: "Five Elephant — COLOMBIA La Violeta Pacamara – Filter",
             brand: "Five Elephant",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "cafe",
+            subCategory: "Filtro",
             price: 21.03,
             oldPrice: null,
             historicalAveragePrice: 22.71,
@@ -14554,14 +14830,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Five Elephant", "País de Origen": "Alemania", "Región": "Europa", "Tienda Oficial": "https://www.fiveelephant.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Five Elephant (Alemania)",
-                        "price": 348.74,
-                        "inStock": true,
-                        "url": "https://www.fiveelephant.com/products/fellow-aiden-brewer",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Five Elephant (Alemania)",
+            "price": 348.74,
+            "inStock": true,
+            "url": "https://www.fiveelephant.com/products/fellow-aiden-brewer",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 348.74,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 356,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 348.74,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "five-elephant-fellow-ode-brew-grinder-gen-2",
@@ -15174,22 +15468,40 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "La Cabra", "País de Origen": "Dinamarca", "Región": "Europa", "Tienda Oficial": "https://lacabra.dk", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "La Cabra (Dinamarca)",
-                        "price": 407.95,
-                        "inStock": false,
-                        "url": "https://lacabra.dk/products/fellow-aiden",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "La Cabra (Dinamarca)",
+            "price": 407.95,
+            "inStock": false,
+            "url": "https://lacabra.dk/products/fellow-aiden",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 407.95,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 416,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 407.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "la-cabra-fellow-aiden-paper-filter",
             slug: "la-cabra-fellow-aiden-paper-filter",
             name: "La Cabra — Fellow Aiden Paper Filter",
             brand: "La Cabra",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "accesorios",
+            subCategory: "Filtros y Papeles",
             price: 10.95,
             oldPrice: null,
             historicalAveragePrice: 11.83,
@@ -17544,8 +17856,8 @@ export const PRODUCTS: Product[] = [
             slug: "april-coffee-capsules-el-socorro-natural-maracaturra",
             name: "April Coffee — Capsules - El Socorro - Natural Maracaturra",
             brand: "April Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Cápsulas Especialidad",
             price: 38.19,
             oldPrice: null,
             historicalAveragePrice: 41.25,
@@ -17606,8 +17918,8 @@ export const PRODUCTS: Product[] = [
             slug: "april-coffee-el-morito-washed-pacamara-drip-pack",
             name: "April Coffee — El Morito - Washed Pacamara - Drip Pack",
             brand: "April Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Drip Packs",
             price: 6.7,
             oldPrice: 8.04,
             historicalAveragePrice: 7.24,
@@ -21171,8 +21483,8 @@ export const PRODUCTS: Product[] = [
             slug: "drop-coffee-las-brumas-wfc-natural-pacamara",
             name: "Drop Coffee — Las Brumas, WFC, Natural Pacamara",
             brand: "Drop Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -21202,8 +21514,8 @@ export const PRODUCTS: Product[] = [
             slug: "drop-coffee-las-brumas-wfc-washed-pacamara-el-salvador",
             name: "Drop Coffee — Las Brumas, WFC, Washed Pacamara, El Salvador",
             brand: "Drop Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -21419,8 +21731,8 @@ export const PRODUCTS: Product[] = [
             slug: "drop-coffee-manifest-for-battre-kaffe-av-joanna-alm-signerad-bok",
             name: "Drop Coffee — Manifest För Bättre Kaffe av Joanna Alm - Signerad Bok",
             brand: "Drop Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Lifestyle",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -22969,8 +23281,8 @@ export const PRODUCTS: Product[] = [
             slug: "square-mile-coffee-fellow-aiden-carafe-and-lid",
             name: "Square Mile Coffee — Fellow Aiden Carafe and Lid",
             brand: "Square Mile Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Jarras & Servidores",
             price: 132.44,
             oldPrice: null,
             historicalAveragePrice: 143.04,
@@ -23000,8 +23312,8 @@ export const PRODUCTS: Product[] = [
             slug: "square-mile-coffee-fellow-aiden-cone-filter-papers",
             name: "Square Mile Coffee — Fellow Aiden Cone Filter Papers",
             brand: "Square Mile Coffee",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "accesorios",
+            subCategory: "Filtros y Papeles",
             price: 16.85,
             oldPrice: null,
             historicalAveragePrice: 18.2,
@@ -23031,8 +23343,8 @@ export const PRODUCTS: Product[] = [
             slug: "square-mile-coffee-fellow-aiden-flat-bottom-filter-papers",
             name: "Square Mile Coffee — Fellow Aiden Flat Bottom Filter Papers",
             brand: "Square Mile Coffee",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "accesorios",
+            subCategory: "Filtros y Papeles",
             price: 17.55,
             oldPrice: null,
             historicalAveragePrice: 18.95,
@@ -23079,14 +23391,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Square Mile Coffee", "País de Origen": "Reino Unido", "Región": "Europa", "Tienda Oficial": "https://shop.squaremilecoffee.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Square Mile Coffee (Reino Unido)",
-                        "price": 490.11,
-                        "inStock": true,
-                        "url": "https://shop.squaremilecoffee.com/products/fellow-aiden-precision-coffee-brewer",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Square Mile Coffee (Reino Unido)",
+            "price": 490.11,
+            "inStock": true,
+            "url": "https://shop.squaremilecoffee.com/products/fellow-aiden-precision-coffee-brewer",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 490.11,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 500,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 490.11,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "square-mile-coffee-filtropa-papers",
@@ -24815,14 +25145,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Origin Coffee Roasters", "País de Origen": "Reino Unido", "Región": "Europa", "Tienda Oficial": "https://www.origincoffee.co.uk", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Origin Coffee Roasters (Reino Unido)",
-                        "price": 389.26,
-                        "inStock": true,
-                        "url": "https://www.origincoffee.co.uk/products/sage-bambino-black",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Origin Coffee Roasters (Reino Unido)",
+            "price": 389.26,
+            "inStock": true,
+            "url": "https://www.origincoffee.co.uk/products/sage-bambino-black",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 409,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 389.26,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Bambino&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 401,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Origin%20Coffee%20Roasters%20%E2%80%94%20Sage%20Bambino%20-%20Black"
+      }
+]
   },
   {
     id: "origin-coffee-roasters-sage-bambino-steel",
@@ -24846,14 +25194,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Origin Coffee Roasters", "País de Origen": "Reino Unido", "Región": "Europa", "Tienda Oficial": "https://www.origincoffee.co.uk", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Origin Coffee Roasters (Reino Unido)",
-                        "price": 389.26,
-                        "inStock": true,
-                        "url": "https://www.origincoffee.co.uk/products/sage-bambino-steel",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Origin Coffee Roasters (Reino Unido)",
+            "price": 389.26,
+            "inStock": true,
+            "url": "https://www.origincoffee.co.uk/products/sage-bambino-steel",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 409,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 389.26,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Bambino&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 401,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Origin%20Coffee%20Roasters%20%E2%80%94%20Sage%20Bambino%20-%20Steel"
+      }
+]
   },
   {
     id: "origin-coffee-roasters-sage-barista-pro-black",
@@ -26303,14 +26669,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Onyx Coffee Lab", "País de Origen": "Estados Unidos", "Región": "Norteamérica", "Tienda Oficial": "https://onyxcoffeelab.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Onyx Coffee Lab (Estados Unidos)",
-                        "price": 367.95,
-                        "inStock": false,
-                        "url": "https://onyxcoffeelab.com/products/aiden-precision-coffee-maker",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Onyx Coffee Lab (Estados Unidos)",
+            "price": 367.95,
+            "inStock": false,
+            "url": "https://onyxcoffeelab.com/products/aiden-precision-coffee-maker",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 367.95,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 375,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 367.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "onyx-coffee-lab-aiding-survivors",
@@ -28270,8 +28654,8 @@ export const PRODUCTS: Product[] = [
             slug: "sey-coffee-2020-heleanna-georgalis-bensa-logita-ethiopia",
             name: "Sey Coffee — 2020 Heleanna Georgalis; Bensa Logita - Ethiopia",
             brand: "Sey Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 18.35,
             oldPrice: 22.02,
             historicalAveragePrice: 19.82,
@@ -28301,8 +28685,8 @@ export const PRODUCTS: Product[] = [
             slug: "sey-coffee-2020-heleanna-georgalis-harbegona-ethiopia",
             name: "Sey Coffee — 2020 Heleanna Georgalis; Harbegona - Ethiopia",
             brand: "Sey Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 19.27,
             oldPrice: null,
             historicalAveragePrice: 20.81,
@@ -28921,8 +29305,8 @@ export const PRODUCTS: Product[] = [
             slug: "black-white-coffee-aurelio-villatoro-pacamara",
             name: "Black & White Coffee — Aurelio Villatoro - Pacamara",
             brand: "Black & White Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 20.24,
             oldPrice: 24.29,
             historicalAveragePrice: 21.86,
@@ -30626,8 +31010,8 @@ export const PRODUCTS: Product[] = [
             slug: "counter-culture-coffee-arnulfo-dias-pacamara-honey",
             name: "Counter Culture Coffee — Arnulfo Días – Pacamara Honey",
             brand: "Counter Culture Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 22.08,
             oldPrice: null,
             historicalAveragePrice: 23.85,
@@ -31153,8 +31537,8 @@ export const PRODUCTS: Product[] = [
             slug: "counter-culture-coffee-cafenor-pacamara",
             name: "Counter Culture Coffee — CaféNor Pacamara",
             brand: "Counter Culture Coffee",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 21.16,
             oldPrice: null,
             historicalAveragePrice: 22.85,
@@ -33726,8 +34110,8 @@ export const PRODUCTS: Product[] = [
             slug: "verve-coffee-roasters-archive-honduras-arturo-paz-pacamara",
             name: "Verve Coffee Roasters — Archive: Honduras Arturo Paz Pacamara",
             brand: "Verve Coffee Roasters",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 23.69,
             oldPrice: null,
             historicalAveragePrice: 25.59,
@@ -35975,14 +36359,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Pilot Coffee Roasters", "País de Origen": "Canadá", "Región": "Norteamérica", "Tienda Oficial": "https://www.pilotcoffeeroasters.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Pilot Coffee Roasters (Canadá)",
-                        "price": 339.32,
-                        "inStock": true,
-                        "url": "https://www.pilotcoffeeroasters.com/products/fellow-aiden-precision-coffee-maker",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Pilot Coffee Roasters (Canadá)",
+            "price": 339.32,
+            "inStock": true,
+            "url": "https://www.pilotcoffeeroasters.com/products/fellow-aiden-precision-coffee-maker",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 339.32,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 346,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 339.32,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "pilot-coffee-roasters-ana-sora-ethiopia",
@@ -38345,8 +38747,8 @@ export const PRODUCTS: Product[] = [
             slug: "kurasu-kyoto-el-salvador-emerson-vasquez-pacamara-light-roast",
             name: "Kurasu Kyoto — El Salvador Emerson Vasquez Pacamara [Light Roast]",
             brand: "Kurasu Kyoto",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -40160,14 +40562,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Proud Mary Coffee", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://proudmarycoffee.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Proud Mary Coffee (Australia)",
-                        "price": 209.37,
-                        "inStock": true,
-                        "url": "https://proudmarycoffee.com/products/aiden-precision-coffee-maker",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Proud Mary Coffee (Australia)",
+            "price": 209.37,
+            "inStock": true,
+            "url": "https://proudmarycoffee.com/products/aiden-precision-coffee-maker",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 209.37,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 214,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 209.37,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "proud-mary-coffee-angel-wings-blend",
@@ -41104,8 +41524,8 @@ export const PRODUCTS: Product[] = [
             slug: "market-lane-alessi-pulcina-stovetop-coffee-maker",
             name: "Market Lane — Alessi Pulcina Stovetop Coffee Maker",
             brand: "Market Lane",
-            category: "maquinas",
-            subCategory: "Manuales",
+            category: "accesorios",
+            subCategory: "Cafeteras de Filtro / Pour Over",
             price: 105,
             oldPrice: null,
             historicalAveragePrice: 113.4,
@@ -42392,14 +42812,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 3599.4,
-                        "inStock": true,
-                        "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-black",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-black",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3527,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "market-lane-la-marzocco-linea-micra-coffee-machine-red",
@@ -42423,14 +42855,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 3599.4,
-                        "inStock": false,
-                        "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-red",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 3599.4,
+            "inStock": false,
+            "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-red",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3527,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "market-lane-la-marzocco-linea-micra-coffee-machine-satin-silver",
@@ -42454,14 +42898,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 3599.4,
-                        "inStock": false,
-                        "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-metallic-grey",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 3599.4,
+            "inStock": false,
+            "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-metallic-grey",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3527,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "market-lane-la-marzocco-linea-micra-coffee-machine-white",
@@ -42485,14 +42941,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 3599.4,
-                        "inStock": true,
-                        "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-white",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://marketlane.com.au/products/la-marzocco-linea-micra-coffee-machine-white",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3599.4,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3527,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "market-lane-la-marzocco-pico-grinder",
@@ -42733,14 +43201,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 333,
-                        "inStock": true,
-                        "url": "https://marketlane.com.au/products/moccamaster-select-1-25l-coffee-maker-dutch-cocoa",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 333,
+            "inStock": true,
+            "url": "https://marketlane.com.au/products/moccamaster-select-1-25l-coffee-maker-dutch-cocoa",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 333,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 350,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 340,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "market-lane-moccamaster-select-1-25l-coffee-maker-matt-black",
@@ -42764,14 +43250,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Market Lane", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://marketlane.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Market Lane (Australia)",
-                        "price": 333,
-                        "inStock": true,
-                        "url": "https://marketlane.com.au/products/moccamaster-select-coffee-maker-matt-black",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Market Lane (Australia)",
+            "price": 333,
+            "inStock": true,
+            "url": "https://marketlane.com.au/products/moccamaster-select-coffee-maker-matt-black",
+            "isBest": true
+      },
+      {
+            "name": "Amazon España",
+            "price": 333,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Technivorm+Moccamaster+KBG+Select&tag=thecoffeescore-21"
+      },
+      {
+            "name": "Moccamaster Oficial (Europa)",
+            "price": 350,
+            "inStock": true,
+            "url": "https://www.moccamaster.eu/es/coffee-makers"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 340,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Moccamaster"
+      }
+]
   },
   {
     id: "seven-seeds-asman-arianto-indonesia",
@@ -43322,14 +43826,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Seven Seeds", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://sevenseeds.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Seven Seeds (Australia)",
-                        "price": 419.4,
-                        "inStock": true,
-                        "url": "https://sevenseeds.com.au/products/fellow-aiden-precision-coffee-brewer",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Seven Seeds (Australia)",
+            "price": 419.4,
+            "inStock": true,
+            "url": "https://sevenseeds.com.au/products/fellow-aiden-precision-coffee-brewer",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 419.4,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 428,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 419.4,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "seven-seeds-finca-takesi-geisha-bolivia",
@@ -44965,14 +45487,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Single O", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://singleo.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Single O (Australia)",
-                        "price": 226.77,
-                        "inStock": true,
-                        "url": "https://singleo.com.au/products/breville-bambino-bundle-1",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Single O (Australia)",
+            "price": 226.77,
+            "inStock": true,
+            "url": "https://singleo.com.au/products/breville-bambino-bundle-1",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 238,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 226.77,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Bambino+Plus&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 234,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Single%20O%20%E2%80%94%20BREVILLE%20BAMBINO%20PLUS%20BUNDLE"
+      }
+]
   },
   {
     id: "single-o-breville-bambino-plus-espresso-machine",
@@ -44996,14 +45536,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Single O", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://singleo.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Single O (Australia)",
-                        "price": 226.77,
-                        "inStock": true,
-                        "url": "https://singleo.com.au/products/breville-bambino-espresso-machine",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Single O (Australia)",
+            "price": 226.77,
+            "inStock": true,
+            "url": "https://singleo.com.au/products/breville-bambino-espresso-machine",
+            "isBest": true
+      },
+      {
+            "name": "Sage Appliances España",
+            "price": 238,
+            "inStock": true,
+            "url": "https://www.sageappliances.com/es-es"
+      },
+      {
+            "name": "Amazon España",
+            "price": 226.77,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Sage+Bambino+Plus&tag=thecoffeescore-21"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 234,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=Single%20O%20%E2%80%94%20Breville%20Bambino%20Plus%20Espresso%20Machine"
+      }
+]
   },
   {
     id: "single-o-breville-smart-grinder-pro",
@@ -46019,14 +46577,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Single O", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://singleo.com.au", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Single O (Australia)",
-                        "price": 4534.77,
-                        "inStock": false,
-                        "url": "https://singleo.com.au/products/la-marzocco-gs3-manual-paddle",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Single O (Australia)",
+            "price": 4534.77,
+            "inStock": false,
+            "url": "https://singleo.com.au/products/la-marzocco-gs3-manual-paddle",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 4534.77,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 4444,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "single-o-la-marzocco-linea-mini-blend-taster-box",
@@ -46050,14 +46620,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Single O", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://singleo.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Single O (Australia)",
-                        "price": 3400.77,
-                        "inStock": true,
-                        "url": "https://singleo.com.au/products/la-marzocco-linea-mini",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Single O (Australia)",
+            "price": 3400.77,
+            "inStock": true,
+            "url": "https://singleo.com.au/products/la-marzocco-linea-mini",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 3400.77,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 3333,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "single-o-lemongrass-ginger-tea",
@@ -46112,14 +46694,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Single O", "País de Origen": "Australia", "Región": "Asia / Oceanía", "Tienda Oficial": "https://singleo.com.au", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Single O (Australia)",
-                        "price": 2267.37,
-                        "inStock": true,
-                        "url": "https://singleo.com.au/products/linea-micra-espresso-machine",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Single O (Australia)",
+            "price": 2267.37,
+            "inStock": true,
+            "url": "https://singleo.com.au/products/linea-micra-espresso-machine",
+            "isBest": true
+      },
+      {
+            "name": "La Marzocco Home España",
+            "price": 2267.37,
+            "inStock": true,
+            "url": "https://es.lamarzoccohome.com/"
+      },
+      {
+            "name": "Espresso Coffee Shop",
+            "price": 2222,
+            "inStock": true,
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/559-la-marzocco-linea-micra-espresso-machine.html"
+      }
+]
   },
   {
     id: "single-o-linea-mini-plumb-in-kit",
@@ -46436,8 +47030,8 @@ export const PRODUCTS: Product[] = [
             slug: "fellow-products-aiden-drops",
             name: "Fellow Products — Aiden + Drops",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Lifestyle",
             price: 367.08,
             oldPrice: null,
             historicalAveragePrice: 396.45,
@@ -46484,22 +47078,40 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Fellow Products", "País de Origen": "Global / USA", "Región": "Norteamérica", "Tienda Oficial": "https://fellowproducts.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Fellow Products (Global / USA)",
-                        "price": 367.95,
-                        "inStock": false,
-                        "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Fellow Products (Global / USA)",
+            "price": 367.95,
+            "inStock": false,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 367.95,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 375,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 367.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "fellow-products-aiden-precision-coffee-maker-brew-filters",
             slug: "fellow-products-aiden-precision-coffee-maker-brew-filters",
             name: "Fellow Products — Aiden Precision Coffee Maker Brew Filters",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Herramientas Barista",
+            category: "accesorios",
+            subCategory: "Filtros y Papeles",
             price: 6.9,
             oldPrice: 8.28,
             historicalAveragePrice: 7.45,
@@ -47259,14 +47871,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Fellow Products", "País de Origen": "Global / USA", "Región": "Norteamérica", "Tienda Oficial": "https://fellowproducts.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Fellow Products (Global / USA)",
-                        "price": 1839.95,
-                        "inStock": false,
-                        "url": "https://fellowproducts.com/products/bigface-x-fellow-espresso-series-1",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Fellow Products (Global / USA)",
+            "price": 1839.95,
+            "inStock": false,
+            "url": "https://fellowproducts.com/products/bigface-x-fellow-espresso-series-1",
+            "isBest": true
+      },
+      {
+            "name": "Fellow Products Oficial",
+            "price": 1839.95,
+            "inStock": true,
+            "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 1877,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Fellow+Aiden"
+      },
+      {
+            "name": "Amazon España",
+            "price": 1839.95,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Fellow+Aiden+Coffee+Maker&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "fellow-products-blazing-arrow",
@@ -49560,14 +50190,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 137.03,
-                        "inStock": true,
-                        "url": "https://flairespresso.com/products/flair-2go",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 137.03,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/flair-2go",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 137.03,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 143,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 137.03,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-2go-tamper",
@@ -49622,14 +50270,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 290.67,
-                        "inStock": true,
-                        "url": "https://flairespresso.com/products/flair-49-pro",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 290.67,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/flair-49-pro",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 290.67,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 302,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 290.67,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-49-pro-bottomless-basket",
@@ -50056,14 +50722,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "En Stock" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 564.83,
-                        "inStock": true,
-                        "url": "https://flairespresso.com/products/flair-58-plus-2",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 564.83,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/flair-58-plus-2",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 564.83,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 587,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 564.83,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-58-plus-2-base-upgrade-kit",
@@ -50149,14 +50833,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 424.07,
-                        "inStock": false,
-                        "url": "https://flairespresso.com/products/flair-58-plus-2-refurbished",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 424.07,
+            "inStock": false,
+            "url": "https://flairespresso.com/products/flair-58-plus-2-refurbished",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 424.07,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 441,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 424.07,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-58-portafilter-baskets",
@@ -50304,14 +51006,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Disponibilidad sujeta a stock de temporada"],
             specs: { "Marca / Tostador": "Flair Espresso", "País de Origen": "Global", "Región": "Norteamérica", "Tienda Oficial": "https://flairespresso.com", "Disponibilidad": "Agotado" },
             stores: [
-                  {
-                        "name": "Flair Espresso (Global)",
-                        "price": 351.39,
-                        "inStock": false,
-                        "url": "https://flairespresso.com/products/flair-58-refurbished",
-                        "isBest": true
-          }
-    ]
+      {
+            "name": "Flair Espresso (Global)",
+            "price": 351.39,
+            "inStock": false,
+            "url": "https://flairespresso.com/products/flair-58-refurbished",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial (Global)",
+            "price": 351.39,
+            "inStock": true,
+            "url": "https://flairespresso.com/products/espresso-makers/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 365,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair+Espresso"
+      },
+      {
+            "name": "Amazon España",
+            "price": 351.39,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair+Espresso&tag=thecoffeescore-21"
+      }
+]
   },
   {
     id: "flair-espresso-flair-58-stem-guider",
