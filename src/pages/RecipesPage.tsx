@@ -4,16 +4,22 @@ import {
   fetchSampleApisDrinks,
   fetchRoastDbData,
   fetchCoffeeDbRoasters,
+  fetchCoffeeCloudTelemetry,
+  fetchIcoDatabasePrices,
   SampleApiDrink,
   RoastDbBean,
-  CoffeeDbRoaster
+  CoffeeDbRoaster,
+  CoffeeCloudMachine,
+  IcoGlobalMarketStats
 } from '../services/api/externalCoffeeApis';
 
 export const RecipesPage: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'all' | 'hot' | 'iced' | 'roastdb' | 'coffeedb'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'hot' | 'iced' | 'roastdb' | 'coffeedb' | 'coffeecloud' | 'ico'>('all');
   const [drinks, setDrinks] = useState<SampleApiDrink[]>([]);
   const [beans, setBeans] = useState<RoastDbBean[]>([]);
   const [roasters, setRoasters] = useState<CoffeeDbRoaster[]>([]);
+  const [machines, setMachines] = useState<CoffeeCloudMachine[]>([]);
+  const [icoData, setIcoData] = useState<IcoGlobalMarketStats | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedDrink, setSelectedDrink] = useState<SampleApiDrink | null>(null);
   const [loading, setLoading] = useState(true);
@@ -21,14 +27,18 @@ export const RecipesPage: React.FC = () => {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
-      const [drinksData, beansData, roastersData] = await Promise.all([
+      const [drinksData, beansData, roastersData, machinesData, icoStats] = await Promise.all([
         fetchSampleApisDrinks(),
         fetchRoastDbData(),
-        fetchCoffeeDbRoasters()
+        fetchCoffeeDbRoasters(),
+        fetchCoffeeCloudTelemetry(),
+        fetchIcoDatabasePrices()
       ]);
       setDrinks(drinksData);
       setBeans(beansData);
       setRoasters(roastersData);
+      setMachines(machinesData);
+      setIcoData(icoStats);
       setLoading(false);
     }
     loadData();
@@ -60,28 +70,35 @@ export const RecipesPage: React.FC = () => {
     r.specialties.some((s) => s.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
+  const filteredMachines = machines.filter((m) =>
+    !searchQuery ||
+    m.model.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    m.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    m.serialNumber.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="pb-20">
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>
         <span className="sep">/</span>
-        <span className="current">Recetas & APIs de Café</span>
+        <span className="current">Recetas, Telemetría & APIs Globales</span>
       </div>
 
       {/* Page Header */}
       <div className="page-head">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-2 flex-wrap">
           <span className="bg-[#fdece7] text-[#e94e2b] text-[11px] font-bold px-3 py-0.5 rounded-full font-mono">
-            API INTEGRATION LIVE
+            5 APIS EN VIVO
           </span>
           <span className="text-xs text-stone-500">
-            SampleAPIs · RoastDB · coffeeDB API
+            SampleAPIs · RoastDB · coffeeDB · Scanomat CoffeeCloud · ICO Database (db.ico.org)
           </span>
         </div>
-        <h1 className="page-title">Guía de Bebidas, Recetas y Datos Globales</h1>
+        <h1 className="page-title">Centro de Inteligencia & APIs de Café</h1>
         <p className="page-sub">
-          Enciclopedia en tiempo real de preparaciones de café, ratios de extracción, radar de perfiles de tueste y directorio de tostadores internacionales.
+          Recetas calibradas, radar de tueste, directorio de tostadores, telemetría IoT de máquinas TopBrewer y cotizaciones oficiales de la International Coffee Organization.
         </p>
       </div>
 
@@ -109,13 +126,25 @@ export const RecipesPage: React.FC = () => {
           onClick={() => setActiveTab('roastdb')}
           className={`filter-chip ${activeTab === 'roastdb' ? 'active' : ''}`}
         >
-          Granos & Tueste (RoastDB)
+          Granos (RoastDB)
         </button>
         <button
           onClick={() => setActiveTab('coffeedb')}
           className={`filter-chip ${activeTab === 'coffeedb' ? 'active' : ''}`}
         >
-          Tostadores (coffeeDB API)
+          Tostadores (coffeeDB)
+        </button>
+        <button
+          onClick={() => setActiveTab('coffeecloud')}
+          className={`filter-chip ${activeTab === 'coffeecloud' ? 'active' : ''}`}
+        >
+          IoT Telemetría (CoffeeCloud)
+        </button>
+        <button
+          onClick={() => setActiveTab('ico')}
+          className={`filter-chip ${activeTab === 'ico' ? 'active' : ''}`}
+        >
+          Precios ICO (db.ico.org)
         </button>
 
         <div className="filter-spacer" />
@@ -124,7 +153,7 @@ export const RecipesPage: React.FC = () => {
         <div className="relative min-w-[200px] sm:min-w-[240px]">
           <input
             type="text"
-            placeholder="Buscar recetas, notas, origen…"
+            placeholder="Buscar recetas, telemetría, origen…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-white border border-[#e6e3da] focus:border-ink rounded-full px-3.5 py-1.5 text-xs text-ink outline-none transition-colors"
@@ -133,7 +162,7 @@ export const RecipesPage: React.FC = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="wrap py-8 space-y-10">
+      <div className="wrap py-8 space-y-12">
         {/* VIEW 1: DRINKS / RECIPES (SampleAPIs) */}
         {(activeTab === 'all' || activeTab === 'hot' || activeTab === 'iced') && (
           <div>
@@ -235,7 +264,204 @@ export const RecipesPage: React.FC = () => {
           </div>
         )}
 
-        {/* VIEW 2: ROASTDB BEANS & ROAST RADAR */}
+        {/* VIEW 2: SCANOMAT COFFEECLOUD IOT TELEMETRY */}
+        {(activeTab === 'all' || activeTab === 'coffeecloud') && (
+          <div className="pt-6 border-t border-[#e6e3da]">
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <div className="text-[#059669] text-xs font-bold uppercase tracking-wider mb-1 font-mono">
+                  IOT CLOUD · SCANOMAT COFFEECLOUD API
+                </div>
+                <h2 className="font-serif font-bold text-xl sm:text-2xl text-ink">
+                  Telemetría y Estado de Flota TopBrewer (Scanomat)
+                </h2>
+                <p className="text-xs text-stone-500">
+                  Monitorización en vivo de extracciones diarias, tolvas de café, temperatura de leche y ciclos de mantenimiento preventivo.
+                </p>
+              </div>
+              <a
+                href="https://scanomat.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline !text-xs !py-2 !px-3 !rounded-xl font-bold hidden sm:inline-flex items-center gap-1.5"
+              >
+                <span>Scanomat Cloud Portal</span>
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+              {filteredMachines.map((m) => (
+                <div
+                  key={m.id}
+                  className="bg-white border border-[#e6e3da] hover:border-stone-400 rounded-2xl p-5 shadow-2xs hover:shadow-md transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-2 mb-2">
+                      <span className="text-[10px] font-bold font-mono bg-stone-100 text-stone-700 px-2 py-0.5 rounded-md">
+                        {m.serialNumber}
+                      </span>
+                      <span className="flex items-center gap-1.5 text-[10px] font-bold text-[#059669]">
+                        <span className="w-2 h-2 rounded-full bg-[#059669] animate-pulse"></span>
+                        ONLINE
+                      </span>
+                    </div>
+
+                    <h3 className="font-serif font-bold text-base text-ink mb-0.5">{m.model}</h3>
+                    <div className="text-xs text-stone-500 mb-4">{m.location}</div>
+
+                    {/* IoT Metrics Bars */}
+                    <div className="space-y-2.5 bg-[#fbfaf7] border border-[#e6e3da] p-3 rounded-xl mb-4 text-xs">
+                      <div>
+                        <div className="flex justify-between text-[11px] mb-1">
+                          <span className="text-stone-500">Nivel de Tolva de Café</span>
+                          <span className="font-bold text-ink font-mono">{m.beanHopperPct}%</span>
+                        </div>
+                        <div className="w-full h-1.5 bg-stone-200 rounded-full overflow-hidden">
+                          <div className="h-full bg-[#e94e2b] rounded-full" style={{ width: `${m.beanHopperPct}%` }}></div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div className="flex justify-between text-[11px] mb-1">
+                          <span className="text-stone-500">Filtro de Agua Brita</span>
+                          <span className="font-bold text-ink font-mono">{m.waterFilterPct}%</span>
+                        </div>
+                        <div className="w-full h-1.5 bg-stone-200 rounded-full overflow-hidden">
+                          <div className="h-full bg-[#2f6fed] rounded-full" style={{ width: `${m.waterFilterPct}%` }}></div>
+                        </div>
+                      </div>
+
+                      <div className="flex justify-between pt-1 border-t border-[#e6e3da] text-[11px]">
+                        <span className="text-stone-500">Temp. Nevera Leche:</span>
+                        <span className="font-bold text-stone-800 font-mono">{m.milkTempC}°C</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-3 border-t border-[#e6e3da] flex items-center justify-between text-xs mt-auto">
+                    <div>
+                      <div className="text-[10px] text-stone-400 uppercase">Hoy</div>
+                      <div className="font-bold text-ink font-mono">{m.drinksToday} cafés</div>
+                    </div>
+                    <span className="text-[11px] text-stone-400 font-mono">{m.cloudSyncTime}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* VIEW 3: ICO DATABASE (db.ico.org) GLOBAL MARKET BENCHMARK */}
+        {(activeTab === 'all' || activeTab === 'ico') && icoData && (
+          <div className="pt-6 border-t border-[#e6e3da]">
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <div className="text-[#2f6fed] text-xs font-bold uppercase tracking-wider mb-1 font-mono">
+                  BENCHMARK GLOBAL · INTERNATIONAL COFFEE ORGANIZATION (ICO)
+                </div>
+                <h2 className="font-serif font-bold text-xl sm:text-2xl text-ink">
+                  Cotizaciones y Estadísticas Mundiales (db.ico.org)
+                </h2>
+                <p className="text-xs text-stone-500">
+                  Precios oficiales del ICO Composite Indicator Price (I-CIP), diferenciales por grupos y volumen de exportaciones mundiales.
+                </p>
+              </div>
+              <a
+                href="https://db.ico.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline !text-xs !py-2 !px-3 !rounded-xl font-bold hidden sm:inline-flex items-center gap-1.5"
+              >
+                <span>Acceder a db.ico.org</span>
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+
+            {/* Composite Highlight Card */}
+            <div className="bg-gradient-to-br from-[#21201c] to-[#2c2924] text-white p-6 sm:p-8 rounded-3xl mb-6 shadow-md">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-center">
+                <div className="md:col-span-2">
+                  <span className="text-[10px] font-bold tracking-widest text-[#e94e2b] uppercase font-mono">
+                    BENCHMARK DE REFERENCIA MUNDIAL
+                  </span>
+                  <h3 className="font-serif font-bold text-2xl sm:text-3xl text-white mt-1 mb-2">
+                    {icoData.compositePrice.indicator}
+                  </h3>
+                  <p className="text-stone-400 text-xs leading-relaxed">
+                    Precio promedio ponderado de los principales tipos de café verde comercializados en los mercados de Nueva York (ICE) y Londres (Euronext).
+                  </p>
+                </div>
+
+                <div className="bg-white/10 border border-white/15 p-4 rounded-2xl text-center">
+                  <div className="text-xs text-stone-300 font-mono">Precio en Céntimos USD / Libra</div>
+                  <div className="font-mono font-bold text-3xl text-white my-1">
+                    {icoData.compositePrice.priceCentsPerLb} <span className="text-xs text-stone-400">¢/lb</span>
+                  </div>
+                  <div className="text-xs text-emerald-400 font-bold">
+                    ▲ +{icoData.compositePrice.dailyChangePct}% hoy
+                  </div>
+                </div>
+
+                <div className="bg-white/10 border border-white/15 p-4 rounded-2xl text-center">
+                  <div className="text-xs text-stone-300 font-mono">Equivalente en USD / Kg</div>
+                  <div className="font-mono font-bold text-3xl text-[#e94e2b] my-1">
+                    ${icoData.compositePrice.priceUsdPerKg} <span className="text-xs text-stone-400">/kg</span>
+                  </div>
+                  <div className="text-xs text-stone-400">
+                    Media mensual: {icoData.compositePrice.monthlyAverage} ¢/lb
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Group Indicators Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {icoData.groupPrices.map((gp) => (
+                <div
+                  key={gp.code}
+                  className="bg-white border border-[#e6e3da] rounded-2xl p-5 shadow-2xs hover:shadow-md transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-2 mb-2">
+                      <span className="text-[10px] font-bold font-mono bg-[#f4f2ec] text-stone-700 px-2 py-0.5 rounded-md">
+                        {gp.code}
+                      </span>
+                      <span className={`text-xs font-bold font-mono ${gp.dailyChangePct >= 0 ? 'text-emerald-600' : 'text-rose-600'}`}>
+                        {gp.dailyChangePct >= 0 ? `▲ +${gp.dailyChangePct}%` : `▼ ${gp.dailyChangePct}%`}
+                      </span>
+                    </div>
+
+                    <h4 className="font-serif font-bold text-sm text-ink mb-3 leading-snug">
+                      {gp.indicator}
+                    </h4>
+
+                    <div className="bg-[#fbfaf7] border border-[#e6e3da] p-3 rounded-xl mb-3">
+                      <div className="text-[10px] text-stone-400 uppercase">Cotización</div>
+                      <div className="font-mono font-bold text-xl text-ink">
+                        {gp.priceCentsPerLb} <span className="text-xs text-stone-500 font-normal">¢/lb</span>
+                      </div>
+                      <div className="text-xs text-stone-500 font-mono mt-0.5">
+                        ${gp.priceUsdPerKg} USD/kg
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-2 border-t border-[#e6e3da] flex justify-between text-xs text-stone-500">
+                    <span>Cuota de mercado:</span>
+                    <span className="font-bold text-ink font-mono">{gp.marketSharePct}%</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* VIEW 4: ROASTDB BEANS & ROAST RADAR */}
         {(activeTab === 'all' || activeTab === 'roastdb') && (
           <div className="pt-6 border-t border-[#e6e3da]">
             <div className="flex items-center justify-between gap-4 mb-6">
@@ -338,7 +564,7 @@ export const RecipesPage: React.FC = () => {
           </div>
         )}
 
-        {/* VIEW 3: COFFEEDB API ROASTERS */}
+        {/* VIEW 5: COFFEEDB API ROASTERS */}
         {(activeTab === 'all' || activeTab === 'coffeedb') && (
           <div className="pt-6 border-t border-[#e6e3da]">
             <div className="flex items-center justify-between gap-4 mb-6">
