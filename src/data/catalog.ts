@@ -83,8 +83,8 @@ export const PRODUCTS: Product[] = [
             score: new CoffeeScore(8.4),
             stars: 4.8,
             badge: "Mejor para empezar",
-            image: "/assets/products/sage-bambino.png",
-            gallery: ["/assets/products/sage-bambino.png"],
+            image: "/assets/products/sage-bambino-plus.png",
+            gallery: ["/assets/products/sage-bambino-plus.png"],
             shortDesc: "Compacta, calentamiento ThermoJet en 3 segundos y vaporizador automático asistido con sensor de temperatura.",
             subscores: { "espresso": 8.3, "vapor": 8.5, "facilidad": 9.4, "construccion": 8.2, "precio": 8.8 },
             pros: ["Calentamiento instantáneo en 3s", "Vaporización automática de calidad microespuma", "Tamaño ultra-compacto"],
@@ -1285,9 +1285,9 @@ export const PRODUCTS: Product[] = [
             brand: "Eureka",
             category: "molinos",
             subCategory: "Eléctricos",
-            price: 419,
-            oldPrice: 479,
-            historicalAveragePrice: 440,
+            price: 369,
+            oldPrice: 449,
+            historicalAveragePrice: 399,
             isOffer: true,
             score: new CoffeeScore(9.3),
             stars: 4.8,
@@ -1301,23 +1301,25 @@ export const PRODUCTS: Product[] = [
             specs: { "Muelas": "Planas 55 mm acero endurecido", "Ajuste": "Micrométrico continuo patentado", "Pantalla": "Táctil digital con dosis simple/doble", "RPM": "1350", "Peso": "5.6 kg" },
             stores: [
                   {
-                        "name": "Amazon",
-                        "price": 419,
+                        "name": "Espresso Coffee Shop",
+                        "price": 369,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Specialita&tag=thecoffeescore-21",
+                        "url": "https://www.espressocoffeeshop.com/en/espresso-grinders/55-0-eureka-mignon-specialita-coffee-grinder.html",
                         "isBest": true
                   },
                   {
-                        "name": "Tienda Barista Especializada",
-                        "price": 436,
+                        "name": "Amazon España",
+                        "price": 389,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Specialita+barista&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Eureka%20Mignon%20Specialita&tag=thecoffeescore-21",
+                        "isBest": false
                   },
                   {
-                        "name": "El Corte Inglés",
-                        "price": 453,
+                        "name": "MaxiCoffee",
+                        "price": 419,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Eureka%20Eureka%20Mignon%20Specialita&tag=thecoffeescore-21"
+                        "url": "https://www.maxicoffee.com/es-es/molino-cafe-eureka-mignon-specialita-negro-mate-p-72990.html",
+                        "isBest": false
                   }
             ]
   },
