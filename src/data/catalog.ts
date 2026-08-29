@@ -13,10 +13,10 @@ export interface BarcelonaRoaster {
 }
 
 export const CATEGORIES: { id: ProductCategory; name: string; icon: string; count: number }[] = [
-  { id: 'maquinas', name: 'Máquinas de Café', icon: '', count: 116 },
+  { id: 'maquinas', name: 'Máquinas de Café', icon: '', count: 97 },
   { id: 'molinos', name: 'Molinos de Café', icon: '', count: 37 },
-  { id: 'accesorios', name: 'Accesorios Barista', icon: '', count: 752 },
-  { id: 'cafe', name: 'Café de Especialidad', icon: '', count: 704 }
+  { id: 'accesorios', name: 'Accesorios Barista', icon: '', count: 770 },
+  { id: 'cafe', name: 'Café de Especialidad', icon: '', count: 705 }
 ];
 
 export const BRANDS = [
@@ -377,20 +377,20 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon",
                         "price": 699,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21",
+                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21",
                         "isBest": true
                   },
                   {
                         "name": "Tienda Barista Especializada",
                         "price": 727,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Glenda%20PL41PLUS+barista&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS+barista&tag=thecoffeescore-21"
                   },
                   {
                         "name": "El Corte Inglés",
                         "price": 755,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -420,20 +420,20 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon",
                         "price": 899,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Victoria%20PL91T&tag=thecoffeescore-21",
+                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T&tag=thecoffeescore-21",
                         "isBest": true
                   },
                   {
                         "name": "Tienda Barista Especializada",
                         "price": 935,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Victoria%20PL91T+barista&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T+barista&tag=thecoffeescore-21"
                   },
                   {
                         "name": "El Corte Inglés",
                         "price": 971,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Lelit%20Victoria%20PL91T&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -839,20 +839,20 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon",
                         "price": 649,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus&tag=thecoffeescore-21",
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus&tag=thecoffeescore-21",
                         "isBest": true
                   },
                   {
                         "name": "Tienda Barista Especializada",
                         "price": 675,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus+barista&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus+barista&tag=thecoffeescore-21"
                   },
                   {
                         "name": "El Corte Inglés",
                         "price": 701,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -1855,7 +1855,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 64,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Plus%202%20Power%20Supply&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus%202%20Power%20Supply&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -2123,8 +2123,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-stainless-steel-joint-hook-upgrade",
             name: "Flair Espresso — Flair 58 Stainless Steel Joint Hook Upgrade",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 29.95,
             oldPrice: null,
             historicalAveragePrice: 31.75,
@@ -2151,7 +2151,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 31.45,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Stainless%20Steel%20Joint%20Hook%20Upgrade&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Stainless%20Steel%20Joint%20Hook%20Upgrade&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -2188,7 +2188,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 20.95,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Flair%2058%20Pressurized%20Basket&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Pressurized%20Basket&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -2308,8 +2308,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-espresso-bar-kit-flair-classic",
             name: "Flair Espresso — Espresso Bar Kit: Flair Classic",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 463.95,
             oldPrice: null,
             historicalAveragePrice: 491.79,
@@ -2336,7 +2336,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 487.15,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Espresso%20Bar%20Kit%3A%20Flair%20Classic&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Bar%20Kit%3A%20Flair%20Classic&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -2382,8 +2382,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-espresso-bar-kit-flair-49-pro",
             name: "Flair Espresso — Espresso Bar Kit: Flair 49 PRO",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 639.95,
             oldPrice: null,
             historicalAveragePrice: 678.35,
@@ -2410,7 +2410,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 671.95,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Espresso%20Bar%20Kit%3A%20Flair%2049%20PRO&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Bar%20Kit%3A%20Flair%2049%20PRO&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -2456,8 +2456,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-espresso-bar-kit-flair-58-plus-2",
             name: "Flair Espresso — Espresso Bar Kit: Flair 58 Plus 2",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 937.95,
             oldPrice: null,
             historicalAveragePrice: 994.23,
@@ -2484,7 +2484,7 @@ export const PRODUCTS: Product[] = [
                         "name": "Amazon España",
                         "price": 984.85,
                         "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Espresso%20Bar%20Kit%3A%20Flair%2058%20Plus%202&tag=thecoffeescore-21"
+                        "url": "https://www.amazon.es/s?k=Flair%20Espresso%20Bar%20Kit%3A%20Flair%2058%20Plus%202&tag=thecoffeescore-21"
                   }
             ]
   },
@@ -44343,8 +44343,8 @@ export const PRODUCTS: Product[] = [
             slug: "seven-seeds-santa-lucia-yellow-pacamara-honduras",
             name: "Seven Seeds — Santa Lucia Yellow Pacamara, Honduras",
             brand: "Seven Seeds",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "cafe",
+            subCategory: "Origen Único",
             price: 23.4,
             oldPrice: null,
             historicalAveragePrice: 25.27,
@@ -46110,8 +46110,8 @@ export const PRODUCTS: Product[] = [
             slug: "single-o-linea-mini-plumb-in-kit",
             name: "Single O — Linea Mini Plumb-in Kit",
             brand: "Single O",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 70.17,
             oldPrice: null,
             historicalAveragePrice: 75.78,
@@ -46513,8 +46513,8 @@ export const PRODUCTS: Product[] = [
             slug: "fellow-products-aiden-precision-coffee-maker-dial",
             name: "Fellow Products — Aiden Precision Coffee Maker Dial",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 6.9,
             oldPrice: null,
             historicalAveragePrice: 7.45,
@@ -46575,8 +46575,8 @@ export const PRODUCTS: Product[] = [
             slug: "fellow-products-aiden-precision-coffee-maker-removable-water-tank",
             name: "Fellow Products — Aiden Precision Coffee Maker Removable Water Tank",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 23,
             oldPrice: null,
             historicalAveragePrice: 24.84,
@@ -46606,8 +46606,8 @@ export const PRODUCTS: Product[] = [
             slug: "fellow-products-aiden-precision-coffee-maker-shower-head",
             name: "Fellow Products — Aiden Precision Coffee Maker Shower Head",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 13.8,
             oldPrice: null,
             historicalAveragePrice: 14.9,
@@ -46637,8 +46637,8 @@ export const PRODUCTS: Product[] = [
             slug: "fellow-products-aiden-precision-coffee-maker-thermal-carafe-lid",
             name: "Fellow Products — Aiden Precision Coffee Maker Thermal Carafe + Lid",
             brand: "Fellow Products",
-            category: "maquinas",
-            subCategory: "Café de Especialidad",
+            category: "accesorios",
+            subCategory: "Jarras & Servidores",
             price: 78.2,
             oldPrice: null,
             historicalAveragePrice: 84.46,
@@ -49682,8 +49682,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-49-pro-drip-tray",
             name: "Flair Espresso — Flair 49 PRO Drip Tray",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 15.59,
             oldPrice: 18.71,
             historicalAveragePrice: 16.84,
@@ -49837,8 +49837,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-drip-tray",
             name: "Flair Espresso — Flair 58 Drip Tray",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 13.75,
             oldPrice: null,
             historicalAveragePrice: 14.85,
@@ -49899,8 +49899,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-hard-travel-case",
             name: "Flair Espresso — Flair 58 Hard Travel Case",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 72.63,
             oldPrice: 87.16,
             historicalAveragePrice: 78.44,
@@ -49961,8 +49961,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-o-ring-set-6",
             name: "Flair Espresso — Flair 58 O-ring Set (6)",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 10.07,
             oldPrice: null,
             historicalAveragePrice: 10.88,
@@ -49992,8 +49992,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-plunger-key",
             name: "Flair Espresso — Flair 58 Plunger Key",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -50054,8 +50054,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-plus-2-base-upgrade-kit",
             name: "Flair Espresso — Flair 58 Plus 2 Base Upgrade Kit",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 141.63,
             oldPrice: null,
             historicalAveragePrice: 152.96,
@@ -50209,8 +50209,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-preheat-system-no-valve-plunger",
             name: "Flair Espresso — Flair 58 Preheat System (no valve plunger)",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 137.03,
             oldPrice: null,
             historicalAveragePrice: 147.99,
@@ -50302,8 +50302,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-58-stem-guider",
             name: "Flair Espresso — Flair 58 Stem Guider",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 12,
             oldPrice: null,
             historicalAveragePrice: 12.96,
@@ -50457,8 +50457,8 @@ export const PRODUCTS: Product[] = [
             slug: "flair-espresso-flair-articulating-shot-mirror",
             name: "Flair Espresso — Flair Articulating Shot Mirror",
             brand: "Flair Espresso",
-            category: "maquinas",
-            subCategory: "Máquinas de Café",
+            category: "accesorios",
+            subCategory: "Herramientas de barista",
             price: 15.59,
             oldPrice: null,
             historicalAveragePrice: 16.84,
