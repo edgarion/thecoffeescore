@@ -183,43 +183,43 @@ export const BarcelonaCoffeeSlider: React.FC<BarcelonaCoffeeSliderProps> = ({ in
   };
 
   const inner = (
-    <div className="w-full max-w-full min-w-0 overflow-hidden bg-[#fcfbf9] border border-[#e6e3da] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col">
+    <div className="w-full max-w-full min-w-0 overflow-hidden bg-[#fcfbf9] border border-[#e6e3da] rounded-2xl p-4 sm:p-5 shadow-xs flex flex-col h-full">
         {/* Header Row */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-[#ece8df]">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 mb-3.5 pb-2.5 border-b border-[#ece8df]">
           <div>
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full">
+              <span className="inline-flex items-center bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2 py-0.5 rounded-full">
                 <span>TUESTE BCN</span>
               </span>
-              <h2 className="font-serif font-bold text-lg sm:text-2xl text-ink">
+              <h2 className="font-serif font-bold text-base sm:text-lg text-ink">
                 Nuevos cafés de especialidad de Barcelona
               </h2>
             </div>
-            <p className="text-xs text-[#6b6a63] mt-1">
+            <p className="text-[11px] text-[#6b6a63] mt-0.5">
               Microlotes recién tostados en Barcelona · Precios oficiales verificados
             </p>
           </div>
 
           {/* Controls & See All */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
             <Link
               to="/cafe"
-              className="text-xs font-bold text-[#2f6fed] hover:underline hidden md:inline-flex items-center gap-0.5"
+              className="text-[11px] font-bold text-[#2f6fed] hover:underline hidden md:inline-flex items-center gap-0.5"
             >
-              <span>Ver todo el café →</span>
+              <span>Ver todos →</span>
             </Link>
 
-            <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-1 shadow-2xs">
+            <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-0.5 shadow-2xs">
               <button
                 onClick={() => handleScroll('left')}
-                className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
+                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
                 aria-label="Anterior café"
               >
                 ←
               </button>
               <button
                 onClick={() => handleScroll('right')}
-                className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
+                className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
                 aria-label="Siguiente café"
               >
                 →
@@ -229,12 +229,12 @@ export const BarcelonaCoffeeSlider: React.FC<BarcelonaCoffeeSliderProps> = ({ in
         </div>
 
         {/* Filter Pills */}
-        <div className="w-full min-w-0 max-w-full flex items-center gap-1.5 overflow-x-auto pb-2 mb-3 scrollbar-none text-xs">
+        <div className="w-full min-w-0 max-w-full flex items-center gap-1 overflow-x-auto pb-1.5 mb-3 scrollbar-none text-[11px]">
           {filters.map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+              className={`px-2.5 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap transition-all ${
                 activeFilter === filter
                   ? 'bg-ink text-white shadow-xs font-bold'
                   : 'bg-white border border-[#e6e3da] text-stone-700 hover:border-stone-400'
@@ -245,22 +245,22 @@ export const BarcelonaCoffeeSlider: React.FC<BarcelonaCoffeeSliderProps> = ({ in
           ))}
         </div>
 
-        {/* Slider Carousel Container - 100% Full Width & Zero Overflow */}
+        {/* Slider Carousel Container */}
         <div
           ref={scrollRef}
-          className="w-full min-w-0 max-w-full flex gap-3.5 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none"
+          className="w-full min-w-0 max-w-full flex gap-3 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none flex-1"
           style={{ scrollSnapType: 'x mandatory' }}
         >
           {filteredCoffees.map((coffee) => (
             <div
               key={coffee.id}
-              className="snap-start shrink-0 w-[200px] sm:w-[220px] bg-white border border-[#e6e3da] hover:border-stone-400 rounded-xl p-3 flex flex-col justify-between shadow-2xs hover:shadow-sm transition-all group"
+              className="snap-start shrink-0 w-[175px] sm:w-[190px] bg-white border border-[#e6e3da] hover:border-stone-400 rounded-xl p-2.5 flex flex-col justify-between shadow-2xs hover:shadow-sm transition-all group"
             >
               <div>
                 {/* Coffee Bag Image */}
-                <div className="w-full h-24 sm:h-28 bg-[#fbfaf7] border border-[#f0eee6] rounded-lg mb-2 flex items-center justify-center p-2 overflow-hidden relative group-hover:bg-[#f5f2e9] transition-colors">
+                <div className="w-full h-20 sm:h-24 bg-[#fbfaf7] border border-[#f0eee6] rounded-lg mb-1.5 flex items-center justify-center p-1.5 overflow-hidden relative group-hover:bg-[#f5f2e9] transition-colors">
                   {coffee.scaScore && (
-                    <div className="absolute top-1.5 left-1.5 bg-black/80 text-white text-[9px] font-bold px-1.5 py-0.5 rounded font-mono">
+                    <div className="absolute top-1 left-1 bg-black/80 text-white text-[8px] font-bold px-1 py-0.2 rounded font-mono">
                       <span>SCA {coffee.scaScore}</span>
                     </div>
                   )}
@@ -272,29 +272,29 @@ export const BarcelonaCoffeeSlider: React.FC<BarcelonaCoffeeSliderProps> = ({ in
                 </div>
 
                 {/* Roaster Brand */}
-                <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wide">
+                <div className="text-[9px] font-bold text-[#e94e2b] uppercase tracking-wide">
                   {coffee.roaster}
                 </div>
 
                 {/* Coffee Title */}
-                <h3 className="font-bold text-xs text-ink line-clamp-1 mb-1">
+                <h3 className="font-bold text-[11px] text-ink line-clamp-1 mb-0.5">
                   {coffee.name}
                 </h3>
 
                 {/* Origin & Process */}
-                <p className="text-[10px] text-stone-500 truncate">
+                <p className="text-[9px] text-stone-500 truncate">
                   {coffee.origin} · {coffee.process}
                 </p>
               </div>
 
               {/* Bottom Price & Link */}
-              <div className="pt-2 border-t border-[#f0eee6] mt-2 flex items-baseline justify-between">
-                <span className="font-extrabold text-sm text-ink font-mono">{coffee.price.toFixed(2)} €</span>
+              <div className="pt-1.5 border-t border-[#f0eee6] mt-1.5 flex items-baseline justify-between">
+                <span className="font-extrabold text-xs text-ink font-mono">{coffee.price.toFixed(2)} €</span>
                 <a
                   href={coffee.storeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-bold text-[#2f6fed] hover:underline"
+                  className="text-[10px] font-bold text-[#2f6fed] hover:underline"
                 >
                   Comprar →
                 </a>

@@ -93,41 +93,41 @@ export const BaristaBooks: React.FC = () => {
   const handleScroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({
-        left: direction === 'left' ? -260 : 260,
+        left: direction === 'left' ? -200 : 200,
         behavior: 'smooth',
       });
     }
   };
 
   return (
-    <div className="w-full max-w-full min-w-0 overflow-hidden bg-[#f9f7f2] border border-[#e6e3da] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col">
+    <div className="w-full max-w-full min-w-0 overflow-hidden bg-[#f9f7f2] border border-[#e6e3da] rounded-2xl p-4 sm:p-5 shadow-xs flex flex-col h-full">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-[#ece8df]">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 mb-3.5 pb-2.5 border-b border-[#ece8df]">
         <div>
           <div className="flex items-center gap-2">
-            <span className="inline-flex items-center bg-[#eef4ff] text-[#2f6fed] text-[10px] font-bold px-2.5 py-0.5 rounded-full">
-              LECTURAS BARISTA
+            <span className="inline-flex items-center bg-[#eef4ff] text-[#2f6fed] text-[10px] font-bold px-2 py-0.5 rounded-full">
+              LECTURAS
             </span>
-            <h2 className="font-serif font-bold text-lg sm:text-2xl text-ink">
+            <h2 className="font-serif font-bold text-base sm:text-lg text-ink">
               Libros para baristas
             </h2>
           </div>
-          <p className="text-xs text-[#6b6a63] mt-1">
-            Los mejores libros sobre café de especialidad, química de extracción y técnica barista
+          <p className="text-[11px] text-[#6b6a63] mt-0.5">
+            Los mejores libros sobre café de especialidad y técnica barista
           </p>
         </div>
 
-        <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-1 shadow-2xs shrink-0 self-end sm:self-auto">
+        <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-0.5 shadow-2xs shrink-0 self-end sm:self-auto">
           <button
             onClick={() => handleScroll('left')}
-            className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
+            className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
             aria-label="Anterior libro"
           >
             ←
           </button>
           <button
             onClick={() => handleScroll('right')}
-            className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
+            className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
             aria-label="Siguiente libro"
           >
             →
@@ -135,10 +135,23 @@ export const BaristaBooks: React.FC = () => {
         </div>
       </div>
 
-      {/* Books Carousel - 100% Full Width & Zero Overflow */}
+      {/* Filter placeholder spacer / pill row for perfect height alignment */}
+      <div className="w-full min-w-0 max-w-full flex items-center gap-1 overflow-x-auto pb-1.5 mb-3 scrollbar-none text-[11px]">
+        <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white border border-[#e6e3da] text-stone-700">
+          Técnica & Espresso
+        </span>
+        <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white border border-[#e6e3da] text-stone-700">
+          Tueste & Origen
+        </span>
+        <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-white border border-[#e6e3da] text-stone-700">
+          Guías visuales
+        </span>
+      </div>
+
+      {/* Books Carousel */}
       <div
         ref={scrollRef}
-        className="w-full min-w-0 max-w-full flex gap-3.5 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none"
+        className="w-full min-w-0 max-w-full flex gap-3 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none flex-1"
         style={{ scrollSnapType: 'x mandatory' }}
       >
         {BARISTA_BOOKS.map((book) => (
@@ -147,15 +160,15 @@ export const BaristaBooks: React.FC = () => {
             href={book.amazonUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="snap-start shrink-0 w-[150px] sm:w-[170px] bg-white border border-[#e6e3da] hover:border-[#2f6fed] rounded-xl p-3 flex flex-col items-center shadow-2xs hover:shadow-md transition-all group cursor-pointer"
+            className="snap-start shrink-0 w-[130px] sm:w-[145px] bg-white border border-[#e6e3da] hover:border-[#2f6fed] rounded-xl p-2.5 flex flex-col items-center shadow-2xs hover:shadow-md transition-all group cursor-pointer"
           >
             {/* Tag */}
-            <span className="self-start bg-[#eef4ff] text-[#2f6fed] text-[9px] font-bold px-2 py-0.5 rounded-full mb-2 font-mono">
+            <span className="self-start bg-[#eef4ff] text-[#2f6fed] text-[8px] font-bold px-1.5 py-0.5 rounded-full mb-1.5 font-mono">
               {book.tag}
             </span>
 
             {/* Book Cover */}
-            <div className="w-full h-[130px] sm:h-[150px] flex items-center justify-center mb-2.5 rounded-lg overflow-hidden bg-[#fbfaf7] p-1.5">
+            <div className="w-full h-[110px] sm:h-[120px] flex items-center justify-center mb-2 rounded-lg overflow-hidden bg-[#fbfaf7] p-1">
               <img
                 src={book.coverUrl}
                 alt={book.title}
@@ -177,19 +190,19 @@ export const BaristaBooks: React.FC = () => {
             </div>
 
             {/* Title */}
-            <h3 className="font-bold text-xs text-ink text-center line-clamp-2 leading-tight mb-1">
+            <h3 className="font-bold text-[10px] text-ink text-center line-clamp-2 leading-tight mb-0.5">
               {book.title}
             </h3>
 
             {/* Author */}
-            <p className="text-[10px] text-[#6b6a63] text-center mb-2">
+            <p className="text-[9px] text-[#6b6a63] text-center mb-1.5">
               {book.author}
             </p>
 
             {/* Price + Amazon link */}
-            <div className="pt-2 border-t border-[#f0eee6] w-full flex items-center justify-between mt-auto">
-              <span className="font-extrabold text-xs text-ink font-mono">{book.price}</span>
-              <span className="text-[10px] font-bold text-[#2f6fed] group-hover:underline">
+            <div className="pt-1.5 border-t border-[#f0eee6] w-full flex items-center justify-between mt-auto">
+              <span className="font-extrabold text-[10px] text-ink font-mono">{book.price}</span>
+              <span className="text-[9px] font-bold text-[#2f6fed] group-hover:underline">
                 Amazon →
               </span>
             </div>

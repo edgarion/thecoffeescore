@@ -110,14 +110,16 @@ export const HomePage: React.FC = () => {
       {/* 2. BRANDS TICKER */}
       <TrustBar />
 
-      {/* 3. BARCELONA COFFEE SLIDER — 100% full width */}
-      <section className="wrap w-full max-w-full min-w-0 overflow-hidden py-1">
-        <BarcelonaCoffeeSlider inline />
-      </section>
-
-      {/* 4. BARISTA BOOKS SLIDER — 100% full width */}
-      <section className="wrap w-full max-w-full min-w-0 overflow-hidden py-1">
-        <BaristaBooks />
+      {/* 3. BARCELONA COFFEE + BARISTA BOOKS (50% each side-by-side) */}
+      <section className="wrap py-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-stretch w-full min-w-0 max-w-full overflow-hidden">
+          <div className="w-full min-w-0 max-w-full overflow-hidden flex flex-col h-full">
+            <BarcelonaCoffeeSlider inline />
+          </div>
+          <div className="w-full min-w-0 max-w-full overflow-hidden flex flex-col h-full">
+            <BaristaBooks />
+          </div>
+        </div>
       </section>
 
       {/* 4. TOP DISCOVERY ROW (ENCUENTRA TU PRÓXIMA COMPRA + COMPARA HASTA 4 + OFERTAS DESTACADAS) */}
