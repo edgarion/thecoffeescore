@@ -328,14 +328,21 @@ export const Header: React.FC = () => {
               )}
             </div>
 
-            {/* Mobile Burger Menu Button */}
-            <button
-              className="lg:hidden flex items-center bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-3 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
-            >
-              <span className="font-semibold text-xs">Menú</span>
-            </button>
+            {/* Mobile Burger Menu Button with Character */}
+            <div className="lg:hidden flex items-center gap-1.5">
+              <img
+                src="/assets/header-coffee-character.png"
+                alt="Coffee Explorer"
+                className="h-8 w-auto object-contain select-none pointer-events-none drop-shadow-sm"
+              />
+              <button
+                className="flex items-center bg-[#f4f2ec] active:scale-95 border border-[#e6e3da] px-3 py-1 rounded-full text-xs font-bold text-ink shadow-sm hover:bg-stone-200/70 transition-all"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+              >
+                <span className="font-semibold text-xs">Menú</span>
+              </button>
+            </div>
           </div>
         </div>
       </header>

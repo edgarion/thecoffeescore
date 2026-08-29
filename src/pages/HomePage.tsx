@@ -44,9 +44,14 @@ export const HomePage: React.FC = () => {
             <p className="hero-sub">
               Analizamos, comparamos y recomendamos productos con datos reales, pruebas de uso y criterio independiente. Para que hagas un mejor café en casa, en la oficina o en tu negocio.
             </p>
-            <div className="cta-row">
+            <div className="cta-row flex items-center flex-wrap sm:flex-nowrap gap-3">
               <Link className="btn btn-solid" to="/comparador">Ir al comparador →</Link>
               <Link className="btn btn-outline" to="/guias">Ver análisis</Link>
+              <img
+                src="/assets/header-coffee-character.png"
+                alt="Explorador de café"
+                className="block sm:hidden h-12 w-auto object-contain drop-shadow-sm ml-1 select-none pointer-events-none"
+              />
             </div>
             <div className="trust-row">
               <span><span className="check">✓</span> Datos técnicos</span>
