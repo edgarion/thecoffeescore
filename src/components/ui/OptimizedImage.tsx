@@ -20,7 +20,7 @@ interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> 
 export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   src,
   alt,
-  fallbackSrc = '/assets/products/sage-bambino.png',
+  fallbackSrc = '/assets/machine-fallback.png',
   className = '',
   wrapperClassName = '',
   aspectRatio,
