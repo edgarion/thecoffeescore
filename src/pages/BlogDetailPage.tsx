@@ -80,11 +80,11 @@ export const BlogDetailPage: React.FC = () => {
           {/* Article Column */}
           <article className="lg:col-span-8 space-y-8 text-stone-800 leading-relaxed text-sm sm:text-base">
             {/* Featured Image */}
-            <div className="w-full bg-[#fbfaf7] border border-[#e6e3da] rounded-2xl p-6 sm:p-10 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-80 sm:h-96 rounded-2xl overflow-hidden shadow-sm border border-[#e6e3da]">
               <img
                 src={article.imageUrl}
                 alt={article.title}
-                className="max-h-80 w-auto object-contain drop-shadow-md"
+                className="w-full h-full object-cover"
               />
             </div>
 

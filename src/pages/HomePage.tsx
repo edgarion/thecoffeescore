@@ -530,11 +530,11 @@ export const HomePage: React.FC = () => {
               >
                 <div>
                   {/* Photo */}
-                  <div className="w-full h-44 bg-white border border-[#f0eee6] rounded-xl mb-4 flex items-center justify-center p-3 overflow-hidden group-hover:bg-[#f5f2e9] transition-colors">
+                  <div className="w-full h-44 bg-stone-100 rounded-xl mb-4 overflow-hidden">
                     <img
                       src={article.imageUrl}
                       alt={article.title}
-                      className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
 
