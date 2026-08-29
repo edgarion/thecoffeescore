@@ -93,41 +93,41 @@ export const BaristaBooks: React.FC = () => {
   const handleScroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({
-        left: direction === 'left' ? -200 : 200,
+        left: direction === 'left' ? -260 : 260,
         behavior: 'smooth',
       });
     }
   };
 
   return (
-    <div className="bg-[#f9f7f2] border border-[#e6e3da] rounded-2xl p-4 shadow-xs flex flex-col h-full">
+    <div className="w-full max-w-full min-w-0 overflow-hidden bg-[#f9f7f2] border border-[#e6e3da] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col">
       {/* Header */}
-      <div className="flex items-center justify-between gap-2 mb-3 pb-2.5 border-b border-[#ece8df]">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-[#ece8df]">
         <div>
           <div className="flex items-center gap-2">
-            <span className="inline-flex items-center bg-[#eef4ff] text-[#2f6fed] text-[10px] font-bold px-2 py-0.5 rounded-full">
-              Lecturas
+            <span className="inline-flex items-center bg-[#eef4ff] text-[#2f6fed] text-[10px] font-bold px-2.5 py-0.5 rounded-full">
+              LECTURAS BARISTA
             </span>
-            <h2 className="font-serif font-bold text-base sm:text-lg text-ink">
+            <h2 className="font-serif font-bold text-lg sm:text-2xl text-ink">
               Libros para baristas
             </h2>
           </div>
-          <p className="text-[10px] text-[#6b6a63] mt-0.5">
-            Los mejores libros sobre café de especialidad y técnica barista
+          <p className="text-xs text-[#6b6a63] mt-1">
+            Los mejores libros sobre café de especialidad, química de extracción y técnica barista
           </p>
         </div>
 
-        <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-0.5 shadow-2xs shrink-0">
+        <div className="flex items-center gap-1 bg-white border border-[#e6e3da] rounded-full p-1 shadow-2xs shrink-0 self-end sm:self-auto">
           <button
             onClick={() => handleScroll('left')}
-            className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
+            className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
             aria-label="Anterior libro"
           >
             ←
           </button>
           <button
             onClick={() => handleScroll('right')}
-            className="w-6 h-6 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-xs"
+            className="w-7 h-7 rounded-full flex items-center justify-center text-ink hover:bg-stone-100 transition-colors font-bold text-sm"
             aria-label="Siguiente libro"
           >
             →
@@ -135,10 +135,10 @@ export const BaristaBooks: React.FC = () => {
         </div>
       </div>
 
-      {/* Books Carousel */}
+      {/* Books Carousel - 100% Full Width & Zero Overflow */}
       <div
         ref={scrollRef}
-        className="flex gap-2.5 overflow-x-auto pb-1 pt-0.5 snap-x snap-mandatory scrollbar-none flex-1"
+        className="w-full min-w-0 max-w-full flex gap-3.5 overflow-x-auto pb-2 pt-0.5 snap-x snap-mandatory scrollbar-none"
         style={{ scrollSnapType: 'x mandatory' }}
       >
         {BARISTA_BOOKS.map((book) => (
@@ -147,15 +147,15 @@ export const BaristaBooks: React.FC = () => {
             href={book.amazonUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="snap-start shrink-0 w-[130px] bg-white border border-[#e6e3da] hover:border-[#2f6fed] rounded-xl p-2 flex flex-col items-center shadow-2xs hover:shadow-md transition-all group cursor-pointer"
+            className="snap-start shrink-0 w-[150px] sm:w-[170px] bg-white border border-[#e6e3da] hover:border-[#2f6fed] rounded-xl p-3 flex flex-col items-center shadow-2xs hover:shadow-md transition-all group cursor-pointer"
           >
             {/* Tag */}
-            <span className="self-start bg-[#eef4ff] text-[#2f6fed] text-[8px] font-bold px-1.5 py-0.5 rounded-full mb-1.5 font-mono">
+            <span className="self-start bg-[#eef4ff] text-[#2f6fed] text-[9px] font-bold px-2 py-0.5 rounded-full mb-2 font-mono">
               {book.tag}
             </span>
 
             {/* Book Cover */}
-            <div className="w-full h-[110px] flex items-center justify-center mb-2 rounded-lg overflow-hidden bg-[#fbfaf7] p-1">
+            <div className="w-full h-[130px] sm:h-[150px] flex items-center justify-center mb-2.5 rounded-lg overflow-hidden bg-[#fbfaf7] p-1.5">
               <img
                 src={book.coverUrl}
                 alt={book.title}
@@ -177,19 +177,19 @@ export const BaristaBooks: React.FC = () => {
             </div>
 
             {/* Title */}
-            <h3 className="font-bold text-[10px] text-ink text-center line-clamp-2 leading-tight mb-0.5">
+            <h3 className="font-bold text-xs text-ink text-center line-clamp-2 leading-tight mb-1">
               {book.title}
             </h3>
 
             {/* Author */}
-            <p className="text-[9px] text-[#6b6a63] text-center mb-1.5">
+            <p className="text-[10px] text-[#6b6a63] text-center mb-2">
               {book.author}
             </p>
 
             {/* Price + Amazon link */}
-            <div className="pt-1.5 border-t border-[#f0eee6] w-full flex items-center justify-between mt-auto">
-              <span className="font-extrabold text-[10px] text-ink font-mono">{book.price}</span>
-              <span className="text-[9px] font-bold text-[#2f6fed] group-hover:underline">
+            <div className="pt-2 border-t border-[#f0eee6] w-full flex items-center justify-between mt-auto">
+              <span className="font-extrabold text-xs text-ink font-mono">{book.price}</span>
+              <span className="text-[10px] font-bold text-[#2f6fed] group-hover:underline">
                 Amazon →
               </span>
             </div>
