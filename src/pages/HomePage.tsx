@@ -369,11 +369,11 @@ export const HomePage: React.FC = () => {
                   <span>Leer análisis →</span>
                 </Link>
               </div>
-              <div className="w-28 sm:w-32 h-28 sm:h-32 shrink-0 flex items-center justify-center">
+              <div className="w-28 sm:w-32 h-28 sm:h-32 shrink-0 flex items-center justify-center p-2 bg-[#fbfaf7] border border-[#f0eee6] rounded-xl overflow-hidden">
                 <img
-                  src="/assets/pouring.png"
-                  alt="Análisis Sage Bambino Plus"
-                  className="max-h-full object-contain"
+                  src="/assets/products/sage-bambino-plus.png"
+                  alt="Sage Bambino Plus"
+                  className="max-h-full object-contain drop-shadow-sm hover:scale-105 transition-transform"
                 />
               </div>
             </div>
