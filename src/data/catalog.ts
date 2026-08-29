@@ -326,30 +326,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Medida de portafiltro de 57mm", "Tiempo de calentamiento ~10 min"],
             specs: { "Caldera": "Latón 250 ml", "Grupo": "57 mm Lelit", "Control": "PID digital integrado", "Manómetro": "Sí, presión bomba", "Cuerpo": "Acero inoxidable pulido", "Depósito": "2.7 L", "Peso": "7.2 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
-            "price": 499,
+            "price": 449,
             "inStock": true,
             "url": "https://www.amazon.es/s?k=Lelit%20Anna%20PL41TEM&tag=thecoffeescore-21",
             "isBest": true
       },
       {
-            "name": "Lelit Oficial",
-            "price": 549,
+            "name": "MaxiCoffee España",
+            "price": 479,
             "inStock": true,
-            "url": "https://lelit.com",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Anna"
       },
       {
-            "name": "MaxiCoffee España",
-            "price": 519,
+            "name": "Lelit Oficial (Italia)",
+            "price": 499,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Anna",
-            "isBest": false
+            "url": "https://lelit.com/product/anna-pl41tem/"
       }
-
-    ]
+]
   },
   {
     id: "lelit-glenda-pl41plus",
@@ -373,26 +369,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Monocaldera (espera entre café y vapor)", "Diseño sobrio"],
             specs: { "Caldera": "Latón 300 ml", "Grupo": "58 mm estándar comercial", "Control": "PID electrónico", "Válvula": "Solenoide 3 vías", "Depósito": "2.7 L", "Peso": "9.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 699,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 727,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 755,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 549,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Lelit%20Glenda%20PL41PLUS&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 579,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Glenda"
+      },
+      {
+            "name": "Lelit Oficial (Italia)",
+            "price": 599,
+            "inStock": true,
+            "url": "https://lelit.com/product/glenda-pl41plust/"
+      }
+]
   },
   {
     id: "lelit-victoria-pl91t",
@@ -416,26 +412,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Monocaldera", "Bandeja de goteo superficial"],
             specs: { "Caldera": "Latón 300 ml", "Grupo": "58 mm VIP", "Display": "LCC gráfico multifunción", "Preinfusión": "Programable digitalmente", "Shot Timer": "Integrado en pantalla", "Peso": "9.2 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 899,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 935,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 971,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 799,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Lelit%20Victoria%20PL91T&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 829,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Victoria"
+      },
+      {
+            "name": "Lelit Oficial (Italia)",
+            "price": 849,
+            "inStock": true,
+            "url": "https://lelit.com/product/victoria-pl91t/"
+      }
+]
   },
   {
     id: "lelit-mara-x-v2",
@@ -459,30 +455,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Requiere 20-25 min de calentamiento del grupo E61", "Peso elevado"],
             specs: { "Sistema": "Intercambiador de calor (HX) prioritario café", "Grupo": "E61 termosifónico", "Bomba": "Vibratoria ultra-silenciosa con soporte patentado", "Caldera": "Acero inox 1.8 L", "Dimensiones": "22 x 41 x 35 cm", "Peso": "18.8 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
-            "price": 1149,
+            "price": 1199,
             "inStock": true,
             "url": "https://www.amazon.es/s?k=Lelit%20Mara%20X&tag=thecoffeescore-21",
             "isBest": true
       },
       {
-            "name": "Lelit Oficial",
-            "price": 1299,
+            "name": "Espresso Coffee Shop",
+            "price": 1199,
             "inStock": true,
-            "url": "https://lelit.com",
-            "isBest": false
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/15-lelit-mara-x-pl62x-espresso-machine.html"
       },
       {
             "name": "MaxiCoffee España",
-            "price": 1199,
+            "price": 1229,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Mara%20X",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Mara%20X"
+      },
+      {
+            "name": "Lelit Oficial (Italia)",
+            "price": 1299,
+            "inStock": true,
+            "url": "https://lelit.com/product/mara-pl62x/"
       }
-
-    ]
+]
   },
   {
     id: "lelit-bianca-v3",
@@ -506,30 +504,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Tamaño y peso considerable", "Curva de aprendizaje para dominar el perfilado"],
             specs: { "Calderas": "Doble caldera inox (Café 0.8L + Vapor 1.5L)", "Grupo": "E61 modificado con válvula de flujo", "Perfilado": "Paddle mecánico manual 0-12 bar", "Bomba": "Rotativa comercial (conexión a red o depósito)", "Depósito": "Reposicionable en 3 lados", "Peso": "26.5 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
-            "price": 2299,
+            "price": 2199,
             "inStock": true,
             "url": "https://www.amazon.es/s?k=Lelit%20Bianca%20V3&tag=thecoffeescore-21",
             "isBest": true
       },
       {
-            "name": "Lelit Oficial",
-            "price": 2499,
+            "name": "Espresso Coffee Shop",
+            "price": 2199,
             "inStock": true,
-            "url": "https://lelit.com",
-            "isBest": false
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/29-lelit-bianca-pl162t-v3-espresso-machine.html"
       },
       {
             "name": "MaxiCoffee España",
-            "price": 2349,
+            "price": 2249,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Bianca",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Lelit%20Bianca"
+      },
+      {
+            "name": "Lelit Oficial (Italia)",
+            "price": 2399,
+            "inStock": true,
+            "url": "https://lelit.com/product/bianca-pl162t/"
       }
-
-    ]
+]
   },
   {
     id: "gaggia-classic-pro",
@@ -600,7 +600,6 @@ export const PRODUCTS: Product[] = [
             cons: ["Requiere técnica de temp-surfing sin PID", "Tiempo de calentamiento ~15 min"],
             specs: { "Caldera": "Latón marino 300 ml aislada", "Grupo": "58 mm latón forjado", "Vapor": "Lanza comercial multidireccional", "Chasis": "Hierro y acero inoxidable", "Depósito": "2.0 L", "Peso": "14.0 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
             "price": 599,
@@ -609,21 +608,18 @@ export const PRODUCTS: Product[] = [
             "isBest": true
       },
       {
-            "name": "Rancilio Oficial",
-            "price": 679,
-            "inStock": true,
-            "url": "https://www.ranciliogroup.com",
-            "isBest": false
-      },
-      {
             "name": "MaxiCoffee España",
             "price": 629,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia"
+      },
+      {
+            "name": "Rancilio Oficial",
+            "price": 649,
+            "inStock": true,
+            "url": "https://www.ranciliogroup.com/rancilio/silvia/"
       }
-
-    ]
+]
   },
   {
     id: "rancilio-silvia-pro-x",
@@ -647,30 +643,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Estética industrial austera", "Sin opción de conexión directa a red"],
             specs: { "Calderas": "Doble caldera (Café latón 0.3L + Vapor inox 1.0L)", "Control": "Doble PID digital regulable", "Preinfusión": "Soft Infusion a baja presión", "Grupo": "58 mm profesional", "Manómetro": "Analógico frontal", "Peso": "20.0 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
-            "price": 1499,
+            "price": 1549,
             "inStock": true,
             "url": "https://www.amazon.es/s?k=Rancilio%20Silvia%20Pro%20X&tag=thecoffeescore-21",
             "isBest": true
       },
       {
-            "name": "Rancilio Oficial",
-            "price": 1699,
+            "name": "MaxiCoffee España",
+            "price": 1599,
             "inStock": true,
-            "url": "https://www.ranciliogroup.com",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia%20Pro%20X"
       },
       {
-            "name": "MaxiCoffee España",
-            "price": 1549,
+            "name": "Rancilio Oficial",
+            "price": 1649,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Rancilio%20Silvia%20Pro%20X",
-            "isBest": false
+            "url": "https://www.ranciliogroup.com/rancilio/silvia-pro-x/"
       }
-
-    ]
+]
   },
   {
     id: "profitec-go",
@@ -694,30 +686,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Monocaldera (espera para vapor)", "Bandeja de goteo algo justa"],
             specs: { "Caldera": "Latón 0.4 L", "Grupo": "58 mm comercial con campana de latón", "Control": "PID frontal con shot timer", "Calentamiento": "Fast Heat-Up (~5-7 min)", "OPV": "Regulable externamente", "Peso": "12.9 kg" },
             stores: [
-      
       {
-            "name": "Amazon España",
+            "name": "Espresso Coffee Shop",
             "price": 899,
             "inStock": true,
-            "url": "https://www.amazon.es/s?k=Profitec%20GO&tag=thecoffeescore-21",
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/554-profitec-go-espresso-machine.html",
             "isBest": true
-      },
-      {
-            "name": "Profitec Oficial (Alemania)",
-            "price": 999,
-            "inStock": true,
-            "url": "https://www.profitec-espresso.com",
-            "isBest": false
       },
       {
             "name": "MaxiCoffee España",
             "price": 949,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20GO",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20GO"
+      },
+      {
+            "name": "Profitec Oficial (Alemania)",
+            "price": 999,
+            "inStock": true,
+            "url": "https://www.profitec-espresso.com/en/products/go"
+      },
+      {
+            "name": "Amazon España",
+            "price": 899,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Profitec+GO+espresso&tag=thecoffeescore-21"
       }
-
-    ]
+]
   },
   {
     id: "profitec-drive",
@@ -741,30 +735,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Inversión de alto presupuesto", "Peso de 31 kg"],
             specs: { "Calderas": "Doble caldera inox (Café 0.75L + Vapor 2.0L)", "Grupo": "E61 con Flow Control integrado", "Bomba": "Rotativa comercial ultra-silenciosa", "Display": "OLED discreto con múltiples menús", "Auto-On": "Programador semanal de encendido", "Peso": "31.0 kg" },
             stores: [
-      
       {
-            "name": "Amazon España",
+            "name": "Espresso Coffee Shop",
             "price": 2699,
             "inStock": true,
-            "url": "https://www.amazon.es/s?k=Profitec%20Drive&tag=thecoffeescore-21",
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/618-profitec-drive-espresso-machine.html",
             "isBest": true
-      },
-      {
-            "name": "Profitec Oficial (Alemania)",
-            "price": 2899,
-            "inStock": true,
-            "url": "https://www.profitec-espresso.com",
-            "isBest": false
       },
       {
             "name": "MaxiCoffee España",
             "price": 2799,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec%20Drive",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Profitec"
+      },
+      {
+            "name": "Profitec Oficial (Alemania)",
+            "price": 2899,
+            "inStock": true,
+            "url": "https://www.profitec-espresso.com/en/products/drive"
+      },
+      {
+            "name": "Amazon España",
+            "price": 2699,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Profitec+espresso+machine&tag=thecoffeescore-21"
       }
-
-    ]
+]
   },
   {
     id: "rocket-appartamento",
@@ -788,30 +784,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Sin control PID digital de fábrica", "Requiere purga de enfriamiento ocasional"],
             specs: { "Caldera": "Cobre 1.8 L con intercambiador termosifónico", "Grupo": "E61 macizo de latón", "Presostato": "Sirai / Mater de alta durabilidad", "Lanzas": "Anti-quemaduras (Cool Touch)", "Dimensiones": "27.4 x 42.5 x 36 cm", "Peso": "20.0 kg" },
             stores: [
-      
       {
             "name": "Amazon España",
-            "price": 1499,
+            "price": 1399,
             "inStock": true,
             "url": "https://www.amazon.es/s?k=Rocket%20Appartamento&tag=thecoffeescore-21",
             "isBest": true
       },
       {
-            "name": "Rocket Espresso (Milán)",
-            "price": 1650,
+            "name": "Espresso Coffee Shop",
+            "price": 1399,
             "inStock": true,
-            "url": "https://rocket-espresso.com",
-            "isBest": false
+            "url": "https://www.espressocoffeeshop.com/en/espresso-machines/11-rocket-appartamento-espresso-machine.html"
       },
       {
             "name": "MaxiCoffee España",
-            "price": 1549,
+            "price": 1449,
             "inStock": true,
-            "url": "https://www.maxicoffee.com/es-es/search?q=Rocket%20Appartamento",
-            "isBest": false
+            "url": "https://www.maxicoffee.com/es-es/search?q=Rocket%20Appartamento"
+      },
+      {
+            "name": "Rocket Oficial (Milán)",
+            "price": 1499,
+            "inStock": true,
+            "url": "https://rocket-espresso.com/appartamento.html"
       }
-
-    ]
+]
   },
   {
     id: "flair-58-plus",
@@ -835,26 +833,26 @@ export const PRODUCTS: Product[] = [
             cons: ["No tiene vaporizador de leche", "Totalmente manual shot a shot"],
             specs: { "Cámara": "Acero inox con calentador eléctrico integrado (3 niveles)", "Portafiltro": "58 mm comercial con mango de nogal", "Presión": "Manual directa hasta 12 bar", "Manómetro": "Analógico en vástago de émbolo", "Peso": "5.5 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 649,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 675,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 701,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=Flair%2058%20Espresso%20Plus&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 649,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=Flair%2058%20Plus&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "Flair Espresso Oficial",
+            "price": 699,
+            "inStock": true,
+            "url": "https://flairespresso.com/product/flair-58-plus/"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 679,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=Flair%2058"
+      }
+]
   },
   {
     id: "la-pavoni-europiccola",
@@ -878,26 +876,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Curva de aprendizaje empinada", "Se sobrecalienta tras varios cafés consecutivos"],
             specs: { "Caldera": "Latón cromado 0.8 L (8 tazas)", "Grupo": "Palanca mecánica de latón 51 mm", "Vapor": "Lanza de vapor continua desde caldera", "Base": "Acero cromado", "Peso": "5.5 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 749,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=La%20Pavoni%20La%20Pavoni%20Europiccola&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 779,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=La%20Pavoni%20La%20Pavoni%20Europiccola+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 809,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=La%20Pavoni%20La%20Pavoni%20Europiccola&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 749,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=La%20Pavoni%20Europiccola&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 799,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=La%20Pavoni%20Europiccola"
+      },
+      {
+            "name": "MaxiCoffee España",
+            "price": 779,
+            "inStock": true,
+            "url": "https://www.maxicoffee.com/es-es/search?q=La%20Pavoni"
+      },
+      {
+            "name": "La Pavoni Oficial",
+            "price": 829,
+            "inStock": true,
+            "url": "https://www.lapavoni.com/es/producto/europiccola-el/"
+      }
+]
   },
   {
     id: "technivorm-moccamaster-kbg-select",
@@ -968,26 +972,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Portafiltro presurizado de serie", "Vaporizador básico"],
             specs: { "Sistema": "Thermoblock", "Presión": "15 bar", "Ancho": "15 cm", "Depósito": "1.1 L", "Peso": "4.2 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 169,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Dedica%20EC685&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 176,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Dedica%20EC685+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 183,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Dedica%20EC685&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 169,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=DeLonghi%20Dedica%20EC685&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "De'Longhi Oficial",
+            "price": 189,
+            "inStock": true,
+            "url": "https://www.delonghi.com/es-es/p/EC685.M"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 179,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=DeLonghi%20Dedica"
+      },
+      {
+            "name": "MediaMarkt",
+            "price": 175,
+            "inStock": true,
+            "url": "https://www.mediamarkt.es/es/search.html?query=DeLonghi%20Dedica"
+      }
+]
   },
   {
     id: "de-longhi-specialista-prestigio",
@@ -1011,26 +1021,26 @@ export const PRODUCTS: Product[] = [
             cons: ["Ajuste de molino por pasos amplios", "Tamaño generoso"],
             specs: { "Molinillo": "Sensor Grinding con 8 ajustes", "Prensado": "Smart Tamping Station", "Calentamiento": "Doble Thermoblock", "Peso": "13.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 699,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Specialista%20Prestigio&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 727,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Specialista%20Prestigio+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 755,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Specialista%20Prestigio&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 699,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=DeLonghi%20Specialista%20Prestigio&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "De'Longhi Oficial",
+            "price": 749,
+            "inStock": true,
+            "url": "https://www.delonghi.com/es-es/p/EC9355.M"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 729,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=DeLonghi%20Specialista"
+      }
+]
   },
   {
     id: "de-longhi-magnifica-s",
@@ -1054,26 +1064,32 @@ export const PRODUCTS: Product[] = [
             cons: ["Menor cuerpo y crema que una manual", "Vaporizador manual lento"],
             specs: { "Molinillo": "Cónico de acero con 13 ajustes", "Presión": "15 bar", "Depósito": "1.8 L", "Capacidad Grano": "250 g", "Peso": "9.0 kg" },
             stores: [
-                  {
-                        "name": "Amazon",
-                        "price": 299,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Magnifica%20S&tag=thecoffeescore-21",
-                        "isBest": true
-                  },
-                  {
-                        "name": "Tienda Barista Especializada",
-                        "price": 311,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Magnifica%20S+barista&tag=thecoffeescore-21"
-                  },
-                  {
-                        "name": "El Corte Inglés",
-                        "price": 323,
-                        "inStock": true,
-                        "url": "https://www.amazon.es/s?k=De'Longhi%20De'Longhi%20Magnifica%20S&tag=thecoffeescore-21"
-                  }
-            ]
+      {
+            "name": "Amazon España",
+            "price": 299,
+            "inStock": true,
+            "url": "https://www.amazon.es/s?k=DeLonghi%20Magnifica%20S&tag=thecoffeescore-21",
+            "isBest": true
+      },
+      {
+            "name": "De'Longhi Oficial",
+            "price": 349,
+            "inStock": true,
+            "url": "https://www.delonghi.com/es-es/p/ECAM22.110.B"
+      },
+      {
+            "name": "El Corte Inglés",
+            "price": 319,
+            "inStock": true,
+            "url": "https://www.elcorteingles.es/search/?s=DeLonghi%20Magnifica%20S"
+      },
+      {
+            "name": "MediaMarkt",
+            "price": 309,
+            "inStock": true,
+            "url": "https://www.mediamarkt.es/es/search.html?query=DeLonghi%20Magnifica%20S"
+      }
+]
   },
   {
     id: "ascaso-steel-duo-pid",
