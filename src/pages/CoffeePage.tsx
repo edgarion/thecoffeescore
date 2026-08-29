@@ -5,6 +5,8 @@ import { BarcelonaIndexTable } from '../components/roasters/BarcelonaIndexTable'
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { ScrollLoaderIndicator } from '../components/ui/ScrollLoaderIndicator';
 import { PRODUCTS } from '../data/catalog';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateItemListSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const CoffeePage: React.FC = () => {
   const [activeChip, setActiveChip] = useState('Todos');
@@ -52,6 +54,18 @@ export const CoffeePage: React.FC = () => {
 
   return (
     <div className="pb-16">
+      <SEOHead
+        title="Café de Especialidad — Granos y Tuestes Evaluados"
+        description="Catálogo de cafés de especialidad con trazabilidad completa: origen, proceso, altitud, tueste y puntuación SCA. Tostadores europeos y latinoamericanos comparados."
+        canonical="/cafe"
+        jsonLd={[
+          generateItemListSchema('Café de Especialidad', filteredProducts, '/cafe'),
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Café de Especialidad', url: '/cafe' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

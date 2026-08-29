@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BUYING_GUIDES } from '../data/catalog';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const GuidesPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('Todas');
@@ -14,6 +16,17 @@ export const GuidesPage: React.FC = () => {
 
   return (
     <div className="pb-16">
+      <SEOHead
+        title="Guías de Compra y Análisis Técnico de Café"
+        description="Guías en profundidad de expertos en café de especialidad: comparativas de máquinas de espresso, molinos, accesorios y técnicas de extracción para tu presupuesto."
+        canonical="/guias"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Guías de Compra', url: '/guias' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

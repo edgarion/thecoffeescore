@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BLOG_ARTICLES } from '../data/blogArticles';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const BlogPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
@@ -23,6 +25,17 @@ export const BlogPage: React.FC = () => {
 
   return (
     <div className="pb-16">
+      <SEOHead
+        title="Blog del Café de Especialidad — Análisis y Noticias"
+        description="Curaduría diaria de análisis técnicos de espresso, innovaciones en fermentación de origen, comparativas de equipamiento y cultura barista mundial."
+        canonical="/blog"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Blog & Artículos', url: '/blog' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

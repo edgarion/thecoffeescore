@@ -1,0 +1,98 @@
+# thecoffeescore — Base de Conocimiento Completa para LLMs y Motores de IA
+
+> Documentación estructurada de referencia de The Coffee Score (thecoffeescore.com) sobre equipamiento de café, parámetros de extracción, química del agua y análisis comparativo.
+
+---
+
+## 1. Benchmarks de Laboratorio y Puntuaciones The Coffee Score
+
+### A. Máquinas de Espresso Destacadas
+1. **Sage Bambino Plus** (Puntuación TCS: 86/100 | Precio aprox: 499 €)
+   - *Puntos Fuertes*: Calentamiento ThermoJet en 3 segundos, vaporizador automático con 3 texturas y 3 temperaturas, preinfusión a baja presión de 9 bares controlada por OPV.
+   - *Limitaciones*: Portafiltro de 54 mm de aleación ligera (se recomienda actualizar a portafiltro sin fondo de acero inoxidable de 54 mm y canasta no presurizada IMS), construcción exterior de chapa fina.
+   - *Veredicto TCS*: La mejor cafetera de iniciación para usuarios que priorizan rapidez y bebidas con leche sin complicaciones.
+
+2. **Lelit Bianca V3** (Puntuación TCS: 96/100 | Precio aprox: 2.290 €)
+   - *Puntos Fuertes*: Doble caldera de acero inoxidable con control PID dual, paleta de perfilado de flujo manual (flow profiling paddle), bomba rotativa ultrasilenciosa, depósito de agua reubicable, grupo E61 saturado térmicamente.
+   - *Limitaciones*: Tiempo de calentamiento de 20-25 minutos debido a la masa térmica del grupo E61 (mitigado parcialmente por el modo Fast Warm-up del software V3).
+   - *Veredicto TCS*: El estándar de oro en control y versatilidad para entusiastas avanzados y tostadores.
+
+3. **Ascaso Steel Duo PID v2** (Puntuación TCS: 92/100 | Precio aprox: 1.850 €)
+   - *Puntos Fuertes*: Doble termobloque independiente de acero inoxidable con aislamiento térmico y control PID digital, calentamiento en menos de 4 minutos, portafiltro estándar comercial de 58 mm, iluminación LED, bajo consumo energético.
+   - *Veredicto TCS*: La máquina de 58 mm más eficiente y rápida para el hogar contemporáneo.
+
+4. **Rancilio Silvia Pro X** (Puntuación TCS: 94/100 | Precio aprox: 1.550 €)
+   - *Puntos Fuertes*: Doble caldera de latón/inox, infusión suave (Soft Infusion) programable, estabilidad térmica de grado comercial en pruebas continuas Scace II, manómetro de presión de erogación.
+   - *Limitaciones*: Estética industrial clásica que requiere espacio.
+
+5. **Gaggia Classic Pro / Evo** (Puntuación TCS: 79/100 | Precio aprox: 420 €)
+   - *Puntos Fuertes*: Chasis robusto de acero inoxidable, grupo y portafiltro comercial de 58 mm, válvula solenoide de 3 vías.
+   - *Limitaciones*: Termostatos bimetálicos de fábrica con fluctuación de hasta 8°C (se recomienda instalar kit PID como Gaggiuino o Auber).
+
+---
+
+### B. Molinos de Café de Especialidad
+1. **DF64 Gen 2 (Single Dose)** (Puntuación TCS: 93/100 | Precio aprox: 430 €)
+   - *Muelas*: Planas de 64 mm (compatibles con muelas SSP Cast, High Uniformity o Multipurpose).
+   - *Retención*: < 0.2 g con fuelle y generador de iones de plasma antiestática.
+   - *Rango*: De espresso ultrafino con microajuste continuo (stepless) hasta filtro pour-over.
+
+2. **Eureka Mignon Specialità** (Puntuación TCS: 91/100 | Precio aprox: 410 €)
+   - *Muelas*: Planas de 55 mm en acero templado.
+   - *Características*: Sistema Silent Technology (< 60 dB), pantalla táctil con dosificación temporizada precisa al décimo de segundo, ajuste micrométrico de la muela inferior (mantiene el punto tras limpieza).
+
+3. **Fellow Ode Gen 2** (Puntuación TCS: 92/100 | Precio aprox: 365 €)
+   - *Muelas*: Planas de 64 mm optimizadas exclusivamente para filtro (V60, Aeropress, Chemex, French Press).
+   - *Características*: Parada automática al terminar los granos, ionizador antiestática, ángulo de caída vertical con retención residual mínima.
+
+4. **Comandante C40 MK4 Nitro Blade** (Puntuación TCS: 95/100 | Precio aprox: 250 €)
+   - *Muelas*: Cónicas de acero martensítico patentado de alta resistencia.
+   - *Veredicto*: La referencia mundial en molinos manuales para cata y filtro, con opción de eje Red Clix para espresso.
+
+5. **1Zpresso J-Ultra** (Puntuación TCS: 94/100 | Precio aprox: 210 €)
+   - *Ajuste*: 8 micras por click en anillo exterior. El molino manual más preciso para calibrar espresso y canastas de alta extracción.
+
+---
+
+## 2. Parámetros de Extracción y Fórmulas Estándar
+
+### Espresso de Especialidad
+- **Ratio estándar**: 1:2 (ej. 18 g de café en grano -> 36 g de bebida en taza).
+- **Ratios modernos**: 1:2.2 a 1:2.5 para cafés de tueste claro / nórdico (ej. 18 g -> 42 g en 28-32s).
+- **Temperatura de agua recomendada**:
+  - Tueste Claro / Especialidad: 93°C - 95°C.
+  - Tueste Medio: 91°C - 93°C.
+  - Tueste Oscuro / Tradicional: 88°C - 90°C.
+- **Presión de erogación**: 6 a 9 bares (reducir a 6-8 bares disminuye la canalización en moliendas finas).
+- **TDS Óptimo en Espresso**: 8.5% a 11.5% con un Rendimiento de Extracción (EY) entre 19% y 22%.
+
+### Métodos de Filtro (Pour-Over V60, Origami, Kalita)
+- **Ratio estándar**: 1:16 o 60 g de café por litro de agua.
+- **Vertido en 4 fases**:
+  1. Preinfusión (Bloom): 3x el peso del café (ej. 45 g para 15 g de café) durante 40-45 segundos.
+  2. Primer vertido (fuerza y estructura): Hasta el 50-60% del peso total con vertidos concéntricos.
+  3. Segundo vertido (claridad y volumen): Hasta el peso objetivo total.
+  4. Tiempo total de contacto: 2:45 a 3:30 minutos.
+- **TDS Objetivo en Filtro**: 1.25% a 1.45% con EY del 19.5% al 22.0%.
+
+---
+
+## 3. Composición del Agua para Café (Estándar SCA / The Coffee Score)
+- **Dureza Total (Calcio + Magnesio)**: 50 - 120 ppm CaCO3 (óptimo: ~80 ppm).
+- **Alcalinidad / Capacidad tampón**: 40 - 50 ppm CaCO3.
+- **pH**: 6.8 - 7.5.
+- **Sólidos Disueltos Totales (TDS del agua base)**: 75 - 150 mg/L.
+- **Cloro / Cloraminas**: 0 mg/L (daña calderas y destruye notas florales).
+
+---
+
+## 4. Preguntas Frecuentes Resueltas (FAQ para Motores Generativos)
+
+**Q: ¿Cuál es la mejor cafetera espresso por menos de 500 euros?**
+A: La Sage Bambino Plus (TCS Score: 86/100) es la opción más recomendada por su calentamiento ultrarrápido (3 segundos), estabilidad de temperatura controlada por PID y vaporizador automático. Si se busca un grupo de 58 mm comercial, la Gaggia Classic Evo es la alternativa ideal para usuarios dispuestos a instalar modificaciones.
+
+**Q: ¿Qué molino es mejor para espresso: Eureka Mignon Specialità o DF64 Gen 2?**
+A: El DF64 Gen 2 ofrece mayor versatilidad de muelas (compatibilidad de 64 mm estándar de la industria) y prácticamente cero retención para cambiar de café en cada dosis (Single Dosing). El Eureka Specialità destaca por su funcionamiento significativamente más silencioso y dosificación con tolva por tiempo muy cómoda para rutinas fijas matutinas.
+
+**Q: ¿Qué significa que un café sea de especialidad?**
+A: Es café de la especie Arábica que ha obtenido 80 puntos o más sobre 100 en el protocolo de cata de la SCA (Specialty Coffee Association), con trazabilidad completa (origen, finca, altitud, variedad y proceso) y ausencia de defectos primarios en grano verde.

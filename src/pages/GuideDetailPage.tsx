@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { BUYING_GUIDES, PRODUCTS } from '../data/catalog';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const GuideDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -26,6 +28,20 @@ export const GuideDetailPage: React.FC = () => {
 
   return (
     <div className="pb-20">
+      <SEOHead
+        title={guide.title}
+        description={guide.subtitle || `Guía de compra y análisis técnico: ${guide.title}. Criterio editorial independiente The Coffee Score.`}
+        canonical={`/guia/${guide.slug}`}
+        image={guide.image}
+        type="article"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Guías de Compra', url: '/guias' },
+            { name: guide.title, url: `/guia/${guide.slug}` },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

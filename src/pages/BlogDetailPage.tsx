@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { BLOG_ARTICLES } from '../data/blogArticles';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateArticleSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const BlogDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -19,6 +21,21 @@ export const BlogDetailPage: React.FC = () => {
 
   return (
     <div className="pb-24">
+      <SEOHead
+        title={article.title}
+        description={article.excerpt}
+        canonical={`/blog/${article.slug}`}
+        image={article.imageUrl}
+        type="article"
+        jsonLd={[
+          generateArticleSchema(article),
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Blog & Artículos', url: '/blog' },
+            { name: article.title, url: `/blog/${article.slug}` },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

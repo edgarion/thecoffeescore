@@ -7,6 +7,8 @@ import { useFavorites } from '../hooks/useFavorites';
 import { useCart } from '../context/CartContext';
 import { ProductCard } from '../components/product/ProductCard';
 import { CalculateScoreUseCase } from '../core/use-cases/CalculateScoreUseCase';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateProductSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -56,8 +58,30 @@ export const ProductDetailPage: React.FC = () => {
 
   const activeImage = product.gallery[selectedImgIdx] || product.image;
 
+  const categoryNames: Record<string, string> = {
+    maquinas: 'Máquinas de Espresso',
+    molinos: 'Molinos de Café',
+    accesorios: 'Accesorios & Barismo',
+    cafe: 'Café de Especialidad',
+  };
+
   return (
     <div>
+      <SEOHead
+        title={`${product.brand} ${product.name} — Análisis y Puntuación`}
+        description={product.shortDesc || `Análisis técnico, puntuación The Coffee Score y precio del ${product.brand} ${product.name}. Comparativa independiente con datos de laboratorio.`}
+        canonical={`/producto/${product.slug}`}
+        image={product.image}
+        type="product"
+        jsonLd={[
+          generateProductSchema(product),
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: categoryNames[product.category] || product.category, url: `/${product.category}` },
+            { name: `${product.brand} ${product.name}`, url: `/producto/${product.slug}` },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

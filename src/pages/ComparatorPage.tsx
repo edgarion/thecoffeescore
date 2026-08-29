@@ -1,10 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ComparisonTable } from '../components/comparator/ComparisonTable';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const ComparatorPage: React.FC = () => {
   return (
     <div>
+      <SEOHead
+        title="Comparador de Cafeteras, Molinos y Accesorios"
+        description="Compara hasta 4 cafeteras espresso, molinos de café o accesorios lado a lado con datos técnicos de laboratorio, puntuaciones The Coffee Score y precios verificados."
+        canonical="/comparador"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Comparador', url: '/comparador' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

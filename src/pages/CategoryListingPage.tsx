@@ -5,6 +5,8 @@ import { useProductFilter } from '../hooks/useProductFilter';
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { ScrollLoaderIndicator } from '../components/ui/ScrollLoaderIndicator';
 import { PRODUCTS } from '../data/catalog';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateItemListSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 interface CategoryListingPageProps {
   category: 'maquinas' | 'molinos' | 'accesorios';
@@ -68,8 +70,26 @@ export const CategoryListingPage: React.FC<CategoryListingPageProps> = ({
     setSortBy('score');
   };
 
+  const categoryDescriptions: Record<string, string> = {
+    maquinas: 'Comparativa independiente de las mejores cafeteras espresso: manuales, semiautomáticas, superautomáticas y con molinillo. Pruebas de laboratorio y puntuaciones The Coffee Score.',
+    molinos: 'Análisis técnico y puntuación de los mejores molinos de café para espresso y filtro: muelas planas, cónicas, eléctricos y manuales.',
+    accesorios: 'Accesorios profesionales de barismo: básculas de precisión, filtros de especialidad, herramientas WDT, jarras de latte art y métodos de filtro.',
+  };
+
   return (
     <div>
+      <SEOHead
+        title={title}
+        description={categoryDescriptions[category] || subtitle}
+        canonical={`/${category}`}
+        jsonLd={[
+          generateItemListSchema(title, filteredProducts, `/${category}`),
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: title, url: `/${category}` },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

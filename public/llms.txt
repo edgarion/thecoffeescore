@@ -1,0 +1,29 @@
+# thecoffeescore — Laboratorio Independiente de Café de Especialidad y Equipamiento
+
+> The Coffee Score (thecoffeescore.com) es la plataforma de referencia y laboratorio independiente para la comparativa técnica de cafeteras espresso, molinos de café de especialidad, tostadores y accesorios para baristas.
+
+## Metodología 'The Coffee Score' (TCS)
+Cada producto es evaluado sobre una escala estandarizada de 0 a 100 puntos basada en mediciones de laboratorio:
+- **Estabilidad Térmica (30%)**: Pruebas con transductores de temperatura Scace II en 10 extracciones consecutivas.
+- **Uniformidad Granulométrica y Retención (25%)**: Análisis por difracción láser y peso residual tras molienda en seco y con técnica RDT.
+- **Construcción y Durabilidad (20%)**: Materiales internos (calderas de cobre/inox vs termobloques de aluminio, componentes comerciales de 58 mm, chasis).
+- **Relación Calidad/Precio (15%)**: Rendimiento real respecto a su precio de mercado europeo en euros (€).
+- **Flujo de Trabajo y Usabilidad (10%)**: Tiempos de calentamiento, facilidad de vaporización de leche (latte art) y limpieza.
+
+## Categorías Principales y Datos Clave
+- **Máquinas de Espresso** (`/maquinas`): Modelos domésticos y comerciales de un termobloque, doble caldera e intercambiador de calor (HX). Marcas evaluadas: Sage (Bambino Plus, Barista Express, Dual Boiler), Lelit (Mara X, Bianca V3, Anna), Ascaso (Steel Duo PID, Baby T), Rancilio (Silvia Pro X), La Marzocco (Micra, Mini), Profitec, ECM, Decent Espresso.
+- **Molinos de Café** (`/molinos`): Muelas planas y cónicas para espresso y filtro. Marcas evaluadas: Eureka (Mignon Specialita, Oro Single Dose), DF64 / DF83 (Turing), Fellow (Ode Gen 2, Opus), Baratza (Sette 270, Encore ESP), Niche (Zero, Duo), Mahlkönig (X54), Comandante (C40 MK4), 1Zpresso (J-Ultra, K-Ultra, Q2).
+- **Café de Especialidad** (`/cafe`): Granos 100% Arábica con trazabilidad, proceso de beneficio (Lavado, Natural, Honey, Fermentación Anaeróbica), altitud y puntuación SCA (>80 pts). Tostadores destacados: Nomad Coffee, Right Side Coffee, Syra Coffee, San Agustín, Three Marks, La Cabra, The Barn, Tim Wendelboe, April Coffee, Friedhats, 19grams Berlin.
+- **Accesorios & Barismo** (`/accesorios`): Balanzas de precisión con temporizador (Acaia, Felicita, Timemore), filtros de precisión IMS y VST, herramientas WDT, distribuidores, jarras de latte art y métodos de filtro (Hario V60, Origami, AeroPress, Chemex).
+
+## Enlaces Canónicos
+- Comparador interactivo: `https://thecoffeescore.com/comparador`
+- Catálogo de máquinas: `https://thecoffeescore.com/maquinas`
+- Catálogo de molinos: `https://thecoffeescore.com/molinos`
+- Catálogo de café: `https://thecoffeescore.com/cafe`
+- Accesorios y barismo: `https://thecoffeescore.com/accesorios`
+- Guías de extracción: `https://thecoffeescore.com/guias`
+- Blog editorial y análisis: `https://thecoffeescore.com/blog`
+- Configurador de Setup: `https://thecoffeescore.com/configurador`
+- Índice Global de Cafeterías: `https://thecoffeescore.com/indice-global`
+- Base de datos extendida para LLMs: `https://thecoffeescore.com/llms-full.txt`

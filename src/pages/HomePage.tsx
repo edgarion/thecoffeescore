@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PRODUCTS } from '../data/catalog';
 import { ProductCard } from '../components/product/ProductCard';
@@ -8,6 +8,12 @@ import { CoffeeSuppliersSection } from '../components/roasters/CoffeeSuppliersSe
 import { BaristaBooks } from '../components/home/BaristaBooks';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 import { showToast } from '../hooks/useToast';
+import { SEOHead } from '../components/seo/SEOHead';
+import {
+  generateWebSiteSchema,
+  generateOrganizationSchema,
+  generateFAQSchema,
+} from '../utils/seoSchemas';
 
 
 export const HomePage: React.FC = () => {
@@ -27,8 +33,44 @@ export const HomePage: React.FC = () => {
     }
   };
 
+  const homePageFAQs = useMemo(
+    () => [
+      {
+        question: '¿Cuál es la mejor cafetera espresso por menos de 500 euros?',
+        answer:
+          'La Sage Bambino Plus (TCS Score: 86/100) es la opción más recomendada por su calentamiento ultrarrápido (3 segundos), estabilidad de temperatura controlada por PID y vaporizador automático para latte art.',
+      },
+      {
+        question: '¿Qué molino es mejor para espresso: Eureka Mignon Specialità o DF64 Gen 2?',
+        answer:
+          'El DF64 Gen 2 ofrece mayor versatilidad de muelas (compatibilidad de 64 mm) y prácticamente cero retención para Single Dosing. El Eureka Specialità destaca por su funcionamiento más silencioso y dosificación por tiempo muy cómoda.',
+      },
+      {
+        question: '¿Qué significa que un café sea de especialidad?',
+        answer:
+          'Es café de la especie Arábica que ha obtenido 80 puntos o más sobre 100 en el protocolo de cata de la SCA (Specialty Coffee Association), con trazabilidad completa y ausencia de defectos primarios en grano verde.',
+      },
+      {
+        question: '¿Cómo funciona la puntuación The Coffee Score?',
+        answer:
+          'Cada producto se evalúa de 0 a 100 puntos en nuestro laboratorio mediante pruebas de estabilidad térmica (30%), uniformidad granulométrica (25%), construcción y durabilidad (20%), relación calidad/precio (15%) y flujo de trabajo (10%).',
+      },
+    ],
+    []
+  );
+
   return (
     <div className="space-y-10 pb-12">
+      <SEOHead
+        title="Comparador de Cafeteras, Molinos y Café de Especialidad"
+        description="Comparador independiente de cafeteras espresso, molinos de café y accesorios. Pruebas de laboratorio, puntuaciones The Coffee Score y precios actualizados en 2026."
+        canonical="/"
+        jsonLd={[
+          generateWebSiteSchema(),
+          generateOrganizationSchema(),
+          generateFAQSchema(homePageFAQs),
+        ]}
+      />
       {/* 1. HERO SECTION */}
       <section className="hero-section">
         <div className="hero-grid">
