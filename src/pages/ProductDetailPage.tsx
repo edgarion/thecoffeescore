@@ -127,6 +127,18 @@ export const ProductDetailPage: React.FC = () => {
             </div>
           </div>
 
+          {/* Product Hero Description */}
+          {product.shortDesc && (
+            <div className="my-3.5 p-3.5 bg-[#fbfaf7] border border-[#e6e3da] rounded-xl text-xs sm:text-sm text-stone-700 leading-relaxed shadow-2xs">
+              <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wider mb-1">
+                Descripción del Producto
+              </div>
+              <p className="font-normal text-ink">
+                {product.shortDesc}
+              </p>
+            </div>
+          )}
+
           <div className="product-detail-price">{product.price} €</div>
           
           {(() => {
@@ -261,6 +273,76 @@ export const ProductDetailPage: React.FC = () => {
                   <li key={i}>{con}</li>
                 ))}
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Detailed Product Description & Expert Analysis */}
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-8 max-w-[900px] shadow-xs">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="bg-[#fdece7] text-[#e94e2b] text-[10px] font-bold px-2.5 py-0.5 rounded-full">
+              ANÁLISIS & GUÍA
+            </span>
+            <span className="text-xs text-[#6b6a63]">Criterio técnico independiente</span>
+          </div>
+
+          <h2 className="font-serif font-bold text-xl sm:text-2xl text-ink mb-3">
+            Sobre {product.name}
+          </h2>
+
+          <div className="prose prose-stone max-w-none text-xs sm:text-sm text-stone-700 leading-relaxed mb-6">
+            <p className="text-stone-800 font-medium text-sm sm:text-base leading-relaxed mb-3">
+              {product.shortDesc}
+            </p>
+            {product.editorialReview?.content ? (
+              <p className="text-stone-600 leading-relaxed">
+                {product.editorialReview.content}
+              </p>
+            ) : (
+              <p className="text-stone-600 leading-relaxed">
+                Diseñado por <strong>{product.brand}</strong>, este producto ha sido evaluado bajo los estándares de laboratorio de <em>The Coffee Score</em>. Destaca por su equilibrio entre rendimiento, calidad de construcción y consistencia en el ritual de café de especialidad.
+              </p>
+            )}
+          </div>
+
+          {/* Highlights Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4 border-t border-[#f0eee6]">
+            <div className="bg-[#fcfbf9] border border-[#e6e3da] rounded-xl p-3.5">
+              <div className="text-[10px] font-bold text-[#e94e2b] uppercase tracking-wide mb-1">
+                Puntuación Global
+              </div>
+              <div className="font-serif font-bold text-lg text-ink">
+                {product.score.getFormatted()} / 10
+              </div>
+              <p className="text-[11px] text-stone-500 mt-0.5">
+                {product.score.getRatingLabel()}
+              </p>
+            </div>
+
+            <div className="bg-[#fcfbf9] border border-[#e6e3da] rounded-xl p-3.5">
+              <div className="text-[10px] font-bold text-[#2f6fed] uppercase tracking-wide mb-1">
+                Categoría Oficial
+              </div>
+              <div className="font-serif font-bold text-lg text-ink capitalize">
+                {product.category}
+              </div>
+              <p className="text-[11px] text-stone-500 mt-0.5">
+                {product.brand}
+              </p>
+            </div>
+
+            <div className="bg-[#fcfbf9] border border-[#e6e3da] rounded-xl p-3.5">
+              <div className="text-[10px] font-bold text-[#2e7d32] uppercase tracking-wide mb-1">
+                Mejor Opción
+              </div>
+              <div className="font-serif font-bold text-lg text-ink font-mono">
+                {product.price} €
+              </div>
+              <p className="text-[11px] text-stone-500 mt-0.5">
+                Precio verificado
+              </p>
             </div>
           </div>
         </div>
