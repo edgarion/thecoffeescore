@@ -24,6 +24,7 @@ export const Footer: React.FC = () => {
           <Link to="/molinos" className="hover:underline">Molinos</Link>
           <Link to="/accesorios" className="hover:underline">Accesorios</Link>
           <Link to="/cafe" className="hover:underline">Café de Especialidad</Link>
+          <Link to="/configurador" className="hover:underline font-bold text-[#e94e2b]">Configurador Setup</Link>
           <Link to="/ofertas" className="hover:underline">Ofertas</Link>
           <Link to="/guias" className="hover:underline">Guías de Compra</Link>
           <Link to="/blog" className="hover:underline">Blog</Link>

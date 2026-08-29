@@ -45,7 +45,8 @@ export const HomePage: React.FC = () => {
               Analizamos, comparamos y recomendamos productos con datos reales, pruebas de uso y criterio independiente. Para que hagas un mejor café en casa, en la oficina o en tu negocio.
             </p>
             <div className="cta-row flex items-center flex-wrap sm:flex-nowrap gap-3">
-              <Link className="btn btn-solid" to="/comparador">Ir al comparador →</Link>
+              <Link className="btn btn-solid" to="/configurador">Configurador de Setup ☕</Link>
+              <Link className="btn btn-outline" to="/comparador">Ir al comparador →</Link>
               <Link className="btn btn-outline" to="/guias">Ver análisis</Link>
               <img
                 src="/assets/header-coffee-character.png"
@@ -270,6 +271,39 @@ export const HomePage: React.FC = () => {
             >
               <span>Ver oferta →</span>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SETUP CONFIGURATOR PROMO BANNER */}
+      <section className="wrap">
+        <div className="bg-gradient-to-r from-[#21201c] via-[#2c2924] to-[#1a1917] rounded-3xl p-6 sm:p-9 text-white shadow-xl relative overflow-hidden">
+          <div className="absolute right-0 top-0 bottom-0 w-1/3 opacity-10 pointer-events-none flex items-center justify-center">
+            <span className="text-[180px] font-serif select-none">☕</span>
+          </div>
+
+          <div className="relative z-10 max-w-2xl">
+            <div className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 text-[11px] font-bold px-3 py-1 rounded-full mb-3 backdrop-blur-xs">
+              <span>✨ NUEVA HERRAMIENTA INTERACTIVA</span>
+            </div>
+            <h2 className="font-serif font-bold text-2xl sm:text-3xl lg:text-4xl leading-tight mb-3 text-white">
+              Diseña y Compara tu Setup de Café Perfecto
+            </h2>
+            <p className="text-stone-300 text-xs sm:text-sm leading-relaxed mb-6">
+              Elige tu cafetera, empareja el molino ideal, añade báscula y herramientas de distribución WDT. Analiza compatibilidades, detecta cuellos de botella y calcula el presupuesto total en tiempo real.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Link
+                to="/configurador"
+                className="btn btn-solid !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none !text-white font-bold text-xs sm:text-sm !py-3 !px-6 !rounded-xl shadow-md"
+              >
+                <span>Abrir Configurador de Setup →</span>
+              </Link>
+              <span className="text-stone-400 text-xs font-semibold">
+                ✓ 4 Plantillas preconfiguradas · Comparativa A vs B
+              </span>
+            </div>
           </div>
         </div>
       </section>

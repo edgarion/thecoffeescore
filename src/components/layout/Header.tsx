@@ -83,12 +83,14 @@ export const Header: React.FC = () => {
     { name: 'Molinos', path: '/molinos' },
     { name: 'Café', path: '/cafe' },
     { name: 'Accesorios', path: '/accesorios' },
-    { name: 'Ofertas', path: '/ofertas', highlight: true },
+    { name: 'Setup', path: '/configurador', highlight: true },
+    { name: 'Ofertas', path: '/ofertas' },
     { name: 'Comparador', path: '/comparador', badge: selectedIds.length > 0 ? selectedIds.length : null },
   ];
 
   // Secondary links grouped in "Explorar" dropdown
   const secondaryLinks = [
+    { name: 'Configurador de Setup', path: '/configurador', desc: 'Arma, optimiza y compara tu estación barista' },
     { name: 'Proveedores & B2B', path: '/b2b', desc: 'Café verde, tostadores e importadores' },
     { name: 'Guías de Compra', path: '/guias', desc: 'Consejos y análisis paso a paso' },
     { name: 'Blog Especializado', path: '/blog', desc: 'Técnicas de extracción y novedades' },
