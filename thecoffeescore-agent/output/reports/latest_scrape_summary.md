@@ -1,8 +1,8 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 30/08/2026 12:25:07
-- **Tiempo Total**: 19.44 segundos
-- **Productos Procesados y Validados**: 182 cafés de especialidad
+- **Fecha de Ejecución**: 31/08/2026 14:33:46
+- **Tiempo Total**: 16.11 segundos
+- **Productos Procesados y Validados**: 181 cafés de especialidad
 
 ---
 
@@ -102,13 +102,12 @@
 | **Three Marks Coffee** | [Three Marks Coffee — El Alisal](https://threemarkscoffee.com/products/ecuador-el-alisal) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 30.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-el-alisal.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Iria‑Ini Kiamwangi](https://threemarkscoffee.com/products/iria-ini-kiamwangi) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 22.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-iriaini-kiamwangi.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Kamavindi Kamathura](https://threemarkscoffee.com/products/kamavindi-kamathura) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 17.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-kamavindi-kamathura.webp` |
-| **Three Marks Coffee** | [Three Marks Coffee — Mutana Hill](https://threemarkscoffee.com/products/mutana-hill) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 19.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-mutana-hill.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Pepe Jijon Drip Bags (10u.)](https://threemarkscoffee.com/products/drip-pepe-jijon-coffee-bags-10u) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 28.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-pepe-jijon-drip-bags-10u.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Pétalo Solar](https://threemarkscoffee.com/products/petalo-solar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 16.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-pétalo-solar.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Santa Clara](https://threemarkscoffee.com/products/santa-clara) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 13.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-santa-clara.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Santa Clara Coffee Capsules](https://threemarkscoffee.com/products/coffee-capsules-seasonal) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-santa-clara-coffee-capsules.webp` |
 | **The Barn Berlin** | [The Barn Berlin — 2 COFFEE SAMPLES](https://thebarn.de/products/box-of-3-samples) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 15.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-2-coffee-samples.webp` |
-| **The Barn Berlin** | [The Barn Berlin — A DROP OF SCIENCE](https://thebarn.de/products/a-drop-of-science) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-a-drop-of-science.webp` |
+| **The Barn Berlin** | [The Barn Berlin — A DROP OF SCIENCE: SEPTEMBER EDITION](https://thebarn.de/products/a-drop-of-science) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-a-drop-of-science-september-edition.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS CLEAR SET](https://thebarn.de/products/aeropress-clear-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 49.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-clear-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS SET](https://thebarn.de/products/aeropress-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 38.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS XL SET](https://thebarn.de/products/aeropress-xl) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 66.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-xl-set.webp` |
