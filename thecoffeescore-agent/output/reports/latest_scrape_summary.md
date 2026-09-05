@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 04/09/2026 11:52:43
-- **Tiempo Total**: 25.55 segundos
+- **Fecha de Ejecución**: 05/09/2026 11:01:33
+- **Tiempo Total**: 22.83 segundos
 - **Productos Procesados y Validados**: 181 cafés de especialidad
 
 ---
@@ -132,7 +132,6 @@
 | **The Barn Berlin** | [The Barn Berlin — BUMBA HILL NATURAL](https://thebarn.de/products/bumba-hill-natural) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 19.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-bumba-hill-natural.webp` |
 | **La Cabra** | [La Cabra — AeroPress Coffee Maker](https://lacabra.dk/products/aeropress) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 339.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-aeropress-coffee-maker.webp` |
 | **La Cabra** | [La Cabra — Alto Naranjal](https://lacabra.dk/products/alto-naranjal) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 159.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-alto-naranjal.webp` |
-| **La Cabra** | [La Cabra — Arbegona](https://lacabra.dk/products/arbegona) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 159.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-arbegona.webp` |
 | **La Cabra** | [La Cabra — Bejofo Chocolate Bar](https://lacabra.dk/products/bejofo-chocolate-bar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 59.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bejofo-chocolate-bar.webp` |
 | **La Cabra** | [La Cabra — Bloom by Paw Gissel](https://lacabra.dk/products/bloom-by-paw-gissel) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 500.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bloom-by-paw-gissel.webp` |
 | **La Cabra** | [La Cabra — Cafetto Cleaning Powder](https://lacabra.dk/products/cafetto) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 199.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-cafetto-cleaning-powder.webp` |
@@ -145,6 +144,7 @@
 | **La Cabra** | [La Cabra — Heven Glass](https://lacabra.dk/products/heven-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 275.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-heven-glass.webp` |
 | **La Cabra** | [La Cabra — K.H. Würtz Aarhus Collection](https://lacabra.dk/products/k-h-wurtz-aarhus-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 1198.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-aarhus-collection.webp` |
 | **La Cabra** | [La Cabra — K.H. Würtz Garnet Collection](https://lacabra.dk/products/k-h-wurtz-garnet-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-garnet-collection.webp` |
+| **La Cabra** | [La Cabra — K.H. Würtz Graphite Collection](https://lacabra.dk/products/k-h-wurtz-graphite-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-graphite-collection.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — "Bro, we're a tech startup..."](https://onyxcoffeelab.com/products/bro-were-a-tech-startup) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 82.8 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-bro-were-a-tech-startup.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — "That one time in Italy..."](https://onyxcoffeelab.com/products/that-one-time-in-italy) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 52.44 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-that-one-time-in-italy.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — (PRODUCT)RED - Gift Subscription - 12 months](https://onyxcoffeelab.com/products/productred-gift-subscription-12-months) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 253.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-productred-gift-subscription-12-months.webp` |
