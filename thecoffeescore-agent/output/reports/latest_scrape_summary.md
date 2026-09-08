@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 07/09/2026 13:07:12
-- **Tiempo Total**: 18.04 segundos
+- **Fecha de Ejecución**: 08/09/2026 11:53:07
+- **Tiempo Total**: 18.15 segundos
 - **Productos Procesados y Validados**: 180 cafés de especialidad
 
 ---
@@ -141,7 +141,7 @@
 | **La Cabra** | [La Cabra — Handheld TDS Meter](https://lacabra.dk/products/handheld-tds-meter) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 239.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-handheld-tds-meter.webp` |
 | **La Cabra** | [La Cabra — Hario Coffee Mill Smart G](https://lacabra.dk/products/coffee-mill-smart-g) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 379.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-hario-coffee-mill-smart-g.webp` |
 | **La Cabra** | [La Cabra — Heven Glass](https://lacabra.dk/products/heven-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 275.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-heven-glass.webp` |
-| **La Cabra** | [La Cabra — K.H. Würtz Aarhus Collection](https://lacabra.dk/products/k-h-wurtz-aarhus-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 1198.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-aarhus-collection.webp` |
+| **La Cabra** | [La Cabra — K.H. Würtz Aarhus Collection](https://lacabra.dk/products/k-h-wurtz-aarhus-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-aarhus-collection.webp` |
 | **La Cabra** | [La Cabra — K.H. Würtz Garnet Collection](https://lacabra.dk/products/k-h-wurtz-garnet-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-garnet-collection.webp` |
 | **La Cabra** | [La Cabra — K.H. Würtz Graphite Collection](https://lacabra.dk/products/k-h-wurtz-graphite-collection) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-graphite-collection.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — "Bro, we're a tech startup..."](https://onyxcoffeelab.com/products/bro-were-a-tech-startup) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 82.8 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-bro-were-a-tech-startup.webp` |
