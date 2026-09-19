@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-18T11:58:34.529540",
-  "total_products": 178,
+  "last_updated": "2026-09-19T11:42:16.442449",
+  "total_products": 142,
   "products": [
     {
       "id": "nomad-coffee-a-medida",
@@ -26,7 +26,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:13Z"
+      "scraped_at": "2026-09-19T11:41:59Z"
     },
     {
       "id": "nomad-coffee-acacia-hills-gesha",
@@ -52,7 +52,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:41:59Z"
     },
     {
       "id": "nomad-coffee-acaia-balanza-pearl",
@@ -78,7 +78,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:41:59Z"
     },
     {
       "id": "nomad-coffee-apax-concentrados-minerales-nano-box",
@@ -104,7 +104,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:41:59Z"
     },
     {
       "id": "nomad-coffee-banda-reflectante-wrap-totxres",
@@ -130,7 +130,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-barista-esencial-i",
@@ -156,7 +156,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-barista-fundamentos",
@@ -182,7 +182,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-barista-hustle-distribuidor-the-comb",
@@ -208,7 +208,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-barista-intermedio",
@@ -234,7 +234,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-barista-profesional",
@@ -260,7 +260,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-básico-barista",
@@ -286,7 +286,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-bialetti-cafetera-italiana-moka-express",
@@ -312,7 +312,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-bombe-natural",
@@ -338,7 +338,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:14Z"
+      "scraped_at": "2026-09-19T11:42:00Z"
     },
     {
       "id": "nomad-coffee-brew-fundamentos",
@@ -364,7 +364,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-brew-intermedio",
@@ -390,7 +390,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-brew-profesional",
@@ -416,7 +416,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-aeropress",
@@ -442,7 +442,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-de-goteo-fellow-aiden-precision-coffee-maker",
@@ -468,7 +468,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-la-marzocco-linea-micra",
@@ -494,7 +494,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-la-marzocco-linea-mini",
@@ -520,7 +520,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-barista-express-impress-con-molinillo-integrado",
@@ -546,7 +546,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-barista-pro",
@@ -572,7 +572,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-the-barista-touch-impress-con-molinillo-integrado",
@@ -598,7 +598,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:01Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-the-luxe-brewer",
@@ -624,7 +624,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-camiseta-roasted-in-poblenou",
@@ -650,7 +650,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:15Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-camiseta-ice-manga-corta",
@@ -676,7 +676,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:16Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-camiseta-logistics-manga-larga",
@@ -702,7 +702,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:16Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-camiseta-serveis-de-café",
@@ -728,7 +728,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:16Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-centroamericano-natural-anaeróbico",
@@ -754,7 +754,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:16Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "nomad-coffee-chiroso-las-flores",
@@ -780,7 +780,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:16Z"
+      "scraped_at": "2026-09-19T11:42:02Z"
     },
     {
       "id": "syra-coffee-aeropress",
@@ -806,7 +806,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:03Z"
     },
     {
       "id": "syra-coffee-aeropress-clear",
@@ -832,7 +832,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:03Z"
     },
     {
       "id": "syra-coffee-aeropress-go",
@@ -858,7 +858,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:03Z"
     },
     {
       "id": "syra-coffee-atitlán",
@@ -884,7 +884,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:03Z"
     },
     {
       "id": "syra-coffee-b2b-monthly-subscription",
@@ -910,7 +910,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:03Z"
     },
     {
       "id": "syra-coffee-bahire",
@@ -936,7 +936,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-báscula-acaia-pearl",
@@ -962,7 +962,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-báscula-acaia-pearl-s",
@@ -988,7 +988,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:17Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-báscula-v60-drip-hario",
@@ -1014,7 +1014,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-báscula-v60-metal-drip-hario",
@@ -1040,7 +1040,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-blue-ayarza",
@@ -1066,7 +1066,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-cafetera-automática-philips-5500",
@@ -1092,7 +1092,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-cápsulas-brasil",
@@ -1118,7 +1118,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-cápsulas-colombia",
@@ -1144,7 +1144,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-cápsulas-etiopía",
@@ -1170,7 +1170,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:04Z"
     },
     {
       "id": "syra-coffee-chemex-classic",
@@ -1196,7 +1196,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-clever-dripper",
@@ -1222,7 +1222,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-cold-brewer-hario",
@@ -1248,7 +1248,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-comandante-molinillo-c40-mk4-nitro-blade",
@@ -1274,7 +1274,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:18Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-daniso-horsa",
@@ -1300,7 +1300,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:19Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-discovery-kit",
@@ -1326,7 +1326,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:19Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-espresso-pack",
@@ -1352,7 +1352,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:19Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "syra-coffee-espumador-de-leche-bialetti",
@@ -1378,553 +1378,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:19Z"
-    },
-    {
-      "id": "right-side-coffee-abrar-keno-natural-espresso",
-      "product_url": "https://rightsidecoffee.com/products/abrar-keno-natural",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/abrar_keno_e.png?v=1763378869",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-abrar-keno-natural-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Abrar Keno Natural Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-aeropress",
-      "product_url": "https://rightsidecoffee.com/products/aeropress",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/Aeropress.png?v=1740502548",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-aeropress.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — AeroPress",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 35.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-aeropress-go",
-      "product_url": "https://rightsidecoffee.com/products/aeropress-go",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/AeropressGo.png?v=1740502509",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-aeropress-go.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — AeroPress Go",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 38.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-alessi-moka",
-      "product_url": "https://rightsidecoffee.com/products/alessi-moka",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/AlessiMoka.png?v=1740502584",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-alessi-moka.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Alessi Moka",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 48.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-andrés-torres-geisha-natural-espresso",
-      "product_url": "https://rightsidecoffee.com/products/andres-torres-geisha-natural-filtro-copy",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/AndresTorresGeishaNatural_E.png?v=1753189381",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-andrés-torres-geisha-natural-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Andrés Torres Geisha Natural Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 30.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-arturo-avilés-espresso",
-      "product_url": "https://rightsidecoffee.com/products/arturo-aviles-espresso",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/arturo_aviles_e.png?v=1758805479",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-arturo-avilés-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Arturo Avilés Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 13.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:20Z"
-    },
-    {
-      "id": "right-side-coffee-arturo-paz-maracaturra-espresso",
-      "product_url": "https://rightsidecoffee.com/products/arturo-paz-maracaturra-espresso",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/ArturoPazMaracaturra_E.png?v=1748860958",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-arturo-paz-maracaturra-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Arturo Paz Maracaturra Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 15.75,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-báscula-timemore-black-mirror-basic-2",
-      "product_url": "https://rightsidecoffee.com/products/bascula-timemore-black-mirror-basic-2",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/Timemore-Black-Mirror-Basic-2_e1f2b70d-d904-4fbd-b841-78cce54d5a68.png?v=1740511883",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-báscula-timemore-black-mirror-basic-2.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Báscula Timemore Black Mirror Basic 2",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 65.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-báscula-timemore-black-mirror-nano",
-      "product_url": "https://rightsidecoffee.com/products/bascula-timemore-black-mirror-nano",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/basculaTimemoreblackmirror.png?v=1740502663",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-báscula-timemore-black-mirror-nano.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Báscula Timemore Black Mirror Nano",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 105.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-base-para-tamper-motta",
-      "product_url": "https://rightsidecoffee.com/products/base-para-tamper-motta",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/Baseparatampermotta.png?v=1740502711",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-base-para-tamper-motta.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Base para tamper Motta",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 22.49,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-bayetas-de-microfibra-sb",
-      "product_url": "https://rightsidecoffee.com/products/bayetas-de-microfibra-sb",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/BayetasdemicrofibraSB.png?v=1740511425",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-bayetas-de-microfibra-sb.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Bayetas de microfibra SB",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 17.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-benjamín-paz-espresso",
-      "product_url": "https://rightsidecoffee.com/products/benjamin-paz-espresso",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/Benjam.png?v=1774349423",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-benjamín-paz-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Benjamín Paz Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 13.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-bernardo-floriano-espresso",
-      "product_url": "https://rightsidecoffee.com/products/bernardo-floriano",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/bernardo_e.png?v=1760699642",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-bernardo-floriano-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Bernardo Floriano Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-big-mr-sunshine-espresso",
-      "product_url": "https://rightsidecoffee.com/products/santa-rosa-honey-espresso",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/big_mr_sunshine.png?v=1759231487",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-big-mr-sunshine-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Big Mr. Sunshine Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 18.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:21Z"
-    },
-    {
-      "id": "right-side-coffee-buena-vista-natural-espresso",
-      "product_url": "https://rightsidecoffee.com/products/buena-vista-natural",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/BuenaVistaNatural_Espresso-CS-2.jpg?v=1731392172",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-buena-vista-natural-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Buena Vista Natural Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-cafetto-limpiador-orgánico-de-lancetas-1l",
-      "product_url": "https://rightsidecoffee.com/products/limpiador-organico-de-lancetas-1l",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/CafettoMFCVerdeLimpiadorOrganicoLancetas1L.png?v=1757502731",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-cafetto-limpiador-orgánico-de-lancetas-1l.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Cafetto Limpiador Orgánico de Lancetas 1L",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 25.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-candelaria-lópez-espresso",
-      "product_url": "https://rightsidecoffee.com/products/candelaria-lopez-espresso",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/CandelariaE.png?v=1738838598",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-candelaria-lópez-espresso.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Candelaria López Espresso",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-capítulo-1-mapa-de-cosechas",
-      "product_url": "https://rightsidecoffee.com/products/capitulo-1-mapa-de-cosechas",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/capitulo1-1.png?v=1731390813",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-capítulo-1-mapa-de-cosechas.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Capítulo 1: Mapa de cosechas",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-capítulo-2-la-planta-de-café",
-      "product_url": "https://rightsidecoffee.com/products/capitulo-2-la-planta-de-cafe",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/Capitulo2-1.png?v=1731390817",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-capítulo-2-la-planta-de-café.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Capítulo 2: La planta de café",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-cepillo-de-ducha-studio-barista",
-      "product_url": "https://rightsidecoffee.com/products/cepillo-de-ducha-studio-barista",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/studio-barista-cepillo-de-ducha-negro_269b20da-c0ce-4d5b-ab67-0a674946f5ac.png?v=1740511845",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-cepillo-de-ducha-studio-barista.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Cepillo de ducha Studio Barista",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:22Z"
-    },
-    {
-      "id": "right-side-coffee-cepillo-de-molino-sb",
-      "product_url": "https://rightsidecoffee.com/products/cepillo-de-molino-sb",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/CepillodemolinoSB.png?v=1740502837",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-cepillo-de-molino-sb.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Right Side Coffee — Cepillo de molino SB",
-        "brand": "Right Side Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 12.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Right Side Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:22Z"
+      "scraped_at": "2026-09-19T11:42:05Z"
     },
     {
       "id": "three-marks-coffee-1kg-espresso-seasonal",
@@ -1950,7 +1404,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:06Z"
     },
     {
       "id": "three-marks-coffee-2x250gr-espresso-seasonal",
@@ -1976,7 +1430,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:06Z"
     },
     {
       "id": "three-marks-coffee-2x250gr-espresso-roasters-pick",
@@ -2002,7 +1456,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-2x2x250gr-espresso-roasters-pick",
@@ -2028,7 +1482,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-3kg-office-espresso",
@@ -2054,7 +1508,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-aeropress-coffee-maker",
@@ -2080,7 +1534,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:23Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-aponte-drip-bags-10u",
@@ -2106,7 +1560,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-bookkisa",
@@ -2132,7 +1586,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:07Z"
     },
     {
       "id": "three-marks-coffee-curso-completo-barista",
@@ -2158,7 +1612,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-curso-completo-barista",
@@ -2184,7 +1638,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-decaf",
@@ -2210,7 +1664,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-decaf-coffee-capsules-chabela",
@@ -2236,7 +1690,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-decaf-mexico-drip-coffee-bags-10u",
@@ -2262,7 +1716,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-el-alisal",
@@ -2288,7 +1742,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-el-alisal-drip-bags-10u",
@@ -2314,7 +1768,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-iriaini-kiamwangi",
@@ -2340,7 +1794,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-pétalo-solar",
@@ -2366,7 +1820,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-santa-clara",
@@ -2392,7 +1846,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-santa-clara-coffee-capsules",
@@ -2418,7 +1872,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:24Z"
+      "scraped_at": "2026-09-19T11:42:08Z"
     },
     {
       "id": "three-marks-coffee-sibarist-immersion-dip-coffee-bags-3u",
@@ -2444,7 +1898,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:25Z"
+      "scraped_at": "2026-09-19T11:42:09Z"
     },
     {
       "id": "three-marks-coffee-sibarist-immersion-dip-coffee-bags-la-pila",
@@ -2470,7 +1924,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:25Z"
+      "scraped_at": "2026-09-19T11:42:09Z"
     },
     {
       "id": "the-barn-berlin-2-coffee-samples",
@@ -2496,7 +1950,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:25Z"
+      "scraped_at": "2026-09-19T11:42:09Z"
     },
     {
       "id": "the-barn-berlin-a-drop-of-science-september-edition",
@@ -2522,7 +1976,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:25Z"
+      "scraped_at": "2026-09-19T11:42:09Z"
     },
     {
       "id": "the-barn-berlin-aeropress-clear-set",
@@ -2548,7 +2002,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:25Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-aeropress-set",
@@ -2574,7 +2028,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-aeropress-xl-set",
@@ -2600,7 +2054,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-andres-ramirez",
@@ -2626,7 +2080,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-anniversary-coffee",
@@ -2652,7 +2106,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-aroma-nativo-aji",
@@ -2678,7 +2132,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-aroma-nativo-gesha",
@@ -2704,7 +2158,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-arsosala-reserve",
@@ -2730,7 +2184,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-asman-gayo",
@@ -2756,7 +2210,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-atlas-coffee",
@@ -2782,7 +2236,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-atmos-electric-vacuum-canister",
@@ -2808,7 +2262,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-atmos-vacuum-coffee-canister",
@@ -2834,7 +2288,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:10Z"
     },
     {
       "id": "the-barn-berlin-banko-gotiti",
@@ -2860,7 +2314,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-baratza-encore-esp-pro",
@@ -2886,7 +2340,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bekele-kechara",
@@ -2912,7 +2366,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bishan-wate",
@@ -2938,7 +2392,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:26Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-black-condor",
@@ -2964,7 +2418,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:27Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bombe",
@@ -2990,7 +2444,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:27Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-buena-vista-sidra",
@@ -3016,7 +2470,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:27Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bumba-hill",
@@ -3042,7 +2496,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:27Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bumba-hill-lot-1",
@@ -3068,7 +2522,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:27Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "the-barn-berlin-bumba-hill-natural",
@@ -3094,397 +2548,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:27Z"
-    },
-    {
-      "id": "la-cabra-aeropress-coffee-maker",
-      "product_url": "https://lacabra.dk/products/aeropress",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Aeropress_coffee_maker.webp?v=1777618468",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-aeropress-coffee-maker.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — AeroPress Coffee Maker",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 339.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-alto-naranjal",
-      "product_url": "https://lacabra.dk/products/alto-naranjal",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Alto_Naranjal_La_Cabra_Seasonal_Coffee_Box_250g.webp?v=1783487518",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-alto-naranjal.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Alto Naranjal",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 159.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-bejofo-chocolate-bar",
-      "product_url": "https://lacabra.dk/products/bejofo-chocolate-bar",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/BejofoChocolateLaCabra.webp?v=1787752984",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bejofo-chocolate-bar.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Bejofo Chocolate Bar",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 59.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-bloom-by-paw-gissel",
-      "product_url": "https://lacabra.dk/products/bloom-by-paw-gissel",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Bloom_Book_-_Front_480bb0ad-d66a-4cbf-a805-7a0fa0375066.webp?v=1778057513",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bloom-by-paw-gissel.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Bloom by Paw Gissel",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 500.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-cafetto-cleaning-powder",
-      "product_url": "https://lacabra.dk/products/cafetto",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/CafettoGrinderClean.png?v=1738161094",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-cafetto-cleaning-powder.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Cafetto Cleaning Powder",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 199.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-equilibrium-bundle-single-serve",
-      "product_url": "https://lacabra.dk/products/equilibrium-bundle-single-serve",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Steeped_Equilibrium-Bundle.webp?v=1774269464",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-equilibrium-bundle-single-serve.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Equilibrium Bundle - Single Serve",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 209.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-fellow-aiden-coffee-maker",
-      "product_url": "https://lacabra.dk/products/fellow-aiden",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Fellow_Aiden.png?v=1756804797",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-fellow-aiden-coffee-maker.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Fellow Aiden Coffee Maker",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 2999.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:28Z"
-    },
-    {
-      "id": "la-cabra-gift-card",
-      "product_url": "https://lacabra.dk/products/gift-card",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/La_Cabra_Gift_Card.webp?v=1786957767",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-gift-card.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Gift Card",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 50.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-ground-chocolate-la-cueva",
-      "product_url": "https://lacabra.dk/products/ground-chocolate-la-cueva",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/La_Cabra_Ground_Chocolate_La_Cueva_200g.png?v=1786957630",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-ground-chocolate-la-cueva.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Ground Chocolate - La Cueva",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 169.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-handheld-tds-meter",
-      "product_url": "https://lacabra.dk/products/handheld-tds-meter",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/TDS_Meter.webp?v=1777628971",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-handheld-tds-meter.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Handheld TDS Meter",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 239.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-hario-coffee-mill-smart-g",
-      "product_url": "https://lacabra.dk/products/coffee-mill-smart-g",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Hario_Coffee_Mill_Smart_G.webp?v=1777631435",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-hario-coffee-mill-smart-g.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Hario Coffee Mill Smart G",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 379.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-heven-glass",
-      "product_url": "https://lacabra.dk/products/heven-glass",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/Heven_Glassware_La_Cabra_470ml.png?v=1786958030",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-heven-glass.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — Heven Glass",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 275.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-kh-würtz-aarhus-collection",
-      "product_url": "https://lacabra.dk/products/k-h-wurtz-aarhus-collection",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/K.H._W_rtz_Aarhus_Collection_Plates_Profile.png?v=1751372152",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-aarhus-collection.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — K.H. Würtz Aarhus Collection",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 599.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:29Z"
-    },
-    {
-      "id": "la-cabra-kh-würtz-garnet-collection",
-      "product_url": "https://lacabra.dk/products/k-h-wurtz-garnet-collection",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/K.H._W_rtz_Garnet_Collection_PlatesSmall.webp?v=1770208711",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-garnet-collection.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — K.H. Würtz Garnet Collection",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 599.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:30Z"
-    },
-    {
-      "id": "la-cabra-kh-würtz-graphite-collection",
-      "product_url": "https://lacabra.dk/products/k-h-wurtz-graphite-collection",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/1094/5212/files/K.H.WurtzPlatesGraphiteSmall.webp?v=1772195404",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-kh-würtz-graphite-collection.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "La Cabra — K.H. Würtz Graphite Collection",
-        "brand": "La Cabra",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 599.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por La Cabra. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:11Z"
     },
     {
       "id": "onyx-coffee-lab-bro-were-a-tech-startup",
@@ -3510,7 +2574,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-that-one-time-in-italy",
@@ -3536,7 +2600,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-12-months",
@@ -3562,7 +2626,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-3-months",
@@ -3588,7 +2652,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-6-months",
@@ -3614,7 +2678,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscriptions",
@@ -3640,7 +2704,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-155oz-collins-straightup-glass",
@@ -3666,7 +2730,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-155oz-zelda-uglass",
@@ -3692,7 +2756,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:30Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-1883-sf-vanilla-syrup",
@@ -3718,7 +2782,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-2025-coffee-advent-calendar",
@@ -3744,7 +2808,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-40-white-matcha",
@@ -3770,7 +2834,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-51-colombia-espresso",
@@ -3796,7 +2860,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:12Z"
     },
     {
       "id": "onyx-coffee-lab-52-ecuador-dark-milk",
@@ -3822,7 +2886,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-62-colombia-peanut-sesame",
@@ -3848,7 +2912,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-64-vietnam-spicy-fiji",
@@ -3874,7 +2938,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-69-madagascar",
@@ -3900,7 +2964,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-70-tanzania-dark-lemon-crunch",
@@ -3926,7 +2990,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-72701-cap",
@@ -3952,7 +3016,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-77-ecuador-dark",
@@ -3978,7 +3042,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-7oz-bodega-glass",
@@ -4004,7 +3068,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-86-peru-dark",
@@ -4030,7 +3094,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:31Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "onyx-coffee-lab-acid-phosphate",
@@ -4056,7 +3120,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:32Z"
+      "scraped_at": "2026-09-19T11:42:13Z"
     },
     {
       "id": "kurasu-kyoto-1616arita-ty-plate",
@@ -4082,7 +3146,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:32Z"
+      "scraped_at": "2026-09-19T11:42:14Z"
     },
     {
       "id": "kurasu-kyoto-2-way-matcha-whisk-stand-by-origami",
@@ -4108,7 +3172,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:32Z"
+      "scraped_at": "2026-09-19T11:42:14Z"
     },
     {
       "id": "kurasu-kyoto-basic-kintsugi-repair-kit",
@@ -4134,7 +3198,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-beandy-silk-dripper",
@@ -4160,7 +3224,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-cascara-coffee-cherry-tea-guatemala-jalapa",
@@ -4186,7 +3250,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-chasen-matcha-whisk",
@@ -4212,7 +3276,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-coffee-cycling-map-in-kyoto",
@@ -4238,7 +3302,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-coffee-deodorizer-pot",
@@ -4264,7 +3328,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-coffee-measure-spoon-by-ishii-koji-walnut-wood",
@@ -4290,7 +3354,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-cold-brew-ethiopia-sidamo-decaf-medium",
@@ -4316,7 +3380,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-cold-brew-fairfield-dark-dark-roast",
@@ -4342,7 +3406,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-cold-brewnatsu-ake-2026-medium-roast",
@@ -4368,7 +3432,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-colombia-hermides-meneseslight-roast",
@@ -4394,7 +3458,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-colombia-nestor-lassomedium-light-roast",
@@ -4420,7 +3484,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:33Z"
+      "scraped_at": "2026-09-19T11:42:15Z"
     },
     {
       "id": "kurasu-kyoto-daibo-flannel-nel-dripper",
@@ -4446,7 +3510,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-daibo-replacement-flannel-small",
@@ -4472,7 +3536,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-el-salvador-don-jaimemedium-light-roast",
@@ -4498,7 +3562,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-el-salvador-emerson-vasquez-pacamara-light-roast",
@@ -4524,7 +3588,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-ethiopia-sidamo-decaf-medium-roast",
@@ -4550,7 +3614,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-fairfield-dark-dark-roast",
@@ -4576,7 +3640,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-fairfield-medium-medium-roast",
@@ -4602,7 +3666,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     },
     {
       "id": "kurasu-kyoto-flo-dripper-varia-x-kurasu-kyoto",
@@ -4628,7 +3692,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-09-18T11:58:34Z"
+      "scraped_at": "2026-09-19T11:42:16Z"
     }
   ]
 }
