@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 20/09/2026 11:54:40
-- **Tiempo Total**: 18.07 segundos
+- **Fecha de Ejecución**: 21/09/2026 13:27:50
+- **Tiempo Total**: 20.72 segundos
 - **Productos Procesados y Validados**: 178 cafés de especialidad
 
 ---
@@ -59,10 +59,10 @@
 | **Syra Coffee** | [Syra Coffee — Clever Dripper](https://syra.coffee/products/clever-dripped) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 33.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-clever-dripper.webp` |
 | **Syra Coffee** | [Syra Coffee — Cold Brewer - Hario](https://syra.coffee/products/cold-brewer) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 31.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-cold-brewer-hario.webp` |
 | **Syra Coffee** | [Syra Coffee — Comandante Molinillo C40 MK4 Nitro Blade](https://syra.coffee/products/comandante-molinillo-c40-mk4-nitro-blade) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 275.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-comandante-molinillo-c40-mk4-nitro-blade.webp` |
-| **Syra Coffee** | [Syra Coffee — Daniso Horsa](https://syra.coffee/products/daniso-horsa) | Etiopía | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 16.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-daniso-horsa.webp` |
 | **Syra Coffee** | [Syra Coffee — Discovery Kit](https://syra.coffee/products/discovery-kit) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 34.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-discovery-kit.webp` |
 | **Syra Coffee** | [Syra Coffee — Espresso Pack](https://syra.coffee/products/espresso-pack) | Etiopía | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 53.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-espresso-pack.webp` |
 | **Syra Coffee** | [Syra Coffee — Espumador de leche- Bialetti](https://syra.coffee/products/bialetti-espumador-de-leche) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 33.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-espumador-de-leche-bialetti.webp` |
+| **Syra Coffee** | [Syra Coffee — French Press Black - Bialetti](https://syra.coffee/products/french-press-black-bialetti) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 25.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-french-press-black-bialetti.webp` |
 | **Right Side Coffee** | [Right Side Coffee — Abrar Keno Natural Espresso](https://rightsidecoffee.com/products/abrar-keno-natural) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-abrar-keno-natural-espresso.webp` |
 | **Right Side Coffee** | [Right Side Coffee — AeroPress](https://rightsidecoffee.com/products/aeropress) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 35.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-aeropress.webp` |
 | **Right Side Coffee** | [Right Side Coffee — AeroPress Go](https://rightsidecoffee.com/products/aeropress-go) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 38.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-aeropress-go.webp` |
