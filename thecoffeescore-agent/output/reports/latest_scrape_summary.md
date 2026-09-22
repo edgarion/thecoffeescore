@@ -1,8 +1,8 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 21/09/2026 13:27:50
-- **Tiempo Total**: 20.72 segundos
-- **Productos Procesados y Validados**: 178 cafés de especialidad
+- **Fecha de Ejecución**: 22/09/2026 12:12:11
+- **Tiempo Total**: 27.47 segundos
+- **Productos Procesados y Validados**: 177 cafés de especialidad
 
 ---
 
@@ -83,7 +83,6 @@
 | **Right Side Coffee** | [Right Side Coffee — Capítulo 1: Mapa de cosechas](https://rightsidecoffee.com/products/capitulo-1-mapa-de-cosechas) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-capítulo-1-mapa-de-cosechas.webp` |
 | **Right Side Coffee** | [Right Side Coffee — Capítulo 2: La planta de café](https://rightsidecoffee.com/products/capitulo-2-la-planta-de-cafe) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-capítulo-2-la-planta-de-café.webp` |
 | **Right Side Coffee** | [Right Side Coffee — Cepillo de ducha Studio Barista](https://rightsidecoffee.com/products/cepillo-de-ducha-studio-barista) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-cepillo-de-ducha-studio-barista.webp` |
-| **Right Side Coffee** | [Right Side Coffee — Cepillo de molino SB](https://rightsidecoffee.com/products/cepillo-de-molino-sb) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/right-side-coffee-cepillo-de-molino-sb.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — 1Kg Espresso Seasonal](https://threemarkscoffee.com/products/1xkg-espresso-blend) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 36.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-1kg-espresso-seasonal.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — 2x250gr Espresso Seasonal](https://threemarkscoffee.com/products/2x250gr-espresso-blend) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 19.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-2x250gr-espresso-seasonal.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — 2x250gr Espresso “Roaster’s Pick”](https://threemarkscoffee.com/products/2x250gr-espresso-roasters) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 26.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-2x250gr-espresso-roasters-pick.webp` |
