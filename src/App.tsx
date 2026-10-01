@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import { ComparatorProvider } from './hooks/useComparator';
@@ -99,6 +100,7 @@ export const App: React.FC = () => {
               <AuthModal />
               <ToastContainer />
               <CookieConsentBanner />
+              <Analytics />
             </div>
           </BrowserRouter>
         </ComparatorProvider>
@@ -108,4 +110,3 @@ export const App: React.FC = () => {
 };
 
 export default App;
-
