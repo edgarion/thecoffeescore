@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-07T14:03:00.046566",
-  "total_products": 176,
+  "last_updated": "2026-10-08T14:10:21.401769",
+  "total_products": 177,
   "products": [
     {
       "id": "nomad-coffee-a-medida",
@@ -26,7 +26,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:40Z"
+      "scraped_at": "2026-10-08T14:09:54Z"
     },
     {
       "id": "nomad-coffee-acacia-hills-pacamara",
@@ -52,7 +52,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:40Z"
+      "scraped_at": "2026-10-08T14:09:54Z"
     },
     {
       "id": "nomad-coffee-acaia-balanza-pearl",
@@ -78,7 +78,33 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:40Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
+    },
+    {
+      "id": "nomad-coffee-ají-fellows-farms",
+      "product_url": "https://nomadcoffee.es/products/aji-fellows-farms",
+      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/F.CO.FAJI_1.webp?v=1791302281",
+      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-ají-fellows-farms.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "Nomad Coffee — Ají Fellows Farms",
+        "brand": "Nomad Coffee",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 23.5,
+        "seo_description": "Café de especialidad tostado artesanalmente por Nomad Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true,
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-albino-ibias",
@@ -104,7 +130,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:40Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-alipio-palomino",
@@ -130,7 +156,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:40Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-apax-concentrados-minerales-nano-box",
@@ -156,7 +182,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-banda-reflectante-wrap-totxres",
@@ -182,7 +208,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-barista-esencial-i",
@@ -208,7 +234,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-barista-fundamentos",
@@ -234,7 +260,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:55Z"
     },
     {
       "id": "nomad-coffee-barista-hustle-distribuidor-the-comb",
@@ -260,7 +286,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-barista-intermedio",
@@ -286,7 +312,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-barista-profesional",
@@ -312,7 +338,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-básico-barista",
@@ -338,7 +364,33 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
+    },
+    {
+      "id": "nomad-coffee-basicos-de-tueste-i",
+      "product_url": "https://nomadcoffee.es/products/basicos-tueste-i",
+      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/BASICOS_DE_TUESTE.webp?v=1791453680",
+      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-basicos-de-tueste-i.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "Nomad Coffee — BASICOS DE TUESTE I",
+        "brand": "Nomad Coffee",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 250.0,
+        "seo_description": "Café de especialidad tostado artesanalmente por Nomad Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true,
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-bialetti-cafetera-italiana-moka-express",
@@ -364,7 +416,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-bombe-natural",
@@ -390,7 +442,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:41Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-cafetera-aeropress",
@@ -416,7 +468,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:56Z"
     },
     {
       "id": "nomad-coffee-cafetera-la-marzocco-linea-micra",
@@ -442,7 +494,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-cafetera-la-marzocco-linea-mini",
@@ -468,7 +520,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-barista-express-impress-con-molinillo-integrado",
@@ -494,7 +546,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-barista-pro",
@@ -520,7 +572,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-the-barista-touch-impress-con-molinillo-integrado",
@@ -546,7 +598,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-cafetera-sage-the-luxe-brewer",
@@ -572,7 +624,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-camiseta-roasted-in-poblenou",
@@ -598,7 +650,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-camiseta-ice-manga-corta",
@@ -624,7 +676,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-camiseta-logistics-manga-larga",
@@ -650,7 +702,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-camiseta-serveis-de-café",
@@ -676,7 +728,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:57Z"
     },
     {
       "id": "nomad-coffee-centroamericano-natural-anaeróbico",
@@ -702,16 +754,16 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:42Z"
+      "scraped_at": "2026-10-08T14:09:58Z"
     },
     {
-      "id": "nomad-coffee-churupallana",
-      "product_url": "https://nomadcoffee.es/products/churupallana",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/E.PE.CHU_1.png?v=1782734878",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-churupallana.webp",
+      "id": "nomad-coffee-certificación-q-grader",
+      "product_url": "https://nomadcoffee.es/products/certificacion-q-grader",
+      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/Javi-nomad.webp?v=1791451121",
+      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-certificación-q-grader.webp",
       "specs": {
         "is_specialty_coffee": true,
-        "clean_name": "Nomad Coffee — Churupallana",
+        "clean_name": "Nomad Coffee — CERTIFICACIÓN Q GRADER",
         "brand": "Nomad Coffee",
         "origin_country": "Origen Seleccionado",
         "region": "Finca / Cooperativa seleccionada",
@@ -723,64 +775,12 @@
           "Caramelo"
         ],
         "roast_profile": "Omni",
-        "price_eur": 14.5,
+        "price_eur": 2150.0,
         "seo_description": "Café de especialidad tostado artesanalmente por Nomad Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:43Z"
-    },
-    {
-      "id": "nomad-coffee-churupallana",
-      "product_url": "https://nomadcoffee.es/products/churupallana-filtro",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/F.PE.CHU_1.png?v=1782734577",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-churupallana.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Nomad Coffee — Churupallana",
-        "brand": "Nomad Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 14.5,
-        "seo_description": "Café de especialidad tostado artesanalmente por Nomad Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:43Z"
-    },
-    {
-      "id": "nomad-coffee-consultorio",
-      "product_url": "https://nomadcoffee.es/products/consultorio",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/Web_-_Consultorio_1_1.png?v=1747410427",
-      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-consultorio.webp",
-      "specs": {
-        "is_specialty_coffee": true,
-        "clean_name": "Nomad Coffee — Consultorio",
-        "brand": "Nomad Coffee",
-        "origin_country": "Origen Seleccionado",
-        "region": "Finca / Cooperativa seleccionada",
-        "process": "Lavado / Natural",
-        "variety": "Arábica 100%",
-        "tasting_notes": [
-          "Chocolate con leche",
-          "Fruta madura",
-          "Caramelo"
-        ],
-        "roast_profile": "Omni",
-        "price_eur": 75.0,
-        "seo_description": "Café de especialidad tostado artesanalmente por Nomad Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
-        "estimated_score": 88.5
-      },
-      "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:44Z"
+      "scraped_at": "2026-10-08T14:09:58Z"
     },
     {
       "id": "syra-coffee-11th-anniversary-blend",
@@ -806,7 +806,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:44Z"
+      "scraped_at": "2026-10-08T14:09:59Z"
     },
     {
       "id": "syra-coffee-aeropress",
@@ -832,7 +832,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:44Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-aeropress-clear",
@@ -858,7 +858,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:44Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-aeropress-go",
@@ -884,7 +884,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-atitlán",
@@ -910,7 +910,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-b2b-monthly-subscription",
@@ -936,7 +936,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-bahire",
@@ -962,7 +962,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-báscula-acaia-pearl",
@@ -988,7 +988,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:00Z"
     },
     {
       "id": "syra-coffee-báscula-acaia-pearl-s",
@@ -1014,7 +1014,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-báscula-v60-drip-hario",
@@ -1040,7 +1040,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-báscula-v60-metal-drip-hario",
@@ -1066,7 +1066,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-blue-ayarza",
@@ -1091,8 +1091,8 @@
         "seo_description": "Café de especialidad tostado artesanalmente por Syra Coffee. Lote seleccionado con excelente equilibrio y perfil aromático.",
         "estimated_score": 88.5
       },
-      "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "in_stock": false,
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-cafetera-automática-philips-5500",
@@ -1118,7 +1118,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-cápsulas-brasil",
@@ -1144,7 +1144,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:01Z"
     },
     {
       "id": "syra-coffee-cápsulas-colombia",
@@ -1170,7 +1170,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-cápsulas-etiopía",
@@ -1196,7 +1196,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-chemex-classic",
@@ -1222,7 +1222,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:45Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-clever-dripper",
@@ -1248,7 +1248,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-cold-brewer-hario",
@@ -1274,7 +1274,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-comandante-molinillo-c40-mk4-nitro-blade",
@@ -1300,7 +1300,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:02Z"
     },
     {
       "id": "syra-coffee-discovery-kit",
@@ -1326,7 +1326,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:03Z"
     },
     {
       "id": "syra-coffee-espresso-pack",
@@ -1352,7 +1352,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:03Z"
     },
     {
       "id": "syra-coffee-espumador-de-leche-bialetti",
@@ -1378,7 +1378,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:46Z"
+      "scraped_at": "2026-10-08T14:10:03Z"
     },
     {
       "id": "right-side-coffee-abrar-keno-natural-espresso",
@@ -1404,7 +1404,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:04Z"
     },
     {
       "id": "right-side-coffee-aeropress",
@@ -1430,7 +1430,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:04Z"
     },
     {
       "id": "right-side-coffee-aeropress-go",
@@ -1456,7 +1456,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:04Z"
     },
     {
       "id": "right-side-coffee-alessi-moka",
@@ -1482,7 +1482,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:04Z"
     },
     {
       "id": "right-side-coffee-andrés-torres-geisha-natural-espresso",
@@ -1508,7 +1508,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:05Z"
     },
     {
       "id": "right-side-coffee-arturo-avilés-espresso",
@@ -1534,7 +1534,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:05Z"
     },
     {
       "id": "right-side-coffee-arturo-paz-maracaturra-espresso",
@@ -1560,7 +1560,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-báscula-timemore-black-mirror-basic-2",
@@ -1586,7 +1586,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:47Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-báscula-timemore-black-mirror-mini",
@@ -1612,7 +1612,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-báscula-timemore-black-mirror-nano",
@@ -1638,7 +1638,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-base-para-tamper-motta",
@@ -1664,7 +1664,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-bayetas-de-microfibra-sb",
@@ -1690,7 +1690,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-benjamín-paz-espresso",
@@ -1716,7 +1716,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:06Z"
     },
     {
       "id": "right-side-coffee-bernardo-floriano-espresso",
@@ -1742,7 +1742,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:07Z"
     },
     {
       "id": "right-side-coffee-big-mr-sunshine-espresso",
@@ -1768,7 +1768,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:07Z"
     },
     {
       "id": "right-side-coffee-buena-vista-natural-espresso",
@@ -1794,7 +1794,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:07Z"
     },
     {
       "id": "right-side-coffee-cafetto-limpiador-orgánico-de-lancetas-1l",
@@ -1820,7 +1820,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:07Z"
     },
     {
       "id": "right-side-coffee-candelaria-lópez-espresso",
@@ -1846,7 +1846,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:08Z"
     },
     {
       "id": "right-side-coffee-capítulo-1-mapa-de-cosechas",
@@ -1872,7 +1872,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:08Z"
     },
     {
       "id": "right-side-coffee-capítulo-2-la-planta-de-café",
@@ -1898,7 +1898,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:48Z"
+      "scraped_at": "2026-10-08T14:10:08Z"
     },
     {
       "id": "three-marks-coffee-1kg-espresso-seasonal",
@@ -1924,7 +1924,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:08Z"
     },
     {
       "id": "three-marks-coffee-2x250gr-espresso-seasonal",
@@ -1950,7 +1950,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-2x250gr-espresso-roasters-pick",
@@ -1976,7 +1976,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-2x2x250gr-espresso-roasters-pick",
@@ -2002,7 +2002,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-3kg-office-espresso",
@@ -2028,7 +2028,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-basha-bekele-gonjobe",
@@ -2054,7 +2054,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-curso-completo-barista",
@@ -2080,7 +2080,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:49Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-curso-completo-barista",
@@ -2106,7 +2106,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:09Z"
     },
     {
       "id": "three-marks-coffee-decaf",
@@ -2132,7 +2132,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-decaf-coffee-capsules-chabela",
@@ -2158,7 +2158,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-decaf-mexico-drip-coffee-bags-10u",
@@ -2184,7 +2184,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-el-alisal",
@@ -2210,7 +2210,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-el-alisal-drip-bags-10u",
@@ -2236,7 +2236,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-gedeb",
@@ -2262,7 +2262,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-iriaini-kiamwangi",
@@ -2288,7 +2288,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-pétalo-solar",
@@ -2314,7 +2314,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-pétalo-solar-drip-bags-10u",
@@ -2340,7 +2340,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-santa-clara",
@@ -2366,7 +2366,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:10Z"
     },
     {
       "id": "three-marks-coffee-santa-clara-coffee-capsules",
@@ -2392,7 +2392,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:50Z"
+      "scraped_at": "2026-10-08T14:10:11Z"
     },
     {
       "id": "three-marks-coffee-sibarist-immersion-dip-coffee-bags-3u",
@@ -2418,7 +2418,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:51Z"
+      "scraped_at": "2026-10-08T14:10:11Z"
     },
     {
       "id": "three-marks-coffee-sibarist-immersion-dip-coffee-bags-la-pila",
@@ -2444,7 +2444,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:51Z"
+      "scraped_at": "2026-10-08T14:10:11Z"
     },
     {
       "id": "the-barn-berlin-2-coffee-samples",
@@ -2470,7 +2470,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:52Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-a-drop-of-science",
@@ -2491,17 +2491,17 @@
           "Caramelo"
         ],
         "roast_profile": "Omni",
-        "price_eur": 22.02,
+        "price_eur": 22.4,
         "seo_description": "Café de especialidad tostado artesanalmente por The Barn Berlin. Lote seleccionado con excelente equilibrio y perfil aromático.",
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:52Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-aeropress-clear-set",
       "product_url": "https://thebarn.de/products/aeropress-clear-set",
-      "raw_image_url": "https://cdn.shopify.com/s/files/1/0831/4141/files/34A2167.jpg?v=1721633756",
+      "raw_image_url": "https://cdn.shopify.com/s/files/1/0831/4141/files/AeroPress_Blue.jpg?v=1727772740",
       "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-clear-set.webp",
       "specs": {
         "is_specialty_coffee": true,
@@ -2517,12 +2517,12 @@
           "Caramelo"
         ],
         "roast_profile": "Omni",
-        "price_eur": 41.65,
+        "price_eur": 39.2,
         "seo_description": "Café de especialidad tostado artesanalmente por The Barn Berlin. Lote seleccionado con excelente equilibrio y perfil aromático.",
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:52Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-aeropress-set",
@@ -2548,7 +2548,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:52Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-aeropress-xl-set",
@@ -2574,7 +2574,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:52Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-andres-ramirez",
@@ -2600,7 +2600,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:12Z"
     },
     {
       "id": "the-barn-berlin-anniversary-coffee",
@@ -2626,7 +2626,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-aroma-nativo-aji",
@@ -2652,7 +2652,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-aroma-nativo-gesha",
@@ -2678,7 +2678,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-aroma-nativo-pink-bourbon",
@@ -2704,7 +2704,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-arsosala-reserve",
@@ -2730,7 +2730,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-asman-gayo",
@@ -2756,7 +2756,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-atlas-coffee",
@@ -2782,7 +2782,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-atmos-electric-vacuum-canister",
@@ -2808,7 +2808,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-atmos-vacuum-coffee-canister",
@@ -2834,7 +2834,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-autumn-coffee",
@@ -2860,7 +2860,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-autumn-gift-subscription",
@@ -2886,7 +2886,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:53Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-autumn-gift-subscription",
@@ -2912,7 +2912,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-autumn-gift-subscription",
@@ -2938,7 +2938,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-banko-gotiti",
@@ -2964,7 +2964,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:13Z"
     },
     {
       "id": "the-barn-berlin-baratza-encore-esp-pro",
@@ -2990,7 +2990,33 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:14Z"
+    },
+    {
+      "id": "the-barn-berlin-bekele-kechara",
+      "product_url": "https://thebarn.de/products/murago",
+      "raw_image_url": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_bekele_kechara_b2c.png?v=1788416797",
+      "local_image_path": "/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-bekele-kechara.webp",
+      "specs": {
+        "is_specialty_coffee": true,
+        "clean_name": "The Barn Berlin — BEKELE KECHARA",
+        "brand": "The Barn Berlin",
+        "origin_country": "Origen Seleccionado",
+        "region": "Finca / Cooperativa seleccionada",
+        "process": "Lavado / Natural",
+        "variety": "Arábica 100%",
+        "tasting_notes": [
+          "Chocolate con leche",
+          "Fruta madura",
+          "Caramelo"
+        ],
+        "roast_profile": "Omni",
+        "price_eur": 17.9,
+        "seo_description": "Café de especialidad tostado artesanalmente por The Barn Berlin. Lote seleccionado con excelente equilibrio y perfil aromático.",
+        "estimated_score": 88.5
+      },
+      "in_stock": true,
+      "scraped_at": "2026-10-08T14:10:14Z"
     },
     {
       "id": "la-cabra-aeropress-coffee-maker",
@@ -3016,7 +3042,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:14Z"
     },
     {
       "id": "la-cabra-bejofo-chocolate-bar",
@@ -3042,7 +3068,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:14Z"
     },
     {
       "id": "la-cabra-bloom-by-paw-gissel",
@@ -3068,7 +3094,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:14Z"
     },
     {
       "id": "la-cabra-cafetto-cleaning-powder",
@@ -3094,7 +3120,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:54Z"
+      "scraped_at": "2026-10-08T14:10:14Z"
     },
     {
       "id": "la-cabra-christmas-calendar",
@@ -3120,7 +3146,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-equilibrium-bundle-single-serve",
@@ -3146,7 +3172,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-fellow-aiden-coffee-maker",
@@ -3172,7 +3198,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-gift-card",
@@ -3198,7 +3224,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-ground-chocolate-la-cueva",
@@ -3224,7 +3250,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-handheld-tds-meter",
@@ -3250,7 +3276,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-hario-coffee-mill-smart-g",
@@ -3276,7 +3302,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:15Z"
     },
     {
       "id": "la-cabra-heven-glass",
@@ -3302,7 +3328,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:16Z"
     },
     {
       "id": "la-cabra-julian-calderón-pink-bourbon",
@@ -3328,7 +3354,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:16Z"
     },
     {
       "id": "la-cabra-kh-würtz-aarhus-collection",
@@ -3354,7 +3380,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:55Z"
+      "scraped_at": "2026-10-08T14:10:16Z"
     },
     {
       "id": "la-cabra-kh-würtz-garnet-collection",
@@ -3380,7 +3406,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:16Z"
     },
     {
       "id": "la-cabra-kh-würtz-graphite-collection",
@@ -3406,7 +3432,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:16Z"
     },
     {
       "id": "onyx-coffee-lab-bro-were-a-tech-startup",
@@ -3432,7 +3458,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-that-one-time-in-italy",
@@ -3458,7 +3484,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-12-months",
@@ -3484,7 +3510,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-3-months",
@@ -3510,7 +3536,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscription-6-months",
@@ -3536,7 +3562,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-productred-gift-subscriptions",
@@ -3562,7 +3588,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-155oz-collins-straightup-glass",
@@ -3588,7 +3614,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-155oz-zelda-uglass",
@@ -3614,7 +3640,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-1883-sf-vanilla-syrup",
@@ -3640,7 +3666,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:56Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-2025-coffee-advent-calendar",
@@ -3666,7 +3692,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-2026-advent-calendar",
@@ -3692,7 +3718,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-40-white-matcha",
@@ -3718,7 +3744,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-51-colombia-espresso",
@@ -3744,7 +3770,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-52-ecuador-dark-milk",
@@ -3770,7 +3796,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:17Z"
     },
     {
       "id": "onyx-coffee-lab-62-colombia-peanut-sesame",
@@ -3796,7 +3822,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-64-vietnam-spicy-fiji",
@@ -3822,7 +3848,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-69-madagascar",
@@ -3848,7 +3874,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-70-tanzania-dark-lemon-crunch",
@@ -3874,7 +3900,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-72701-cap",
@@ -3900,7 +3926,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-77-ecuador-dark",
@@ -3926,7 +3952,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-7oz-bodega-glass",
@@ -3952,7 +3978,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-86-peru-dark",
@@ -3978,7 +4004,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "onyx-coffee-lab-acid-phosphate",
@@ -4004,7 +4030,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:57Z"
+      "scraped_at": "2026-10-08T14:10:18Z"
     },
     {
       "id": "kurasu-kyoto-1616arita-ty-plate",
@@ -4030,7 +4056,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:58Z"
+      "scraped_at": "2026-10-08T14:10:19Z"
     },
     {
       "id": "kurasu-kyoto-2-way-matcha-whisk-stand-by-origami",
@@ -4056,7 +4082,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:58Z"
+      "scraped_at": "2026-10-08T14:10:19Z"
     },
     {
       "id": "kurasu-kyoto-basic-kintsugi-repair-kit",
@@ -4082,7 +4108,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:58Z"
+      "scraped_at": "2026-10-08T14:10:19Z"
     },
     {
       "id": "kurasu-kyoto-beandy-silk-dripper",
@@ -4108,7 +4134,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:58Z"
+      "scraped_at": "2026-10-08T14:10:19Z"
     },
     {
       "id": "kurasu-kyoto-cascara-coffee-cherry-tea-guatemala-jalapa",
@@ -4134,7 +4160,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:58Z"
+      "scraped_at": "2026-10-08T14:10:19Z"
     },
     {
       "id": "kurasu-kyoto-chasen-matcha-whisk",
@@ -4160,7 +4186,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-coffee-cycling-map-in-kyoto",
@@ -4186,7 +4212,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-coffee-deodorizer-pot",
@@ -4212,7 +4238,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-coffee-measure-spoon-by-ishii-koji-walnut-wood",
@@ -4238,7 +4264,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-cold-brew-ethiopia-sidamo-decaf-medium",
@@ -4264,7 +4290,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-cold-brew-fairfield-dark-dark-roast",
@@ -4290,7 +4316,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-cold-brewnatsu-ake-2026-medium-roast",
@@ -4316,7 +4342,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-colombia-hermides-meneseslight-roast",
@@ -4342,7 +4368,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-colombia-nestor-lassomedium-light-roast",
@@ -4368,7 +4394,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-daibo-flannel-nel-dripper",
@@ -4394,7 +4420,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-daibo-replacement-flannel-small",
@@ -4420,7 +4446,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:20Z"
     },
     {
       "id": "kurasu-kyoto-el-salvador-don-jaimemedium-light-roast",
@@ -4446,7 +4472,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     },
     {
       "id": "kurasu-kyoto-el-salvador-emerson-vasquez-pacamara-light-roast",
@@ -4472,7 +4498,7 @@
         "estimated_score": 88.5
       },
       "in_stock": false,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     },
     {
       "id": "kurasu-kyoto-ethiopia-sidamo-decaf-medium-roast",
@@ -4498,7 +4524,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     },
     {
       "id": "kurasu-kyoto-fairfield-dark-dark-roast",
@@ -4524,7 +4550,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     },
     {
       "id": "kurasu-kyoto-fairfield-medium-medium-roast",
@@ -4550,7 +4576,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:02:59Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     },
     {
       "id": "kurasu-kyoto-flo-dripper-varia-x-kurasu-kyoto",
@@ -4576,7 +4602,7 @@
         "estimated_score": 88.5
       },
       "in_stock": true,
-      "scraped_at": "2026-10-07T14:03:00Z"
+      "scraped_at": "2026-10-08T14:10:21Z"
     }
   ]
 }
