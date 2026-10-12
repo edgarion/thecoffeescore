@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 11/10/2026 13:37:58
-- **Tiempo Total**: 24.43 segundos
+- **Fecha de Ejecución**: 12/10/2026 16:16:25
+- **Tiempo Total**: 24.72 segundos
 - **Productos Procesados y Validados**: 176 cafés de especialidad
 
 ---
@@ -106,7 +106,7 @@
 | **Three Marks Coffee** | [Three Marks Coffee — SIBARIST Immersion Dip Coffee Bags, La Pila](https://threemarkscoffee.com/products/sibarist-immersion-dip-coffee-bags-la-pila) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-sibarist-immersion-dip-coffee-bags-la-pila.webp` |
 | **The Barn Berlin** | [The Barn Berlin — 2 COFFEE SAMPLES](https://thebarn.de/products/box-of-3-samples) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 15.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-2-coffee-samples.webp` |
 | **The Barn Berlin** | [The Barn Berlin — A DROP OF SCIENCE](https://thebarn.de/products/a-drop-of-science) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 22.4 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-a-drop-of-science.webp` |
-| **The Barn Berlin** | [The Barn Berlin — AEROPRESS CLEAR SET](https://thebarn.de/products/aeropress-clear-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 39.2 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-clear-set.webp` |
+| **The Barn Berlin** | [The Barn Berlin — AEROPRESS CLEAR SET](https://thebarn.de/products/aeropress-clear-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 49.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-clear-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS SET](https://thebarn.de/products/aeropress-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 38.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS XL SET](https://thebarn.de/products/aeropress-xl) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 66.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-xl-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — ANDRES RAMIREZ](https://thebarn.de/products/andres-ramirez) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 17.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-andres-ramirez.webp` |
