@@ -1,8 +1,8 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 12/10/2026 16:16:25
-- **Tiempo Total**: 24.72 segundos
-- **Productos Procesados y Validados**: 176 cafés de especialidad
+- **Fecha de Ejecución**: 13/10/2026 14:40:43
+- **Tiempo Total**: 25.25 segundos
+- **Productos Procesados y Validados**: 175 cafés de especialidad
 
 ---
 
@@ -97,7 +97,6 @@
 | **Three Marks Coffee** | [Three Marks Coffee — Decaf Mexico Drip Coffee Bags (10u.)](https://threemarkscoffee.com/products/dripcoffee-decaf-box) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 16.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-decaf-mexico-drip-coffee-bags-10u.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — El Alisal](https://threemarkscoffee.com/products/ecuador-el-alisal) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 30.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-el-alisal.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — El Alisal Drip Bags (10u.)](https://threemarkscoffee.com/products/pepe-jijon-drip-bags-10u-copy) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 28.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-el-alisal-drip-bags-10u.webp` |
-| **Three Marks Coffee** | [Three Marks Coffee — Iria‑Ini Kiamwangi](https://threemarkscoffee.com/products/iria-ini-kiamwangi) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 22.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-iriaini-kiamwangi.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Pétalo Solar](https://threemarkscoffee.com/products/petalo-solar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 16.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-pétalo-solar.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Pétalo Solar Drip Bags (10u.)](https://threemarkscoffee.com/products/aponte-drip-bags-10u-copy) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 22.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-pétalo-solar-drip-bags-10u.webp` |
 | **Three Marks Coffee** | [Three Marks Coffee — Santa Clara](https://threemarkscoffee.com/products/santa-clara) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 14.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/three-marks-coffee-santa-clara.webp` |
