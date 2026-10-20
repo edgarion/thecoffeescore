@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 19/10/2026 14:09:27
-- **Tiempo Total**: 27.92 segundos
+- **Fecha de Ejecución**: 20/10/2026 12:23:05
+- **Tiempo Total**: 19.09 segundos
 - **Productos Procesados y Validados**: 179 cafés de especialidad
 
 ---
@@ -11,6 +11,7 @@
 | Tostador | Producto | Origen | Proceso | Notas de Cata | Precio | Imagen WebP |
 |---|---|---|---|---|---|---|
 | **Nomad Coffee** | [Nomad Coffee — A MEDIDA](https://nomadcoffee.es/products/a-medida) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 960.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-a-medida.webp` |
+| **Nomad Coffee** | [Nomad Coffee — Acacia Hills Gesha](https://nomadcoffee.es/products/acacia-hills-gesha) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 35.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-acacia-hills-gesha.webp` |
 | **Nomad Coffee** | [Nomad Coffee — Acacia Hills Pacamara](https://nomadcoffee.es/products/acacia-hills-pacamara-espresso) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 21.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-acacia-hills-pacamara.webp` |
 | **Nomad Coffee** | [Nomad Coffee — Acaia Balanza Pearl](https://nomadcoffee.es/products/acaia-balanza-pearl) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 196.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-acaia-balanza-pearl.webp` |
 | **Nomad Coffee** | [Nomad Coffee — Ají Fellows Farms](https://nomadcoffee.es/products/aji-fellows-farms) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 23.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-ají-fellows-farms.webp` |
@@ -39,7 +40,6 @@
 | **Nomad Coffee** | [Nomad Coffee — Camiseta ICE - Manga corta](https://nomadcoffee.es/products/camiseta-blanca-iced-coffee-manga-corta) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 35.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-camiseta-ice-manga-corta.webp` |
 | **Nomad Coffee** | [Nomad Coffee — Camiseta LOGISTICS - Manga larga](https://nomadcoffee.es/products/camiseta-logistics-manga-larga) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 40.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-camiseta-logistics-manga-larga.webp` |
 | **Nomad Coffee** | [Nomad Coffee — Camiseta Serveis de Café](https://nomadcoffee.es/products/camiseta-serveis-de-cafe) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 40.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-camiseta-serveis-de-café.webp` |
-| **Nomad Coffee** | [Nomad Coffee — Centroamericano Natural Anaeróbico](https://nomadcoffee.es/products/centroamericano-natural-anaerobico) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 25.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/nomad-coffee-centroamericano-natural-anaeróbico.webp` |
 | **Syra Coffee** | [Syra Coffee — 11th Anniversary Blend](https://syra.coffee/products/11-anniversary-blend) | Etiopía | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 17.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-11th-anniversary-blend.webp` |
 | **Syra Coffee** | [Syra Coffee — Aeropress](https://syra.coffee/products/aeropress) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 34.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-aeropress.webp` |
 | **Syra Coffee** | [Syra Coffee — Aeropress Clear](https://syra.coffee/products/aeropress-clear) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 49.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/syra-coffee-aeropress-clear.webp` |
