@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 20/10/2026 12:23:05
-- **Tiempo Total**: 19.09 segundos
+- **Fecha de Ejecución**: 21/10/2026 12:32:51
+- **Tiempo Total**: 21.73 segundos
 - **Productos Procesados y Validados**: 179 cafés de especialidad
 
 ---
@@ -112,7 +112,7 @@
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS CLEAR SET](https://thebarn.de/products/aeropress-clear-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 49.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-clear-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS SET](https://thebarn.de/products/aeropress-set) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 38.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-set.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AEROPRESS XL SET](https://thebarn.de/products/aeropress-xl) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 66.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aeropress-xl-set.webp` |
-| **The Barn Berlin** | [The Barn Berlin — ANDRES RAMIREZ](https://thebarn.de/products/andres-ramirez) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 17.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-andres-ramirez.webp` |
+| **The Barn Berlin** | [The Barn Berlin — ANDRES RAMIREZ](https://thebarn.de/products/andres-ramirez) | Guatemala | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 15.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-andres-ramirez.webp` |
 | **The Barn Berlin** | [The Barn Berlin — ANNIVERSARY COFFEE](https://thebarn.de/products/los-pirineos-pacamara-anaerobic) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 16.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-anniversary-coffee.webp` |
 | **The Barn Berlin** | [The Barn Berlin — APAX COFFEE MINERALS](https://thebarn.de/products/apax-coffee-minerals) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 55.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-apax-coffee-minerals.webp` |
 | **The Barn Berlin** | [The Barn Berlin — AROMA NATIVO AJI](https://thebarn.de/products/aroma-nativo-aji) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 42.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-aroma-nativo-aji.webp` |
