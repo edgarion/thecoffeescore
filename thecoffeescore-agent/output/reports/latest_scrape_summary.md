@@ -1,8 +1,8 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 28/10/2026 13:39:48
-- **Tiempo Total**: 27.24 segundos
-- **Productos Procesados y Validados**: 180 cafés de especialidad
+- **Fecha de Ejecución**: 29/10/2026 13:49:41
+- **Tiempo Total**: 18.91 segundos
+- **Productos Procesados y Validados**: 181 cafés de especialidad
 
 ---
 
@@ -140,6 +140,7 @@
 | **La Cabra** | [La Cabra — Finca Santa Rosa - Single Serve](https://lacabra.dk/products/finca-santa-rosa-single-serve) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 115.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-finca-santa-rosa-single-serve.webp` |
 | **La Cabra** | [La Cabra — Gift Card](https://lacabra.dk/products/gift-card) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 50.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-gift-card.webp` |
 | **La Cabra** | [La Cabra — Ground Chocolate - La Cueva](https://lacabra.dk/products/ground-chocolate-la-cueva) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 169.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-ground-chocolate-la-cueva.webp` |
+| **La Cabra** | [La Cabra — Haji Bule](https://lacabra.dk/products/haji-bule) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 159.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-haji-bule.webp` |
 | **La Cabra** | [La Cabra — Handheld TDS Meter](https://lacabra.dk/products/handheld-tds-meter) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 239.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-handheld-tds-meter.webp` |
 | **La Cabra** | [La Cabra — Hario Coffee Mill Smart G](https://lacabra.dk/products/coffee-mill-smart-g) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 379.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-hario-coffee-mill-smart-g.webp` |
 | **La Cabra** | [La Cabra — Heven Glass](https://lacabra.dk/products/heven-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 275.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-heven-glass.webp` |
