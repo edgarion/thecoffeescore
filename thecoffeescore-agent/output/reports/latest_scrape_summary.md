@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 04/11/2026 14:56:48
-- **Tiempo Total**: 14.66 segundos
+- **Fecha de Ejecución**: 05/11/2026 15:02:13
+- **Tiempo Total**: 26.01 segundos
 - **Productos Procesados y Validados**: 185 cafés de especialidad
 
 ---
@@ -185,6 +185,7 @@
 | **Kurasu Kyoto** | [Kurasu Kyoto — Cold Brew Ethiopia Sidamo Decaf [Medium]](https://kurasu.kyoto/products/cold-brew-ethiopia-sidamo-decaf-medium-2025) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 33.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-cold-brew-ethiopia-sidamo-decaf-medium.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — Cold Brew Fairfield Dark [Dark Roast]](https://kurasu.kyoto/products/cold-brew-fairfield-dark-dark-roast) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 25.3 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-cold-brew-fairfield-dark-dark-roast.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — Colombia Hermides Meneses[Light roast]](https://kurasu.kyoto/products/colombia-hermides-meneses-light-roast) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 39.6 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-colombia-hermides-meneseslight-roast.webp` |
+| **Kurasu Kyoto** | [Kurasu Kyoto — Costa Rica Gaia Artisan 2026 [Medium-Light roast]](https://kurasu.kyoto/products/costa-rica-gaia-artisan-2026-medium-lightroast) | Costa Rica | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 38.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-costa-rica-gaia-artisan-2026-medium-light-roast.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — Daibo Flannel "Nel" Dripper](https://kurasu.kyoto/products/daibocoffee-nelfilter) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 23.1 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-daibo-flannel-nel-dripper.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — Daibo Replacement Flannel small](https://kurasu.kyoto/products/gl-daibo-replacement-flannel-small) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-daibo-replacement-flannel-small.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — El Salvador Don Jaime[Medium-light roast]](https://kurasu.kyoto/products/el-salvador-don-jaimemedium-light-roast) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 36.3 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-el-salvador-don-jaimemedium-light-roast.webp` |
@@ -194,4 +195,3 @@
 | **Kurasu Kyoto** | [Kurasu Kyoto — Fairfield Medium [Medium Roast]](https://kurasu.kyoto/products/fairfield-medium-medium-roast) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 20.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-fairfield-medium-medium-roast.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — FLO Dripper (VARIA X KURASU KYOTO)](https://kurasu.kyoto/products/flo) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 105.6 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-flo-dripper-varia-x-kurasu-kyoto.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — FLO Dripper Replacement Silicone Gasket](https://kurasu.kyoto/products/flo-dripper-replacement-silicone-gasket) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-flo-dripper-replacement-silicone-gasket.webp` |
-| **Kurasu Kyoto** | [Kurasu Kyoto — FLO Screen (Varia x Kurasu Kyoto)](https://kurasu.kyoto/products/flo-screen-varia-x-kurasu-kyoto) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 19.8 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-flo-screen-varia-x-kurasu-kyoto.webp` |
