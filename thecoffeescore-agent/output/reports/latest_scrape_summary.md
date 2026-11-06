@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 05/11/2026 15:02:13
-- **Tiempo Total**: 26.01 segundos
+- **Fecha de Ejecución**: 06/11/2026 14:41:35
+- **Tiempo Total**: 23.62 segundos
 - **Productos Procesados y Validados**: 185 cafés de especialidad
 
 ---
@@ -134,12 +134,12 @@
 | **La Cabra** | [La Cabra — AeroPress Coffee Maker](https://lacabra.dk/products/aeropress) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 339.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-aeropress-coffee-maker.webp` |
 | **La Cabra** | [La Cabra — Bejofo Chocolate Bar](https://lacabra.dk/products/bejofo-chocolate-bar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 59.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bejofo-chocolate-bar.webp` |
 | **La Cabra** | [La Cabra — Bloom by Paw Gissel](https://lacabra.dk/products/bloom-by-paw-gissel) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 500.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bloom-by-paw-gissel.webp` |
-| **La Cabra** | [La Cabra — Buena Vista](https://lacabra.dk/products/buena-vista) | Guatemala | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 245.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-buena-vista.webp` |
 | **La Cabra** | [La Cabra — Cafetto Cleaning Powder](https://lacabra.dk/products/cafetto) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 199.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-cafetto-cleaning-powder.webp` |
 | **La Cabra** | [La Cabra — Chevas Natural](https://lacabra.dk/products/chevas-natural) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 345.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-chevas-natural.webp` |
 | **La Cabra** | [La Cabra — Chevas Washed](https://lacabra.dk/products/chevas-washed) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 379.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-chevas-washed.webp` |
 | **La Cabra** | [La Cabra — Chito - Single Serve](https://lacabra.dk/products/chito-single-serve) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 110.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-chito-single-serve.webp` |
 | **La Cabra** | [La Cabra — Christmas Calendar](https://lacabra.dk/products/christmascalendar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 599.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-christmas-calendar.webp` |
+| **La Cabra** | [La Cabra — Esmeralda](https://lacabra.dk/products/esmeralda) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 469.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-esmeralda.webp` |
 | **La Cabra** | [La Cabra — Fellow Aiden Coffee Maker](https://lacabra.dk/products/fellow-aiden) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 2999.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-fellow-aiden-coffee-maker.webp` |
 | **La Cabra** | [La Cabra — Finca Santa Rosa - Single Serve](https://lacabra.dk/products/finca-santa-rosa-single-serve) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 115.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-finca-santa-rosa-single-serve.webp` |
 | **La Cabra** | [La Cabra — Gift Card](https://lacabra.dk/products/gift-card) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 50.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-gift-card.webp` |
