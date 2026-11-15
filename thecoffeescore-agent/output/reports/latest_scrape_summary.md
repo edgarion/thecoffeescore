@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 14/11/2026 13:51:37
-- **Tiempo Total**: 29.50 segundos
+- **Fecha de Ejecución**: 15/11/2026 14:25:13
+- **Tiempo Total**: 28.61 segundos
 - **Productos Procesados y Validados**: 187 cafés de especialidad
 
 ---
@@ -161,7 +161,7 @@
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 15.5oz Collins - StraightUp Glass](https://onyxcoffeelab.com/products/15-5oz-collins-straightup-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 23.15 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-155oz-collins-straightup-glass.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 15.5oz Zelda - Uglass](https://onyxcoffeelab.com/products/15-5oz-zelda-uglass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 61.49 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-155oz-zelda-uglass.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 1883 SF Vanilla Syrup](https://onyxcoffeelab.com/products/1883-sf-vanilla-syrup) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.03 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-1883-sf-vanilla-syrup.webp` |
-| **Onyx Coffee Lab** | [Onyx Coffee Lab — 2026 Advent Calendar](https://onyxcoffeelab.com/products/2026-advent-calendar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 202.4 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-2026-advent-calendar.webp` |
+| **Onyx Coffee Lab** | [Onyx Coffee Lab — 2026 Advent Calendar](https://onyxcoffeelab.com/products/2026-advent-calendar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 183.08 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-2026-advent-calendar.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 40% White | Matcha](https://onyxcoffeelab.com/products/matcha-white-chocolate) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-40-white-matcha.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 51% Colombia | Espresso](https://onyxcoffeelab.com/products/51-dark-milk-mocha-monarch) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-51-colombia-espresso.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 52% Ecuador | Dark Milk](https://onyxcoffeelab.com/products/52-ecuador-dark-milk) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-52-ecuador-dark-milk.webp` |
