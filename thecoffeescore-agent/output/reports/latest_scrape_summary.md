@@ -1,7 +1,7 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 17/11/2026 16:33:42
-- **Tiempo Total**: 25.37 segundos
+- **Fecha de Ejecución**: 18/11/2026 16:02:22
+- **Tiempo Total**: 22.10 segundos
 - **Productos Procesados y Validados**: 184 cafés de especialidad
 
 ---
@@ -130,7 +130,7 @@
 | **The Barn Berlin** | [The Barn Berlin — BUENA VISTA SIDRA](https://thebarn.de/products/buena-vista-sidra) | Guatemala | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 24.9 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-buena-vista-sidra.webp` |
 | **The Barn Berlin** | [The Barn Berlin — BUMBA HILL](https://thebarn.de/products/bumba-hill) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 19.4 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-bumba-hill.webp` |
 | **The Barn Berlin** | [The Barn Berlin — BUMBA HILL LOT 1](https://thebarn.de/products/bumba-hill-lot-1) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 15.5 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/the-barn-berlin-bumba-hill-lot-1.webp` |
-| **La Cabra** | [La Cabra — Advent Calendar](https://lacabra.dk/products/advent-calendar) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 799.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-advent-calendar.webp` |
+| **La Cabra** | [La Cabra — Advent Calendar](https://lacabra.dk/products/advent-calendar) | Colombia | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 699.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-advent-calendar.webp` |
 | **La Cabra** | [La Cabra — AeroPress Coffee Maker](https://lacabra.dk/products/aeropress) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 339.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-aeropress-coffee-maker.webp` |
 | **La Cabra** | [La Cabra — Altos Geisha](https://lacabra.dk/products/altos-geisha) | Costa Rica | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 199.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-altos-geisha.webp` |
 | **La Cabra** | [La Cabra — Bejofo Chocolate Bar](https://lacabra.dk/products/bejofo-chocolate-bar) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 59.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/la-cabra-bejofo-chocolate-bar.webp` |
