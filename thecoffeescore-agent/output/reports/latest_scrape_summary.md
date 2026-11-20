@@ -1,8 +1,8 @@
 # The Coffee Score · Reporte Diario de Agente Automatizado
 
-- **Fecha de Ejecución**: 19/11/2026 16:09:29
-- **Tiempo Total**: 15.25 segundos
-- **Productos Procesados y Validados**: 184 cafés de especialidad
+- **Fecha de Ejecución**: 20/11/2026 15:49:29
+- **Tiempo Total**: 16.30 segundos
+- **Productos Procesados y Validados**: 182 cafés de especialidad
 
 ---
 
@@ -170,8 +170,6 @@
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 77% Ecuador | Dark](https://onyxcoffeelab.com/products/77-ecuador-dark) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-77-ecuador-dark.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 7oz Bodega Glass](https://onyxcoffeelab.com/products/7oz-bodega-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 60.63 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-7oz-bodega-glass.webp` |
 | **Onyx Coffee Lab** | [Onyx Coffee Lab — 86% Peru | Dark](https://onyxcoffeelab.com/products/86-peru-dark) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-86-peru-dark.webp` |
-| **Onyx Coffee Lab** | [Onyx Coffee Lab — Acid Phosphate](https://onyxcoffeelab.com/products/acid-phosphate) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 17.43 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-acid-phosphate.webp` |
-| **Onyx Coffee Lab** | [Onyx Coffee Lab — Acopa 8.5oz Coupe Cocktail Glass](https://onyxcoffeelab.com/products/acopa-8-5oz-coupe-cocktail-glass) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 28.98 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/onyx-coffee-lab-acopa-85oz-coupe-cocktail-glass.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — 1616/arita TY Plate](https://kurasu.kyoto/products/1616-arita-ty-plate) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-1616arita-ty-plate.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — 2-Way Matcha Whisk Stand by ORIGAMI](https://kurasu.kyoto/products/matcha-whisk-stand-by-origami) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 12.0 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-2-way-matcha-whisk-stand-by-origami.webp` |
 | **Kurasu Kyoto** | [Kurasu Kyoto — Basic Kintsugi Repair Kit](https://kurasu.kyoto/products/basic-kintsugi-repair-kit) | Origen Seleccionado | Lavado / Natural | Chocolate con leche, Fruta madura, Caramelo | 100.1 € | `/home/runner/work/thecoffeescore/thecoffeescore/thecoffeescore-agent/output/images/kurasu-kyoto-basic-kintsugi-repair-kit.webp` |
