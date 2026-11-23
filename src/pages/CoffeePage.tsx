@@ -7,6 +7,7 @@ import { ScrollLoaderIndicator } from '../components/ui/ScrollLoaderIndicator';
 import { PRODUCTS } from '../data/catalog';
 import { SEOHead } from '../components/seo/SEOHead';
 import { generateItemListSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
+import { getGeoFaqSchemas } from '../data/geoOptimizationData';
 
 export const CoffeePage: React.FC = () => {
   const [activeChip, setActiveChip] = useState('Todos');
@@ -64,6 +65,7 @@ export const CoffeePage: React.FC = () => {
             { name: 'Inicio', url: '/' },
             { name: 'Café de Especialidad', url: '/cafe' },
           ]),
+          getGeoFaqSchemas('cafe'),
         ]}
       />
       {/* Breadcrumb */}

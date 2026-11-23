@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BUYING_GUIDES } from '../data/catalog';
 import { SEOHead } from '../components/seo/SEOHead';
 import { generateBreadcrumbSchema } from '../utils/seoSchemas';
+import { getGeoFaqSchemas } from '../data/geoOptimizationData';
 
 export const GuidesPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('Todas');
@@ -25,6 +26,7 @@ export const GuidesPage: React.FC = () => {
             { name: 'Inicio', url: '/' },
             { name: 'Guías de Compra', url: '/guias' },
           ]),
+          getGeoFaqSchemas(),
         ]}
       />
       {/* Breadcrumb */}

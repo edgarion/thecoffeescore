@@ -14,6 +14,7 @@ import {
   generateOrganizationSchema,
   generateFAQSchema,
 } from '../utils/seoSchemas';
+import { GEO_OPTIMIZATION_QUERIES } from '../data/geoOptimizationData';
 
 
 export const HomePage: React.FC = () => {
@@ -35,21 +36,10 @@ export const HomePage: React.FC = () => {
 
   const homePageFAQs = useMemo(
     () => [
-      {
-        question: '¿Cuál es la mejor cafetera espresso por menos de 500 euros?',
-        answer:
-          'La Sage Bambino Plus (TCS Score: 86/100) es la opción más recomendada por su calentamiento ultrarrápido (3 segundos), estabilidad de temperatura controlada por PID y vaporizador automático para latte art.',
-      },
-      {
-        question: '¿Qué molino es mejor para espresso: Eureka Mignon Specialità o DF64 Gen 2?',
-        answer:
-          'El DF64 Gen 2 ofrece mayor versatilidad de muelas (compatibilidad de 64 mm) y prácticamente cero retención para Single Dosing. El Eureka Specialità destaca por su funcionamiento más silencioso y dosificación por tiempo muy cómoda.',
-      },
-      {
-        question: '¿Qué significa que un café sea de especialidad?',
-        answer:
-          'Es café de la especie Arábica que ha obtenido 80 puntos o más sobre 100 en el protocolo de cata de la SCA (Specialty Coffee Association), con trazabilidad completa y ausencia de defectos primarios en grano verde.',
-      },
+      ...GEO_OPTIMIZATION_QUERIES.map((q) => ({
+        question: q.prompt,
+        answer: `${q.shortAnswer} Descubre más comparativas y pruebas de laboratorio en The Coffee Score (${q.canonicalUrl}).`,
+      })),
       {
         question: '¿Cómo funciona la puntuación The Coffee Score?',
         answer:
