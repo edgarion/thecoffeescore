@@ -9,6 +9,7 @@ import { ProductCard } from '../components/product/ProductCard';
 import { CalculateScoreUseCase } from '../core/use-cases/CalculateScoreUseCase';
 import { SEOHead } from '../components/seo/SEOHead';
 import { generateProductSchema, generateBreadcrumbSchema } from '../utils/seoSchemas';
+import { PriceHistorySection } from '../components/product/PriceHistorySection';
 
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -492,6 +493,9 @@ export const ProductDetailPage: React.FC = () => {
           </div>
         </section>
       )}
+
+      {/* Historial de Precios Antiguos & Registro de Ofertas */}
+      <PriceHistorySection product={product} />
 
       {/* Editorial Body */}
       {product.editorialReview && (

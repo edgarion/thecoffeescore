@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GLOBAL_COFFEE_SHOPS, GLOBAL_COFFEE_CITIES } from '../data/globalCoffeeIndex';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const GlobalCoffeeIndexPage: React.FC = () => {
   const [selectedCity, setSelectedCity] = useState<string>('Todas');
@@ -29,6 +31,17 @@ export const GlobalCoffeeIndexPage: React.FC = () => {
 
   return (
     <div className="pb-16">
+      <SEOHead
+        title="Índice Global del Café de Especialidad"
+        description="Radar mundial de cafeterías de culto y tostadores de referencia en Tokio, Berlín, Nueva York, Barcelona, Roma, Londres y más."
+        canonical="/indice-global"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Índice Global', url: '/indice-global' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

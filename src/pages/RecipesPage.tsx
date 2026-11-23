@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 import {
   fetchSampleApisDrinks,
   fetchRoastDbData,
@@ -79,6 +81,17 @@ export const RecipesPage: React.FC = () => {
 
   return (
     <div className="pb-20">
+      <SEOHead
+        title="Recetas, Telemetría & APIs Globales de Café"
+        description="Recetas de extracción de café, radar de tueste RoastDB, directorio de tostadores y telemetría en tiempo real."
+        canonical="/recetas"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Recetas & Telemetría', url: '/recetas' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

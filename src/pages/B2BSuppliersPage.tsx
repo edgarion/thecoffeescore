@@ -2,6 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { B2B_SUPPLIERS, B2BSupplier } from '../data/b2bSuppliers';
 import { B2BWorldMap } from '../components/b2b/B2BWorldMap';
 import { showToast } from '../hooks/useToast';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const B2BSuppliersPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -59,6 +61,17 @@ export const B2BSuppliersPage: React.FC = () => {
 
   return (
     <div className="pb-20 space-y-8">
+      <SEOHead
+        title="Proveedores B2B de Café Verde e Importadores"
+        description="Directorio B2B internacional de exportadores de café verde en saco, importadores oficiales y tostadores mayoristas con precios de referencia."
+        canonical="/b2b"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Proveedores B2B', url: '/b2b' },
+          ]),
+        ]}
+      />
       {/* 1. HERO HEADER */}
       <section className="bg-gradient-to-b from-[#f8f6f0] via-[#fbfaf7] to-white border-b border-[#e6e3da] pt-8 pb-10">
         <div className="wrap">

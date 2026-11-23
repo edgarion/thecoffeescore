@@ -3,6 +3,8 @@ import { PRODUCTS } from '../data/catalog';
 import { Product } from '../core/domain/Product';
 import { useCart } from '../context/CartContext';
 import { showToast } from '../hooks/useToast';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 // Slot definitions
 export type SetupSlotType = 'maquina' | 'molino' | 'bascula' | 'distribucion' | 'accesorios' | 'cafe';
@@ -323,6 +325,17 @@ export const SetupConfiguratorPage: React.FC = () => {
 
   return (
     <div className="space-y-10 pb-16">
+      <SEOHead
+        title="Configurador de Setup Barista & Estación de Café"
+        description="Arma y optimiza tu estación de espresso o filtro: selecciona cafetera, molino de precisión y accesorios, evalúa el The Coffee Score global y calcula presupuesto."
+        canonical="/configurador"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Configurador de Setup', url: '/configurador' },
+          ]),
+        ]}
+      />
       {/* 1. HERO HEADER */}
       <section className="bg-gradient-to-b from-[#f8f6f0] via-[#fcfbf9] to-[#faf8f5] border-b border-[#e6e3da] py-8 sm:py-12">
         <div className="wrap">

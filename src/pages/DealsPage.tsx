@@ -4,6 +4,8 @@ import { useDealsFilter } from '../hooks/useDealsFilter';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
 import { useCart } from '../context/CartContext';
 import { showToast } from '../hooks/useToast';
+import { SEOHead } from '../components/seo/SEOHead';
+import { generateBreadcrumbSchema } from '../utils/seoSchemas';
 
 export const DealsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('todas');
@@ -40,6 +42,17 @@ export const DealsPage: React.FC = () => {
 
   return (
     <div className="pb-16">
+      <SEOHead
+        title="Ofertas Verificadas en Cafeteras y Molinos"
+        description="Radar de ofertas en cafeteras espresso, molinos y café de especialidad con descuentos verificados frente a su precio histórico oficial."
+        canonical="/ofertas"
+        jsonLd={[
+          generateBreadcrumbSchema([
+            { name: 'Inicio', url: '/' },
+            { name: 'Ofertas Verificadas', url: '/ofertas' },
+          ]),
+        ]}
+      />
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Inicio</Link>

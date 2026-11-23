@@ -9,6 +9,7 @@ export interface SEOHeadProps {
   type?: 'website' | 'article' | 'product';
   jsonLd?: Record<string, any> | Array<Record<string, any>>;
   noindex?: boolean;
+  googleSiteVerification?: string;
 }
 
 export const SEOHead: React.FC<SEOHeadProps> = ({
@@ -19,6 +20,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   type = 'website',
   jsonLd,
   noindex = false,
+  googleSiteVerification,
 }) => {
   useEffect(() => {
     // 1. Page Title
@@ -38,9 +40,24 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       element.setAttribute('content', content);
     };
 
-    // 2. Primary Meta Tags
+    // 2. Primary & Google Search Console Meta Tags
     setMetaTag('name', 'description', description);
     setMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    setMetaTag('name', 'googlebot', noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    
+    // Google Search Console Verification Tag
+    const verificationCode = googleSiteVerification ||
+      (typeof process !== 'undefined' ? process.env?.VITE_GOOGLE_SITE_VERIFICATION : undefined) ||
+      'gsc_thecoffeescore_verification_token';
+    if (verificationCode) {
+      setMetaTag('name', 'google-site-verification', verificationCode);
+    }
+
+    // OpenSEO / IndexNow / Bing Webmaster Verification
+    setMetaTag('name', 'openseo', '614ace238a6c458bb905f3a04044418f');
+    setMetaTag('name', 'msvalidate.01', '614ace238a6c458bb905f3a04044418f');
+    setMetaTag('name', 'indexnow-key', '614ace238a6c458bb905f3a04044418f');
+
     setMetaTag('name', 'author', 'The Coffee Score Lab');
 
     // 3. Open Graph
