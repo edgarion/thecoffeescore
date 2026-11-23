@@ -279,21 +279,40 @@ export const HomePage: React.FC = () => {
           </div>
 
           {/* Right Box: Ofertas destacadas (2 cols) */}
-          <div className="xl:col-span-2 bg-[#f4f2ec] border border-[#e6e3da] rounded-2xl p-5 sm:p-6 flex flex-col justify-between">
+          <div className="xl:col-span-2 bg-[#f4f2ec] border border-[#e6e3da] rounded-2xl p-4 sm:p-5 flex flex-col justify-between">
             <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="bg-[#e94e2b] text-white text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full tracking-wide">
+                  Black Friday
+                </span>
+                <span className="text-[10px] font-extrabold text-[#e94e2b]">Hasta -50%</span>
+              </div>
               <h3 className="font-serif font-bold text-xl sm:text-2xl text-ink leading-tight">
                 Ofertas<br />destacadas
               </h3>
-              <p className="text-xs text-[#6b6a63] mt-1.5 mb-4">
-                Las mejores oportunidades en máquinas y accesorios.
+              <p className="text-xs text-[#6b6a63] mt-1 mb-3">
+                Las mejores oportunidades en máquinas y café.
               </p>
 
+              {/* Black Friday Banner Box */}
+              <Link
+                to="/ofertas"
+                className="block overflow-hidden rounded-xl border border-[#e6e3da] shadow-2xs hover:shadow-sm hover:scale-[1.02] transition-all mb-3 group bg-white"
+                title="Ver todas las ofertas de Black Friday"
+              >
+                <img
+                  src="/assets/black-friday-banner.jpg"
+                  alt="Black Friday Café de Especialidad - Hasta 50% de descuento"
+                  className="w-full h-auto object-cover"
+                />
+              </Link>
+
               {/* Deal Card */}
-              <div className="bg-white border border-[#e6e3da] rounded-xl p-3.5 relative mb-4 shadow-sm">
+              <div className="bg-white border border-[#e6e3da] rounded-xl p-3 relative mb-2 shadow-2xs">
                 <span className="absolute top-2 right-2 bg-[#e94e2b] text-white text-[10px] font-extrabold px-1.5 py-0.5 rounded-md">
                   -18%
                 </span>
-                <div className="w-full h-28 flex items-center justify-center p-1 mb-2">
+                <div className="w-full h-20 flex items-center justify-center p-1 mb-1">
                   <img
                     src="/assets/products/eureka-specialita.png"
                     alt="Eureka Mignon Specialita"
@@ -303,7 +322,7 @@ export const HomePage: React.FC = () => {
                 <h4 className="font-bold text-xs text-ink line-clamp-1">
                   Eureka Mignon Specialita
                 </h4>
-                <div className="flex items-baseline gap-1.5 mt-1">
+                <div className="flex items-baseline gap-1.5 mt-0.5">
                   <span className="text-xs text-[#6b6a63] line-through">449 €</span>
                   <span className="font-extrabold text-sm text-[#e94e2b]">369 €</span>
                 </div>
@@ -312,9 +331,9 @@ export const HomePage: React.FC = () => {
 
             <Link
               to="/ofertas"
-              className="btn btn-solid w-full justify-center !py-3 !text-xs !rounded-xl"
+              className="btn btn-solid w-full justify-center !py-2.5 !text-xs !rounded-xl !bg-[#e94e2b] hover:!bg-[#d43d1a] !border-none !text-white font-bold"
             >
-              <span>Ver oferta →</span>
+              <span>Ver todas las ofertas →</span>
             </Link>
           </div>
         </div>

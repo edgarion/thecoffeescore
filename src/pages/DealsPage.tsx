@@ -71,6 +71,38 @@ export const DealsPage: React.FC = () => {
         </p>
       </div>
 
+      {/* Black Friday Promo Banner Box */}
+      <div className="wrap mb-8">
+        <div className="relative overflow-hidden rounded-2xl border border-[#e6e3da] shadow-sm bg-gradient-to-r from-[#fffcf8] via-[#fbf9f5] to-white p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="w-full md:w-1/2 max-w-[420px] rounded-xl overflow-hidden border border-[#ece8de] shadow-2xs shrink-0">
+            <img
+              src="/assets/black-friday-banner.jpg"
+              alt="Black Friday Café de Especialidad - Hasta 50% de descuento"
+              className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300"
+            />
+          </div>
+          <div className="flex-1 text-center md:text-left">
+            <div className="inline-flex items-center gap-1.5 bg-[#e94e2b] text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full tracking-wider mb-2">
+              <span>Campaña Especial Black Friday</span>
+            </div>
+            <h2 className="font-serif font-bold text-2xl sm:text-3xl text-ink leading-tight mb-2">
+              Hasta -50% en Selección de Cafeteras, Molinos y Café
+            </h2>
+            <p className="text-xs sm:text-sm text-stone-600 leading-relaxed mb-4">
+              Aprovecha las mayores rebajas del año con descuentos reales contrastados frente a la media histórica. Auditoría continua de precios para evitar ofertas artificiales.
+            </p>
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2.5">
+              <span className="text-xs font-semibold text-[#2e7d32] bg-[#edf7ed] px-2.5 py-1 rounded-lg border border-[#c8e6c9]">
+                ✓ Descuentos verificados hoy
+              </span>
+              <span className="text-xs font-semibold text-stone-500">
+                Lotes de tostador y equipamiento prosumer
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Filter Bar */}
       <div className="filter-bar">
         {chipsCategory.map(cat => (
