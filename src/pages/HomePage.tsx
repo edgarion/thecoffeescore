@@ -52,8 +52,8 @@ export const HomePage: React.FC = () => {
   return (
     <div className="space-y-10 pb-12">
       <SEOHead
-        title="Comparador de Cafeteras, Molinos y Café de Especialidad"
-        description="Comparador independiente de cafeteras espresso, molinos de café y accesorios. Pruebas de laboratorio, puntuaciones The Coffee Score y precios actualizados en 2026."
+        title="Comparador de Cafeteras y Molinos de Café"
+        description="Comparador independiente de cafeteras espresso, molinos y accesorios. Pruebas de laboratorio, puntuaciones The Coffee Score y precios actualizados."
         canonical="/"
         jsonLd={[
           generateWebSiteSchema(),
@@ -112,6 +112,9 @@ export const HomePage: React.FC = () => {
               <img
                 src="/assets/hero.png"
                 alt="Barista preparando café"
+                width={340}
+                height={460}
+                loading="lazy"
                 className="w-full h-auto max-h-[460px] object-contain drop-shadow-lg"
               />
             </div>
@@ -129,10 +132,13 @@ export const HomePage: React.FC = () => {
                 <img
                   src="/assets/products/sage-bambino.png"
                   alt="Sage Bambino Plus"
+                  width={200}
+                  height={200}
+                  fetchPriority="high"
                   className="max-h-full object-contain"
                 />
               </div>
-              <h4 className="font-bold text-sm text-ink mb-1">Sage Bambino Plus</h4>
+              <h3 className="font-bold text-sm text-ink mb-1">Sage Bambino Plus</h3>
               <p className="text-xs text-[#6b6a63] mb-3 line-clamp-2">
                 Compacta, rápida y sorprendentemente capaz.
               </p>

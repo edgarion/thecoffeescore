@@ -1,7 +1,7 @@
 import { Product } from '../core/domain/Product';
 import { BlogArticle } from '../data/blogArticles';
 
-export const SITE_URL = 'https://thecoffeescore.com';
+export const SITE_URL = 'https://www.thecoffeescore.com';
 export const SITE_NAME = 'thecoffeescore';
 export const SITE_DEFAULT_IMAGE = `${SITE_URL}/assets/tcs-icon.png`;
 

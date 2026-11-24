@@ -26,7 +26,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     // 1. Page Title
     const formattedTitle = title
       ? `${title} | ${SITE_NAME}`
-      : `${SITE_NAME} — Máquinas, molinos y café de especialidad comparados de verdad`;
+      : `Comparador de Cafeteras y Molinos de Café | ${SITE_NAME}`;
     document.title = formattedTitle;
 
     // Helper function to set or create meta tags
@@ -65,7 +65,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       ? canonical.startsWith('http')
         ? canonical
         : `${SITE_URL}${canonical}`
-      : window.location.href;
+      : `${SITE_URL}${typeof window !== 'undefined' ? window.location.pathname : '/'}`;
 
     const fullImageUrl = image.startsWith('http') ? image : `${SITE_URL}${image}`;
 
