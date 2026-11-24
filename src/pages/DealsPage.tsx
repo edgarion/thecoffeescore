@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDealsFilter } from '../hooks/useDealsFilter';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
@@ -76,7 +76,7 @@ export const DealsPage: React.FC = () => {
         <div className="relative overflow-hidden rounded-2xl border border-[#e6e3da] shadow-sm bg-gradient-to-r from-[#fffcf8] via-[#fbf9f5] to-white p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="w-full md:w-1/2 max-w-[420px] rounded-xl overflow-hidden border border-[#ece8de] shadow-2xs shrink-0">
             <img
-              src="/assets/black-friday-banner.jpg"
+              src="/assets/black-friday-banner.webp"
               alt="Black Friday Café de Especialidad - Hasta 50% de descuento"
               className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300"
             />
@@ -147,7 +147,7 @@ export const DealsPage: React.FC = () => {
                     onError={(e) => {
                       const target = e.currentTarget;
                       target.onerror = null;
-                      target.src = '/assets/machine-fallback.png';
+                      target.src = '/assets/machine-fallback.webp';
                     }}
                   />
                 </Link>

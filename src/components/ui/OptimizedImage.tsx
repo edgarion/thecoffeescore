@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 
 interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src: string;
@@ -31,14 +31,14 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const getCategoryFallback = (cat?: string) => {
     switch (cat) {
       case 'cafe':
-        return '/assets/nomad-coffee-bag.png';
+        return '/assets/nomad-coffee-bag.webp';
       case 'molinos':
-        return '/assets/eureka-specialita-real.png';
+        return '/assets/eureka-specialita-real.webp';
       case 'accesorios':
-        return '/assets/accessory-fallback.png';
+        return '/assets/accessory-fallback.webp';
       case 'maquinas':
       default:
-        return '/assets/machine-fallback.png';
+        return '/assets/machine-fallback.webp';
     }
   };
   const resolvedFallback = fallbackSrc || getCategoryFallback(category);

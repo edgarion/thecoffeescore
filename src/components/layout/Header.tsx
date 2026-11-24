@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -112,7 +112,7 @@ export const Header: React.FC = () => {
             aria-label="thecoffeescore - Inicio"
           >
             <img
-              src="/assets/logo-tagline.png"
+              src="/assets/logo-tagline.webp"
               alt="thecoffeescore"
               className="h-6 sm:h-7 md:h-8 w-auto object-contain transition-all"
             />

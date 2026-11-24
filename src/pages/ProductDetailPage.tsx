@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { PRODUCTS } from '../data/catalog';
 import { AffiliateButton } from '../components/ui/AffiliateButton';
@@ -103,7 +103,7 @@ export const ProductDetailPage: React.FC = () => {
               onError={(e) => {
                 const target = e.currentTarget;
                 target.onerror = null;
-                target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
+                target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.webp' : '/assets/machine-fallback.webp';
               }}
             />
           </div>
@@ -122,7 +122,7 @@ export const ProductDetailPage: React.FC = () => {
                     onError={(e) => {
                       const target = e.currentTarget;
                       target.onerror = null;
-                      target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
+                      target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.webp' : '/assets/machine-fallback.webp';
                     }}
                   />
                 </div>

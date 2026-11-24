@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useComparator } from '../../hooks/useComparator';
 import { Link } from 'react-router-dom';
 import { ProductPickerModal } from './ProductPickerModal';
@@ -13,7 +13,7 @@ export const ComparisonTable: React.FC = () => {
       <div className="text-center py-12 sm:py-16 bg-white border border-[#e6e3da] rounded-2xl p-6 sm:p-10 max-w-xl mx-auto shadow-xs">
         <div className="w-36 sm:w-44 h-auto mx-auto mb-4">
           <img
-            src="/assets/comparator-people.png"
+            src="/assets/comparator-people.webp"
             alt="Tu comparador de café"
             className="w-full h-auto object-contain mx-auto select-none pointer-events-none drop-shadow-sm"
           />
@@ -55,7 +55,7 @@ export const ComparisonTable: React.FC = () => {
                   onError={(e) => {
                     const target = e.currentTarget;
                     target.onerror = null;
-                    target.src = '/assets/machine-fallback.png';
+                    target.src = '/assets/machine-fallback.webp';
                   }}
                 />
               </div>

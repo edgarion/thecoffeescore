@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PRODUCTS } from '../data/catalog';
 import { ProductCard } from '../components/product/ProductCard';
@@ -86,7 +86,7 @@ export const HomePage: React.FC = () => {
               </div>
               <div className="w-1/2 flex items-center justify-center">
                 <img
-                  src="/assets/header-coffee-character.png"
+                  src="/assets/header-coffee-character.webp"
                   alt="Explorador de café"
                   className="w-full max-h-24 object-contain drop-shadow-md select-none pointer-events-none"
                 />
@@ -110,7 +110,7 @@ export const HomePage: React.FC = () => {
             {/* Left: Barista Illustration (Hidden on Mobile) */}
             <div className="hidden md:flex w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[340px] items-center justify-center shrink-0">
               <img
-                src="/assets/hero.png"
+                src="/assets/hero.webp"
                 alt="Barista preparando café"
                 width={340}
                 height={460}
@@ -130,7 +130,7 @@ export const HomePage: React.FC = () => {
               </div>
               <div className="w-full h-24 bg-[#f4f2ec] rounded-xl mb-3 flex items-center justify-center p-2">
                 <img
-                  src="/assets/products/sage-bambino.png"
+                  src="/assets/products/sage-bambino.webp"
                   alt="Sage Bambino Plus"
                   width={200}
                   height={200}
@@ -270,7 +270,7 @@ export const HomePage: React.FC = () => {
             <div className="space-y-4">
               <div className="w-full h-32 flex items-center justify-center overflow-hidden">
                 <img
-                  src="/assets/coffee-grinders-compare.png"
+                  src="/assets/coffee-grinders-compare.webp"
                   alt="Comparador de molinos y cafeteras"
                   className="max-h-full object-contain drop-shadow-sm"
                 />
@@ -307,7 +307,7 @@ export const HomePage: React.FC = () => {
                 title="Ver todas las ofertas de Black Friday"
               >
                 <img
-                  src="/assets/black-friday-banner.jpg"
+                  src="/assets/black-friday-banner.webp"
                   alt="Black Friday Café de Especialidad - Hasta 50% de descuento"
                   className="w-full h-auto object-cover"
                 />
@@ -320,7 +320,7 @@ export const HomePage: React.FC = () => {
                 </span>
                 <div className="w-full h-20 flex items-center justify-center p-1 mb-1">
                   <img
-                    src="/assets/products/eureka-specialita.png"
+                    src="/assets/products/eureka-specialita.webp"
                     alt="Eureka Mignon Specialita"
                     className="max-h-full object-contain"
                   />
@@ -384,7 +384,7 @@ export const HomePage: React.FC = () => {
               </div>
               <div className="w-1/2 flex items-center justify-center">
                 <img
-                  src="/assets/comparator-people.png"
+                  src="/assets/comparator-people.webp"
                   alt="Diseña y compara tu setup de café"
                   className="w-full max-h-24 object-contain drop-shadow-md select-none pointer-events-none"
                 />
@@ -395,7 +395,7 @@ export const HomePage: React.FC = () => {
           {/* Desktop Illustration Container */}
           <div className="hidden md:flex relative z-10 w-44 sm:w-56 md:w-64 shrink-0 items-center justify-center">
             <img
-              src="/assets/comparator-people.png"
+              src="/assets/comparator-people.webp"
               alt="Diseña y compara tu setup de café"
               className="w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 select-none pointer-events-none"
             />
@@ -428,7 +428,7 @@ export const HomePage: React.FC = () => {
               </div>
               <div className="w-28 sm:w-32 h-28 sm:h-32 shrink-0 flex items-center justify-center p-2 bg-[#fbfaf7] border border-[#f0eee6] rounded-xl overflow-hidden">
                 <img
-                  src="/assets/products/sage-bambino-plus.png"
+                  src="/assets/products/sage-bambino-plus.webp"
                   alt="Sage Bambino Plus"
                   className="max-h-full object-contain drop-shadow-sm hover:scale-105 transition-transform"
                 />
@@ -538,7 +538,7 @@ export const HomePage: React.FC = () => {
 
               <div className="w-24 h-28 shrink-0 flex items-center justify-center">
                 <img
-                  src="/assets/bag.png"
+                  src="/assets/bag.webp"
                   alt="Nomad Coffee Bolsa"
                   className="max-h-full object-contain"
                 />
@@ -678,7 +678,7 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="w-full h-14 flex items-center justify-center mt-2">
                   <img
-                    src="/assets/cherries.png"
+                    src="/assets/cherries.webp"
                     alt="Molino de café"
                     className="max-h-full object-contain"
                   />
@@ -700,7 +700,7 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="w-full h-14 flex items-center justify-center mt-2">
                   <img
-                    src="/assets/pourover.png"
+                    src="/assets/pourover.webp"
                     alt="Accesorios"
                     className="max-h-full object-contain"
                   />

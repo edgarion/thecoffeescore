@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { TechnicalSpecs } from '../../core/domain/TechnicalSpecs';
 
 export const ProductSpecsTable: React.FC<{ specs: TechnicalSpecs; className?: string }> = ({
@@ -50,7 +50,7 @@ export const Gallery: React.FC<{ images: string[]; alt: string; className?: stri
   className = '',
 }) => {
   const [selectedIdx, setSelectedIdx] = useState(0);
-  const activeImage = images[selectedIdx] || images[0] || '/assets/pourover.png';
+  const activeImage = images[selectedIdx] || images[0] || '/assets/pourover.webp';
 
   return (
     <div className={className}>

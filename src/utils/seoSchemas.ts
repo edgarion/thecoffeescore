@@ -1,9 +1,9 @@
-import { Product } from '../core/domain/Product';
+﻿import { Product } from '../core/domain/Product';
 import { BlogArticle } from '../data/blogArticles';
 
 export const SITE_URL = 'https://www.thecoffeescore.com';
 export const SITE_NAME = 'thecoffeescore';
-export const SITE_DEFAULT_IMAGE = `${SITE_URL}/assets/tcs-icon.png`;
+export const SITE_DEFAULT_IMAGE = `${SITE_URL}/assets/tcs-icon.webp`;
 
 /**
  * Organization Schema with editorial transparency and lab testing methodology
@@ -17,7 +17,7 @@ export function generateOrganizationSchema() {
     url: SITE_URL,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_URL}/assets/tcs-icon.png`,
+      url: `${SITE_URL}/assets/tcs-icon.webp`,
       caption: 'thecoffeescore logo',
     },
     description:
@@ -93,7 +93,7 @@ export function generateProductSchema(product: Product) {
   const productUrl = `${SITE_URL}/producto/${product.slug}`;
   const imageUrl = product.image?.startsWith('http')
     ? product.image
-    : `${SITE_URL}${product.image || '/assets/nomad-coffee-bag.png'}`;
+    : `${SITE_URL}${product.image || '/assets/nomad-coffee-bag.webp'}`;
 
   const scoreValue = product.score.getValue();
   const ratingValue = (scoreValue / 10).toFixed(1);
@@ -182,7 +182,7 @@ export function generateArticleSchema(article: BlogArticle) {
   const articleUrl = `${SITE_URL}/blog/${article.slug}`;
   const imageUrl = article.imageUrl?.startsWith('http')
     ? article.imageUrl
-    : `${SITE_URL}${article.imageUrl || '/assets/blog/espresso-extraction.jpg'}`;
+    : `${SITE_URL}${article.imageUrl || '/assets/blog/espresso-extraction.webp'}`;
 
   return {
     '@context': 'https://schema.org',

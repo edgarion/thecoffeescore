@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import { openCookieSettings } from '../legal/CookieConsentBanner';
 
@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <div className="wrap flex flex-col items-center text-center">
         <Link to="/" style={{ display: 'inline-block', marginBottom: 16 }}>
           <img
-            src="/assets/logo.png"
+            src="/assets/logo.webp"
             alt="thecoffeescore"
             style={{ height: 50, width: 'auto', margin: '0 auto' }}
           />

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import { ComparisonTable } from '../components/comparator/ComparisonTable';
 import { SEOHead } from '../components/seo/SEOHead';
@@ -49,7 +49,7 @@ export const ComparatorPage: React.FC = () => {
             {/* Illustration */}
             <div className="w-44 sm:w-56 md:w-64 shrink-0 flex items-center justify-center">
               <img
-                src="/assets/comparator-people.png"
+                src="/assets/comparator-people.webp"
                 alt="Compañeros de café comparando productos"
                 className="w-full h-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300 select-none pointer-events-none"
               />

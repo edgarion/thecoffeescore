@@ -1,4 +1,4 @@
-export interface GlobalCoffeeShop {
+﻿export interface GlobalCoffeeShop {
   id: string;
   name: string;
   city: string;
@@ -54,7 +54,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Tueste Nórdico / Japonés", "Microlotes Geisha", "Pour-Over de Precisión"],
     websiteUrl: "https://glitchcoffee.com",
     mapsUrl: "https://maps.google.com/?q=Glitch+Coffee+Roasters+Tokyo",
-    image: "/assets/products/nomad-shakiso.png"
+    image: "/assets/products/nomad-shakiso.webp"
   },
   {
     id: "koffee-mameya-kakeru",
@@ -72,7 +72,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Omakase Bar", "Experiencia de Celler", "Referencia Mundial"],
     websiteUrl: "https://koffee-mameya.com",
     mapsUrl: "https://maps.google.com/?q=Koffee+Mameya+Kakeru+Tokyo",
-    image: "/assets/pourover.png"
+    image: "/assets/pourover.webp"
   },
   {
     id: "fuglen-tokyo",
@@ -90,7 +90,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Diseño Escandinavo Vintage", "Café y Coctelería", "Shibuya Icon"],
     websiteUrl: "https://fuglen.no",
     mapsUrl: "https://maps.google.com/?q=Fuglen+Tokyo",
-    image: "/assets/products/syra-bahire.png"
+    image: "/assets/products/syra-bahire.webp"
   },
 
   // --- NUEVA YORK (EE.UU.) ---
@@ -110,7 +110,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Mejor Tostador de EE.UU.", "Greenhouse Cafe", "Claridad Absoluta"],
     websiteUrl: "https://seycoffee.com",
     mapsUrl: "https://maps.google.com/?q=Sey+Coffee+Brooklyn",
-    image: "/assets/products/nomad-pink-bourbon.png"
+    image: "/assets/products/nomad-pink-bourbon.webp"
   },
   {
     id: "devocion-ny",
@@ -128,7 +128,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Café 100% Colombiano Fresco", "Jardín Vertical", "Williamsburg"],
     websiteUrl: "https://devocion.com",
     mapsUrl: "https://maps.google.com/?q=Devocion+Williamsburg",
-    image: "/assets/products/rightside-ancizar.png"
+    image: "/assets/products/rightside-ancizar.webp"
   },
 
   // --- BANGKOK (TAILANDIA) ---
@@ -148,7 +148,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Campeones Baristas de Tailandia", "Dirty Coffee Master", "Café de Origen Thai"],
     websiteUrl: "https://factorycoffeebkk.com",
     mapsUrl: "https://maps.google.com/?q=Factory+Coffee+Bangkok",
-    image: "/assets/products/lelit-anna.png"
+    image: "/assets/products/lelit-anna.webp"
   },
   {
     id: "nana-coffee-roasters",
@@ -166,7 +166,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Jardín Botánico Arquitectónico", "Tostador Campeón Mundial", "Tuestes Ligeros"],
     websiteUrl: "https://nanacoffeeroasters.com",
     mapsUrl: "https://maps.google.com/?q=Nana+Coffee+Roasters+Ari",
-    image: "/assets/products/syra-atitlan.png"
+    image: "/assets/products/syra-atitlan.webp"
   },
 
   // --- VIETNAM (HANOI, SAIGON, DA NANG) ---
@@ -186,7 +186,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Pioneros del Specialty en Vietnam", "Fine Robusta 84+ SCA", "Syphon Bar"],
     websiteUrl: "https://theworkshopcoffee.com",
     mapsUrl: "https://maps.google.com/?q=The+Workshop+Coffee+Saigon",
-    image: "/assets/cherries.png"
+    image: "/assets/cherries.webp"
   },
   {
     id: "43-factory-da-nang",
@@ -204,7 +204,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Arquitectura de Cristal sobre Agua", "Cero Mezclas (100% Single Origin)", "Trazabilidad Extrema"],
     websiteUrl: "https://43factory.run",
     mapsUrl: "https://maps.google.com/?q=43+Factory+Coffee+Roaster+Da+Nang",
-    image: "/assets/products/threemarks-espresso.png"
+    image: "/assets/products/threemarks-espresso.webp"
   },
 
   // --- LONDRES (REINO UNIDO) ---
@@ -224,7 +224,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Fundado por Gwilym Davies (WBC)", "Academia de Baristas", "Square Mile Roasters"],
     websiteUrl: "https://prufrockcoffee.com",
     mapsUrl: "https://maps.google.com/?q=Prufrock+Coffee+London",
-    image: "/assets/products/sage-bambino.png"
+    image: "/assets/products/sage-bambino.webp"
   },
   {
     id: "watchhouse-london",
@@ -242,7 +242,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Modern Coffee Culture", "Diseño Minimalista Británico", "Tueste Propio"],
     websiteUrl: "https://watchhouse.com",
     mapsUrl: "https://maps.google.com/?q=WatchHouse+Bermondsey+London",
-    image: "/assets/products/delonghi-specialista.png"
+    image: "/assets/products/delonghi-specialista.webp"
   },
 
   // --- PARÍS (FRANCIA) ---
@@ -262,7 +262,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Tostadores Pioneros de París", "Café de Terroir", "Ambiente Bohemio"],
     websiteUrl: "https://cafesbelleville.com",
     mapsUrl: "https://maps.google.com/?q=Belleville+Brulerie+Paris",
-    image: "/assets/products/rightside-abasambi.png"
+    image: "/assets/products/rightside-abasambi.webp"
   },
   {
     id: "ten-belles-paris",
@@ -280,7 +280,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Canal Saint-Martin", "Panadería Salvaje y Café", "Vanguardia Parisina"],
     websiteUrl: "https://tenbelles.com",
     mapsUrl: "https://maps.google.com/?q=Ten+Belles+Canal+Saint-Martin",
-    image: "/assets/products/nomad-samuel.png"
+    image: "/assets/products/nomad-samuel.webp"
   },
 
   // --- BERLÍN (ALEMANIA) ---
@@ -300,7 +300,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Filosofía Nórdica Estricta", "Sin Azúcar Añadido", "Pioneros Europeos"],
     websiteUrl: "https://thebarn.de",
     mapsUrl: "https://maps.google.com/?q=The+Barn+Auguststrasse+Berlin",
-    image: "/assets/products/eureka-specialita.png"
+    image: "/assets/products/eureka-specialita.webp"
   },
   {
     id: "five-elephant-berlin",
@@ -318,7 +318,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Famoso Cheesecake & Café", "Relaciones Directas con Agricultores", "Kreuzberg"],
     websiteUrl: "https://fiveelephant.com",
     mapsUrl: "https://maps.google.com/?q=Five+Elephant+Kreuzberg+Berlin",
-    image: "/assets/bag.png"
+    image: "/assets/bag.webp"
   },
 
   // --- ÁMSTERDAM (PAÍSES BAJOS) ---
@@ -338,7 +338,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Lex Wenneker (WBC finalist)", "Botes de plástico amarillo icónicos", "Extracciones de Alta Claridad"],
     websiteUrl: "https://friedhats.com",
     mapsUrl: "https://maps.google.com/?q=Friedhats+FUKU+Cafe+Amsterdam",
-    image: "/assets/products/nomad-shakiso.png"
+    image: "/assets/products/nomad-shakiso.webp"
   },
 
   // --- ROMA & NÁPOLES (ITALIA) ---
@@ -358,7 +358,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["El Templo del Specialty en Roma", "Revolución frente al tueste oscuro tradicional"],
     websiteUrl: "https://faroroma.com",
     mapsUrl: "https://maps.google.com/?q=Faro+Luminari+del+Caffe+Roma",
-    image: "/assets/products/lelit-anna.png"
+    image: "/assets/products/lelit-anna.webp"
   },
   {
     id: "ventimetriquadri-napoles",
@@ -376,7 +376,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["El Primer Specialty de Nápoles", "Vomero", "Café Ético en la cuna del espresso"],
     websiteUrl: "https://instagram.com/ventimetriquadrispecialty",
     mapsUrl: "https://maps.google.com/?q=Ventimetriquadri+Napoli",
-    image: "/assets/products/delonghi-specialista.png"
+    image: "/assets/products/delonghi-specialista.webp"
   },
 
   // --- LOS ÁNGELES & MIAMI (EE.UU.) ---
@@ -396,7 +396,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Charles Babinski (USBC Champion)", "Leche de frutos secos casera", "Vibra californiana"],
     websiteUrl: "https://gget.com",
     mapsUrl: "https://maps.google.com/?q=Go+Get+Em+Tiger+Larchmont",
-    image: "/assets/products/fellow-carter.png"
+    image: "/assets/products/fellow-carter.webp"
   },
   {
     id: "panther-coffee-miami",
@@ -414,7 +414,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Wynwood Street Art Icon", "Tostador Vintage Probat 1927", "Pioneros de Florida"],
     websiteUrl: "https://panthercoffee.com",
     mapsUrl: "https://maps.google.com/?q=Panther+Coffee+Wynwood",
-    image: "/assets/products/rightside-abasambi.png"
+    image: "/assets/products/rightside-abasambi.webp"
   },
 
   // --- MALMÖ & ESCANDINAVIA ---
@@ -434,7 +434,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Tueste Nórdico Puro", "Pioneros en Suecia", "Malmö Canal View"],
     websiteUrl: "https://solde.se",
     mapsUrl: "https://maps.google.com/?q=Solde+Kaffebar+Malmo",
-    image: "/assets/products/syra-bahire.png"
+    image: "/assets/products/syra-bahire.webp"
   },
 
   // --- BARCELONA (ESPAÑA) ---
@@ -454,7 +454,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Jordi Mestre (Pionero BCN)", "Passatge Sert", "Laboratorio de Cata"],
     websiteUrl: "https://nomadcoffee.es",
     mapsUrl: "https://maps.google.com/?q=Nomad+Coffee+Lab+Passatge+Sert+Barcelona",
-    image: "/assets/products/nomad-samuel.png"
+    image: "/assets/products/nomad-samuel.webp"
   },
   {
     id: "right-side-coffee-bar",
@@ -472,7 +472,7 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["Joaquín Parra (Roaster Champion)", "Tostador Loring Ecológico", "Enric Granados"],
     websiteUrl: "https://rightsidecoffee.com",
     mapsUrl: "https://maps.google.com/?q=Right+Side+Coffee+Bar+Barcelona",
-    image: "/assets/products/rightside-abasambi.png"
+    image: "/assets/products/rightside-abasambi.webp"
   },
 
   // --- MELBOURNE (AUSTRALIA) ---
@@ -492,6 +492,6 @@ export const GLOBAL_COFFEE_SHOPS: GlobalCoffeeShop[] = [
     tags: ["La Meca del Café en Melbourne", "Barista Breakfast", "Pioneros Mundiales"],
     websiteUrl: "https://stali.com.au",
     mapsUrl: "https://maps.google.com/?q=ST+ALi+Coffee+Roasters+Melbourne",
-    image: "/assets/pouring.png"
+    image: "/assets/pouring.webp"
   }
 ];

@@ -44,7 +44,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     setMetaTag('name', 'description', description);
     setMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
     setMetaTag('name', 'googlebot', noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
-    
+
     // Google Search Console Verification Tag
     const verificationCode = googleSiteVerification ||
       (typeof process !== 'undefined' ? process.env?.VITE_GOOGLE_SITE_VERIFICATION : undefined) ||

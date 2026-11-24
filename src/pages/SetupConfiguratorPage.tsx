@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { PRODUCTS } from '../data/catalog';
 import { Product } from '../core/domain/Product';
 import { useCart } from '../context/CartContext';
@@ -503,7 +503,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                             onError={(e) => {
                               const target = e.currentTarget;
                               target.onerror = null;
-                              target.src = slot.type === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
+                              target.src = slot.type === 'accesorios' ? '/assets/accessory-fallback.webp' : '/assets/machine-fallback.webp';
                             }}
                           />
                         ) : (
@@ -653,7 +653,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                               onError={(e) => {
                                 const target = e.currentTarget;
                                 target.onerror = null;
-                                target.src = slot.type === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
+                                target.src = slot.type === 'accesorios' ? '/assets/accessory-fallback.webp' : '/assets/machine-fallback.webp';
                               }}
                             />
                           ) : (
@@ -790,7 +790,7 @@ export const SetupConfiguratorPage: React.FC = () => {
                         onError={(e) => {
                           const target = e.currentTarget;
                           target.onerror = null;
-                          target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.png' : '/assets/machine-fallback.png';
+                          target.src = product.category === 'accesorios' ? '/assets/accessory-fallback.webp' : '/assets/machine-fallback.webp';
                         }}
                       />
                     </div>
